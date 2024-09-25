@@ -1022,6 +1022,7 @@ function sortMdeck(x)
 
 function updatechart()
 {
+	console.log("ydeckArr.length:" + ydeckArr.length);
 	if(mdeckArr.length != 0 )
 	{
 		$("#leveldiv").show();
@@ -1034,10 +1035,13 @@ function updatechart()
 		// show_levelobj.data.datasets[0].data = [mdeck_l1, mdeck_l2, mdeck_l3, mdeck_spell];
 		// show_levelobj.update();
 
-		$("#colordiv").show();
-		colorobj.data.labels = ['白: ' + mdeck_white, '赤: ' + mdeck_red, '青: ' + mdeck_blue, '緑: ' + mdeck_green, '無: ' + mdeck_nocolor];
-		colorobj.data.datasets[0].data = [mdeck_white, mdeck_red, mdeck_blue, mdeck_green, mdeck_nocolor];
-		colorobj.update();
+		if(mdeck_white != 0 || mdeck_red != 0 || mdeck_blue != 0 || mdeck_green != 0 || mdeck_nocolor != 0)
+		{
+			$("#colordiv").show();
+			colorobj.data.labels = ['白: ' + mdeck_white, '赤: ' + mdeck_red, '青: ' + mdeck_blue, '緑: ' + mdeck_green, '無: ' + mdeck_nocolor];
+			colorobj.data.datasets[0].data = [mdeck_white, mdeck_red, mdeck_blue, mdeck_green, mdeck_nocolor];
+			colorobj.update();
+		}
 
 		// $("#show_colordiv").show();
 		// show_colorobj.data.labels = ['白: ' + mdeck_white, '赤: ' + mdeck_red, '青: ' + mdeck_blue, '緑: ' + mdeck_green, '黒: ' + mdeck_black, '無: ' + mdeck_nocolor];
@@ -1048,7 +1052,10 @@ function updatechart()
 	{
 		$("#leveldiv").hide();
 		// $("#show_leveldiv").hide();
-		$("#colordiv").hide();
+		if(mdeck_white == 0 && mdeck_red == 0 && mdeck_blue == 0 && mdeck_green == 0 && mdeck_nocolor == 0)
+		{
+			$("#colordiv").hide();
+		}
 		// $("#show_colordiv").hide();
 	}
 
@@ -1202,7 +1209,6 @@ function addyellcounter(x)
 
 function delmaincounter(x)
 {
-	console.log(x);
 	if(x[LEVEL] == "Spot")
 	{
 		mdeck_spot--;
