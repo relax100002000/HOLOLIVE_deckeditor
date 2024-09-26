@@ -1742,7 +1742,7 @@ function search()
 
 		if($('#selectHolomem').val() != 0)
 		{
-			if(cardData[i][TYPE] != "サポート" && cardData[i][NAME].indexOf($('#selectHolomem').val()) == -1)
+			if(cardData[i][NAME].indexOf($('#selectHolomem').val()) == -1)
 			{
 				continue;
 			}
@@ -1751,7 +1751,7 @@ function search()
 		if($('#selectTag').val() != 0)
 		{
 			dataStr = ' ' + cardData[i][TAG];
-			if(cardData[i][TYPE] != "サポート" && dataStr.indexOf(" #" + $('#selectTag').val()) == -1)
+			if(dataStr.indexOf(" #" + $('#selectTag').val()) == -1)
 			{
 				continue;
 			}
