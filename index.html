@@ -303,50 +303,22 @@
 				<td style="vertical-align:bottom; width: 950px; padding-top: 40px;">
 					<table>
 						<tr>
-							<td>
-								推しホロメン<br>
-								<img id="odeck_0" width="150px" height="210px" src="img/empty.jpg" onmouseover="onmouseShow(this, 'deck');" onclick="delDeck(this,0 , odeckArr)">
+							<td>    
+								<span style="cursor: default; margin-left: 24px; ">推しホロメン</span>
 							</td>
 							<td>
-								<div id="leveldiv" style="margin-left: 25px" hidden><canvas id="levelChart"></canvas></div>
-								<script>
-			  						const levelctx = document.getElementById('levelChart');
-
-										levelobj = new Chart(levelctx, {
-										type: 'doughnut',
-										data: {
-									  		labels: [
-												'Debut',
-												'1st',
-												'2nd',
-												'Spot',
-												'Support'
-											],
-											datasets: [{
-												label: 'Level counter',
-												data: [mdeck_debut, mdeck_1st, mdeck_2nd, mdeck_spot, mdeck_support],
-												backgroundColor: [
-												  'rgb(192, 192, 192)',
-												  'rgb(169, 169, 169)',
-												  'rgb(128, 128, 128)',
-												  'rgb(FF, 79, 79)'
-												],
-												hoverOffset: 3
-											}]
-										},
-										options: {
-									        plugins: {
-									        	maintainAspectRatio: false,
-									            legend: {
-									                display: true,
-									                labels: {
-									                    color: 'rgb(0, 0, 0)'
-									                }
-									            }
-									        }
-			    						}
-									});
-								</script>
+								<span hidden style="cursor: default; margin-left: 80px;" id="yelltitle">エール</span>
+							</td>
+							<td>
+								<span style="cursor: default; margin-left: 53px;" id="leveltitle" hidden>ホロメンBloomレベル</span>
+							</td>
+							<td>
+								<span style="cursor: default; margin-left: 63px;" id="colortitle" hidden>ホロメン色</span>
+							</td>
+						</tr>
+							<td>
+								
+								<img id="odeck_0" width="150px" height="210px" src="img/empty.jpg" onmouseover="onmouseShow(this, 'deck');" onclick="delDeck(this,0 , odeckArr)">
 							</td>
 							<td>
 								<div id="yelldiv" hidden><canvas id="yellChart"></canvas></div>
@@ -376,6 +348,48 @@
 												  'rgb(169, 169, 169)'
 												],
 												hoverOffset: 4
+											}]
+										},
+										options: {
+									        plugins: {
+									        	maintainAspectRatio: false,
+									            legend: {
+									                display: true,
+									                labels: {
+									                    color: 'rgb(0, 0, 0)'
+									                }
+									            }
+									        }
+			    						}
+									});
+								</script>
+							</td>
+							<td>
+								<div id="leveldiv" style="margin-left: 25px" hidden><canvas id="levelChart"></canvas></div>
+								<script>
+			  						const levelctx = document.getElementById('levelChart');
+
+										levelobj = new Chart(levelctx, {
+										type: 'doughnut',
+										data: {
+									  		labels: [
+												'Debut',
+												'1st',
+												'2nd',
+												'Spot',
+												'Support'
+											],
+											datasets: [{
+												label: 'Level counter',
+												data: [mdeck_debut, mdeck_1st, mdeck_2nd, mdeck_spot, mdeck_support],
+												backgroundColor: [
+												  'rgb(192, 192, 192)',
+												  'rgb(184, 115, 51)',
+												  'rgb(128, 128, 128)',
+												  'rgb(255, 215, 0)',
+												  'rgb(0, 0, 0)',
+												],
+												hoverOffset: 3
 											}]
 										},
 										options: {

@@ -4,6 +4,10 @@ function onLoading()
 	
 	rdeckArr = [];
 
+	$("#yelltitle").hide();
+	$("#colortitle").hide();
+	$("#leveltitle").hide();
+
 	for(i = 0; i < cardData.length; i++)
 	{
 		rdeckArr.push(cardData[i]);
@@ -1022,10 +1026,10 @@ function sortMdeck(x)
 
 function updatechart()
 {
-	console.log("ydeckArr.length:" + ydeckArr.length);
 	if(mdeckArr.length != 0 )
 	{
 		$("#leveldiv").show();
+		$("#leveltitle").show();
 		levelobj.data.labels = ['Spot: ' + mdeck_spot, 'Debut: ' + mdeck_debut, '1st: ' + mdeck_1st, '2nd: ' + mdeck_2nd, 'サポート: ' + mdeck_support];
 		levelobj.data.datasets[0].data = [mdeck_spot, mdeck_debut, mdeck_1st, mdeck_2nd, mdeck_support];
 		levelobj.update();
@@ -1038,6 +1042,7 @@ function updatechart()
 		if(mdeck_white != 0 || mdeck_red != 0 || mdeck_blue != 0 || mdeck_green != 0 || mdeck_nocolor != 0)
 		{
 			$("#colordiv").show();
+			$("#colortitle").show();
 			colorobj.data.labels = ['白: ' + mdeck_white, '赤: ' + mdeck_red, '青: ' + mdeck_blue, '緑: ' + mdeck_green, '無: ' + mdeck_nocolor];
 			colorobj.data.datasets[0].data = [mdeck_white, mdeck_red, mdeck_blue, mdeck_green, mdeck_nocolor];
 			colorobj.update();
@@ -1051,10 +1056,12 @@ function updatechart()
 	else
 	{
 		$("#leveldiv").hide();
+		$("#leveltitle").hide();
 		// $("#show_leveldiv").hide();
 		if(mdeck_white == 0 && mdeck_red == 0 && mdeck_blue == 0 && mdeck_green == 0 && mdeck_nocolor == 0)
 		{
 			$("#colordiv").hide();
+			$("#colortitle").hide();
 		}
 		// $("#show_colordiv").hide();
 	}
@@ -1062,6 +1069,7 @@ function updatechart()
 	if(ydeckArr.length != 0 )
 	{
 		$("#yelldiv").show();
+		$("#yelltitle").show();
 		yellobj.data.labels = ['白: ' + ydeck_white, '赤: ' + ydeck_red, '青: ' + ydeck_blue, '緑: ' + ydeck_green, '無: ' + ydeck_nocolor];
 		yellobj.data.datasets[0].data = [ydeck_white, ydeck_red, ydeck_blue, ydeck_green, ydeck_nocolor];
 		yellobj.update();
@@ -1074,6 +1082,7 @@ function updatechart()
 	else
 	{
 		$("#yelldiv").hide();
+		$("#yelltitle").hide();
 		// $("#show_yelldiv").hide();
 	}
 }
