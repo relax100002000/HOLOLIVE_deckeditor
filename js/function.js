@@ -18,16 +18,16 @@ function onLoading()
 	    };
 	});
 
-	deckNamelist = JSON.parse(localStorage.getItem("DeckNameList"));
+	deckNamelist = JSON.parse(localStorage.getItem("HOLODeckNameList"));
 	if(deckNamelist == null)
 	{
 		deckNamelist = [];
 		deckNamelist.push("スタートデッキ「ときのそら」");
-		localStorage.setItem("DeckNameList", deckNamelist);
+		localStorage.setItem("HOLODeckNameList", deckNamelist);
 		localStorage.setItem("スタートデッキ「ときのそら」", "odeck,hSD01-001\nydeck,hY01-001,hY01-001,hY01-001,hY01-001,hY01-001,hY01-001,hY01-001,hY01-001,hY01-001,hY01-001,hY02-001,hY02-001,hY02-001,hY02-001,hY02-001,hY02-001,hY02-001,hY02-001,hY02-001,hY02-001\nmdeck,hSD01-003,hSD01-003,hSD01-003,hSD01-003,hSD01-004,hSD01-004,hSD01-004,hSD01-007,hSD01-007,hSD01-008,hSD01-008,hSD01-008,hSD01-008,hSD01-009,hSD01-009,hSD01-009,hSD01-012,hSD01-012,hSD01-005,hSD01-005,hSD01-005,hSD01-006,hSD01-006,hSD01-013,hSD01-013,hSD01-010,hSD01-010,hSD01-010,hSD01-011,hSD01-011,hSD01-014,hSD01-014,hSD01-015,hSD01-015,hSD01-016,hSD01-016,hSD01-016,hSD01-017,hSD01-017,hSD01-017,hSD01-018,hSD01-018,hSD01-018,hSD01-019,hSD01-019,hSD01-019,hSD01-020,hSD01-020,hSD01-021,hSD01-021");
 
 		deckNamelist.push("スタートデッキ「AZKi」");
-		localStorage.setItem("DeckNameList", deckNamelist);
+		localStorage.setItem("HOLODeckNameList", deckNamelist);
 		localStorage.setItem("スタートデッキ「AZKi」", "odeck,hSD01-002\nydeck,hY01-001,hY01-001,hY01-001,hY01-001,hY01-001,hY01-001,hY01-001,hY01-001,hY01-001,hY01-001,hY02-001,hY02-001,hY02-001,hY02-001,hY02-001,hY02-001,hY02-001,hY02-001,hY02-001,hY02-001\nmdeck,hSD01-003,hSD01-003,hSD01-003,hSD01-003,hSD01-004,hSD01-004,hSD01-004,hSD01-007,hSD01-007,hSD01-008,hSD01-008,hSD01-008,hSD01-008,hSD01-009,hSD01-009,hSD01-009,hSD01-012,hSD01-012,hSD01-005,hSD01-005,hSD01-005,hSD01-006,hSD01-006,hSD01-013,hSD01-013,hSD01-010,hSD01-010,hSD01-010,hSD01-011,hSD01-011,hSD01-014,hSD01-014,hSD01-015,hSD01-015,hSD01-016,hSD01-016,hSD01-016,hSD01-017,hSD01-017,hSD01-017,hSD01-018,hSD01-018,hSD01-018,hSD01-019,hSD01-019,hSD01-019,hSD01-020,hSD01-020,hSD01-021,hSD01-021");
 	}
 
@@ -1538,7 +1538,7 @@ function deletydecklist()
 				break;
 			}
 		}
-		localStorage.setItem("DeckNameList", deckNamelist);
+		localStorage.setItem("HOLODeckNameList", deckNamelist);
 		updateDecklist("");
 		dataInit();
 	}
@@ -3291,7 +3291,7 @@ function updateDecklist(select)
 		}
 	}
 
-	localStorage.setItem("DeckNameList", JSON.stringify(deckNamelist));
+	localStorage.setItem("HOLODeckNameList", JSON.stringify(deckNamelist));
 
 	$("#selectDeck").html(str);
 }
