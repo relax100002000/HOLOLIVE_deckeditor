@@ -3333,8 +3333,8 @@ function showVersion()
 	str += "Author: ZZZ\n";
 	str += "E-mail: relax100002000@hotmail.com\n";
 	str += "\n";
-	str += "20240926 v1.00\n";
-	str += "1.First release.\n";
+	str += "20241006 v1.01\n";
+	str += "1.新增hPR-001、hBD24-001.\n";
 	str += "\n";
 	str += "預計更新:\n";
 	str += "-補充關於說明\n";

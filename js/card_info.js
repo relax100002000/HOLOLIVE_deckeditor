@@ -59,6 +59,50 @@ const EXTRA = 19;
 
 var cardData = [
 	[
+		"hPR-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hPR-001_P.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"#JP #0期生 #歌", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"◇", //COLOR
+		"50", //HP
+		"Spot", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>誰かの芽吹きになれたら<br>サイコロを1回振れる:1か3か5の時、自分のエールデッキから、[赤エールか青エール]1枚を公開し、自分のバックホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
+		"◇<br>flower rhapsody<br>10", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"" //EXTRA
+		],
+	[
+		"hBD24-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-001_P.png", //SRC
+		"パヴォリア・レイネ", //NAME
+		"推しホロメン", //TYPE
+		"", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"緑", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>グリーンエンハンス<br>[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>Birthday Gift ~Green~<br>[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"" //EXTRA
+		],
+	[
 		"hYS01-001", //ID
 		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hY01/hYS01-001_OC.png", //SRC
 		"七詩ムメイ", //NAME
