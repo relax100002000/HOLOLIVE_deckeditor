@@ -1742,9 +1742,19 @@ function search()
 
 		if($('#selectHolomem').val() != 0)
 		{
-			if(cardData[i][NAME].indexOf($('#selectHolomem').val()) == -1)
+			if(cardData[i][NAME] != $('#selectHolomem').val())
 			{
-				continue;
+				if($('#selectHolomem').val() == "AZKi" || $('#selectHolomem').val() == "ときのそら")
+				{
+					if(cardData[i][NAME] != "SorAZ")
+					{
+						continue;
+					}
+				}
+				else
+				{
+					continue;
+				}
 			}
 		}
 
