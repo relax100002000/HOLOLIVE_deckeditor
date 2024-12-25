@@ -176,7 +176,6 @@ function str_to_img(x)
 	x = x.replace(/緑/g, "<img class='icon_img' src='img/arts_green.png'></img>");
 	x = x.replace(/赤/g, "<img class='icon_img' src='img/arts_red.png'></img>");
 	x = x.replace(/青/g, "<img class='icon_img' src='img/arts_blue.png'></img>");
-	x = x.replace(/紫/g, "<img class='icon_img' src='img/arts_purple.png'></img>");
 	x = x.replace(/◇/g, "<img class='icon_img' src='img/arts_null.png'></img>");
 
 	x = x.replace(/推しスキル/g, "<img class='icon_img' src='img/skill.png'></img>");
@@ -193,7 +192,6 @@ function color_to_img(x)
 	x = x.replace(/緑/g, "<img class='icon_img' src='img/type_green.png'></img>");
 	x = x.replace(/赤/g, "<img class='icon_img' src='img/type_red.png'></img>");
 	x = x.replace(/青/g, "<img class='icon_img' src='img/type_blue.png'></img>");
-	x = x.replace(/紫/g, "<img class='icon_img' src='img/type_purple.png'></img>");
 	x = x.replace(/◇/g, "<img class='icon_img' src='img/type_null.png'></img>");
 
 	return x;
@@ -443,18 +441,6 @@ function showInfotable(data)
 		str += "	</td>";
 		str += "</tr>";
 
-		if(data[BAN] != "")
-		{
-			str += "<tr style='background: red;'>";
-			str += "	<td>";
-			str += "		制限カード";
-			str += "	</td>";
-			str += "	<td colspan=\"2\">";
-			str += parseInt(data[BAN]);
-			str += "	</td>";
-			str += "</tr>";
-		}
-
 		if(data[KEYWORD] != "")
 		{
 			tmpArr = data[KEYWORD].split("<br>");
@@ -679,29 +665,14 @@ function showInfotable(data)
 		str += "	</td>";
 		str += "</tr>";
 
-		if(data[TYPE2] != "")
-		{
-			str += "<tr>";
-			str += "	<td>";
-			str += "		サブタイプ";
-			str += "	</td>";
-			str += "	<td>";
-			str += data[TYPE2];
-			str += "	</td>";
-			str += "</tr>";
-		}
-
-		if(data[TAG] != "")
-		{
-			str += "<tr>";
-			str += "	<td>";
-			str += "		タグ";
-			str += "	</td>";
-			str += "	<td>";
-			str += data[TAG];
-			str += "	</td>";
-			str += "</tr>";
-		}
+		str += "<tr>";
+		str += "	<td>";
+		str += "		サブタイプ";
+		str += "	</td>";
+		str += "	<td>";
+		str += data[TAG];
+		str += "	</td>";
+		str += "</tr>";
 
 		if(data[EXTRA] != "")
 		{
@@ -889,13 +860,9 @@ function color2num(color)
 	{
 		return 4;
 	}
-	else if(color == "紫")
-	{
-		return 5;
-	}
 	else //無
 	{
-		return 6;
+		return 5;
 	}
 }
 
@@ -959,6 +926,51 @@ function tag2num(tag)
 	}
 }
 
+function member2num(x)
+{
+	var index = 0;
+	var memberArray = [
+		"ときのそら",
+		"AZKi",
+		"SorAZ",
+		"星街すいせい",
+		"さくらみこ",
+		"アキ・ローゼンタール",
+		"兎田ぺこら",
+		"不知火フレア",
+		"白銀ノエル",
+		"宝鐘マリン",
+		"天音かなた",
+		"尾丸ポルカ",
+		"鷹嶺ルイ",
+		"博衣こより",
+		"風真いろは",
+		"ムーナ・ホシノヴァ",
+		"アイラニ・イオフィフティーン",
+		"パヴォリア・レイネ",
+		"ベスティア・ゼータ",
+		"こぼ・かなえる",
+		"森カリオペ",
+		"小鳥遊キアラ",
+		"ワトソン・アメリア",
+		"IRyS",
+		"オーロ・クロニー",
+		"七詩ムメイ",
+		"ハコス・ベールズ"];
+
+	for(index = 0; index < nameArray.length; index++)
+	{
+		if(x == nameArray[index])
+		{
+			console.log(index + x);
+			return index;
+		}
+	}
+	console.log("Error");
+	return 0;
+	
+}
+
 
 function sortMdeck(x)
 {
@@ -979,19 +991,9 @@ function sortMdeck(x)
 				same_card++;
 				if(x[EXTRA] != "このホロメンはデッキに何枚でも入れられる")
 				{
-					if(x[BAN] != "")
+					if(same_card == 4)
 					{
-						if(same_card == parseInt(x[BAN]))
-						{
-							return;
-						}
-					}
-					else
-					{
-						if(same_card == 4)
-						{
-							return;
-						}
+						return;
 					}
 				}
 			}
@@ -1019,7 +1021,7 @@ function sortMdeck(x)
 			{
 				if(x[TYPE] == "サポート")
 				{
-					if(tag2num(x[TYPE2]) < tag2num(mdeckArr[i][TYPE2]))
+					if(tag2num(x[TAG]) < tag2num(mdeckArr[i][TAG]))
 					{
 						updated = 1;
 						mdeckArr.splice(i, 0, x);
@@ -1028,30 +1030,69 @@ function sortMdeck(x)
 				}
 				else
 				{
-					if(level2num(x[LEVEL]) < level2num(mdeckArr[i][LEVEL]))
+					if(sort_method == 0)
 					{
-						updated = 1;
-						mdeckArr.splice(i, 0, x);
-						break;
-					}
-					else if(level2num(x[LEVEL]) == level2num(mdeckArr[i][LEVEL]))
-					{
-						if(color2num(x[COLOR]) < color2num(mdeckArr[i][COLOR]))
+						if(level2num(x[LEVEL]) < level2num(mdeckArr[i][LEVEL]))
 						{
 							updated = 1;
 							mdeckArr.splice(i, 0, x);
 							break;
 						}
-						else if(color2num(x[COLOR]) == color2num(mdeckArr[i][COLOR]))
+						else if(level2num(x[LEVEL]) == level2num(mdeckArr[i][LEVEL]))
 						{
-							if(x[ID] < mdeckArr[i][ID])
+							if(color2num(x[COLOR]) < color2num(mdeckArr[i][COLOR]))
 							{
 								updated = 1;
 								mdeckArr.splice(i, 0, x);
 								break;
 							}
-						}
+							else if(color2num(x[COLOR]) == color2num(mdeckArr[i][COLOR]))
+							{
+								if(x[ID] < mdeckArr[i][ID])
+								{
+									updated = 1;
+									mdeckArr.splice(i, 0, x);
+									break;
+								}
+							}
 
+						}
+					}
+					else
+					{
+						if(member2num(x[NAME]) < member2num(mdeckArr[i][NAME]))
+						{
+							updated = 1;
+							mdeckArr.splice(i, 0, x);
+							break;
+						}
+						else if(member2num(x[NAME]) == member2num(mdeckArr[i][NAME]))
+						{
+							if(level2num(x[LEVEL]) < level2num(mdeckArr[i][LEVEL]))
+							{
+								updated = 1;
+								mdeckArr.splice(i, 0, x);
+								break;
+							}
+							else if(level2num(x[LEVEL]) == level2num(mdeckArr[i][LEVEL]))
+							{
+								if(color2num(x[COLOR]) < color2num(mdeckArr[i][COLOR]))
+								{
+									updated = 1;
+									mdeckArr.splice(i, 0, x);
+									break;
+								}
+								else if(color2num(x[COLOR]) == color2num(mdeckArr[i][COLOR]))
+								{
+									if(x[ID] < mdeckArr[i][ID])
+									{
+										updated = 1;
+										mdeckArr.splice(i, 0, x);
+										break;
+									}
+								}
+							}
+						}
 					}
 				}
 			}
@@ -1077,21 +1118,31 @@ function updatechart()
 		levelobj.data.datasets[0].data = [mdeck_spot, mdeck_debut, mdeck_1st, mdeck_2nd, mdeck_support];
 		levelobj.update();
 
-		if(mdeck_white != 0 || mdeck_red != 0 || mdeck_blue != 0 || mdeck_green != 0 || mdeck_purple != 0 || mdeck_nocolor != 0)
+		// $("#show_leveldiv").show();
+		// show_levelobj.data.labels = ['L1: ' + mdeck_l1, 'L2: ' + mdeck_l2, 'L3: ' + mdeck_l3, 'spell: ' + mdeck_spell];
+		// show_levelobj.data.datasets[0].data = [mdeck_l1, mdeck_l2, mdeck_l3, mdeck_spell];
+		// show_levelobj.update();
+
+		if(mdeck_white != 0 || mdeck_red != 0 || mdeck_blue != 0 || mdeck_green != 0 || mdeck_nocolor != 0)
 		{
 			$("#colordiv").show();
 			$("#colortitle").show();
-			colorobj.data.labels = ['白: ' + mdeck_white, '緑: ' + mdeck_green, '赤: ' + mdeck_red, '青: ' + mdeck_blue, '紫: ' + mdeck_purple, '無: ' + mdeck_nocolor];
-			colorobj.data.datasets[0].data = [mdeck_white, mdeck_green, mdeck_red, mdeck_blue, mdeck_purple, mdeck_nocolor];
+			colorobj.data.labels = ['白: ' + mdeck_white, '赤: ' + mdeck_red, '青: ' + mdeck_blue, '緑: ' + mdeck_green, '無: ' + mdeck_nocolor];
+			colorobj.data.datasets[0].data = [mdeck_white, mdeck_red, mdeck_blue, mdeck_green, mdeck_nocolor];
 			colorobj.update();
 		}
+
+		// $("#show_colordiv").show();
+		// show_colorobj.data.labels = ['白: ' + mdeck_white, '赤: ' + mdeck_red, '青: ' + mdeck_blue, '緑: ' + mdeck_green, '黒: ' + mdeck_black, '無: ' + mdeck_nocolor];
+		// show_colorobj.data.datasets[0].data = [mdeck_white, mdeck_red, mdeck_blue, mdeck_green, mdeck_black, mdeck_nocolor];
+		// show_colorobj.update();
 	}
 	else
 	{
 		$("#leveldiv").hide();
 		$("#leveltitle").hide();
 		// $("#show_leveldiv").hide();
-		if(mdeck_white == 0 && mdeck_green == 0 && mdeck_red == 0 && mdeck_blue == 0 && mdeck_purple == 0 && mdeck_nocolor == 0)
+		if(mdeck_white == 0 && mdeck_red == 0 && mdeck_blue == 0 && mdeck_green == 0 && mdeck_nocolor == 0)
 		{
 			$("#colordiv").hide();
 			$("#colortitle").hide();
@@ -1103,9 +1154,14 @@ function updatechart()
 	{
 		$("#yelldiv").show();
 		$("#yelltitle").show();
-		yellobj.data.labels = ['白: ' + ydeck_white, '緑: ' + ydeck_green, '赤: ' + ydeck_red, '青: ' + ydeck_blue, '紫: ' + ydeck_purple, '無: ' + ydeck_nocolor];
-		yellobj.data.datasets[0].data = [ydeck_white, ydeck_green, ydeck_red, ydeck_blue, ydeck_purple, ydeck_nocolor];
+		yellobj.data.labels = ['白: ' + ydeck_white, '赤: ' + ydeck_red, '青: ' + ydeck_blue, '緑: ' + ydeck_green, '無: ' + ydeck_nocolor];
+		yellobj.data.datasets[0].data = [ydeck_white, ydeck_red, ydeck_blue, ydeck_green, ydeck_nocolor];
 		yellobj.update();
+
+		// $("#show_yelldiv").show();
+		// show_lbobj.data.labels = ['LB有り: ' + mdeck_burst, 'LB無し: ' + mdeck_no_burst];
+		// show_lbobj.data.datasets[0].data = [mdeck_burst, mdeck_no_burst];
+		// show_lbobj.update();
 	}
 	else
 	{
@@ -1191,9 +1247,9 @@ function addmaincounter(x)
 		mdeck_green++;
 	}
 
-	if(x[COLOR].indexOf("紫") != -1)
+	if(x[COLOR].indexOf("黒") != -1)
 	{
-		mdeck_purple++;
+		mdeck_black++;
 	}
 
 	if(x[COLOR].indexOf("白") != -1)
@@ -1226,9 +1282,9 @@ function addyellcounter(x)
 		ydeck_green++;
 	}
 
-	if(x[COLOR].indexOf("紫") != -1)
+	if(x[COLOR].indexOf("黒") != -1)
 	{
-		ydeck_purple++;
+		ydeck_black++;
 	}
 
 	if(x[COLOR].indexOf("白") != -1)
@@ -1282,9 +1338,9 @@ function delmaincounter(x)
 		mdeck_green--;
 	}
 
-	if(x[COLOR].indexOf("紫") != -1)
+	if(x[COLOR].indexOf("黒") != -1)
 	{
-		mdeck_purple--;
+		mdeck_black--;
 	}
 
 	if(x[COLOR].indexOf("白") != -1)
@@ -1317,9 +1373,9 @@ function delyellcounter(x)
 		ydeck_green--;
 	}
 
-	if(x[COLOR].indexOf("紫") != -1)
+	if(x[COLOR].indexOf("黒") != -1)
 	{
-		ydeck_purple--;
+		ydeck_black--;
 	}
 
 	if(x[COLOR].indexOf("白") != -1)
@@ -1373,9 +1429,9 @@ function showcounter()
 	{
 		str+= "&emsp;&emsp;緑: " + ydeck_green;
 	}
-	if(ydeck_purple)
+	if(ydeck_black)
 	{
-		str+= "&emsp;&emsp;紫: " + ydeck_purple;
+		str+= "&emsp;&emsp;黒: " + ydeck_black;
 	}
 	if(ydeck_white)
 	{
@@ -1400,9 +1456,9 @@ function showcounter()
 	{
 		str+= "&emsp;&emsp;緑: " + mdeck_green;
 	}
-	if(mdeck_purple)
+	if(mdeck_black)
 	{
-		str+= "&emsp;&emsp;紫: " + mdeck_purple;
+		str+= "&emsp;&emsp;黒: " + mdeck_black;
 	}
 	if(mdeck_white)
 	{
@@ -1533,6 +1589,20 @@ function selectDeck()
 	$("#textCode").val(localStorage.getItem(deck));
 	
 	readSingleCode();
+}
+
+function selectSort()
+{
+	var sort_method = $("#selectSort").val();
+	var i = 0;
+
+	console.log(mdeckArr);
+	console.log(sort_method);
+
+	for(i = 0; i < mdeckArr.length; i++)
+	{
+		sortMdeck(mdeckArr[i]);
+	}
 }
 
 function cleardeck()
@@ -1722,7 +1792,7 @@ function loadcounter()
 	ydeck_red = 0;
 	ydeck_blue = 0;
 	ydeck_green = 0;
-	ydeck_purple = 0;
+	ydeck_black = 0;
 	ydeck_white = 0;
 	ydeck_nocolor = 0;
 
@@ -1735,7 +1805,7 @@ function loadcounter()
 	mdeck_red = 0;
 	mdeck_blue = 0;
 	mdeck_green = 0;
-	mdeck_purple = 0;
+	mdeck_black = 0;
 	mdeck_white = 0;
 	mdeck_nocolor = 0;
 
@@ -1762,7 +1832,7 @@ function search()
 	{
 		if($('#selectProduct').val() != 0)
 		{
-			if(cardData[i][PRODUCT].indexOf($('#selectProduct').val()) == -1)
+			if(cardData[i][PRODUCT] != $('#selectProduct').val())
 			{
 				continue;
 			}
@@ -1915,7 +1985,7 @@ function search()
 		{
 			if(!$('#staff').is(":checked"))
 			{
-				if(cardData[i][TYPE2] == "スタッフ")
+				if(cardData[i][TAG] == "スタッフ")
 				{
 					continue;
 				}
@@ -1923,7 +1993,7 @@ function search()
 
 			if(!$('#item').is(":checked"))
 			{
-				if(cardData[i][TYPE2] == "アイテム")
+				if(cardData[i][TAG] == "アイテム")
 				{
 					continue;
 				}
@@ -1931,7 +2001,7 @@ function search()
 
 			if(!$('#event').is(":checked"))
 			{
-				if(cardData[i][TYPE2] == "イベント")
+				if(cardData[i][TAG] == "イベント")
 				{
 					continue;
 				}
@@ -1939,7 +2009,7 @@ function search()
 
 			if(!$('#tool').is(":checked"))
 			{
-				if(cardData[i][TYPE2] == "ツール")
+				if(cardData[i][TAG] == "ツール")
 				{
 					continue;
 				}
@@ -1947,7 +2017,7 @@ function search()
 
 			if(!$('#mascot').is(":checked"))
 			{
-				if(cardData[i][TYPE2] == "マスコット")
+				if(cardData[i][TAG] == "マスコット")
 				{
 					continue;
 				}
@@ -1955,7 +2025,7 @@ function search()
 
 			if(!$('#fan').is(":checked"))
 			{
-				if(cardData[i][TYPE2] == "ファン")
+				if(cardData[i][TAG] == "ファン")
 				{
 					continue;
 				}
@@ -1968,7 +2038,7 @@ function search()
 			{
 				color_flag = 0;
 
-				if(!$('#red').is(":checked") && !$('#blue').is(":checked") && !$('#green').is(":checked") && !$('#purple').is(":checked") && !$('#nocolor').is(":checked"))
+				if(!$('#red').is(":checked") && !$('#blue').is(":checked") && !$('#green').is(":checked") && !$('#white').is(":checked") && !$('#nocolor').is(":checked"))
 				{
 
 				}
@@ -1999,13 +2069,13 @@ function search()
 						}
 					}
 
-					if($('#purple').is(":checked"))
-					{
-						if(cardData[i][COLOR].indexOf("紫") != -1)
-						{
-							color_flag = 1;
-						}
-					}
+					// if($('#black').is(":checked"))
+					// {
+					// 	if(cardData[i][COLOR].indexOf("黒") != -1)
+					// 	{
+					// 		color_flag = 1;
+					// 	}
+					// }
 
 					if($('#white').is(":checked"))
 					{
@@ -2061,13 +2131,13 @@ function search()
 						}
 					}
 
-					if($('#purple').is(":checked"))
-					{
-						if(cardData[i][COLOR].indexOf("紫") == -1)
-						{
-							continue;
-						}
-					}
+					// if($('#black').is(":checked"))
+					// {
+					// 	if(cardData[i][COLOR].indexOf("黒") == -1)
+					// 	{
+					// 		continue;
+					// 	}
+					// }
 
 					if($('#white').is(":checked"))
 					{
@@ -3001,7 +3071,7 @@ function checkDeck()
 			{
 				error_tmp = 0;
 			}
-			else if(cardData[i][COLOR].indexOf("紫", j) != -1)
+			else if(cardData[i][COLOR].indexOf("黒", j) != -1)
 			{
 				error_tmp = 0;
 			}
@@ -3056,14 +3126,12 @@ function dataInit()
 	mdeck_red = 0;
 	mdeck_blue = 0;
 	mdeck_green = 0;
-	mdeck_purple = 0;
 	mdeck_white = 0;
 	mdeck_nocolor = 0;
 
 	ydeck_red = 0;
 	ydeck_blue = 0;
 	ydeck_green = 0;
-	ydeck_purple = 0;
 	ydeck_white = 0;
 	ydeck_nocolor = 0;
 
@@ -3373,8 +3441,8 @@ function showVersion()
 	str += "Author: ZZZ\n";
 	str += "E-mail: relax100002000@hotmail.com\n";
 	str += "\n";
-	str += "20241225 v1.02\n";
-	str += "1.新增hPR-002、hBD24-002、hBD24-003、hBD24-004.  \n";
+	str += "20241006 v1.01\n";
+	str += "1.新增hPR-001、hBD24-001.\n";
 	str += "\n";
 	str += "預計更新:\n";
 	str += "-補充關於說明\n";

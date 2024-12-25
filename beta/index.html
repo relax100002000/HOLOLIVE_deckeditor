@@ -154,6 +154,7 @@
 		<script>
 			var page = 0;
 			var deckNamelist = [];
+			var sort_method = 0;
 
 			var odeckArr = [];
 			var ydeckArr = [];
@@ -165,7 +166,7 @@
 			var ydeck_red = 0;
 			var ydeck_blue = 0;
 			var ydeck_green = 0;
-			var ydeck_purple = 0;
+			var ydeck_black = 0;
 			var ydeck_white = 0;
 			var ydeck_nocolor = 0;
 
@@ -178,7 +179,7 @@
 			var mdeck_red = 0;
 			var mdeck_blue = 0;
 			var mdeck_green = 0;
-			var mdeck_purple = 0;
+			var mdeck_black = 0;
 			var mdeck_white = 0;
 			var mdeck_nocolor = 0;
 
@@ -296,6 +297,11 @@
 		    <button style="height: 20px;" onclick="$('#cardinformation').css('visibility', 'hidden');downloadBlob('output', '')">Add</button>
 		    <button style="height: 20px;" onclick="$('#cardinformation').css('visibility', 'hidden');deletydecklist();">Delete</button>
 		    <button style="height: 20px;" onclick="$('#cardinformation').css('visibility', 'hidden');resetDefault();">Reset</button>
+		    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sort:
+		    <select id="selectSort" onchange="selectSort();">
+		    	<option value=0>Level Order</option>
+		    	<option value=1>Member Order</option>
+		    </select>
 		</span>
 		<div id="lbBackground" hidden>
 		</div>
@@ -333,18 +339,18 @@
 									  			'緑',
 												'赤',
 												'青',
-												'紫',
+												// '黒',
 												'無'
 											],
 											datasets: [{
 												label: 'エール Counter',
-												data: [ydeck_white, ydeck_green, ydeck_red, ydeck_blue, ydeck_purple, ydeck_nocolor],
+												data: [ydeck_white, ydeck_green, ydeck_red, ydeck_blue, ydeck_nocolor],
 												backgroundColor: [
 												  'rgb(220, 220, 220)',
 												  'rgb(255, 99, 132)',
 												  'rgb(54, 162, 235)',
 												  'rgb(50, 205, 50)',
-												  'rgb(138, 43, 226)',
+												  // 'rgb(138, 43, 226)',
 												  'rgb(169, 169, 169)'
 												],
 												hoverOffset: 4
@@ -419,18 +425,18 @@
 									  			'緑',
 												'赤',
 												'青',
-												'紫',
+												// '黒',
 												'無'
 											],
 											datasets: [{
 												label: 'Color Counter',
-												data: [mdeck_white, mdeck_green, mdeck_red, mdeck_blue, mdeck_purple, mdeck_nocolor],
+												data: [mdeck_white, mdeck_green, mdeck_red, mdeck_blue, mdeck_nocolor],
 												backgroundColor: [
 												  'rgb(220, 220, 220)',
 												  'rgb(255, 99, 132)',
 												  'rgb(54, 162, 235)',
 												  'rgb(50, 205, 50)',
-												  'rgb(138, 43, 226)',
+												  // 'rgb(138, 43, 226)',
 												  'rgb(169, 169, 169)'
 												],
 												hoverOffset: 4
@@ -499,7 +505,7 @@
 					<br><br>
 					<input type="checkbox" id="spot" checked><span onclick="clickSpan(this)">Spot </span>&emsp;&emsp;<input type="checkbox" id="debut" checked><span onclick="clickSpan(this)">Debut </span>&emsp;&emsp;<input type="checkbox" id="1st" checked><span onclick="clickSpan(this)">1st </span>&emsp;&emsp;<input type="checkbox" id="2nd" checked><span onclick="clickSpan(this)">2nd </span>
 					<br><br>
-					<input type="checkbox" id="white" checked><span onclick="clickSpan(this)">白 </span>&emsp;&emsp;<input type="checkbox" id="green" checked><span onclick="clickSpan(this)">緑 </span>&emsp;&emsp;<input type="checkbox" id="red" checked><span onclick="clickSpan(this)">赤 </span>&emsp;&emsp;<input type="checkbox" id="blue" checked><span onclick="clickSpan(this)">青 </span>&emsp;&emsp;<input type="checkbox" id="purple" checked><span onclick="clickSpan(this)">紫 </span>&emsp;&emsp;<input type="checkbox" id="nocolor" checked><span onclick="clickSpan(this)">無 </span>&emsp;&emsp;<input type="checkbox" id="multicolor"><span onclick="clickSpan(this)">多色のみ </span>
+					<input type="checkbox" id="white" checked><span onclick="clickSpan(this)">白 </span>&emsp;&emsp;<input type="checkbox" id="green" checked><span onclick="clickSpan(this)">緑 </span>&emsp;&emsp;<input type="checkbox" id="red" checked><span onclick="clickSpan(this)">赤 </span>&emsp;&emsp;<input type="checkbox" id="blue" checked><span onclick="clickSpan(this)">青 </span>&emsp;&emsp;<input type="checkbox" id="nocolor" checked><span onclick="clickSpan(this)">無 </span>&emsp;&emsp;<input type="checkbox" id="multicolor"><span onclick="clickSpan(this)">多色のみ </span>
 					<br><br>
 					<input type="checkbox" id="staff" checked><span onclick="clickSpan(this)">スタッフ </span>&emsp;&emsp;<input type="checkbox" id="item" checked><span onclick="clickSpan(this)">アイテム </span>&emsp;&emsp;<input type="checkbox" id="event" checked><span onclick="clickSpan(this)">イベント </span>&emsp;&emsp;<input type="checkbox" id="tool" checked><span onclick="clickSpan(this)">ツール </span>&emsp;&emsp;<input type="checkbox" id="mascot" checked><span onclick="clickSpan(this)">マスコット </span>&emsp;&emsp;<input type="checkbox" id="fan" checked><span onclick="clickSpan(this)">ファン </span>
 					<br><br>
@@ -509,46 +515,32 @@
 					<select id="selectHolomem">
 						<option value="0">--All Member--</option>
 						<option value="ときのそら">ときのそら</option>
-						<option value="星街すいせい">星街すいせい</option>
-						<option value="さくらみこ">さくらみこ</option>
 						<option value="AZKi">AZKi</option>
 						<option value="SorAZ">SorAZ</option>
+						<option value="星街すいせい">星街すいせい</option>
+						<option value="さくらみこ">さくらみこ</option>
 						<option value="アキ・ローゼンタール">アキ・ローゼンタール</option>
-						<option value="紫咲シオン">紫咲シオン</option>
-						<option value="百鬼あやめ">百鬼あやめ</option>
-						<option value="癒月ちょこ">癒月ちょこ</option>
-						<option value="大空スバル">大空スバル</option>
-						<option value="白上フブキ">白上フブキ</option>
-						<option value="大神ミオ">大神ミオ</option>
-						<option value="猫又おかゆ">猫又おかゆ</option>
-						<option value="戌神ころね">戌神ころね</option>
 						<option value="兎田ぺこら">兎田ぺこら</option>
 						<option value="不知火フレア">不知火フレア</option>
 						<option value="白銀ノエル">白銀ノエル</option>
 						<option value="宝鐘マリン">宝鐘マリン</option>
 						<option value="天音かなた">天音かなた</option>
-						<option value="姫森ルーナ">姫森ルーナ</option>
 						<option value="尾丸ポルカ">尾丸ポルカ</option>
-						<option value="ラプラス・ダークネス">ラプラス・ダークネス</option>
 						<option value="鷹嶺ルイ">鷹嶺ルイ</option>
 						<option value="博衣こより">博衣こより</option>
-						<option value="沙花叉クロヱ">沙花叉クロヱ</option>
 						<option value="風真いろは">風真いろは</option>
 						<option value="ムーナ・ホシノヴァ">ムーナ・ホシノヴァ</option>
 						<option value="アイラニ・イオフィフティーン">アイラニ・イオフィフティーン</option>
-						<option value="クレイジー・オリー">クレイジー・オリー</option>
 						<option value="パヴォリア・レイネ">パヴォリア・レイネ</option>
 						<option value="ベスティア・ゼータ">ベスティア・ゼータ</option>
 						<option value="こぼ・かなえる">こぼ・かなえる</option>
 						<option value="森カリオペ">森カリオペ</option>
 						<option value="小鳥遊キアラ">小鳥遊キアラ</option>
-						<option value="一伊那尓栖">一伊那尓栖</option>
 						<option value="ワトソン・アメリア">ワトソン・アメリア</option>
 						<option value="IRyS">IRyS</option>
 						<option value="オーロ・クロニー">オーロ・クロニー</option>
 						<option value="七詩ムメイ">七詩ムメイ</option>
 						<option value="ハコス・ベールズ">ハコス・ベールズ</option>
-						<option value="ネリッサ・レイヴンクロフト">ネリッサ・レイヴンクロフト</option>
 				    </select>
 				    タグ
 					<select id="selectTag">
@@ -558,20 +550,15 @@
 						<option value="EN">EN</option>
 						<option value="0期生">0期生</option>
 						<option value="1期生">1期生</option>
-						<option value="2期生">2期生</option>
-						<option value="ゲーマーズ">ゲーマーズ</option>
 						<option value="3期生">3期生</option>
 						<option value="4期生">4期生</option>
 						<option value="5期生">5期生</option>
 						<option value="Myth">Myth</option>
 						<option value="秘密結社holoX">秘密結社holoX</option>
-						<option value="ホロウィッチ">ホロウィッチ</option>
 						<option value="ID1期生">ID1期生</option>
-						<option value="ID2期生">ID2期生</option>
 						<option value="ID3期生">ID3期生</option>
 						<option value="Myth">Myth</option>
 						<option value="Promise">Promise</option>
-						<option value="Advent">Advent</option>
 						<option value="ハーフエルフ">ハーフエルフ</option>
 						<option value="ケモミミ">ケモミミ</option>
 						<option value="トリ">トリ</option>
@@ -579,12 +566,6 @@
 						<option value="歌">歌</option>
 						<option value="お酒">お酒</option>
 						<option value="絵">絵</option>
-						<option value="シューター">シューター</option>
-						<option value="料理">料理</option>
-						<option value="白上'sキャラクター">白上'sキャラクター</option>
-						<option value="食べ物">食べ物</option>
-						<option value="語学">語学</option>
-						<option value="魔法">魔法</option>
 				    </select>
 				    <br><br>
 					キーワード検索 <input type="text" id="textsearch" size="51">
@@ -592,12 +573,8 @@
 					商品檢索
 					<select id="selectProduct">
 						<option value="0">--All Product--</option>
-						<option value="ブースターパック「クインテットスペクトラム」">ブースターパック「クインテットスペクトラム」</option>
-						<option value="スタートデッキ 紫 癒月ちょこ">スタートデッキ 紫 癒月ちょこ</option>
-						<option value="スタートデッキ 青 猫又おかゆ">スタートデッキ 青 猫又おかゆ</option>
-						<option value="スタートデッキ 赤 百鬼あやめ">スタートデッキ 赤 百鬼あやめ</option>
 						<option value="ブースターパック「ブルーミングレディアンス」">ブースターパック「ブルーミングレディアンス」</option>
-						<option value="スタートデッキ「ときのそら&AZKi」">スタートデッキ「ときのそら&AZKi」</option>
+						<option value="スタートデッキ「ときのそら＆AZKi」">スタートデッキ「ときのそら＆AZKi」</option>
 						<option value="スタートエールセット">スタートエールセット</option>
 						<option value="PRカード">PRカード</option>
 				   </select>
