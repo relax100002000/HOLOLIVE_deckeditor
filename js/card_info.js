@@ -6056,7 +6056,7 @@ var cardData = [
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>What AreYou Waiting For?<br>自分のデッキから、〈Tatang〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
-		"緑◇<br>Spicy Night 40+<br>自分のステージにエールが2色以上ある時、このアーツ+20。", //ART1
+		"緑◇<br>Spicy Night<br>40+<br>自分のステージにエールが2色以上ある時、このアーツ+20。", //ART1
 		"", //ART2
 		"", //ART3
 		"", //ART4
