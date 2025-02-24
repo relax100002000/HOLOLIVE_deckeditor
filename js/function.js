@@ -1,3 +1,25 @@
+function autoResize() {
+	this.style.height = '12px';
+	this.style.height = this.scrollHeight + 'px';
+}
+
+function setComment(id) {
+	if($("#comment").val() != '')
+	{
+		localStorage.setItem(id + "_HOLOcomment", $("#comment").val());
+	}
+	else
+	{
+		localStorage.removeItem(id + "_HOLOcomment");
+	}
+}
+
+function commentEvent() {
+	const textarea = document.getElementById('comment');
+	textarea.addEventListener('input', autoResize);
+	autoResize.call(textarea);
+}
+
 function onLoading()
 {
 	var i = 0;
@@ -756,6 +778,24 @@ function showInfotable(data)
 		str += "	</td>";
 		str += "</tr>";
 	}
+
+	var commetStr = localStorage.getItem(data[ID] + "_HOLOcomment");
+
+	if(commetStr == null)
+	{
+		commetStr = "";
+	}
+
+	str += "<tr>";
+	if(data == "init" || data[TYPE] == "推しホロメン" || data[TYPE] == "サポート" || data[TYPE] == "エール")
+		str += "	<td colspan=\"2\">";
+	else
+		str += "	<td colspan=\"3\">";
+
+	str += "		<textarea id=\"comment\" style=\"vertical-align: middle; overflow:hidden; resize:none; width:285px\">" + commetStr + "</textarea>";
+	str += "		<button style=\"vertical-align: middle;border-radius: 0px;height: 30px\" onclick=\"setComment('" + data[ID] + "');\">更新</button>";
+	str += "	</td>";
+	str += "</tr>";
 
 	$("#infoTable").html(str);
 }
@@ -3289,10 +3329,19 @@ function copyClipboard()
 function addDecklist()
 {
 	var i = 0, ret = 0;
+	var title_val = $("#deckTitle").val();
 
-	if($("#deckTitle").val() == 0)
+	if(title_val == 0)
 	{
 		alert("Do not set empty string as title.");
+		return;
+	}
+
+	if( title_val.indexOf("_HOLOcomment") != -1 || 
+			title_val.indexOf("_WXcomment") != -1
+		)
+	{
+		alert("Invalid deck title.");
 		return;
 	}
 
@@ -3349,20 +3398,29 @@ function resetDefault()
 {
 	var ret = 0;
 	var i = 0;
+	
+	deckNamelist = JSON.parse(localStorage.getItem("HOLODeckNameList"));
+	
+	if(deckNamelist == null)
+	{
+		deckNamelist = [];
+	}
 
-	ret = confirm("It will clean all localStorage and delete all custom deck. Are you sure?");
+	ret = confirm("It will delete all custom deck. Are you sure?");
 	if(!ret)
 	{
 		return;
 	}
 	else
 	{
-		for(i = 0; i < deckNamelist.length; i ++)
+		for(i = 0; i < deckNamelist.length; i++)
 		{
 			localStorage.removeItem(deckNamelist[i]);
 		}
+
 		localStorage.removeItem("HOLODeckNameList");
-		onloaddeck();
+		
+		location.reload();
 	}
 }
 

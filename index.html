@@ -6,7 +6,7 @@
 		<script src="js/card_info.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-		<title>hololive OCG Deck Editor</title>
+		<title>hololive OCG Deck Builder</title>
 	</head>
 	<style>
 		 input[type=checkbox] {
@@ -296,6 +296,7 @@
 		    <button style="height: 20px;" onclick="$('#cardinformation').css('visibility', 'hidden');downloadBlob('output', '')">Add</button>
 		    <button style="height: 20px;" onclick="$('#cardinformation').css('visibility', 'hidden');deletydecklist();">Delete</button>
 		    <button style="height: 20px;" onclick="$('#cardinformation').css('visibility', 'hidden');resetDefault();">Reset</button>
+		    <button style="height: 20px;" onclick="$('#cardinformation').css('visibility', 'hidden');resetComment();">Clear Comment</button>
 		</span>
 		<div id="lbBackground" hidden>
 		</div>
@@ -741,7 +742,7 @@
 				<div id="deckcode" style="height: 750px; text-align: center;" class="window-content">
 					Deck Title
 					<br><br>
-					<input align="left" style="width: 80%;" type="text" id="deckTitle" value="Simple Deck" maxlength="20">
+					<input align="left" style="width: 80%;" type="text" id="deckTitle" value="Simple Deck" maxlength="64">
 					<br><br>
 					Deck Code
 					<br><br>
