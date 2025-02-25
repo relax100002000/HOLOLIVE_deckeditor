@@ -2008,7 +2008,7 @@ function search()
 			{
 				color_flag = 0;
 
-				if(!$('#red').is(":checked") && !$('#blue').is(":checked") && !$('#green').is(":checked") && !$('#purple').is(":checked") && !$('#nocolor').is(":checked"))
+				if(!$('#white').is(":checked") &&!$('#red').is(":checked") && !$('#blue').is(":checked") && !$('#green').is(":checked") && !$('#purple').is(":checked") && !$('#nocolor').is(":checked"))
 				{
 
 				}
