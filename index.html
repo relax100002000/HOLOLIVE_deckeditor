@@ -167,6 +167,7 @@
 			var ydeck_green = 0;
 			var ydeck_purple = 0;
 			var ydeck_white = 0;
+			var ydeck_yellow = 0;
 			var ydeck_nocolor = 0;
 
 			var mdeck_debut = 0;
@@ -180,6 +181,7 @@
 			var mdeck_green = 0;
 			var mdeck_purple = 0;
 			var mdeck_white = 0;
+			var mdeck_yellow = 0;
 			var mdeck_nocolor = 0;
 
 			$( document ).ready(function() {
@@ -339,13 +341,14 @@
 											],
 											datasets: [{
 												label: 'エール Counter',
-												data: [ydeck_white, ydeck_green, ydeck_red, ydeck_blue, ydeck_purple, ydeck_nocolor],
+												data: [ydeck_white, ydeck_green, ydeck_red, ydeck_blue, ydeck_purple, ydeck_yellow, ydeck_nocolor],
 												backgroundColor: [
 												  'rgb(220, 220, 220)',
+												  'rgb(50, 205, 50)',
 												  'rgb(255, 99, 132)',
 												  'rgb(54, 162, 235)',
-												  'rgb(50, 205, 50)',
 												  'rgb(138, 43, 226)',
+												  'rgb(255, 215, 0)',
 												  'rgb(169, 169, 169)'
 												],
 												hoverOffset: 4
@@ -421,17 +424,19 @@
 												'赤',
 												'青',
 												'紫',
+												'黄',
 												'無'
 											],
 											datasets: [{
 												label: 'Color Counter',
-												data: [mdeck_white, mdeck_green, mdeck_red, mdeck_blue, mdeck_purple, mdeck_nocolor],
+												data: [mdeck_white, mdeck_green, mdeck_red, mdeck_blue, mdeck_purple, mdeck_yellow, mdeck_nocolor],
 												backgroundColor: [
 												  'rgb(220, 220, 220)',
+												  'rgb(50, 205, 50)',
 												  'rgb(255, 99, 132)',
 												  'rgb(54, 162, 235)',
-												  'rgb(50, 205, 50)',
 												  'rgb(138, 43, 226)',
+												  'rgb(255, 215, 0)',
 												  'rgb(169, 169, 169)'
 												],
 												hoverOffset: 4
@@ -500,7 +505,7 @@
 					<br><br>
 					<input type="checkbox" id="spot" checked><span onclick="clickSpan(this)">Spot </span>&emsp;&emsp;<input type="checkbox" id="debut" checked><span onclick="clickSpan(this)">Debut </span>&emsp;&emsp;<input type="checkbox" id="1st" checked><span onclick="clickSpan(this)">1st </span>&emsp;&emsp;<input type="checkbox" id="2nd" checked><span onclick="clickSpan(this)">2nd </span>
 					<br><br>
-					<input type="checkbox" id="white" checked><span onclick="clickSpan(this)">白 </span>&emsp;&emsp;<input type="checkbox" id="green" checked><span onclick="clickSpan(this)">緑 </span>&emsp;&emsp;<input type="checkbox" id="red" checked><span onclick="clickSpan(this)">赤 </span>&emsp;&emsp;<input type="checkbox" id="blue" checked><span onclick="clickSpan(this)">青 </span>&emsp;&emsp;<input type="checkbox" id="purple" checked><span onclick="clickSpan(this)">紫 </span>&emsp;&emsp;<input type="checkbox" id="nocolor" checked><span onclick="clickSpan(this)">無 </span>&emsp;&emsp;<input type="checkbox" id="multicolor"><span onclick="clickSpan(this)">多色のみ </span>
+					<input type="checkbox" id="white" checked><span onclick="clickSpan(this)">白 </span>&emsp;&emsp;<input type="checkbox" id="green" checked><span onclick="clickSpan(this)">緑 </span>&emsp;&emsp;<input type="checkbox" id="red" checked><span onclick="clickSpan(this)">赤 </span>&emsp;&emsp;<input type="checkbox" id="blue" checked><span onclick="clickSpan(this)">青 </span>&emsp;&emsp;<input type="checkbox" id="purple" checked><span onclick="clickSpan(this)">紫 </span>&emsp;&emsp;<input type="checkbox" id="yellow" checked><span onclick="clickSpan(this)">黄 </span>&emsp;&emsp;<input type="checkbox" id="nocolor" checked><span onclick="clickSpan(this)">無 </span>&emsp;&emsp;<input type="checkbox" id="multicolor"><span onclick="clickSpan(this)">多色のみ </span>
 					<br><br>
 					<input type="checkbox" id="staff" checked><span onclick="clickSpan(this)">スタッフ </span>&emsp;&emsp;<input type="checkbox" id="item" checked><span onclick="clickSpan(this)">アイテム </span>&emsp;&emsp;<input type="checkbox" id="event" checked><span onclick="clickSpan(this)">イベント </span>&emsp;&emsp;<input type="checkbox" id="tool" checked><span onclick="clickSpan(this)">ツール </span>&emsp;&emsp;<input type="checkbox" id="mascot" checked><span onclick="clickSpan(this)">マスコット </span>&emsp;&emsp;<input type="checkbox" id="fan" checked><span onclick="clickSpan(this)">ファン </span>
 					<br><br>
@@ -549,7 +554,12 @@
 						<option value="オーロ・クロニー">オーロ・クロニー</option>
 						<option value="七詩ムメイ">七詩ムメイ</option>
 						<option value="ハコス・ベールズ">ハコス・ベールズ</option>
-						<option value="ネリッサ・レイヴンクロフト">ネリッサ・レイヴンクロフト</option>
+						<option value="ジジ・ムリン">ジジ・ムリン</option>
+						<option value="火威青">火威青</option>
+						<option value="音乃瀬奏">音乃瀬奏</option>
+						<option value="一条莉々華">一条莉々華</option>
+						<option value="儒烏風亭らでん">儒烏風亭らでん</option>
+						<option value="轟はじめ">轟はじめ</option>
 				    </select>
 				    タグ
 					<select id="selectTag">
@@ -557,6 +567,7 @@
 						<option value="JP">JP</option>
 						<option value="ID">ID</option>
 						<option value="EN">EN</option>
+						<option value="DEV_IS">DEV_IS</option>
 						<option value="0期生">0期生</option>
 						<option value="1期生">1期生</option>
 						<option value="2期生">2期生</option>
@@ -573,6 +584,7 @@
 						<option value="Myth">Myth</option>
 						<option value="Promise">Promise</option>
 						<option value="Advent">Advent</option>
+						<option value="ReGLOSS">ReGLOSS</option>
 						<option value="ハーフエルフ">ハーフエルフ</option>
 						<option value="ケモミミ">ケモミミ</option>
 						<option value="トリ">トリ</option>
@@ -586,6 +598,7 @@
 						<option value="食べ物">食べ物</option>
 						<option value="語学">語学</option>
 						<option value="魔法">魔法</option>
+						<option value="ベイビー">ベイビー</option>
 				    </select>
 				    <br><br>
 					キーワード検索 <input type="text" id="textsearch" size="51">
@@ -593,6 +606,9 @@
 					商品檢索
 					<select id="selectProduct">
 						<option value="0">--All Product--</option>
+						<option value="スタートデッキ 黄 不知火フレア">スタートデッキ 黄 不知火フレア</option>
+						<option value="スタートデッキ 緑 風真いろは">スタートデッキ 緑 風真いろは</option>
+						<option value="スタートデッキ 白 轟はじめ">スタートデッキ 白 轟はじめ</option>
 						<option value="ブースターパック「クインテットスペクトラム」">ブースターパック「クインテットスペクトラム」</option>
 						<option value="スタートデッキ 紫 癒月ちょこ">スタートデッキ 紫 癒月ちょこ</option>
 						<option value="スタートデッキ 青 猫又おかゆ">スタートデッキ 青 猫又おかゆ</option>

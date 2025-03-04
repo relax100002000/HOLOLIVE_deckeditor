@@ -199,6 +199,7 @@ function str_to_img(x)
 	x = x.replace(/赤/g, "<img class='icon_img' src='img/arts_red.png'></img>");
 	x = x.replace(/青/g, "<img class='icon_img' src='img/arts_blue.png'></img>");
 	x = x.replace(/紫/g, "<img class='icon_img' src='img/arts_purple.png'></img>");
+	x = x.replace(/黄/g, "<img class='icon_img' src='img/arts_yellow.png'></img>");
 	x = x.replace(/◇/g, "<img class='icon_img' src='img/arts_null.png'></img>");
 
 	x = x.replace(/推しスキル/g, "<img class='icon_img' src='img/skill.png'></img>");
@@ -216,6 +217,7 @@ function color_to_img(x)
 	x = x.replace(/赤/g, "<img class='icon_img' src='img/type_red.png'></img>");
 	x = x.replace(/青/g, "<img class='icon_img' src='img/type_blue.png'></img>");
 	x = x.replace(/紫/g, "<img class='icon_img' src='img/type_purple.png'></img>");
+	x = x.replace(/黄/g, "<img class='icon_img' src='img/type_yellow.png'></img>");
 	x = x.replace(/◇/g, "<img class='icon_img' src='img/type_null.png'></img>");
 
 	return x;
@@ -1117,12 +1119,12 @@ function updatechart()
 		levelobj.data.datasets[0].data = [mdeck_spot, mdeck_debut, mdeck_1st, mdeck_2nd, mdeck_support];
 		levelobj.update();
 
-		if(mdeck_white != 0 || mdeck_red != 0 || mdeck_blue != 0 || mdeck_green != 0 || mdeck_purple != 0 || mdeck_nocolor != 0)
+		if(mdeck_white != 0 || mdeck_red != 0 || mdeck_blue != 0 || mdeck_green != 0 || mdeck_purple != 0 || mdeck_yellow != 0 || mdeck_nocolor != 0)
 		{
 			$("#colordiv").show();
 			$("#colortitle").show();
-			colorobj.data.labels = ['白: ' + mdeck_white, '緑: ' + mdeck_green, '赤: ' + mdeck_red, '青: ' + mdeck_blue, '紫: ' + mdeck_purple, '無: ' + mdeck_nocolor];
-			colorobj.data.datasets[0].data = [mdeck_white, mdeck_green, mdeck_red, mdeck_blue, mdeck_purple, mdeck_nocolor];
+			colorobj.data.labels = ['白: ' + mdeck_white, '緑: ' + mdeck_green, '赤: ' + mdeck_red, '青: ' + mdeck_blue, '紫: ' + mdeck_purple, '黄: ' + mdeck_yellow, '無: ' + mdeck_nocolor];
+			colorobj.data.datasets[0].data = [mdeck_white, mdeck_green, mdeck_red, mdeck_blue, mdeck_purple, mdeck_yellow, mdeck_nocolor];
 			colorobj.update();
 		}
 	}
@@ -1131,7 +1133,7 @@ function updatechart()
 		$("#leveldiv").hide();
 		$("#leveltitle").hide();
 		// $("#show_leveldiv").hide();
-		if(mdeck_white == 0 && mdeck_green == 0 && mdeck_red == 0 && mdeck_blue == 0 && mdeck_purple == 0 && mdeck_nocolor == 0)
+		if(mdeck_white == 0 && mdeck_green == 0 && mdeck_red == 0 && mdeck_blue == 0 && mdeck_purple == 0 && mdeck_yellow == 0 && mdeck_nocolor == 0)
 		{
 			$("#colordiv").hide();
 			$("#colortitle").hide();
@@ -1143,8 +1145,8 @@ function updatechart()
 	{
 		$("#yelldiv").show();
 		$("#yelltitle").show();
-		yellobj.data.labels = ['白: ' + ydeck_white, '緑: ' + ydeck_green, '赤: ' + ydeck_red, '青: ' + ydeck_blue, '紫: ' + ydeck_purple, '無: ' + ydeck_nocolor];
-		yellobj.data.datasets[0].data = [ydeck_white, ydeck_green, ydeck_red, ydeck_blue, ydeck_purple, ydeck_nocolor];
+		yellobj.data.labels = ['白: ' + ydeck_white, '緑: ' + ydeck_green, '赤: ' + ydeck_red, '青: ' + ydeck_blue, '紫: ' + ydeck_purple, '黄: ' + ydeck_yellow, '無: ' + ydeck_nocolor];
+		yellobj.data.datasets[0].data = [ydeck_white, ydeck_green, ydeck_red, ydeck_blue, ydeck_purple, ydeck_yellow, ydeck_nocolor];
 		yellobj.update();
 	}
 	else
@@ -1241,6 +1243,11 @@ function addmaincounter(x)
 		mdeck_white++;
 	}
 
+	if(x[COLOR].indexOf("黄") != -1)
+	{
+		mdeck_yellow++;
+	}
+
 	if(x[COLOR].indexOf("◇") != -1)
 	{
 		mdeck_nocolor++;
@@ -1274,6 +1281,11 @@ function addyellcounter(x)
 	if(x[COLOR].indexOf("白") != -1)
 	{
 		ydeck_white++;
+	}
+
+	if(x[COLOR].indexOf("黄") != -1)
+	{
+		ydeck_yellow++;
 	}
 
 	if(x[COLOR].indexOf("◇") != -1)
@@ -1332,6 +1344,11 @@ function delmaincounter(x)
 		mdeck_white--;
 	}
 
+	if(x[COLOR].indexOf("黄") != -1)
+	{
+		mdeck_yellow--;
+	}
+
 	if(x[COLOR].indexOf("◇") != -1)
 	{
 		mdeck_nocolor--;
@@ -1365,6 +1382,11 @@ function delyellcounter(x)
 	if(x[COLOR].indexOf("白") != -1)
 	{
 		ydeck_white--;
+	}
+
+	if(x[COLOR].indexOf("黄") != -1)
+	{
+		ydeck_yellow--;
 	}
 
 	if(x[COLOR].indexOf("◇") != -1)
@@ -1421,6 +1443,10 @@ function showcounter()
 	{
 		str+= "&emsp;&emsp;白: " + ydeck_white;
 	}
+	if(ydeck_yellow)
+	{
+		str+= "&emsp;&emsp;黄: " + ydeck_white;
+	}
 	if(ydeck_nocolor)
 	{
 		str+= "&emsp;&emsp;無: " + ydeck_nocolor;
@@ -1447,6 +1473,10 @@ function showcounter()
 	if(mdeck_white)
 	{
 		str+= "&emsp;&emsp;白: " + mdeck_white;
+	}
+	if(mdeck_yellow)
+	{
+		str+= "&emsp;&emsp;黄: " + mdeck_white;
 	}
 	if(mdeck_nocolor)
 	{
@@ -1764,6 +1794,7 @@ function loadcounter()
 	ydeck_green = 0;
 	ydeck_purple = 0;
 	ydeck_white = 0;
+	ydeck_yellow = 0;
 	ydeck_nocolor = 0;
 
 	mdeck_debut = 0;
@@ -1777,6 +1808,7 @@ function loadcounter()
 	mdeck_green = 0;
 	mdeck_purple = 0;
 	mdeck_white = 0;
+	mdeck_yellow = 0;
 	mdeck_nocolor = 0;
 
 	for(i = 0; i < mdeckArr.length; i++)
@@ -2008,7 +2040,7 @@ function search()
 			{
 				color_flag = 0;
 
-				if(!$('#white').is(":checked") &&!$('#red').is(":checked") && !$('#blue').is(":checked") && !$('#green').is(":checked") && !$('#purple').is(":checked") && !$('#nocolor').is(":checked"))
+				if(!$('#white').is(":checked") &&!$('#red').is(":checked") && !$('#blue').is(":checked") && !$('#green').is(":checked") && !$('#purple').is(":checked") && !$('#yellow').is(":checked") && !$('#nocolor').is(":checked"))
 				{
 
 				}
@@ -2050,6 +2082,14 @@ function search()
 					if($('#white').is(":checked"))
 					{
 						if(cardData[i][COLOR].indexOf("白") != -1)
+						{
+							color_flag = 1;
+						}
+					}
+
+					if($('#yellow').is(":checked"))
+					{
+						if(cardData[i][COLOR].indexOf("黄") != -1)
 						{
 							color_flag = 1;
 						}
@@ -2104,6 +2144,14 @@ function search()
 					if($('#purple').is(":checked"))
 					{
 						if(cardData[i][COLOR].indexOf("紫") == -1)
+						{
+							continue;
+						}
+					}
+
+					if($('#yellow').is(":checked"))
+					{
+						if(cardData[i][COLOR].indexOf("黄") == -1)
 						{
 							continue;
 						}
@@ -3098,6 +3146,7 @@ function dataInit()
 	mdeck_green = 0;
 	mdeck_purple = 0;
 	mdeck_white = 0;
+	mdeck_yellow = 0;
 	mdeck_nocolor = 0;
 
 	ydeck_red = 0;
@@ -3105,6 +3154,7 @@ function dataInit()
 	ydeck_green = 0;
 	ydeck_purple = 0;
 	ydeck_white = 0;
+	ydeck_yellow = 0;
 	ydeck_nocolor = 0;
 
 	showAlldeck();
@@ -3431,8 +3481,8 @@ function showVersion()
 	str += "Author: ZZZ\n";
 	str += "E-mail: relax100002000@hotmail.com\n";
 	str += "\n";
-	str += "20241225 v1.02\n";
-	str += "1.新增hPR-002、hBD24-002、hBD24-003、hBD24-004.  \n";
+	str += "20250304 v1.03\n";
+	str += "1.新增hSD05、hSD06、hSD07.\n";
 	str += "\n";
 	str += "預計更新:\n";
 	str += "-補充關於說明\n";

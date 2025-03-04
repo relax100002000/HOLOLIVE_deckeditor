@@ -136,6 +136,30 @@ var cardData = [
 		"" //BAN
 		],
 	[
+		"hBD24-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-007_P.png", //SRC
+		"ジジ・ムリン", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"黄", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>イエローエンハンス<br>[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>Birthday Gift ~Yellow~<br>[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
 		"hYS01-001", //ID
 		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hY01/hYS01-001_OC.png", //SRC
 		"七詩ムメイ", //NAME
@@ -8090,6 +8114,1446 @@ var cardData = [
 		"", //RARE
 		"ブースターパック「クインテットスペクトラム」", //PRODUCT
 		"紫", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-001_OC.png", //SRC
+		"轟はじめ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OC", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"白", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>ホワイトマイク<br>[ターンに1回]このターンの間、自分の白センターホロメンのアーツ+20。", //SKILL
+		"[ホロパワー:-1]<br>クイックガード<br>[ゲームに1回]相手のターンで、自分の白ホロメンが相手からダメージを受ける時に使える:そのホロメン1人が受けるダメージ-20。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-002_C.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"C", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"白", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>ぶんぶんぶーん!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-003_C.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"C", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"白", //COLOR
+		"60", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>こんちくわ<br>このターンの間、自分の#ReGLOSSを持つセンターホロメンのアーツ+10。", //KEYWORD
+		"◇<br>お洒落番長<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-004_U.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"U", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"白", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"白◇<br>ReGLOSSの番長<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-005_C.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"白", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"白", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"白<br>夜路紫駆!<br>40", //ART1
+		"◇◇<br>うぃー!<br>60", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-006_C.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"C", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"白", //COLOR
+		"100", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>足取り軽め、轟はじめ<br>30", //ART1
+		"白◇<br>ありあとりゃあすっ<br>50+<br>自分のステージに異なるカード名の#ReGLOSSを持つホロメンが3人以上いる時、このアーツ+20。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-007_U.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"U", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"白", //COLOR
+		"120", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>宇宙一の番長を目指すなんでも屋<br>自分のデッキを1枚引く。", //KEYWORD
+		"◇<br>度胸、愛嬌、最強<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-008_R.png", //SRC
+		"轟はじめ", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"R", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"白", //COLOR
+		"230", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"白白<br>……なんか、番長っぽくなってきたかも!<br>50<br>このターンの間、自分のステージの#ReGLOSSを持つDebutホロメン1人のアーツ+40。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-009_RR.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"RR", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"白", //COLOR
+		"180", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ダンスでこの世界に彩を!<br>自分のデッキから、#ReGLOSSを持つ[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"白白◇<br>滅紫の雷<br>80+紫+50<br>自分のステージに〈轟はじめ〉以外の#ReGLOSSを持つホロメンがいる時、このアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-010_U.png", //SRC
+		"儒烏風亭らでん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #お酒", //TAG
+		"U", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"緑", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>ちょいと一席<br>20<br>自分のアーカイブのエール1枚を、自分の#ReGLOSSを持つホロメンに送れる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-011", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-011_U.png", //SRC
+		"一条莉々華", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #料理", //TAG
+		"U", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"赤", //COLOR
+		"70", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>任せておきなさい!<br>自分のセンターホロメンが#ReGLOSSを持つ時、自分の手札が5枚以下なら、自分のデッキを1枚引く。", //KEYWORD
+		"◇<br>社長の推し事<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-012", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-012_U.png", //SRC
+		"火威青", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #絵", //TAG
+		"U", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"青", //COLOR
+		"70", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ドーンッ!<br>相手のセンターホロメンかバックホロメン1人に特殊ダメージ10を与える。", //KEYWORD
+		"◇<br>世界一かわいいよ<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-013", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-013_U.png", //SRC
+		"音乃瀬奏", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #歌", //TAG
+		"U", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"黄", //COLOR
+		"90", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>クレッシェンドな日々<br>自分のステージのエール1枚を、このホロメン以外の自分のホロメンに付け替えられる。", //KEYWORD
+		"◇<br>ガハw<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-014", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hSD05-014_C.png", //SRC
+		"ばんぺん", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのアーツ+10。<br><br>◆〈轟はじめ〉に付いていたら能力追加<br>このマスコットが付いているホロメンのHP+20。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-104_C.png", //SRC
+		"ふつうのパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-108", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-108_U.png", //SRC
+		"じゃあ敵だね", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"相手のセンターホロメンとバックホロメン1人を交代させる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hPR-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD05/hPR-002_U.png", //SRC
+		"ReGLOSS", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。<br><br>自分のデッキの上から4枚を見る。その中から、#ReGLOSSを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-016", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-016_C.png", //SRC
+		"春先のどか", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-017_C.png", //SRC
+		"マネちゃん", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに1枚以上なければ使えない。<br><br>自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを5枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY01-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY01-001_C.png", //SRC
+		"白エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 白 轟はじめ", //PRODUCT
+		"白", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD06-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-001_OC.png", //SRC
+		"風真いろは", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OC", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"緑", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>グリーンマイク<br>[ターンに1回]このターンの間、自分の緑センターホロメンのアーツ+20。", //SKILL
+		"[ホロパワー:-1]<br>みんな頑張ろー!<br>[ゲームに1回]自分の緑ホロメン全員のHP20回復。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-048", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-048_C.png", //SRC
+		"風真いろは", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX", //TAG
+		"C", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"緑", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>皆殿、風真いろはでござる~<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-050", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-050_U.png", //SRC
+		"風真いろは", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX", //TAG
+		"U", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"緑", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>用心棒<br>[コラボポジション限定]相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない(特殊ダメージは除く)。", //KEYWORD
+		"緑◇<br>元気を全力でお届けします!<br>20<br>自分のエールデッキの上から1枚を、自分の〈風真いろは〉以外の#秘密結社holoXを持つホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD06-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-002_C.png", //SRC
+		"風真いろは", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX", //TAG
+		"C", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"緑", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>のっと!ﾆﾝﾆﾝ!!<br>自分のホロメン1人のHP10回復。", //KEYWORD
+		"◇<br>いえす!ｼﾞｬｷﾝｼﾞｬｷﾝ!!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD06-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-003_U.png", //SRC
+		"風真いろは", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX", //TAG
+		"U", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"緑", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"緑<br>一刀両断叩き斬る<br>30+<br>自分のセンターホロメンのHPが減っている時、このアーツ+10。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD06-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-004_C.png", //SRC
+		"風真いろは", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX", //TAG
+		"C", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"緑", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"緑◇<br>照れ屋な用心棒<br>60", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD06-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-005_C.png", //SRC
+		"風真いろは", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX", //TAG
+		"C", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"緑", //COLOR
+		"120", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>かざまとおでかけ<br>自分のエールデッキの上から1枚を、自分の#秘密結社holoXを持つホロメンに送る。", //KEYWORD
+		"緑<br>かざまといっしょ!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD06-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-006_R.png", //SRC
+		"風真いろは", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX", //TAG
+		"R", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"緑", //COLOR
+		"220", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>サムライ少女<br>自分のデッキから、[〈ﾁｬｷ丸〉か〈ぽこべぇ〉]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"緑◇<br>刀の錆になるでござる!<br>50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD06-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-007_RR.png", //SRC
+		"風真いろは", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX", //TAG
+		"RR", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"緑", //COLOR
+		"180", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>元気をお届け<br>自分の#秘密結社holoXを持つホロメン1人のHP30回復。", //KEYWORD
+		"緑◇◇<br>天才では?<br>70+青+50<br>自分のステージにエールが5枚以上ある時、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD06-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-008_U.png", //SRC
+		"博衣こより", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #ケモミミ", //TAG
+		"U", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"白", //COLOR
+		"70", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ずのー!<br>自分のセンターホロメンが#秘密結社holoXを持つ時、自分の手札が5枚以下なら、自分のデッキを1枚引く。", //KEYWORD
+		"◇<br>どやぁ<br>10", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD06-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-009_U.png", //SRC
+		"鷹嶺ルイ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #トリ #お酒", //TAG
+		"U", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"赤", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>頼れる女幹部<br>20<br>自分のアーカイブの#秘密結社holoXを持つDebutホロメン1枚を手札に戻せる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD06-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-010_U.png", //SRC
+		"ラプラス・ダークネス", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #シューター", //TAG
+		"U", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"紫", //COLOR
+		"60", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>狂気の宴<br>30+<br>[コラボポジション限定]このターンの自分のメインステップに自分のSP推しスキルを使っていた時、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD06-011", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-011_C.png", //SRC
+		"ﾁｬｷ丸", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いているホロメンのアーツ+10。<br><br>◆1st以上の〈風真いろは〉に付いていたら能力追加<br>[ターンに1回]相手のターンで、このツールが付いているホロメンがダメージを受けた時、相手のセンターホロメンに特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD06-012", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-012_C.png", //SRC
+		"ぽこべぇ", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのHP+10。<br><br>◆〈風真いろは〉に付いていたら能力追加<br>このマスコットが付いているホロメンのHP+20。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-104_C.png", //SRC
+		"ふつうのパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-076", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-076_C.png", //SRC
+		"カスタムパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分の手札のDebutホロメン1枚を公開し、デッキの下に戻す。自分のデッキから、戻したホロメンと同じカード名のBuzz以外の1stホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-080", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-080_U.png", //SRC
+		"秘密結社holoX", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。<br><br>自分のデッキの上から4枚を見る。その中から、#秘密結社holoxを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-016", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-016_C.png", //SRC
+		"春先のどか", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-017_C.png", //SRC
+		"マネちゃん", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに1枚以上なければ使えない。<br><br>自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを5枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY02-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY02-001_C.png", //SRC
+		"緑エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 緑 風真いろは", //PRODUCT
+		"緑", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD07-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-001_OC.png", //SRC
+		"不知火フレア", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OC", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"黄", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>イエローマイク<br>[ターンに1回]このターンの間、自分の黄センターホロメンのアーツ+20。", //SKILL
+		"[ホロパワー:-1]<br>後は引き受けた!<br>[ゲームに1回]自分のセンターホロメンとお休みしていないバックホロメン1人を交代させる。さらに、バックポジションに移動したホロメンのHP30回復。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD07-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-002_C.png", //SRC
+		"不知火フレア", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #ハーフエルフ", //TAG
+		"C", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"黄", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>こんぬいー!<br>20", //ART1
+		"◇◇◇<br>不知火フレアだよ!<br>60", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD07-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-003_C.png", //SRC
+		"不知火フレア", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #ハーフエルフ", //TAG
+		"C", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"黄", //COLOR
+		"50", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>大切な仲間たちと<br>自分のステージのホロメンが5人以下の時、自分のデッキから、Debutホロメンの[〈尾丸ポルカ〉か〈さくらみこ〉か〈星街すいせい〉か〈白銀ノエル〉]1枚を公開できる:公開したホロメンをステージに出す。そしてデッキをシャッフルする。", //KEYWORD
+		"黄<br>キミといっしょにお出かけ<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD07-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-004_U.png", //SRC
+		"不知火フレア", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #ハーフエルフ", //TAG
+		"U", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"黄", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"黄<br>ワンダフルライフ<br>30+<br>自分の手札の枚数が相手より少ない時、このアーツ+10。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD07-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-005_C.png", //SRC
+		"不知火フレア", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #ハーフエルフ", //TAG
+		"C", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"黄", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"黄<br>私からキミへ<br>30", //ART1
+		"黄◇<br>キミとティータイム<br>50", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD07-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-006_C.png", //SRC
+		"不知火フレア", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #ハーフエルフ", //TAG
+		"C", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"黄", //COLOR
+		"120", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>エルフレンドのさえずり<br>自分のデッキから、〈エルフレンド〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>キミを1番好きなのはわたしぃ~♡<br>30+<br>自分のライフが3以下の時、このアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD07-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-007_U.png", //SRC
+		"不知火フレア", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #ハーフエルフ", //TAG
+		"U", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"黄", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>また一つ成長した私を<br>[バックポジション限定]自分の残りHP70以下のコラボホロメンとこのホロメンを交代できる。", //KEYWORD
+		"黄◇<br>キミに見てほしいな!<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD07-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-008_R.png", //SRC
+		"不知火フレア", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #ハーフエルフ", //TAG
+		"R", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"黄", //COLOR
+		"250", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"黄◇<br>エルフレパーティー<br>50<br>自分のアーカイブの〈エルフレンド〉1枚をこのホロメンに付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD07-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-009_RR.png", //SRC
+		"不知火フレア", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #ハーフエルフ", //TAG
+		"RR", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"黄", //COLOR
+		"180", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>疲れ知らず<br>[センターポジション限定]このホロメンが受けるダメージ-10。", //KEYWORD
+		"黄◇◇<br>情熱ステージ<br>70+赤+50<br>自分のライフが3以下の時、このアーツ+70。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD07-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-010_U.png", //SRC
+		"白銀ノエル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #お酒", //TAG
+		"U", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"白", //COLOR
+		"70", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>大物の確証<br>このターンの間、自分のセンターホロメンのアーツ+10。", //KEYWORD
+		"◇<br>いっぱい建築したいです<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD07-011", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-011_U.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"赤", //COLOR
+		"60", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>バーニン♪ バーニン♪<br>相手のセンターホロメンに特殊ダメージ10を与える。", //KEYWORD
+		"◇<br>魔王軍は無くなりました<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD07-012", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-012_U.png", //SRC
+		"尾丸ポルカ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ケモミミ", //TAG
+		"U", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"赤", //COLOR
+		"50", //HP
+		"Debut", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>僕らに水を<br>自分のセンターホロメンが〈不知火フレア〉の時、自分の手札の枚数が相手より少なければ、自分のデッキを1枚引く。", //KEYWORD
+		"◇<br>骨を埋める覚悟<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD07-013", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-013_U.png", //SRC
+		"星街すいせい", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"U", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"青", //COLOR
+		"70", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ご飯が底をつきそう……<br>自分のセンターホロメンが〈不知火フレア〉の時、自分のアーカイブのエール1枚を、このホロメン以外の自分のホロメンに送れる。", //KEYWORD
+		"◇<br>雇ってください‼<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD07-014", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-014_U.png", //SRC
+		"不知火建設", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。<br><br>自分のデッキの上から4枚を見る。その中から、〈不知火フレア〉と〈尾丸ポルカ〉と〈さくらみこ〉と〈星街すいせい〉と〈白銀ノエル〉を好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD07-015", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hSD07-015_C.png", //SRC
+		"エルフレンド", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このファンが付いているホロメンのHP+10。<br><br>このファンは、自分の〈不知火フレア〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-104_C.png", //SRC
+		"ふつうのパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-016", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-016_C.png", //SRC
+		"春先のどか", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-017_C.png", //SRC
+		"マネちゃん", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに1枚以上なければ使えない。<br><br>自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを5枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-018", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-018_C.png", //SRC
+		"サブパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキの上から5枚を見る。その中から、LIMITEDのサポートカード1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY06-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hY06-001_C.png", //SRC
+		"黄エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 黄 不知火フレア", //PRODUCT
+		"黄", //COLOR
 		"", //HP
 		"", //LEVEL
 		"", //BATON
