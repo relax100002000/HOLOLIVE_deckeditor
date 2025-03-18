@@ -7389,7 +7389,7 @@ var cardData = [
 		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-077_C.png", //SRC
 		"レトロパソコン", //NAME
 		"サポート", //TYPE
-		"", //TYPE2
+		"アイテム", //TYPE2
 		"", //TAG
 		"C", //RARE
 		"ブースターパック「クインテットスペクトラム」", //PRODUCT
