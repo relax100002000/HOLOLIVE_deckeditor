@@ -9567,5 +9567,2861 @@ var cardData = [
 		"", //ART5
 		"", //EXTRA
 		"" //BAN
+		],
+	[
+		"hBP03-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-001_OSR.png", //SRC
+		"姫森ルーナ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"白", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>パソコンならわかるのら<br>[ターンに1回]自分のデッキから、カード名に「パソコン」を含むアイテム1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SKILL
+		"[ホロパワー:-2]<br>ルーナイト集合<br>[ゲームに1回]自分のセンターホロメンが〈姫森ルーナ〉の時に使える:自分のデッキから、〈ルーナイト〉1~4枚を公開し、自分のホロメンに割り振って付ける。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-002_OSR.png", //SRC
+		"獅白ぼたん", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"緑", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>poi<br>[ターンに1回]自分のアーカイブのエール1枚を、自分のバックホロメンの〈獅白ぼたん〉に送る。", //SKILL
+		"[ホロパワー:-2]<br>狙撃<br>[ゲームに1回]自分のセンターホロメンの色が緑の時に使える:相手のDebut以外のセンターホロメンに特殊ダメージ100を与える。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-003_OSR.png", //SRC
+		"さくらみこ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>35P帰ってくるのかッ!?って!<br>[ターンに1回]サイコロを1回振れる:1か2か4か6の時、自分のアーカイブの〈35P〉1枚を手札に戻す。3か5の時、自分のアーカイブの〈35P〉2枚を手札に戻す。", //SKILL
+		"[ホロパワー:-2]<br>あきらめない心にぇ<br>[ゲームに1回]自分のセンターホロメンの色が赤の時に使える:自分の手札を好きな枚数選んで好きな順でデッキの下に戻す。そして手札が5枚になるまで、自分のデッキを引く。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-004_OSR.png", //SRC
+		"FUWAMOCO", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"青", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-3]<br>モコちゃん!<br>[ターンに1回]自分のエールデッキの上から1枚を、自分の1stホロメンの〈モココ・アビスガード〉に送る。", //SKILL
+		"[ホロパワー:-2]<br>BAU BAU!<br>[ゲームに1回]自分の#Adventを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツは、相手のバックホロメンも対象にできる。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-005_OSR.png", //SRC
+		"常闇トワ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"紫", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>デビルズヴォイス<br>[ターンに1回]このターンの間、自分の#歌を持つ[センターホロメンとコラボホロメン]のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>悪魔的所業<br>[ゲームに1回]相手のターンで、自分の〈常闇トワ〉がダウンした時に使える:相手のセンターホロメンとコラボホロメンのエール2枚ずつを好きな順でエールデッキの下に戻す。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-006_OSR.png", //SRC
+		"戌神ころね", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"6", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>無限の体力<br>[ターンに1回]自分のお休みしている〈戌神ころね〉1人をアクティブにする。", //SKILL
+		"[ホロパワー:-3]<br>ウォウウォウウォウウォウ<br>[ゲームに1回]自分の黄ホロメンがダウンした時に使える:そのホロメンのエール1枚を自分の他のホロメンに付け替え、そのダウンしたホロメンを含め重なっているホロメンの中から1枚を手札に戻す。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-007_OSR.png", //SRC
+		"角巻わため", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>Member sheep いらっしゃい!<br>[ターンに1回]自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SKILL
+		"[ホロパワー:-2]<br>わためは悪くないよねぇ?<br>[ゲームに1回]自分のエールデッキの上から2枚を、自分の〈角巻わため〉1人に送る。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-008_OSR.png", //SRC
+		"アユンダ・リス", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>ホロライブID一家<br>[ターンに1回]自分の#ID1期生を持つホロメンがダウンした時に使える:自分のデッキを1枚引く。", //SKILL
+		"[ホロパワー:-2]<br>がんばり~リス!<br>[ゲームに1回]このターンの間、自分のステージの〈アユンダ・リス〉全員のアーツ+50。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-009_C.png", //SRC
+		"姫森ルーナ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ベイビー", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"白", //COLOR
+		"90", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>みんな~、おりゅ~?<br>10<br>自分の〈ルーナイト〉が付いているホロメンがいない時、自分のデッキから、〈ルーナイト〉1枚を公開し、自分のホロメンに付ける。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-010_U.png", //SRC
+		"姫森ルーナ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ベイビー", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"白", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>お菓子の国のお姫様<br>自分のセンターホロメンが〈姫森ルーナ〉の時、自分のデッキを1枚引く。", //KEYWORD
+		"白<br>お菓子たべるのら?<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-011", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-011_C.png", //SRC
+		"姫森ルーナ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ベイビー", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"白", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"白<br>おつルーナ<br>40", //ART1
+		"白◇<br>ぐっどないと~<br>60", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-012", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-012_U.png", //SRC
+		"姫森ルーナ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ベイビー", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"白", //COLOR
+		"120", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>一緒に最高のライブにしようね<br>このターンの間、自分のファンが付いているホロメン1人のアーツ+20。", //KEYWORD
+		"白◇<br>約束なのら!<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-013", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-013_R.png", //SRC
+		"姫森ルーナ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ベイビー", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"白", //COLOR
+		"110", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>んなたんと一緒に、宇宙に行くのら~!<br>[コラボポジション限定]自分のファンが付いているセンターホロメンの〈姫森ルーナ〉のアーツ+20。", //KEYWORD
+		"白<br>ムーンギャラクシー<br>20<br>自分のアーカイブの〈ルーナイト〉1枚を自分の〈姫森ルーナ〉に付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-014", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-014_RR.png", //SRC
+		"姫森ルーナ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ベイビー", //TAG
+		"RR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"白", //COLOR
+		"180", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ルーナについてくるのら~<br>自分の推しホロメンが〈姫森ルーナ〉の時、自分のアーカイブの〈ルーナイト〉1枚を自分の〈姫森ルーナ〉に付けられる。", //KEYWORD
+		"白白◇<br>お疲れ様なのらね<br>100+紫+50<br>このホロメンに〈ルーナイト〉が付いている時、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-015", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-015_RR.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"RR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"白", //COLOR
+		"190", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>メランコリャック<br>[センターポジション限定]自分の#ReGLOSSを持つコラボホロメンが受けるダメージ-20。", //KEYWORD
+		"白◇◇<br>これが番長の実力ってやつよ<br>110+赤+50<br>自分の#ReGLOSSを持つバックホロメンが4人以上いる時、このホロメンのアーツ+40。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-016", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-016_C.png", //SRC
+		"獅白ぼたん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ケモミミ #シューター", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"緑", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>ららーいおん♪<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-017_U.png", //SRC
+		"獅白ぼたん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ケモミミ #シューター", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"緑", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>プリペア<br>自分の推しホロメンが〈獅白ぼたん〉の時、自分のエールデッキの上から1枚をアーカイブできる:自分のホロメン1人のHP10回復。", //KEYWORD
+		"緑<br>ぼ。<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-018", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-018_C.png", //SRC
+		"獅白ぼたん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ケモミミ #シューター", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"緑", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"緑<br>ぼたんがアイドルになったら…<br>40", //ART1
+		"緑◇<br>絶対、ドキドキさせるから<br>60", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-019", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-019_U.png", //SRC
+		"獅白ぼたん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ケモミミ #シューター", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"緑", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>歌う事は楽しい事<br>自分のバックホロメンのエール1枚をアーカイブできる:相手のセンターホロメンかコラボホロメンに特殊ダメージ30を与える。自分のブルームエフェクト「歌う事は楽しい事」はターンに1回しか使えない。", //KEYWORD
+		"◇<br>じゅるり<br>30<br>自分の手札の〈角巻わため〉1枚を公開し、デッキの下に戻せる:このホロメンのHP20回復。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-020", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-020_R.png", //SRC
+		"獅白ぼたん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ケモミミ #シューター", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"緑", //COLOR
+		"110", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>SSSSR<br>自分のエールデッキの上から1枚を、自分のバックホロメンの〈獅白ぼたん〉に送る。", //KEYWORD
+		"緑◇<br>ショッピングカートで来た<br>50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-021", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-021_RR.png", //SRC
+		"獅白ぼたん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ケモミミ #シューター", //TAG
+		"RR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"緑", //COLOR
+		"190", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>なんとかしてくれる獅白ぼたん<br>自分のアーカイブの緑エール1枚ずつを、自分の#シューターを持つバックホロメン1~2人に送れる。", //KEYWORD
+		"緑◇◇<br>神エイム<br>110青+50<br>自分の推しホロメンが〈獅白ぼたん〉の時、自分のバックホロメンのエール1枚をアーカイブできる:相手のセンターホロメンかコラボホロメンに特殊ダメージ40を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-022", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-022_R.png", //SRC
+		"アキ・ローゼンタール", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #ハーフエルフ #お酒", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"緑", //COLOR
+		"250", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>異国の世界の姿<br>[センターポジション・コラボポジション限定]相手のパフォーマンスステップが開始する時に使える:このターンの間、自分のライフは相手の能力で減らない。", //KEYWORD
+		"緑緑<br>情熱のベリーダンサー<br>50<br>自分の推しホロメンが〈アキ・ローゼンタール〉の時、自分のツールが付いているホロメン全員のHP10回復。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-023", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-023_R.png", //SRC
+		"兎田ぺこら", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #ケモミミ", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"緑", //COLOR
+		"230", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>あんたたちぃ<br>サイコロを1回振れる:偶数の時、自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"緑◇◇<br>カードするぺこ<br>80+<br>このターンに自分の〈兎田ぺこら〉の能力でサイコロを1回以上振っていた時、このアーツ+40。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-024", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-024_RR.png", //SRC
+		"風真いろは", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX", //TAG
+		"RR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"緑", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>風真が護る<br>自分のアーカイブのエール1枚ずつを、自分の[〈風真いろは〉と〈星街すいせい〉]1人ずつに送れる。", //KEYWORD
+		"緑◇◇◇<br>風真が斬る<br>100+白+50<br>このホロメンに緑以外のエールが2枚以上付いている時、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-025", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-025_C.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>にゃっはろ~<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-026", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-026_U.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>君と待ち合わせ<br>サイコロを1回振れる:2か4か6の時、相手のセンターホロメンに特殊ダメージ10を与える。3か5の時、自分のデッキを1枚引き、相手のセンターホロメンに特殊ダメージ10を与える。", //KEYWORD
+		"赤◇<br>さくらの季節<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-027", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-027_C.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>エリートな水着<br>40", //ART1
+		"赤◇<br>ぷにち<br>60", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-028", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-028_U.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>応援頼んだぞ<br>30", //ART1
+		"赤◇<br>みこぴー!(｀・ω・´)🌸<br>50<br>サイコロを1回振れる:2か4か6の時、相手のセンターホロメンに特殊ダメージ20を与える。3か5の時、相手のセンターホロメンとコラボホロメンに特殊ダメージ20を与える。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-029", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-029_R.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>にぇ<br>自分のデッキから、〈35P〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"赤◇<br>35Pと記念写真<br>30+<br>このホロメンに〈35P〉が付いている時、このアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-030", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-030_RR.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"RR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>エリートギャンブル<br>[センターポジション限定][ターンに1回]自分のメインステップで、このホロメンに〈35P〉が付いている時、サイコロを1回振れる:3か5の時、このターンの間、このホロメンのアーツ+50。", //KEYWORD
+		"赤◇◇<br>エリート巫女<br>120+緑+50<br>このホロメンに付いている〈35P〉1枚につき、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-031", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-031_C.png", //SRC
+		"赤井はあと", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #料理", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>おはるーじゅ!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-032", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-032_C.png", //SRC
+		"赤井はあと", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #料理", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"赤◇<br>おつるーじゅ!<br>60", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-033", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-033_U.png", //SRC
+		"赤井はあと", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #料理", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"120", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>全力でいくぞおおお!<br>相手のセンターホロメンに特殊ダメージ10を与える。その相手のセンターホロメンにツールが付いている時、かわりに、相手のセンターホロメンに特殊ダメージ30を与える。", //KEYWORD
+		"◇<br>はあちゃまっちゃま~!<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-034", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-034_RR.png", //SRC
+		"赤井はあと", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #料理", //TAG
+		"RR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"240", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>もう1人のはあと<br>自分のアーカイブの#1期生を持つBuzz以外の[1stホロメンか2ndホロメン]1枚を手札に戻せる。", //KEYWORD
+		"赤◇<br>レッド オア ルージュ<br>40+<br>サイコロを1回振れる:奇数の時、相手のセンターホロメンとコラボホロメンに特殊ダメージ20を与える。偶数の時、このアーツ+40。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-035", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-035_R.png", //SRC
+		"鷹嶺ルイ", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #トリ #お酒", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"240", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"赤◇<br>challenger<br>50<br>自分の推しホロメンが〈鷹嶺ルイ〉の時、自分の手札2枚をアーカイブできる:自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-036", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-036_R.png", //SRC
+		"小鳥遊キアラ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Myth #トリ", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ハッピータイム<br>自分のデッキから、〈小鳥遊キアラ〉1~4枚を公開し、アーカイブできる。そしてデッキをシャッフルする。", //KEYWORD
+		"赤◇<br>鋼の翼<br>50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-037", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-037_C.png", //SRC
+		"モココ・アビスガード", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ケモミミ", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>フワワじゃないよ、モココだよ<br>20<br>このアーツは、自分のセンターホロメンが〈フワワ・アビスガード〉の時、エール1枚を必要とせずに使える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-038", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-038_C.png", //SRC
+		"モココ・アビスガード", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ケモミミ", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>遊びの時間だー!<br>DebutからBloomした時、自分のデッキから、1stホロメンの〈フワワ・アビスガード〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>モココとドーナツクッキング<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-039", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-039_R.png", //SRC
+		"モココ・アビスガード", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ケモミミ", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"240", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>魔界乃番犬の暴れん坊<br>自分のリセットステップで、自分のセンターホロメンが〈フワワ・アビスガード〉の時、このホロメンはバックポジションに移動してもお休みしない。", //KEYWORD
+		"赤青<br>もこもこしてる方<br>50+<br>[コラボポジション限定]自分のセンターホロメンが〈フワワ・アビスガード〉の時、このアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-040", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-040_C.png", //SRC
+		"フワワ・アビスガード", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ケモミミ", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"青", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>チワワじゃないよ、フワワだよ<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-041", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-041_C.png", //SRC
+		"フワワ・アビスガード", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ケモミミ", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"青", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>魔界乃番犬のまとめ役<br>40", //ART1
+		"青◇<br>ふわふわしてる方<br>60", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-042", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-042_U.png", //SRC
+		"フワワ・アビスガード", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ケモミミ", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"青", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>フワ花流水<br>自分のステージに〈モココ・アビスガード〉がいる時、相手のセンターホロメンかバックホロメン1人に特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。", //KEYWORD
+		"◇◇<br>フワワと森のお散歩<br>50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-043", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-043_RR.png", //SRC
+		"フワワ・アビスガード", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ケモミミ", //TAG
+		"RR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"青", //COLOR
+		"190", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"青<br>ドーナツ大好き<br>60紫+50", //ART1
+		"青赤◇<br>一緒に食べる?<br>100紫+50<br>[センターポジション限定]自分の推しホロメンが〈FUWAMOCO〉の時、このホロメンのエール1枚を、自分の〈モココ・アビスガード〉に付け替えられる:相手のセンターホロメンに特殊ダメージ50を与える。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-044", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-044_R.png", //SRC
+		"星街すいせい", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"青", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>プラネットステージ<br>自分のデッキの上から4枚を見る。その中から、〈星街すいせい〉1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"青◇<br>バーチャルゴースト<br>40<br>自分の推しホロメンが〈星街すいせい〉の時、このホロメンの青エール1枚を、自分のバックホロメンの〈星街すいせい〉に付け替えられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-045", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-045_R.png", //SRC
+		"こぼ・かなえる", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"青", //COLOR
+		"230", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ブルーレイン<br>自分の#IDを持つホロメンのエール1枚をアーカイブできる:相手のバックホロメンに特殊ダメージ30を10ずつ割り振って与える。ただし、ダウンしても相手のライフは減らない。", //KEYWORD
+		"青◇<br>元気いっぱい!<br>40+<br>相手のHPが減っているバックホロメン1人につき、このアーツ+10。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-046", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-046_C.png", //SRC
+		"火威青", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #絵", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"青", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>可愛い女の子かと思った?<br>10", //ART1
+		"◇◇<br>じゃじゃーん! 青くんでした。<br>40", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-047", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-047_C.png", //SRC
+		"火威青", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #絵", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"青", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"青◇<br>アフタヌーンティーデートのその後に…<br>60", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-048", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-048_U.png", //SRC
+		"火威青", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #絵", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"青", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>僕、カッコいいでしょ?<br>30", //ART1
+		"◇◇<br>ReGLOSSのボーイッシュ担当<br>40<br>このホロメンのエール1枚を、自分の#ReGLOSSを持つバックホロメンに付け替えられる。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-049", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-049_R.png", //SRC
+		"火威青", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #絵", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"青", //COLOR
+		"230", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>困ったお姫様たちだね<br>自分のエールデッキから、自分の#ReGLOSSを持つセンターホロメンと同色のエール1枚を公開し、自分の#ReGLOSSを持つホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
+		"青◇◇<br>イケメンにお任せを<br>50<br>相手のセンターホロメンかバックホロメン1人どちらかに、自分の異なるカード名の#ReGLOSSを持つバックホロメン1人につき、特殊ダメージ10を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-050", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-050_R.png", //SRC
+		"FUWAMOCO", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ケモミミ", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"青赤", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇◇<br>魔界乃番犬シスターズ<br>40<br>自分のエールデッキから、[赤エールか青エール]1枚を公開し、自分の#Adventを持つホロメンに送る。そしてエールデッキをシャッフルする。", //ART1
+		"青赤<br>2人揃ってFUWAMOCOです!<br>60", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-051", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-051_C.png", //SRC
+		"常闇トワ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #歌 #シューター", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"紫", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>こんやっぴー<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-052", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-052_U.png", //SRC
+		"常闇トワ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #歌 #シューター", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"紫", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"紫<br>そういう感じなんだ<br>20<br>相手のセンターホロメンに特殊ダメージ10を与える。その後、自分の推しホロメンが〈常闇トワ〉の時、相手の[センターホロメンかコラボホロメン]に付いているツール1枚をアーカイブできる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-053", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-053_C.png", //SRC
+		"常闇トワ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #歌 #シューター", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"紫", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>おつやっぴー<br>30", //ART1
+		"紫◇<br>きゅりん<br>60", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-054", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-054_U.png", //SRC
+		"常闇トワ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #歌 #シューター", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"紫", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>トワにしか出せない色<br>相手のセンターホロメンかコラボホロメンに特殊ダメージ20を与える。", //KEYWORD
+		"◇<br>大爆発させちゃうぜ!<br>30<br>このホロメンの紫エール4枚をアーカイブできる:相手のステージのエール1枚をエールデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-055", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-055_R.png", //SRC
+		"常闇トワ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #歌 #シューター", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"紫", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"紫<br>トワとお家デートしたっていい<br>40", //ART1
+		"紫◇<br>てんQ<br>50<br>自分の#歌を持つバックホロメンがいる時、相手のコラボホロメンに特殊ダメージ20を与える。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-056", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-056_RR.png", //SRC
+		"常闇トワ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #歌 #シューター", //TAG
+		"RR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"紫", //COLOR
+		"190", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"紫<br>私を縛る固定概念を壊せ<br>30黄+50<br>相手のセンターホロメンかコラボホロメンに特殊ダメージ30を与える。", //ART1
+		"紫紫◇<br>Break your ×××<br>80黄+50<br>相手のセンターホロメンかコラボホロメンどちらかに、自分の#歌を持つバックホロメン1人につき、特殊ダメージ20を与える。ただし、数える人数は4人まで。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-057", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-057_C.png", //SRC
+		"ロボ子さん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #シューター", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"紫", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>はろーぼー!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-058", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-058_C.png", //SRC
+		"ロボ子さん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #シューター", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"紫", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>おつろぼー<br>30", //ART1
+		"紫◇<br>いちゃあま彼女<br>60", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-059", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-059_U.png", //SRC
+		"ロボ子さん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #シューター", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"紫", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>PONしたらその分<br>自分のデッキの上から3枚を見る。その中から、#0期生を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"◇<br>笑顔になーーれっ<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-060", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-060_R.png", //SRC
+		"ロボ子さん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #シューター", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"紫", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>自称【高性能】<br>70+緑+50<br>相手のステージにエールが7枚以上ある時、このアーツ+70。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-061", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-061_C.png", //SRC
+		"戌神ころね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>ぉぁよ~<br>20", //ART1
+		"◇◇◇<br>ゆびゆび~<br>60", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-062", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-062_U.png", //SRC
+		"戌神ころね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ころねダイナー<br>このホロメンのエール1枚をアーカイブできる:自分のデッキから、#ゲーマーズを持つDebutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"黄<br>ご注文はこれだでな<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-063", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-063_C.png", //SRC
+		"戌神ころね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"200", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"黄<br>おつころ~ん<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-064", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-064_U.png", //SRC
+		"戌神ころね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"黄◇<br>ぶるぁあああああ!!!!!!!!!!!!!!<br>40+<br>自分の初期ライフから減っているライフ1につき、このアーツ+10。", //ART1
+		"◇◇◇<br>おーしぇーい<br>70", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-065", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-065_R.png", //SRC
+		"戌神ころね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>ボクシングスタイル<br>[コラボポジション限定]相手のメインステップの間、自分のセンターホロメンの〈戌神ころね〉のHPは相手の能力で減らず、変動しない。", //KEYWORD
+		"◇◇<br>ほらよ~<br>30<br>自分のエールデッキの上から1枚を、自分の#ゲーマーズを持つホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-066", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-066_RR.png", //SRC
+		"戌神ころね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ", //TAG
+		"RR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>わんだふぉ~♡<br>このホロメンがダウンした時、自分のエールデッキの上から1枚を自分の〈戌神ころね〉に送る。", //KEYWORD
+		"黄黄◇<br>最凶天災<br>120+白+50<br>このアーツの対象が相手の2ndホロメンの時、このホロメンに重なっている1stホロメン1枚をアーカイブできる:このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-067", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-067_C.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>こんばんドドド~!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-068", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-068_U.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"90", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"黄<br>わためのうた<br>20<br>自分の〈わためいと〉が付いているホロメンがいる時、自分のアーカイブのエール1枚を自分の黄ホロメンに送れる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-069", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-069_C.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"190", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"黄<br>癒しのひととき<br>30", //ART1
+		"◇◇◇<br>応援してくれるよねぇ?<br>90", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-070", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-070_U.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>めいっぱい歌って踊ります!<br>自分のステージのホロメンが5人以下の時、自分のデッキから、Debutホロメンの〈角巻わため〉1枚を公開し、ステージに出せる。そしてデッキをシャッフルする。", //KEYWORD
+		"◇◇<br>最後まで見ててね、わためいと!<br>30<br>自分のエールデッキの上から1枚を、自分のバックホロメンの〈角巻わため〉に送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-071", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-071_R.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>Member sheep おかえり~<br>自分のアーカイブの〈わためいと〉1枚を手札に戻せる。", //KEYWORD
+		"黄◇<br>つのまきじゃんけん<br>50<br>相手と勝敗が決まるまでじゃんけんできる:自分が勝った時、このターンの間、このホロメンは赤特攻+30を得る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-072", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-072_RR.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"RR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>まだまだいくよー!<br>このホロメンがダウンした時、このホロメンのエール1枚を、自分の他の〈角巻わため〉に付け替えられる。", //KEYWORD
+		"黄◇◇<br>わためぇ Night Fever!!<br>80+青+50<br>[センターポジション限定]このホロメンにエールが6枚以上付いている時、このターンの間、このホロメンと自分のコラボホロメンのアーツ+100。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-073", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-073_C.png", //SRC
+		"アユンダ・リス", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #ケモミミ #歌", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>こんリス<br>20", //ART1
+		"◇◇◇<br>ぷるぷる~<br>60<br>このホロメンのエール1枚を、自分の〈戌神ころね〉に付け替えられる。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-074", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-074_U.png", //SRC
+		"アユンダ・リス", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #ケモミミ #歌", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>繋がる願い<br>20+<br>■自分のステージに〈アイラニ・イオフィフティーン〉がいる時、このアーツ+10。<br>■自分のステージに〈ムーナ･ホシノヴァ〉がいる時、このアーツ+10。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-075", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-075_C.png", //SRC
+		"アユンダ・リス", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #ケモミミ #歌", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>おつリスー<br>30", //ART1
+		"黄◇◇<br>おやすみの思い出<br>70", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-076", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-076_U.png", //SRC
+		"アユンダ・リス", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #ケモミミ #歌", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>いやっほー! みんな元気?<br>自分のエールデッキから、[緑エールか黄エール]1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
+		"◇<br>ぷるぷる、おつリス!!!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-077", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-077_R.png", //SRC
+		"アユンダ・リス", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #ケモミミ #歌", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>同期の絆<br>自分のステージのホロメンが5人以下の時、自分のデッキから、#ID1期生を持つDebutホロメン1枚を公開し、ステージに出せる。そしてデッキをシャッフルする。", //KEYWORD
+		"黄◇<br>ナッツ<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-078", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-078_RR.png", //SRC
+		"アユンダ・リス", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #ケモミミ #歌", //TAG
+		"RR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"190", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>マジカルサポート<br>自分の#ID1期生を持つホロメンのエール1枚を、自分の他のホロメンに付け替えられる。", //KEYWORD
+		"黄◇◇<br>魔法の森のリスの女の子<br>50+青+50<br>■このホロメンに緑エールが付いている時、このアーツ+50。<br>■このホロメンに青エールが付いている時、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-079", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-079_RR.png", //SRC
+		"不知火フレア", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #ハーフエルフ", //TAG
+		"RR", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"240", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>今日はステキな日<br>自分のエールデッキから、黄エール1枚を公開し、このホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
+		"黄◇<br>サンライズエール<br>50+<br>このホロメンにエールが3枚以上付いている時、このアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-080", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-080_C.png", //SRC
+		"音乃瀬奏", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #歌", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>ドレミファソラシド~!<br>20", //ART1
+		"◇◇◇<br>音楽家の卵! 音乃瀬~奏で~~~す!<br>50", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-081", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-081_C.png", //SRC
+		"音乃瀬奏", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #歌", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"180", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>明日は月曜日~っ♪<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-082", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-082_U.png", //SRC
+		"音乃瀬奏", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #歌", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ここが私のステージだから!<br>自分のステージのエール1~2枚を、このホロメンに付け替えられる。", //KEYWORD
+		"黄◇◇<br>ぷにぷにじゃないっ<br>60", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-083", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-083_R.png", //SRC
+		"音乃瀬奏", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #歌", //TAG
+		"R", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"250", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>なんちゅーこった<br>相手のパフォーマンスステップが終了する時、そのパフォーマンスステップに自分のライフが減っていたら、自分のアーカイブのエール1枚をこのホロメンに送れる。", //KEYWORD
+		"黄◇◇◇<br>歌姫 音乃瀬奏さん<br>120", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-084", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-084_U.png", //SRC
+		"ゴージャスパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のホロパワー1枚をアーカイブしなければ使えない。<br><br>自分のデッキから、自分の推しホロメンと同色の1stホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-085", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-085_U.png", //SRC
+		"スーパーパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキの上から4枚を見る。その中から、[Debutホロメンと1stホロメン]1枚ずつを公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-086", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-086_C.png", //SRC
+		"デュアルモニターパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、エクストラ「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン1~2枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-087", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-087_C.png", //SRC
+		"コールアンドレスポンス", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のステージのエール1枚を、自分のホロメンに付け替える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-088", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-088_U.png", //SRC
+		"凸待ち", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のライフが相手より少ない時にしか使えない。<br><br>相手のコラボホロメンがいない時、相手は、自身のバックホロメン1人をコラボポジションに移動させる(移動はコラボとしては扱わない)。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-089", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-089_U.png", //SRC
+		"ファンミーティング", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-090", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-090_U.png", //SRC
+		"ホロライブ言えるかな?", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキの上から4枚を見る。その中から、Debutホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-091", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-091_U.png", //SRC
+		"ホロライブインドネシア1期生", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。<br><br>自分のデッキの上から4枚を見る。その中から、#ID1期生を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-092", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-092_U.png", //SRC
+		"ホロライブ0期生", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。<br><br>自分のデッキの上から4枚を見る。その中から、#0期生を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-093", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-093_U.png", //SRC
+		"ホロライブ4期生", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。<br><br>自分のデッキの上から4枚を見る。その中から、#4期生を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-094", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-094_U.png", //SRC
+		"FPS配信", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。<br><br>自分のデッキの上から4枚を見る。その中から、#シューターを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-095", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-095_C.png", //SRC
+		"ホロキャップ", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◆DebutホロメンかSpotホロメンに付いていたら能力追加<br>■このツールが付いているホロメンのHP+30。<br>■このツールが付いているホロメンは相手から特殊ダメージを受けない。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-096", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-096_U.png", //SRC
+		"ライフル", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いているホロメンのアーツ+10。<br><br>◆#シューターを持つ1st以上のホロメンに付いていたら能力追加<br>このツールが付いているホロメンが、相手のホロメン1人に与える特殊ダメージ+10。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-097", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-097_C.png", //SRC
+		"リコーダー", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いているホロメンのアーツ+10。<br><br>◆1st以上の〈音乃瀬奏〉に付いていたら能力追加<br>このツールが付いているホロメンが相手のホロメンをダウンさせた時、自分のデッキを1枚引く。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-098", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-098_U.png", //SRC
+		"金時", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのHP+20。<br><br>◆〈さくらみこ〉に付いていたら能力追加<br>このマスコットが付いているホロメンがコラボした時、自分のデッキを1枚引く。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-099", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-099_C.png", //SRC
+		"マグチ", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのアーツ+10。<br><br>◆〈さくらみこ〉に付いていたら能力追加<br>このマスコットが付いているホロメンがコラボした時、このターンの間、自分のセンターホロメンの〈さくらみこ〉のアーツ+10。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-100", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-100_C.png", //SRC
+		"ペロ", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのHP+20。<br><br>◆〈フワワ・アビスガード〉か〈モココ・アビスガード〉に付いていたら能力追加<br>このマスコットが付いているホロメンのアーツに必要なエールの色すべてを◇にする。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-101", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-101_C.png", //SRC
+		"ビビ", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのHP+20。<br><br>◆〈常闇トワ〉に付いていたら能力追加<br>このマスコットが付いているホロメンが、相手のホロメン1人に与える特殊ダメージ+10。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-102", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-102_U.png", //SRC
+		"フトイヌ", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのアーツ+10。<br><br>◆〈戌神ころね〉に付いていたら能力追加<br>このマスコットが付いているホロメンがコラボした時、自分のアーカイブの黄エール1枚をこのホロメンに送れる。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-103", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-103_C.png", //SRC
+		"ホソイヌ", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのアーツ+10。<br><br>◆〈戌神ころね〉に付いていたら能力追加<br>このマスコットが付いているホロメンがダウンした時、自分のホロパワー1枚をアーカイブできる:このマスコットを手札に戻す。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-104_C.png", //SRC
+		"Riscot", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのアーツ+10。<br><br>◆〈アユンダ・リス〉に付いていたら能力追加<br>このマスコットが付いているホロメンがコラボした時、自分のステージのエール1枚を、このホロメンに付け替えられる。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-105", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-105_U.png", //SRC
+		"ルーナイト", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"相手のターンで、このファンが付いているホロメンがダメージを受ける時、このファンをアーカイブできる:このファンが付いていたホロメンの受けるダメージ-30。<br><br>このファンは、自分の〈姫森ルーナ〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-106", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-106_C.png", //SRC
+		"SSRB", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このファンが付いているホロメンの能力でエールをアーカイブする時、アーカイブするエール1枚のかわりに、このファンをアーカイブできる。<br><br>このファンは、自分の〈獅白ぼたん〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-107", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-107_U.png", //SRC
+		"35P", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■このファンが付いているホロメンがアーツを使う時、このファンを赤エールとしても扱う。<br>■このファンが付いているホロメンがダウンした時、相手は、自身のデッキを1枚引ける。<br><br>このファンは、自分の〈さくらみこ〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-108", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-108_C.png", //SRC
+		"はあとん", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"#白上'sキャラクター", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このファンが付いているホロメンが能力でサイコロを振った時、このファンをアーカイブできる:そのサイコロの結果をすべて無くし、はじめからサイコロを振り直す。<br><br>このファンは、自分の〈赤井はあと〉だけに付けられ、1人につき何枚でも付けられる", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-109", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-109_C.png", //SRC
+		"Ruffians", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"相手のターンで、このファンが付いているホロメンがダウンした時、自分のアーカイブの青エール1枚を、自分の〈フワワ・アビスガード〉に送れる。<br><br>このファンは、自分の〈フワワ・アビスガード〉か〈モココ・アビスガード〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-110", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-110_U.png", //SRC
+		"ろぼさー", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■このファンが付いているホロメンがアーツを使う時、このファンを紫エールとしても扱う。<br>■このファンが付いているホロメンのアーツ-10。<br><br>このファンは、自分の〈ロボ子さん〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-111", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-111_C.png", //SRC
+		"ころねすきー", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このファンが付いているホロメンのバトンタッチに必要な◇-1。<br><br>このファンは、自分の〈戌神ころね〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-112", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-112_U.png", //SRC
+		"わためいと", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"相手のターンで、このファンが付いているホロメンがダウンした時、このホロメンの黄エール1~2枚を、自分の他の〈角巻わため〉1人に付け替えられる。<br><br>このファンは、自分の〈角巻わため〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-113", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-113_C.png", //SRC
+		"Risuners", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"[ターンに1回]このファンが付いているホロメンにエールが付いた時、このターンの間、このホロメンのアーツ+10。<br><br>このファンは、自分の〈アユンダ・リス〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY01-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY01-001_C.png", //SRC
+		"白エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"白", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY02-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY02-001_C.png", //SRC
+		"緑エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"緑", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY03-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY03-001_C.png", //SRC
+		"赤エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"赤", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY04-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY04-001_C.png", //SRC
+		"青エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"青", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY05-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY05-001_C.png", //SRC
+		"紫エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"紫", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY06-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hY06-001_C.png", //SRC
+		"黄エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「エリートスパーク」", //PRODUCT
+		"黄", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
 		]
 	]

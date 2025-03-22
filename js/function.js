@@ -188,6 +188,30 @@ function onmouseShow(x, source)
 	}
 }
 
+function effect_to_img(x)
+{
+	x = x.replace(/コラボエフェクト/g, "<img class='icon_img' src='img/collabEF.png'></img>");
+	x = x.replace(/ブルームエフェクト/g, "<img class='icon_img' src='img/bloomEF.png'></img>");
+	x = x.replace(/ギフト/g, "<img class='icon_img' src='img/gift.png'></img>");
+
+	x = x.replace(/白エール/g, "<img class='icon_img' src='img/arts_white.png'></img>エール");
+	x = x.replace(/緑エール/g, "<img class='icon_img' src='img/arts_green.png'></img>エール");
+	x = x.replace(/赤エール/g, "<img class='icon_img' src='img/arts_red.png'></img>エール");
+	x = x.replace(/青エール/g, "<img class='icon_img' src='img/arts_blue.png'></img>エール");
+	x = x.replace(/紫エール/g, "<img class='icon_img' src='img/arts_purple.png'></img>エール");
+	x = x.replace(/黄エール/g, "<img class='icon_img' src='img/arts_yellow.png'></img>エール");
+	x = x.replace(/◇/g, "<img class='icon_img' src='img/arts_null.png'></img>");
+
+	x = x.replace(/推しスキル/g, "<img class='icon_img' src='img/skill.png'></img>");
+	x = x.replace(/推しスキル/g, "<img class='icon_img' src='img/SPskill.png'></img>");
+
+	// x = x.replace(/赤特攻\+30/g, "<img class='icon_img' src='img/tokkou_50_red.png'></img>");
+
+	return x;
+}
+
+
+
 function str_to_img(x)
 {
 	x = x.replace(/コラボエフェクト/g, "<img class='icon_img' src='img/collabEF.png'></img>");
@@ -211,6 +235,7 @@ function str_to_img(x)
 function color_to_img(x)
 {
 	x = x.replace(/白緑/g, "<img class='icon_img' src='img/type_white_green.png'></img>");
+	x = x.replace(/青赤/g, "<img class='icon_img' src='img/type_blue_red.png'></img>");
 
 	x = x.replace(/白/g, "<img class='icon_img' src='img/type_white.png'></img>");
 	x = x.replace(/緑/g, "<img class='icon_img' src='img/type_green.png'></img>");
@@ -385,7 +410,7 @@ function showInfotable(data)
 				str += "<br>";
 			}
 
-			str += tmpArr[i];
+			str += effect_to_img(tmpArr[i]);
 		}
 		str += "	</td>";
 		str += "</tr>";
@@ -499,7 +524,7 @@ function showInfotable(data)
 				{
 					str += "<br>";
 				}
-				str += tmpArr[i];
+				str += effect_to_img(tmpArr[i]);
 			}
 			str += "	</td>";
 			str += "</tr>";
@@ -528,7 +553,7 @@ function showInfotable(data)
 				{
 					str += "<br>";
 				}
-				str += tmpArr[i];
+				str += effect_to_img(tmpArr[i]);
 			}
 			str += "	</td>";
 			str += "</tr>";
@@ -559,7 +584,7 @@ function showInfotable(data)
 					{
 						str += "<br>";
 					}
-					str += tmpArr[i];
+					str += effect_to_img(tmpArr[i]);
 				}
 				str += "	</td>";
 				str += "</tr>";
@@ -591,7 +616,7 @@ function showInfotable(data)
 					{
 						str += "<br>";
 					}
-					str += tmpArr[i];
+					str += effect_to_img(tmpArr[i]);
 				}
 				str += "	</td>";
 				str += "</tr>";
@@ -623,7 +648,7 @@ function showInfotable(data)
 					{
 						str += "<br>";
 					}
-					str += tmpArr[i];
+					str += effect_to_img(tmpArr[i]);
 				}
 				str += "	</td>";
 				str += "</tr>";
@@ -655,7 +680,7 @@ function showInfotable(data)
 					{
 						str += "<br>";
 					}
-					str += tmpArr[i];
+					str += effect_to_img(tmpArr[i]);
 				}
 				str += "	</td>";
 				str += "</tr>";
@@ -741,7 +766,7 @@ function showInfotable(data)
 
 		str += "<tr>";
 		str += "	<td colspan=\"2\">";
-		str += data[ART1];
+		str += effect_to_img(data[ART1]);
 		str += "	</td>";
 		str += "</tr>";
 	}
@@ -1847,6 +1872,13 @@ function search()
 				if($('#selectHolomem').val() == "AZKi" || $('#selectHolomem').val() == "ときのそら")
 				{
 					if(cardData[i][NAME] != "SorAZ")
+					{
+						continue;
+					}
+				}
+				else if($('#selectHolomem').val() == "フワワ・アビスガード" || $('#selectHolomem').val() == "モココ・アビスガード")
+				{
+					if(cardData[i][NAME] != "FUWAMOCO")
 					{
 						continue;
 					}
@@ -3481,8 +3513,8 @@ function showVersion()
 	str += "Author: ZZZ\n";
 	str += "E-mail: relax100002000@hotmail.com\n";
 	str += "\n";
-	str += "20250304 v1.03\n";
-	str += "1.新增hSD05、hSD06、hSD07.\n";
+	str += "20250322 v1.04\n";
+	str += "1.新增hBP03.\n";
 	str += "\n";
 	str += "預計更新:\n";
 	str += "-補充關於說明\n";
