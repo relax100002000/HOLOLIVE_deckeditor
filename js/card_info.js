@@ -11605,7 +11605,7 @@ var cardData = [
 		"", //ART3
 		"", //ART4
 		"", //ART5
-		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"ターンに1枚しか使えない。", //EXTRA
 		"" //BAN
 		],
 	[
@@ -11629,7 +11629,7 @@ var cardData = [
 		"", //ART3
 		"", //ART4
 		"", //ART5
-		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"ターンに1枚しか使えない。", //EXTRA
 		"" //BAN
 		],
 	[
@@ -11677,7 +11677,7 @@ var cardData = [
 		"", //ART3
 		"", //ART4
 		"", //ART5
-		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"ターンに1枚しか使えない。", //EXTRA
 		"" //BAN
 		],
 	[
@@ -11701,7 +11701,7 @@ var cardData = [
 		"", //ART3
 		"", //ART4
 		"", //ART5
-		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"ターンに1枚しか使えない。", //EXTRA
 		"" //BAN
 		],
 	[
@@ -11749,7 +11749,7 @@ var cardData = [
 		"", //ART3
 		"", //ART4
 		"", //ART5
-		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"ターンに1枚しか使えない。", //EXTRA
 		"" //BAN
 		],
 	[
@@ -11773,7 +11773,7 @@ var cardData = [
 		"", //ART3
 		"", //ART4
 		"", //ART5
-		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"ターンに1枚しか使えない。", //EXTRA
 		"" //BAN
 		],
 	[
@@ -11797,7 +11797,7 @@ var cardData = [
 		"", //ART3
 		"", //ART4
 		"", //ART5
-		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"ターンに1枚しか使えない。", //EXTRA
 		"" //BAN
 		],
 	[
@@ -11821,7 +11821,7 @@ var cardData = [
 		"", //ART3
 		"", //ART4
 		"", //ART5
-		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"ターンに1枚しか使えない。", //EXTRA
 		"" //BAN
 		],
 	[
