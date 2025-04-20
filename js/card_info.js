@@ -1238,7 +1238,7 @@ var cardData = [
 		"", //ART4
 		"", //ART5
 		"", //EXTRA
-		"" //BAN
+		"1" //BAN
 		],
 	[
 		"hBP01-015", //ID
@@ -1358,7 +1358,7 @@ var cardData = [
 		"", //ART4
 		"", //ART5
 		"", //EXTRA
-		"1" //BAN
+		"" //BAN
 		],
 	[
 		"hBP01-020", //ID
@@ -7814,7 +7814,7 @@ var cardData = [
 		"", //ART4
 		"", //ART5
 		"", //EXTRA
-		"" //BAN
+		"1" //BAN
 		],
 	[
 		"hBP02-095", //ID
