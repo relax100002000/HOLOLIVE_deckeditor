@@ -84,7 +84,7 @@ var cardData = [
 		"", //ART3
 		"", //ART4
 		"", //ART5
-		"", //EXTRA
+		"このホロメンはBloomできない", //EXTRA
 		"" //BAN
 		],
 	[
@@ -102,6 +102,102 @@ var cardData = [
 		"", //BATON
 		"[ホロパワー:-2]<br>グリーンエンハンス<br>[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Green~<br>[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBD24-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-002_P.png", //SRC
+		"獅白ぼたん", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"緑", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>グリーンエンハンス<br>[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>Birthday Gift ~Green~<br>[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBD24-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-003_P.png", //SRC
+		"戌神ころね", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"黄", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>イエローエンハンス<br>[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>Birthday Gift ~Yellow~<br>[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBD24-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-004_P.png", //SRC
+		"白上フブキ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"白", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>ホワイトエンハンス<br>[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>Birthday Gift ~White~<br>[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBD24-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-005_P.png", //SRC
+		"姫森ルーナ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"白", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>ホワイトエンハンス<br>[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>Birthday Gift ~White~<br>[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
 		"", //ART1
 		"", //ART2
@@ -150,6 +246,222 @@ var cardData = [
 		"", //BATON
 		"[ホロパワー:-2]<br>イエローエンハンス<br>[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Yellow~<br>[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBD24-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-008_P.png", //SRC
+		"ベスティア・ゼータ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"白", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>ホワイトエンハンス<br>[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>Birthday Gift ~White~<br>[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBD24-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-009_P.png", //SRC
+		"セシリア・イマーグリーン", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"緑", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>グリーンエンハンス<br>[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>Birthday Gift ~Green~<br>[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBD24-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-010_P.png", //SRC
+		"雪花ラミィ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"青", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>ブルーエンハンス<br>[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>Birthday Gift ~Blue~<br>[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBD24-011", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-011_P.png", //SRC
+		"ネリッサ・レイヴンクロフト", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"紫", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>パープルエンハンス<br>[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>Birthday Gift ~Purple~<br>[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBD24-012", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-012_P.png", //SRC
+		"白銀ノエル", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"白", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>ホワイトエンハンス<br>[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>Birthday Gift ~White~<br>[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBD24-013", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-013_P.png", //SRC
+		"紫咲シオン", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"紫", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>パープルエンハンス<br>[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>Birthday Gift ~Purple~<br>[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBD24-014", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-014_P.png", //SRC
+		"こぼ・かなえる", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"青", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>ブルーエンハンス<br>[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>Birthday Gift ~Blue~<br>[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBD24-015", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-015_P.png", //SRC
+		"百鬼あやめ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"赤", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>レッドエンハンス<br>[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>Birthday Gift ~Red~<br>[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBD24-016", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hPR/hBD24-016_P.png", //SRC
+		"沙花叉クロヱ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"P", //RARE
+		"PRカード", //PRODUCT
+		"青", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>ブルーエンハンス<br>[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>Anniversary Gift ~Blue~<br>[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
 		"", //ART1
 		"", //ART2
