@@ -1,6 +1,9 @@
 # WIXOSS_deckeditor  
    
 Author: ZZZ  
+  
+20250619 v1.05  
+1.新增hBP04.  
     
 20250322 v1.04  
 1.新增hBP03.  
