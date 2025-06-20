@@ -15137,6 +15137,126 @@ var cardData = [
 		"" //BAN
 		],
 	[
+		"hBP04-101", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP04/hBP04-101_S.png", //SRC
+		"だいふく", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"", //RARE
+		"ブースターパック「キュリアスユニバース」", //PRODUCT
+		"", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのアーツ+10。<br><br>◆〈雪花ラミィ〉に付いていたら能力追加<br>このマスコットが付いているホロメンのHP+20。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-102", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP04/hBP04-102_S.png", //SRC
+		"やめなー", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"", //RARE
+		"ブースターパック「キュリアスユニバース」", //PRODUCT
+		"", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのアーツ+10。<br><br>◆#5期生を持つ1st以上のホロメンに付いていたら能力追加<br>[バックポジション限定]このマスコットが付いているホロメンは相手からダメージを受けない。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-103", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP04/hBP04-103_S.png", //SRC
+		"カラス", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"", //RARE
+		"ブースターパック「キュリアスユニバース」", //PRODUCT
+		"", //COLOR
+		"S", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのアーツ+10。<br><br>◆〈ラプラス・ダークネス〉に付いていたら能力追加<br>[コラボポジション限定][ターンに1回]自分のメインステップで、サイコロを1回振れる：奇数の時、このマスコットが付いているホロメンをバックポジションに移動する。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP04/hBP04-104_S.png", //SRC
+		"スバルドダック", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"S", //RARE
+		"ブースターパック「キュリアスユニバース」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのHP+20。<br><br>◆〈大空スバル〉に付いていたら能力追加<br>お互いのステージのエールが合計10枚以上ある間、このマスコットが付いているホロメンのアーツ+20。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-105", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP04/hBP04-105_S.png", //SRC
+		"こよりの助手くん", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"#こよラボ", //TAG
+		"", //RARE
+		"ブースターパック「キュリアスユニバース」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このファンをホロメンに手札かアーカイブから付けた時、自分のステージのエール1枚を、このファンが付いているホロメンに付け替えられる。<br><br>このファンは、自分の〈博衣こより〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
 		"hBP04-106", //ID
 		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP04/hBP04-106_U.png", //SRC
 		"雪民", //NAME
