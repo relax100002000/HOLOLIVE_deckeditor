@@ -3541,7 +3541,7 @@ function showVersion()
 	str += "E-mail: relax100002000@hotmail.com\n";
 	str += "\n";
 	str += "20250919 v1.06\n";
-	str += "1.新增hSD08、hSD09、hBP05.\n";
+	str += "1.新增hSD08、hSD09、hBP05、PRカード.\n";
 	str += "\n";
 	str += "預計更新:\n";
 	str += "-補充關於說明\n";

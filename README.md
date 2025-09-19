@@ -3,7 +3,7 @@
 Author: ZZZ  
   
 20250919 v1.06  
-1.新增hSD08、hSD09、hBP05.  
+1.新增hSD08、hSD09、hBP05、PRカード.  
   
 20250619 v1.05  
 1.新增hBP04.  
