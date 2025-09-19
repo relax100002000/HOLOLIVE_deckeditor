@@ -187,7 +187,7 @@ function onmouseShow(x, source)
 		
 		for(i = 0; i < cardData.length; i++)
 		{
-			if(x.alt == cardData[i][ID])
+			if(x.src == cardData[i][SRC])
 			{
 				$("#info_name").html(cardData[i][ID]);
 
@@ -226,8 +226,9 @@ function effect_to_img(x)
 	x = x.replace(/黄エール/g, "<img class='icon_img' src='img/arts_yellow.png'></img>エール");
 	x = x.replace(/◇/g, "<img class='icon_img' src='img/arts_null.png'></img>");
 
+	x = x.replace(/SP推しスキル/g, "<img class='icon_img' src='img/SPskill.png'></img>");
 	x = x.replace(/推しスキル/g, "<img class='icon_img' src='img/skill.png'></img>");
-	x = x.replace(/推しスキル/g, "<img class='icon_img' src='img/SPskill.png'></img>");
+	
 
 	// x = x.replace(/赤特攻\+30/g, "<img class='icon_img' src='img/tokkou_50_red.png'></img>");
 
@@ -250,8 +251,9 @@ function str_to_img(x)
 	x = x.replace(/黄/g, "<img class='icon_img' src='img/arts_yellow.png'></img>");
 	x = x.replace(/◇/g, "<img class='icon_img' src='img/arts_null.png'></img>");
 
+	x = x.replace(/SP推しスキル/g, "<img class='icon_img' src='img/SPskill.png'></img>");
 	x = x.replace(/推しスキル/g, "<img class='icon_img' src='img/skill.png'></img>");
-	x = x.replace(/推しスキル/g, "<img class='icon_img' src='img/SPskill.png'></img>");
+	
 
 	return x;
 }
@@ -1545,7 +1547,7 @@ function addDeck(x)
 	{
 		for(i = 0; i < cardData.length; i++)
 		{
-			if(x.alt == cardData[i][ID])
+			if(x.src == cardData[i][SRC])
 			{
 				if(cardData[i][TYPE] == "推しホロメン")
 				{
@@ -3538,8 +3540,8 @@ function showVersion()
 	str += "Author: ZZZ\n";
 	str += "E-mail: relax100002000@hotmail.com\n";
 	str += "\n";
-	str += "20250619 v1.05\n";
-	str += "1.新增hBP04.\n";
+	str += "20250919 v1.06\n";
+	str += "1.新增hSD08、hSD09、hBP05.\n";
 	str += "\n";
 	str += "預計更新:\n";
 	str += "-補充關於說明\n";
