@@ -224,6 +224,7 @@ function effect_to_img(x)
 	x = x.replace(/青エール/g, "<img class='icon_img' src='img/arts_blue.png'></img>エール");
 	x = x.replace(/紫エール/g, "<img class='icon_img' src='img/arts_purple.png'></img>エール");
 	x = x.replace(/黄エール/g, "<img class='icon_img' src='img/arts_yellow.png'></img>エール");
+	x = x.replace(/無色エール/g, "<img class='icon_img' src='img/arts_null.png'></img>");
 	x = x.replace(/◇/g, "<img class='icon_img' src='img/arts_null.png'></img>");
 
 	x = x.replace(/SP推しスキル/g, "<img class='icon_img' src='img/SPskill.png'></img>");
@@ -1902,9 +1903,23 @@ function search()
 						continue;
 					}
 				}
+				else if($('#selectHolomem').val() == "さくらみこ" || $('#selectHolomem').val() == "星街すいせい")
+				{
+					if(cardData[i][NAME] != "miComet")
+					{
+						continue;
+					}
+				}
 				else if($('#selectHolomem').val() == "フワワ・アビスガード" || $('#selectHolomem').val() == "モココ・アビスガード")
 				{
 					if(cardData[i][NAME] != "FUWAMOCO")
+					{
+						continue;
+					}
+				}
+				else if($('#selectHolomem').val() == "角巻わため" || $('#selectHolomem').val() == "大空スバル")
+				{
+					if(cardData[i][NAME] != "ラムダック")
 					{
 						continue;
 					}
@@ -3540,8 +3555,8 @@ function showVersion()
 	str += "Author: ZZZ\n";
 	str += "E-mail: relax100002000@hotmail.com\n";
 	str += "\n";
-	str += "20250919 v1.06\n";
-	str += "1.新增hSD08、hSD09、hBP05、PRカード.\n";
+	str += "20251225 v1.07\n";
+	str += "1.更新hSD10、hSD11、hBP06.\n";
 	str += "\n";
 	str += "預計更新:\n";
 	str += "-補充關於說明\n";
