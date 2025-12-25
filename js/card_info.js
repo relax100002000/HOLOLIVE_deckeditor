@@ -2970,7 +2970,7 @@ var cardData = [
 		],
 	[
 		"hBP01-050", //ID
-		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-050_U.png", //SRC
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-050_U_02.png", //SRC
 		"風真いろは", //NAME
 		"ホロメン", //TYPE
 		"", //TYPE2
