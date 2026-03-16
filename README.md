@@ -1,6 +1,9 @@
 # WIXOSS_deckeditor  
    
 Author: ZZZ  
+
+20260317 v1.08  
+1.更新hSD12、hSD13.  
   
 20251225 v1.07  
 1.更新hSD10、hSD11、hBP06.    

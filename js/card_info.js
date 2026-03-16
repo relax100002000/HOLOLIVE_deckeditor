@@ -22767,5 +22767,1229 @@ var cardData = [
 		"", //ART5
 		"", //EXTRA
 		"" //BAN
+		],
+	[
+		"hSD12-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-001_OSR.png", //SRC
+		"シオリ・ノヴェラ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"青", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-1]<br>収集家<br>[ターンに1回]自分のデッキの上から3枚を見る。その中から、サポートカード1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //SKILL
+		"[ホロパワー:-3]<br>リベリオン<br>[ゲームに1回]相手のDebut以外のバックホロメン1人に、自分のアーカイブのサポートカード1枚につき、特殊ダメージ10を与える。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD12-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-002_OSR.png", //SRC
+		"古石ビジュー", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"紫", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-2]<br>Biboo Tax<br>[ターンに1回]お互いのエールデッキの上から1枚をアーカイブする。アーカイブしたエール1色につき、自分のデッキを1枚引く。", //SKILL
+		"[ホロパワー:-2]<br>古代魔石の輝き<br>[ゲームに1回]相手のセンターホロメンに、自分のアーカイブの[#Adventを持つホロメンとエール]1枚につき、特殊ダメージ10を与える。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD12-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-003_C.png", //SRC
+		"シオリ・ノヴェラ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"青", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>パレ・モンローズのお話をお聞きになったことは?<br>相手のバックホロメン1人に特殊ダメージ10を与える。", //KEYWORD
+		"◇<br>アデュー、親愛なる聞き手様<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD12-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-004_C.png", //SRC
+		"シオリ・ノヴェラ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"青", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>不穏な忠告<br>20<br>このアーツは、相手のバックホロメンも対象にできる。", //ART1
+		"青<br>Just a Humble, Kind Witch<br>30<br>自分のアーカイブにサポートカードが4枚以上あるなら、自分のエールデッキの上から1枚を自分の#Adventを持つホロメンに送る。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD12-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-005_U.png", //SRC
+		"シオリ・ノヴェラ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent", //TAG
+		"U", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"青", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>『異世界への旅立ちと幸せ』<br>自分のアーカイブのエール1枚を自分の#Adventを持つホロメンに送る。", //KEYWORD
+		"◇<br>車窓から見える星がとてもきれいよ<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD12-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-006_R.png", //SRC
+		"シオリ・ノヴェラ", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent", //TAG
+		"R", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"青", //COLOR
+		"250", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>A Study in Advent<br>自分の手札のサポートカード1枚をアーカイブできる:自分のデッキから、#Adventを持つ[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"青◇<br>初歩的なことよ<br>40<br>相手のホロメン1人に特殊ダメージ20を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD12-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-007_RR.png", //SRC
+		"シオリ・ノヴェラ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent", //TAG
+		"RR", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"青", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>どんな知識が得られるかしら<br>[ターンに1回]このホロメンが相手のホロメンをダウンさせた時、自分のアーカイブのLIMITED以外のサポートカード1枚を手札に戻す。", //KEYWORD
+		"青◇◇<br>私達を見くびらないで貰える?<br>110白+50<br>相手のDebut以外のホロメン1人に、自分のステージの#Adventを持つホロメン1人につき、特殊ダメージ10を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD12-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-008_C.png", //SRC
+		"古石ビジュー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ベイビー", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"紫", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>花売りの少女<br>自分が後攻で最初のターンなら、お互いのステージのエール1枚につき、自分のデッキを1枚引く。", //KEYWORD
+		"◇<br>私……この頃よく夢を見るの。<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD12-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-009_C.png", //SRC
+		"古石ビジュー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ベイビー", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"紫", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>賑やかな家族<br>自分のデッキの上から3枚を見る。その中から、#Adventを持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"◇<br>とっても感謝してるの<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD12-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-010_U.png", //SRC
+		"古石ビジュー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ベイビー", //TAG
+		"U", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"紫", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>滲んでいく輝き<br>30", //ART1
+		"紫◇<br>Your Princess AWAKENS!<br>50<br>このホロメンの紫以外のエール1枚をアーカイブできる:自分のアーカイブのホロメン1枚を手札に戻す。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD12-011", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-011_RR.png", //SRC
+		"古石ビジュー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ベイビー", //TAG
+		"RR", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"紫", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ビブーと遊んでいかない?<br>自分のデッキを1枚引く。その後、自分のステージのエール1枚をアーカイブできる。アーカイブしたなら、自分のステージのホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+40。", //KEYWORD
+		"紫◇◇◇<br>キラキラぜーんぶ受け止めて!<br>110黄+50<br>お互いのアーカイブのエール1色につき、このアーツに必要な無色-1。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD12-012", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-012_C.png", //SRC
+		"ネリッサ・レイヴンクロフト", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #歌 #トリ", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"紫", //COLOR
+		"140", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"紫◇◇◇<br>綾なす想いは、儚きブルー<br>80<br>自分のライフが3以下なら、このアーツに必要な無色-2。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD12-013", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-013_C.png", //SRC
+		"モココ・アビスガード", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ケモミミ", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"赤", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ハッピー☆パピー -MOCOCO-<br>自分のステージのホロメン全員が#Adventを持つホロメンなら、自分のバックポジションのDebutホロメン1人をデッキの下に戻せる:自分のデッキを2枚引く。", //KEYWORD
+		"◇<br>ほんまにほんま~!!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD12-014", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-014_C.png", //SRC
+		"フワワ・アビスガード", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ケモミミ", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"青", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ハッピー☆パピー -FUWAWA-<br>自分のステージのホロメン全員が#Adventを持つホロメンなら、自分のバックポジションのDebutホロメン1人をデッキの下に戻せる:自分のエールデッキの上から1枚を自分のホロメンに送る。", //KEYWORD
+		"◇<br>ほんまにほんまだよ!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD12-015", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-015_U.png", //SRC
+		"脱獄を果たした共犯者たち", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のステージのホロメン全員が#Adventを持つホロメンでなければ使えない。<br><br>相手のセンターホロメンに特殊ダメージ20を与える。その後、自分のアーカイブのエール1枚を自分のホロメンに送る。<br>自分の〈脱獄を果たした共犯者たち〉はターンに1回しか使えない。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD12-016", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hSD12-016_C.png", //SRC
+		"GEOW", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのHP+20。<br><br>このマスコットを手札から1st以上の〈古石ビジュー〉に付けた時、自分のステージのエール1枚をアーカイブできる:自分のエールデッキから、エール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-104_C.png", //SRC
+		"ふつうのパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-108", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-108_U.png", //SRC
+		"じゃあ敵だね", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"相手のセンターホロメンとバックホロメン1人を交代させる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-077", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-077_C.png", //SRC
+		"レトロパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のライフが3以下でなければ使えない。<br><br>自分のアーカイブのホロメン1枚を手札に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-050", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hBP04-050_02_C.png", //SRC
+		"シオリ・ノヴェラ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"青", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>しおり~ん!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-063", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hBP04-063_02_C.png", //SRC
+		"古石ビジュー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ベイビー", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"紫", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>キラキラ コセキ!<br>相手のターンで、このホロメンがダウンした時、自分のデッキを1枚引く。", //KEYWORD
+		"◇<br>ボンビジュー!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-096", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP04/hBP04-096_U.png", //SRC
+		"Advent", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。<br><br>自分のデッキの上から4枚を見る。その中から、#Adventを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP05-074", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hBP05-074_02_C.png", //SRC
+		"フレンドリーパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、エクストラ「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン1~2枚を公開し、ステージに出す。そしてデッキをシャッフルする。Debutホロメンを2枚出したなら、さらに、自分の手札1枚をデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-016", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-016_C.png", //SRC
+		"春先のどか", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY04-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY04-001_C.png", //SRC
+		"青エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"青", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY05-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY05-001_C.png", //SRC
+		"紫エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"", //RARE
+		"スタートデッキ 推し Advent", //PRODUCT
+		"紫", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブす1。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-001_OSR.png", //SRC
+		"エリザベス・ローズ・ブラッドフレイム", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"赤", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-3]<br>秩序の先駆者<br>[ターンに1回]自分のホロメン1人が相手からアーツダメージを受ける時、自分のステージの[Buzzか2nd]の赤ホロメン1人を選べる:そのダメージを、選んだホロメンがかわりに受ける。", //SKILL
+		"[ホロパワー:-3]<br>JUST LIKE THAT<br>[ゲームに1回]自分のアーカイブの#Justiceを持つホロメン1枚をステージに出す。その後、自分のアーカイブのエール1~5枚をそのホロメンに送る。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-002_OSR.png", //SRC
+		"ジジ・ムリン", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"黄", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"[ホロパワー:-1]<br>Boat Goes Binted<br>[ターンに1回]相手のセンターポジションとコラボポジションのホロメンを入れ替える。", //SKILL
+		"[ホロパワー:-3]<br>自由奔放な『追跡者』<br>[ゲームに1回]自分のデッキから、2ndホロメンの〈ジジ・ムリン〉2枚を公開し、ステージに出す。そしてデッキをシャッフルする。その後、自分のアーカイブのエールを自分のホロメン全員に1枚ずつ送る。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-003_C.png", //SRC
+		"エリザベス・ローズ・ブラッドフレイム", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice #歌", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"赤", //COLOR
+		"140", //HP
+		"Debut", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>オーッホッホッホッ!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-004_C.png", //SRC
+		"エリザベス・ローズ・ブラッドフレイム", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice #歌", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"赤", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>薔薇は赤い<br>40", //ART1
+		"赤◇◇◇<br>私の心の炎は青い<br>140", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-005_U.png", //SRC
+		"エリザベス・ローズ・ブラッドフレイム", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice #歌", //TAG
+		"U", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"赤", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>For Justice! -ERB-<br>相手のターンで、自分の#Justiceを持つホロメンがダウンした時、自分のエールデッキの上から1枚をこのホロメンに送る。自分のギフト「For Justice! -ERB-」はターンに1回しか使えない。", //KEYWORD
+		"赤◇<br>Lovely to See You, to See You, Lovely~♡<br>50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-006_U.png", //SRC
+		"エリザベス・ローズ・ブラッドフレイム", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice #歌", //TAG
+		"U", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"赤", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>Bring It On!<br>自分のステージの#Justiceを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。", //KEYWORD
+		"◇<br>守護るべきもの<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-007_RR.png", //SRC
+		"エリザベス・ローズ・ブラッドフレイム", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice #歌", //TAG
+		"RR", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"赤", //COLOR
+		"180", //HP
+		"2nd", //LEVEL
+		"◇◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>猛炎のウォークライ<br>このホロメンのエール1枚につき、このホロメンのHP+10。", //KEYWORD
+		"赤◇◇<br>悪斬りのカデンツァ<br>100+紫+50<br>このホロメンのエール1枚につき、このアーツ+20。このアーツで相手のホロメンをダウンさせた時、自分のエールデッキの上から1枚をこのホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-008_C.png", //SRC
+		"ジジ・ムリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"黄", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>For Justice! -GG-<br>自分のアーカイブのエール1枚を自分の#Justiceを持つホロメンに送る。", //KEYWORD
+		"◇<br>GI MURIN!!!!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-009_C.png", //SRC
+		"ジジ・ムリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"黄", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>イタズラ増殖!<br>自分が後攻で最初のターンなら、自分のデッキから、#Justiceを持つ1stホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>YIPPEEE<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-010_C.png", //SRC
+		"ジジ・ムリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"黄", //COLOR
+		"180", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"黄<br>周囲の頭痛の種<br>40", //ART1
+		"黄◇<br>悪戯好きのグレムリン<br>60", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-011", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-011_U.png", //SRC
+		"ジジ・ムリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice", //TAG
+		"U", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"黄", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>I am Gonathan G.<br>このホロメンに重なっているDebutホロメン1枚をアーカイブできる:相手のコラボホロメンに特殊ダメージ20を与える。", //KEYWORD
+		"黄◇<br>すべての意味を追い求めて<br>40+<br>このホロメンに重なっているホロメンが0枚なら、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-012", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-012_U.png", //SRC
+		"ジジ・ムリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice", //TAG
+		"U", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"黄", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>ご苦労さん!<br>相手のターンで、自分のバックホロメンが相手から特殊ダメージを受ける時、このホロメンに重なっているホロメン1枚をアーカイブできる:このターンの間、自分のバックホロメン全員は特殊ダメージを受けない。", //KEYWORD
+		"黄◇<br>負けるわけにはいかない<br>60", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-013", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-013_RR.png", //SRC
+		"ジジ・ムリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice", //TAG
+		"RR", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"黄", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>再起のストレングス<br>[ターンに1回]自分のメインステップで、自分の〈ジジ・ムリン〉に重なっているホロメン1枚をアーカイブできる:自分のエールデッキの上から1枚をこのホロメンに送る。", //KEYWORD
+		"黄◇◇◇<br>殻破りのライオット<br>90+白+50<br>このホロメンに重なっているホロメンが0枚なら、このアーツ+90。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-014", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-014_C.png", //SRC
+		"セシリア・イマーグリーン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice #語学", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"◇", //COLOR
+		"160", //HP
+		"Spot", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>正義の旋律<br>[センターポジション・コラボポジション限定][ターンに1回]自分の#Justiceを持つ[DebutホロメンかSpotホロメン]がステージに出た時、自分のデッキを1枚引く。", //KEYWORD
+		"◇◇<br>紅茶をどうぞ!<br>40<br>自分のエールデッキの上から1枚を自分の#Justiceを持つホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはBloomできない", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-015", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-015_C.png", //SRC
+		"ラオーラ・パンテーラ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice #ケモミミ #絵", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"◇", //COLOR
+		"160", //HP
+		"Spot", //LEVEL
+		"◇", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>正義の諧調<br>自分のステージのエール1枚をエールデッキの下に戻せる。戻したなら、自分のエールデッキから、エール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
+		"◇<br>コーヒーをどうぞ!<br>30+<br>自分の#Justiceを持つ[センターホロメンとコラボホロメン]に異なる色のエールが付いているなら、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはBloomできない", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-016", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-016_U.png", //SRC
+		"Justice", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。<br><br>自分のデッキの上から4枚を見る。その中から、#Justiceを持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-017_U.png", //SRC
+		"JUSTICE, JUST LIKE THAT!!!!", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のステージのホロメン全員が#Justiceを持つホロメンでなければ使えない。<br><br>自分のステージのホロメン1人を選ぶ。選んだホロメンに重なっているホロメン1~2枚を手札に戻す。このターンの間、この能力で戻したホロメン1枚につき、選んだホロメンのアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD13-018", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD13/hSD13-018_C.png", //SRC
+		"Popo", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのHP+20。<br><br>◆〈ジジ・ムリン〉に付いていたら能力追加<br>このホロメンに重なっているホロメンが0枚なら、このホロメンのアーツ+20。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-104_C.png", //SRC
+		"ふつうのパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-088", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-088_U.png", //SRC
+		"凸待ち", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のライフが相手より少ない時にしか使えない。<br><br>相手のコラボホロメンがいない時、相手は、自身のバックホロメン1人をコラボポジションに移動させる(移動はコラボとしては扱わない)。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP05-074", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD12/hBP05-074_02_C.png", //SRC
+		"フレンドリーパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、エクストラ「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン1~2枚を公開し、ステージに出す。そしてデッキをシャッフルする。Debutホロメンを2枚出したなら、さらに、自分の手札1枚をデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-016", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-016_C.png", //SRC
+		"春先のどか", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-019", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-019_C.png", //SRC
+		"スゴイパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のエール1枚をアーカイブしなければ使えない。<br><br>自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY03-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY03-001_C.png", //SRC
+		"赤エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"赤", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY06-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD07/hY06-001_C.png", //SRC
+		"黄エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ 推し Justice", //PRODUCT
+		"黄", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
 		]
 	]

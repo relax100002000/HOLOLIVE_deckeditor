@@ -3555,8 +3555,8 @@ function showVersion()
 	str += "Author: ZZZ\n";
 	str += "E-mail: relax100002000@hotmail.com\n";
 	str += "\n";
-	str += "20251225 v1.07\n";
-	str += "1.更新hSD10、hSD11、hBP06.\n";
+	str += "20260317 v1.08\n";  
+	str += "1.更新hSD12、hSD13.\n";
 	str += "\n";
 	str += "預計更新:\n";
 	str += "-補充關於說明\n";
