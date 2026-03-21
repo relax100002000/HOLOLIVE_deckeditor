@@ -13,6 +13,7 @@
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -51,16 +52,17 @@ const COLOR = 8;
 const HP = 9;
 const LEVEL = 10;
 const BATON = 11;
-const SKILL = 12;
-const SPSKILL = 13;
-const KEYWORD = 14;
-const ART1 = 15;
-const ART2 = 16;
-const ART3 = 17;
-const ART4 = 18;
-const ART5 = 19;
-const EXTRA = 20;
-const BAN = 21;
+const STAGESKILL = 12;
+const SKILL = 13;
+const SPSKILL = 14;
+const KEYWORD = 15;
+const ART1 = 16;
+const ART2 = 17;
+const ART3 = 18;
+const ART4 = 19;
+const ART5 = 20;
+const EXTRA = 21;
+const BAN = 22;
 
 var cardData = [
 	[
@@ -76,6 +78,7 @@ var cardData = [
 		"50", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>誰かの芽吹きになれたら<br>サイコロを1回振れる:1か3か5の時、自分のエールデッキから、[赤エールか青エール]1枚を公開し、自分のバックホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -100,6 +103,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>グリーンエンハンス<br>[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Green~<br>[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -124,6 +128,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>グリーンエンハンス<br>[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Green~<br>[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -148,6 +153,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>イエローエンハンス<br>[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Yellow~<br>[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -172,6 +178,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ホワイトエンハンス<br>[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~White~<br>[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -196,6 +203,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ホワイトエンハンス<br>[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~White~<br>[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -220,6 +228,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>パープルエンハンス<br>[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Purple~<br>[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -244,6 +253,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>イエローエンハンス<br>[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Yellow~<br>[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -268,6 +278,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ホワイトエンハンス<br>[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~White~<br>[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -292,6 +303,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>グリーンエンハンス<br>[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Green~<br>[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -316,6 +328,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ブルーエンハンス<br>[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Blue~<br>[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -340,6 +353,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>パープルエンハンス<br>[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Purple~<br>[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -364,6 +378,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ホワイトエンハンス<br>[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~White~<br>[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -388,6 +403,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>パープルエンハンス<br>[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Purple~<br>[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -412,6 +428,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ブルーエンハンス<br>[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Blue~<br>[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -436,6 +453,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>レッドエンハンス<br>[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Red~<br>[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -460,6 +478,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ブルーエンハンス<br>[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Anniversary Gift ~Blue~<br>[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -484,6 +503,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>グリーンエンハンス<br>[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Green~<br>[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -508,6 +528,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>イエローエンハンス<br>[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Yellow~<br>[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -532,6 +553,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>レッドエンハンス<br>[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Red~<br>[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -556,6 +578,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ブルーエンハンス<br>[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Blue~<br>[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -580,6 +603,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>レッドエンハンス<br>[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Red~<br>[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -604,6 +628,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>グリーンエンハンス<br>[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Green~<br>[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -628,6 +653,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>パープルエンハンス<br>[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Purple~<br>[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -652,6 +678,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ブルーエンハンス<br>[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Blue~<br>[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -676,6 +703,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>グリーンエンハンス<br>[ターンに1回]このターンの間、自分の緑ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Green~<br>[ゲームに1回]自分のデッキから、緑ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -700,6 +728,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ブルーエンハンス<br>[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Blue~<br>[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -724,6 +753,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ブルーエンハンス<br>[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Blue~<br>[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -748,6 +778,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>レッドエンハンス<br>[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Red~<br>[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -772,6 +803,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>レッドエンハンス<br>[ターンに1回]このターンの間、自分の赤ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Red~<br>[ゲームに1回]自分のデッキから、赤ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -796,6 +828,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>イエローエンハンス<br>[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Yellow~<br>[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -820,6 +853,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ブルーエンハンス<br>[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Blue~<br>[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -844,6 +878,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ホワイトエンハンス<br>[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~White~<br>[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -868,6 +903,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ホワイトエンハンス<br>[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~White~<br>[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -892,6 +928,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ブルーエンハンス<br>[ターンに1回]このターンの間、自分の青ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Blue~<br>[ゲームに1回]自分のデッキから、青ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -916,6 +953,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>イエローエンハンス<br>[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Yellow~<br>[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -940,6 +978,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>イエローエンハンス<br>[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Yellow~<br>[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -964,6 +1003,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>パープルエンハンス<br>[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Purple~<br>[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -988,6 +1028,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>パープルエンハンス<br>[ターンに1回]このターンの間、自分の紫ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Purple~<br>[ゲームに1回]自分のデッキから、紫ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -1012,6 +1053,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>イエローエンハンス<br>[ターンに1回]このターンの間、自分の黄ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~Yellow~<br>[ゲームに1回]自分のデッキから、黄ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -1036,6 +1078,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ホワイトエンハンス<br>[ターンに1回]このターンの間、自分の白ホロメン1人のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>Birthday Gift ~White~<br>[ゲームに1回]自分のデッキから、白ホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -1060,6 +1103,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ホワイトバトン<br>[ターンに1回]このターンの間、自分の白コラボホロメンのアーツ+20。", //SKILL
 		"[ホロパワー:-1]<br>クイックガード<br>[ゲームに1回]相手のターンで、自分の白ホロメンが相手からダメージを受ける時に使える:そのホロメン1人が受けるダメージ-20。", //SPSKILL
 		"", //KEYWORD
@@ -1084,6 +1128,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>グリーンバトン<br>[ターンに1回]このターンの間、自分の緑コラボホロメンのアーツ+20。", //SKILL
 		"[ホロパワー:-1]<br>みんな頑張ろー!<br>[ゲームに1回]自分の緑ホロメン全員のHP20回復。", //SPSKILL
 		"", //KEYWORD
@@ -1108,6 +1153,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>レッドバトン<br>[ターンに1回]このターンの間、自分の赤コラボホロメンのアーツ+20。", //SKILL
 		"[ホロパワー:-1]<br>さあ!もう一度!<br>[ゲームに1回]自分のアーカイブの赤ホロメン1枚を手札に戻す。", //SPSKILL
 		"", //KEYWORD
@@ -1132,6 +1178,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ブルーバトン<br>[ターンに1回]このターンの間、自分の青コラボホロメンのアーツ+20。", //SKILL
 		"[ホロパワー:-1]<br>バックショット<br>[ゲームに1回]自分のホロメンが相手のバックホロメンにダメージを与えた時に使える:その相手のバックホロメン1人に特殊ダメージ50を与える。", //SPSKILL
 		"", //KEYWORD
@@ -1156,6 +1203,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1180,6 +1228,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1204,6 +1253,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1228,6 +1278,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1253,6 +1304,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-1]<br>リプレイスメント<br>[ターンに1回]自分のステージのエール1枚を、自分のホロメンに付け替える。", //SKILL
 		"[ホロパワー:-2]<br>じゃあ敵だね?<br>[ゲームに1回]相手のセンターホロメンとバックホロメン1人を交代させる。その後、このターンの間、自分の白センターホロメンのアーツ+50。", //SPSKILL
 		"", //KEYWORD
@@ -1277,6 +1329,7 @@ var cardData = [
 		"6", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-3]<br>左手に地図<br>[ターンに1回]自分のホロメンの能力でサイコロを振る時に使える:サイコロの目の数1つを宣言し、次に出る目の数を宣言した目として扱う。", //SKILL
 		"[ホロパワー:-3]<br>右手にマイク<br>[ゲームに1回]自分のアーカイブのエールを自分の緑ホロメン1人に好きな枚数送る。", //SPSKILL
 		"", //KEYWORD
@@ -1301,6 +1354,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1325,6 +1379,7 @@ var cardData = [
 		"50", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>レッツダンス!<br>このターンの間、自分のセンターホロメンのアーツ+20。", //KEYWORD
@@ -1349,6 +1404,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1373,6 +1429,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1397,6 +1454,7 @@ var cardData = [
 		"50", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>HOPE<br>自分のホロパワーを見る。その中から1枚を公開し、手札に加える。そして自分の手札1枚をホロパワーにする。", //KEYWORD
@@ -1421,6 +1479,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1445,6 +1504,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>広がる地図<br>サイコロを1回振れる:4以下の時、自分のエールデッキの上から1枚を、自分のバックホロメンに送る。1の時、さらに、このホロメンをバックポジションに移動できる。", //KEYWORD
@@ -1469,6 +1529,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1493,6 +1554,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1517,6 +1579,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>一緒にお絵かき!<br>自分のアーカイブの[白エールか緑エール]1枚を自分のセンターホロメンに送れる。", //KEYWORD
@@ -1541,6 +1604,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1565,6 +1629,7 @@ var cardData = [
 		"150", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1589,6 +1654,7 @@ var cardData = [
 		"50", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>SoAzKo<br>■〈ときのそら〉とコラボした時、自分のデッキを1枚引く。<br>■〈AZKi〉とコラボした時、自分のエールデッキの上から1枚を、自分のセンターホロメンに送る。", //KEYWORD
@@ -1613,6 +1679,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1637,6 +1704,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1661,6 +1729,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1685,6 +1754,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1709,6 +1779,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1733,6 +1804,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1757,6 +1829,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1781,6 +1854,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -1805,6 +1879,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-3]<br>ぎゅっぎゅっ<br>[ターンに1回]相手のセンターホロメンの残りHPを50にする。", //SKILL
 		"[ホロパワー:-2]<br>握りつぶしちゃうぞ<br>[ゲームに1回]このターンの間、自分のホロメン1人のアーツ+50。そのホロメンの色が白の時、さらに、そのアーツ+50。", //SPSKILL
 		"", //KEYWORD
@@ -1829,6 +1904,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>文明の守護者<br>[ターンに1回]相手のターンで、自分の#Promiseを持つホロメンが相手からダメージを受ける時に使える:そのホロメン1人が受けるダメージ-50。", //SKILL
 		"[ホロパワー:-2]<br>アメイジング・ドローイング<br>[ゲームに1回]自分のデッキから、イベント1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -1853,6 +1929,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>サバイバルパワー<br>[ターンに1回]自分のデッキから、〈石の斧〉1枚を公開し、自分の緑ホロメンに付ける。そしてデッキをシャッフルする。", //SKILL
 		"[ホロパワー:-2]<br>大地の唄<br>[ゲームに1回]自分の緑センターホロメンのHPすべて回復。", //SPSKILL
 		"", //KEYWORD
@@ -1877,6 +1954,7 @@ var cardData = [
 		"6", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>野兎たち~<br>[ターンに1回]相手のターンで、自分のホロメンがダウンした時に使える:自分のダウンしたホロメン1人の緑エールすべてを、自分の他のホロメンに割り振って付け替える。", //SKILL
 		"[ホロパワー:-3]<br>幸運兎<br>[ゲームに1回]このターンの間、自分のサイコロの目の数すべてを6として扱う。", //SPSKILL
 		"", //KEYWORD
@@ -1901,6 +1979,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-X]<br>女幹部の采配<br>[ターンに1回]自分の赤ホロメンの能力で手札をアーカイブする時に使える:アーカイブする手札1枚につき自分のホロパワー1枚を、かわりにアーカイブできる。", //SKILL
 		"[ホロパワー:-2]<br>ホークアイ<br>[ゲームに1回]次の相手のターンの間、相手のセンターホロメンとコラボホロメンは、バトンタッチ、移動、交代できない。", //SPSKILL
 		"", //KEYWORD
@@ -1925,6 +2004,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>フェニックステール<br>[ターンに1回]自分のアーカイブのホロメン1枚を手札に戻す。", //SKILL
 		"[ホロパワー:-2]<br>Rise from the ashes<br>[ゲームに1回]相手のターンで、自分の赤ホロメンがダウンした時に使える:自分の減るライフ-1。さらに、ダウンした1人を選び、そのホロメンを含め重なっているホロメンすべてを手札に戻す。", //SPSKILL
 		"", //KEYWORD
@@ -1949,6 +2029,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ほうき星<br>[ターンに1回]この推しホロメンか自分の青ホロメンが相手のバックホロメンにダメージを与えた時に使える:その相手のバックホロメン1人に特殊ダメージ50を与える。", //SKILL
 		"[ホロパワー:-2]<br>シューティングスター<br>[ゲームに1回]自分の青ホロメンが相手のセンターホロメンかコラボホロメンにダメージを与えた時に使える:相手のバックホロメン1人にそれと同じ数値の特殊ダメージを与える。", //SPSKILL
 		"", //KEYWORD
@@ -1973,6 +2054,7 @@ var cardData = [
 		"6", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-1]<br>レイン・シャーマニズム<br>[ターンに1回]自分の青ホロメンの能力でエールをアーカイブした時に使える:相手のホロメン1人に特殊ダメージ20を与える。", //SKILL
 		"[ホロパワー:-3]<br>雨乞い<br>[ゲームに1回]自分のアーカイブのエール1~5枚を、自分の#IDを持つホロメンに割り振って送る。", //SPSKILL
 		"", //KEYWORD
@@ -1997,6 +2079,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2021,6 +2104,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>お出かけ天使<br>このターンの間、自分のセンターホロメンのアーツ+10。自分のセンターホロメンが#4期生を持つ時、さらに、自分のセンターホロメンのアーツ+20。", //KEYWORD
@@ -2045,6 +2129,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2069,6 +2154,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>アイドルかなたそを<br>サイコロを1回振れる:3以下の時、自分のデッキから、マスコット1枚を公開し、自分のホロメンに付ける。そしてデッキをシャッフルする。", //KEYWORD
@@ -2093,6 +2179,7 @@ var cardData = [
 		"100", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>天使のお仕事<br>相手のセンターホロメンに特殊ダメージ30を与える(ダウンしても相手のライフは減らない)。", //KEYWORD
@@ -2117,6 +2204,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>堕ちた天使<br>相手のセンターホロメンに特殊ダメージ50を与える。", //KEYWORD
@@ -2141,6 +2229,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2165,6 +2254,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>白いキャンバス<br>自分のセンターホロメンが#Promiseを持つ時、自分のデッキを1枚引く。", //KEYWORD
@@ -2189,6 +2279,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2213,6 +2304,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2237,6 +2329,7 @@ var cardData = [
 		"100", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>みんなと歌って踊りたい!<br>DebutからBloomした時、自分のデッキから、#Promiseを持つBuzz以外の[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -2261,6 +2354,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>あの日の約束<br>自分のデッキから、#Promiseを持つホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -2285,6 +2379,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2309,6 +2404,7 @@ var cardData = [
 		"110", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>楽しむ準備はできてる!?<br>自分のデッキを1枚引く。", //KEYWORD
@@ -2333,6 +2429,7 @@ var cardData = [
 		"210", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>私たちは前に向かって…!<br>自分のデッキを2枚引く。", //KEYWORD
@@ -2357,6 +2454,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2381,6 +2479,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2405,6 +2504,7 @@ var cardData = [
 		"110", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>新たな運命<br>DebutからBloomした時、自分のデッキから、#ID3期生を持つBuzz以外の[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -2429,6 +2529,7 @@ var cardData = [
 		"200", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>V.7<br>[ターンに1回][コラボポジション限定]自分のホロメンが相手からダメージを受ける時、サイコロを1回振れる:奇数の時、そのダメージを受けない。", //KEYWORD
@@ -2453,6 +2554,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2477,6 +2579,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2501,6 +2604,7 @@ var cardData = [
 		"110", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ステージを希望で包もう!<br>このターンの間、自分の#Promiseを持つ[センターホロメンとコラボホロメン]のアーツ+30。", //KEYWORD
@@ -2525,6 +2629,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>希望の庭園<br>自分のホロパワーを見る。その中から1枚を公開し、手札に加える。そして自分のデッキの上から1枚をホロパワーにする。", //KEYWORD
@@ -2549,6 +2654,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2573,6 +2679,7 @@ var cardData = [
 		"50", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ヒーリングランウェイ<br>サイコロを1回振れる:奇数の時、自分の緑ホロメン1人のHP20回復。", //KEYWORD
@@ -2597,6 +2704,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2621,6 +2729,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ブレーメンの音楽祭<br>自分のアーカイブのツール1枚を自分のホロメンに付けられる。", //KEYWORD
@@ -2645,6 +2754,7 @@ var cardData = [
 		"100", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ロゼ隊のみんな応援しててね!<br>自分のホロメン1人のHP20回復。", //KEYWORD
@@ -2669,6 +2779,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ゴシックドール<br>自分のエールデッキの上から1枚を、自分のホロメンに送る。その後、このホロメンにツールが付いている時、このホロメンのHP40回復。", //KEYWORD
@@ -2693,6 +2804,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2717,6 +2829,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ギャラクシーアイドル<br>自分の推しホロメンが〈兎田ぺこら〉の時、サイコロを1回振れる:偶数の時、自分のエールデッキの上から1枚を、自分のホロメンに送る。", //KEYWORD
@@ -2741,6 +2854,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2765,6 +2879,7 @@ var cardData = [
 		"90", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>成長した兎田ぺこらを<br>自分のエールデッキの上から1枚を、自分のセンターホロメンかコラボホロメンに送る。", //KEYWORD
@@ -2789,6 +2904,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2813,6 +2929,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>プリンセスドレス<br>このホロメンのHP50回復。", //KEYWORD
@@ -2837,6 +2954,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2861,6 +2979,7 @@ var cardData = [
 		"50", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>Overwrite<br>自分のライフが3以下の間、このホロメンは、自分の手札の2nd〈AZKi〉に、Bloomレベルを無視してBloomできる。", //KEYWORD
@@ -2885,6 +3004,7 @@ var cardData = [
 		"100", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>開拓者のみんながいたから<br>自分のステージのエール1~3枚を選び、自分のホロメンに割り振って付け替えられる。", //KEYWORD
@@ -2909,6 +3029,7 @@ var cardData = [
 		"220", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>いのちの軌跡<br>このホロメンのHP40回復。その後、サイコロを1回振れる:奇数の時、自分のアーカイブの緑エール1~3枚をこのホロメンに送れる。", //KEYWORD
@@ -2933,6 +3054,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2957,6 +3079,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -2981,6 +3104,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>用心棒<br>[コラボポジション限定]相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない(特殊ダメージは除く)。", //KEYWORD
@@ -3005,6 +3129,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3029,6 +3154,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3053,6 +3179,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3077,6 +3204,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>緑の光が広がる海<br>自分のエールデッキの上から1枚を、自分の〈アイラニ・イオフィフティーン〉以外の#IDを持つホロメンに送る。", //KEYWORD
@@ -3101,6 +3229,7 @@ var cardData = [
 		"180", //HP
 		"2nd", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>AREA 15<br>自分のアーカイブのエール1枚ずつを、自分の#IDを持つホロメン1~3人に送れる。", //KEYWORD
@@ -3125,6 +3254,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3149,6 +3279,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>アポイント<br>相手のコラボホロメンに特殊ダメージ10を与える。", //KEYWORD
@@ -3173,6 +3304,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3197,6 +3329,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3221,6 +3354,7 @@ var cardData = [
 		"100", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>本当にみんなのおかげ!!<br>DebutからBloomした時、自分の手札1枚をアーカイブできる:自分のデッキを2枚引く。", //KEYWORD
@@ -3245,6 +3379,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>組織の司令塔<br>自分のアーカイブの#秘密結社holoXを持つホロメン1~2枚を手札に戻せる。", //KEYWORD
@@ -3269,6 +3404,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3293,6 +3429,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>きわわの魔法<br>自分のセンターホロメンが#トリを持つ時、自分の手札1枚をアーカイブできる:自分のデッキから、マスコット1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -3317,6 +3454,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3341,6 +3479,7 @@ var cardData = [
 		"110", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>Let's do this!!!!<br>自分のデッキの上から3枚を見る。その中から、ホロメン1枚を公開し、手札に加える。そして残ったカードをアーカイブする。", //KEYWORD
@@ -3365,6 +3504,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3389,6 +3529,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3413,6 +3554,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3437,6 +3579,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3461,6 +3604,7 @@ var cardData = [
 		"110", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>宴の始まりだ!<br>自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -3485,6 +3629,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ポルカイリュージョン<br>自分のアーカイブの〈座員〉1枚を手札に戻せる。", //KEYWORD
@@ -3509,6 +3654,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3533,6 +3679,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3557,6 +3704,7 @@ var cardData = [
 		"90", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ネズミアイドルがいよいよ登場!<br>DebutからBloomした時、自分のアーカイブの[Debutホロメンか1stホロメン]1枚を手札に戻せる:戻したカードが#ENを持つ時、相手のコラボホロメンに特殊ダメージ20を与える。", //KEYWORD
@@ -3581,6 +3729,7 @@ var cardData = [
 		"180", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>カオスシャッフル<br>お互い、手札すべてを好きな順でデッキの下に戻す。次に、お互い、デッキに戻したカード1枚につき、それぞれのデッキを1枚引く。", //KEYWORD
@@ -3605,6 +3754,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3629,6 +3779,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>煌きのワードローブ<br>自分の推しホロメンが〈星街すいせい〉の時、このホロメンの青エール1枚をアーカイブできる:自分のデッキを2枚引く。", //KEYWORD
@@ -3653,6 +3804,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3677,6 +3829,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>あっと驚かせるから見逃さないでね!<br>相手のバックホロメン1人に特殊ダメージ20を与える(ダウンしても相手のライフは減らない)。", //KEYWORD
@@ -3701,6 +3854,7 @@ var cardData = [
 		"110", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>雪山の記憶<br>サイコロを1回振れる:奇数の時、相手のHPが40以上減っているバックホロメン1人をダウンさせる(ダウンしても相手のライフは減らない)。", //KEYWORD
@@ -3725,6 +3879,7 @@ var cardData = [
 		"210", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>空を駆ける光<br>自分のエールデッキの上から1枚を、自分の青ホロメンに送る。", //KEYWORD
@@ -3749,6 +3904,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3773,6 +3929,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>こぼを海に連れて!<br>自分のセンターホロメンが#IDを持つ時、サイコロを1回振れる:3以上の時、自分のエールデッキの上から1枚を、自分のホロメンに送る。", //KEYWORD
@@ -3797,6 +3954,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3821,6 +3979,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3845,6 +4004,7 @@ var cardData = [
 		"110", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>バーチャルマーケティング<br>自分の#IDを持つホロメンのエール1枚をアーカイブできる:相手のバックホロメン全員に特殊ダメージ10を与える(ダウンしても相手のライフは減らない)。", //KEYWORD
@@ -3869,6 +4029,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3893,6 +4054,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3917,6 +4079,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3941,6 +4104,7 @@ var cardData = [
 		"110", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ラピスラズリ<br>自分のエールデッキから、[緑エールか青エール]1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -3965,6 +4129,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -3989,6 +4154,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4013,6 +4179,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4037,6 +4204,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>クロにちは!<br>自分のエールデッキから、自分の#Promiseを持つホロメン1人と同色のエール1枚を公開し、自分の#Promiseを持つホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -4061,6 +4229,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>巻き戻し<br>相手のバックホロメン1人をDebutホロメンに戻す(ダメージを無くした後、Debutホロメン1枚とエールすべてを残し、他のカードすべてを手札に戻す)。", //KEYWORD
@@ -4085,6 +4254,7 @@ var cardData = [
 		"80", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>それは「冒険」<br>サイコロを1回振れる:偶数の時、自分のデッキから、Buzzホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -4109,6 +4279,7 @@ var cardData = [
 		"80", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>それは「愛と絆の物語」<br>自分のセンターホロメンとお休みしていないバックホロメン1人を交代させる。", //KEYWORD
@@ -4133,6 +4304,7 @@ var cardData = [
 		"90", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>それは「俺」<br>自分のアーカイブのエール1枚を自分のホロメンに送れる。", //KEYWORD
@@ -4157,6 +4329,7 @@ var cardData = [
 		"70", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>それは「エジンバラ城」<br>サイコロを1回振れる:奇数の時、相手のセンターホロメンとバックホロメン1人を交代させる。", //KEYWORD
@@ -4181,6 +4354,7 @@ var cardData = [
 		"70", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ソウル収穫<br>自分のアーカイブのエール1~3枚をエールデッキに戻せる。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -4205,6 +4379,7 @@ var cardData = [
 		"80", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>手がかり発見<br>自分のアーカイブのアイテム1枚を手札に戻せる。", //KEYWORD
@@ -4229,6 +4404,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4253,6 +4429,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4277,6 +4454,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4301,6 +4479,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4325,6 +4504,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4349,6 +4529,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4373,6 +4554,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4397,6 +4579,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4421,6 +4604,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4445,6 +4629,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4469,6 +4654,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4493,6 +4679,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4517,6 +4704,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4541,6 +4729,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4565,6 +4754,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4589,6 +4779,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4613,6 +4804,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4637,6 +4829,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4661,6 +4854,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4685,6 +4879,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4709,6 +4904,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4733,6 +4929,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4757,6 +4954,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4781,6 +4979,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4805,6 +5004,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4829,6 +5029,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4853,6 +5054,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4877,6 +5079,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4901,6 +5104,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4925,6 +5129,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4949,6 +5154,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4973,6 +5179,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -4997,6 +5204,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5021,6 +5229,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:2]<br>レッドマイク<br>[ターンに1回]このターンの間、自分の赤センターホロメンのアーツ+20。", //SKILL
 		"[ホロパワー:1]<br>さあ!もう一度!<br>[ゲームに1回]自分のアーカイブの赤ホロメン1枚を手札に戻す。", //SPSKILL
 		"", //KEYWORD
@@ -5045,6 +5254,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5069,6 +5279,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>業<br>相手のコラボホロメンに特殊ダメージ10を与える。", //KEYWORD
@@ -5093,6 +5304,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>あやめのひととせ<br>このホロメンに〈ぽよ余〉が付いている時、このターンの間、自分のセンターホロメンのアーツ+20。", //KEYWORD
@@ -5117,6 +5329,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5141,6 +5354,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>お誕生日会<br>自分の手札1枚をアーカイブできる:相手のセンターホロメンかコラボホロメンに特殊ダメージ20を与える。", //KEYWORD
@@ -5165,6 +5379,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>どーっちどっち♪<br>DebutからBloomした時、自分のデッキの上から2枚を見る。その中から、1枚を公開し、手札に加える。そして残ったカードをアーカイブする。", //KEYWORD
@@ -5189,6 +5404,7 @@ var cardData = [
 		"230", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5213,6 +5429,7 @@ var cardData = [
 		"180", //HP
 		"2nd", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5237,6 +5454,7 @@ var cardData = [
 		"80", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>帰ってきなさーい<br>自分のアーカイブのマスコット1枚を手札に戻せる。", //KEYWORD
@@ -5261,6 +5479,7 @@ var cardData = [
 		"50", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>おにけもの会<br>自分の手札のホロメン1枚をアーカイブできる:自分のエールデッキの上から1枚を自分のDebutホロメンに送る。", //KEYWORD
@@ -5285,6 +5504,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5309,6 +5529,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5333,6 +5554,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5357,6 +5579,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5381,6 +5604,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5405,6 +5629,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5429,6 +5654,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5453,6 +5679,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5477,6 +5704,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5501,6 +5729,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:2]<br>ブルーマイク<br>[ターンに1回]このターンの間、自分の青センターホロメンのアーツ+20。", //SKILL
 		"[ホロパワー:1]<br>バックショット<br>[ゲームに1回]自分のステージのホロメンが相手のバックホロメンにダメージを与えた時に使える:その相手のバックホロメン1人に特殊ダメージ50を与える。", //SPSKILL
 		"", //KEYWORD
@@ -5525,6 +5754,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5549,6 +5779,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>お家にお邪魔します…!<br>自分のセンターホロメンが#ゲーマーズを持つ時、相手のセンターホロメンとバックホロメン1人に特殊ダメージ10を与える。ただし、ダウンしても相手のライフは減らない。", //KEYWORD
@@ -5573,6 +5804,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>僕と登校しよう…?<br>自分のデッキの上から1枚を公開できる:公開したカードがDebutホロメンかSpotホロメンの時、自分のエールデッキの上から1枚をこのホロメンに送る。そして公開したカードをデッキの下に戻す。", //KEYWORD
@@ -5597,6 +5829,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5621,6 +5854,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5645,6 +5879,7 @@ var cardData = [
 		"110", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>また、たくさん笑ってよね!<br>自分のアーカイブのエール1枚を自分の#ゲーマーズを持つホロメンに送れる。", //KEYWORD
@@ -5669,6 +5904,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>泥棒建設代表取締役 CEO<br>[センターポジション限定]自分のステージの[〈鷹嶺ルイ〉と〈大神ミオ〉と〈白上フブキ〉と〈ラプラス・ダークネス〉と〈戌神ころね〉]全員のアーツ+20。", //KEYWORD
@@ -5693,6 +5929,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5717,6 +5954,7 @@ var cardData = [
 		"70", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>泥棒建設インターン<br>自分のセンターホロメンが〈猫又おかゆ〉の時、自分のデッキから、[マスコットかファン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -5741,6 +5979,7 @@ var cardData = [
 		"60", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5765,6 +6004,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5789,6 +6029,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5813,6 +6054,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5837,6 +6079,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5861,6 +6104,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5885,6 +6129,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5909,6 +6154,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5933,6 +6179,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5957,6 +6204,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -5981,6 +6229,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:2]<br>パープルマイク<br>[ターンに1回]このターンの間、自分の紫センターホロメンのアーツ+20。", //SKILL
 		"[ホロパワー:1]<br>カードチェンジ<br>[ゲームに1回]自分のデッキを2枚引いた後、手札1枚をアーカイブする。", //SPSKILL
 		"", //KEYWORD
@@ -6005,6 +6254,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6029,6 +6279,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>グッイブニ~ング<br>自分の推しホロメンの色が紫の時、自分のデッキを1枚引く。", //KEYWORD
@@ -6053,6 +6304,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>地獄盛りごはん<br>自分の手札1枚をアーカイブできる:自分のデッキから、#食べ物を持つイベント1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -6077,6 +6329,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6101,6 +6354,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6125,6 +6379,7 @@ var cardData = [
 		"110", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ちょっこーん!<br>自分のアーカイブのLIMITED以外のイベント1枚を手札に戻せる。", //KEYWORD
@@ -6149,6 +6404,7 @@ var cardData = [
 		"230", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6173,6 +6429,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6197,6 +6454,7 @@ var cardData = [
 		"60", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ちよこーーッ!!<br>自分のセンターホロメンが〈癒月ちょこ〉の時、自分のアーカイブのエール1枚を自分のホロメンに送れる。", //KEYWORD
@@ -6221,6 +6479,7 @@ var cardData = [
 		"60", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ちょこてんて~<br>自分のホロパワーを見る。その中から1枚を公開し、手札に加える。そして自分の手札1枚をホロパワーにする。", //KEYWORD
@@ -6245,6 +6504,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6269,6 +6529,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6293,6 +6554,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6317,6 +6579,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6341,6 +6604,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6365,6 +6629,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6389,6 +6654,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6413,6 +6679,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6437,6 +6704,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6461,6 +6729,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:2]<br>マスコット創造<br>[ターンに1回]自分のデッキから、マスコット1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SKILL
 		"[ホロパワー:2]<br>フブキングダム<br>[ゲームに1回]自分の白ホロメンが相手のホロメンをダウンさせた時、自分のステージのマスコット2枚につき、サイコロを1回振れる:奇数が1回以上出たなら、相手のライフ-1。", //SPSKILL
 		"", //KEYWORD
@@ -6485,6 +6754,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:2]<br>HALU<br>[ターンに1回]自分のホロメンの緑エール1枚をアーカイブすることで、自分のエールデッキから、エール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。", //SKILL
 		"[ホロパワー:2]<br>極彩色の宴<br>[ゲームに1回]このターンの間、自分のステージの#ID2期生を持つホロメン全員は、そのホロメンのエール1色につき、アーツ+20。", //SPSKILL
 		"", //KEYWORD
@@ -6509,6 +6779,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:3]<br>Ahoy!<br>[ターンに1回]自分のこのターンにBloomした#3期生を持つホロメン1人を、自分の手札のホロメンを使ってもう1回Bloomさせる。", //SKILL
 		"[ホロパワー:2]<br>出航~!<br>[ゲームに1回]相手のセンターホロメンかコラボホロメンどちらかに、自分のセンターホロメンの〈宝鐘マリン〉に重なっているホロメン1枚につき、特殊ダメージ50を与える。", //SPSKILL
 		"", //KEYWORD
@@ -6533,6 +6804,7 @@ var cardData = [
 		"6", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:1]<br>ぽえぽえぽえ~<br>[ターンに1回]自分のセンターホロメンが〈沙花叉クロヱ〉の時に使える:自分のデッキの上から3枚を見る。そのカードすべてを、アーカイブするか、好きな順でデッキの上に戻す。", //SKILL
 		"[ホロパワー:3]<br>人生リセットボタン<br>[ゲームに1回]自分の手札を数えて、自分の[手札すべてとアーカイブのホロメンすべて]をデッキに戻してシャッフルする。そして手札からデッキに戻したカード1枚につき、自分のデッキを1枚引く。", //SPSKILL
 		"", //KEYWORD
@@ -6557,6 +6829,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:1]<br>ねえ゛え゛え゛え゛え゛え゛え゛<br>[ターンに1回]自分の〈紫咲シオン〉の能力でサイコロを振った時に使える:サイコロを1回振り直す。", //SKILL
 		"[ホロパワー:2]<br>シオンのすごい魔法<br>[ゲームに1回]自分の紫センターホロメンがアーツを使った時に使える:相手のセンターホロメンに、相手のセンターホロメンのエール1枚につき、特殊ダメージ50を与える。", //SPSKILL
 		"", //KEYWORD
@@ -6581,6 +6854,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:2]<br>ゾンビ戦術<br>[ターンに1回]自分の#ID2期生を持つホロメン1人を、自分のアーカイブのホロメンを使ってBloomさせる。", //SKILL
 		"[ホロパワー:2]<br>蘇るオリー<br>[ゲームに1回]自分のデッキを4枚引いた後、手札2枚をアーカイブする。その後、自分のホロメン1人を、自分のアーカイブのホロメンを使ってBloomできる。", //SPSKILL
 		"", //KEYWORD
@@ -6605,6 +6879,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:2]<br>サンプリング<br>[ターンに1回]自分の手札2枚をアーカイブすることで、アーカイブの#ENを持つホロメン2枚を手札に戻す。", //SKILL
 		"[ホロパワー:2]<br>死神ラップ<br>[ゲームに1回]自分のセンターホロメンが〈森カリオペ〉の時に使える:このターンの間、自分の〈森カリオペ〉1人は、アーツを使った後、同じアーツをもう1回使う。", //SPSKILL
 		"", //KEYWORD
@@ -6629,6 +6904,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6653,6 +6929,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>おはこんきーつね!<br>[コラボポジション限定]自分のマスコットが付いているホロメン全員のアーツ+10。", //KEYWORD
@@ -6677,6 +6954,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6701,6 +6979,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>白上から目をそらしちゃ<br>自分のデッキから、#白上'sキャラクターを持つカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -6725,6 +7004,7 @@ var cardData = [
 		"100", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ちょっと動かしますね<br>自分のステージのマスコット1枚を、自分のホロメンに付け替えられる。", //KEYWORD
@@ -6749,6 +7029,7 @@ var cardData = [
 		"180", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>みんなと一緒!<br>このホロメンは、異なるカード名のマスコットを2枚まで付けられる。", //KEYWORD
@@ -6773,6 +7054,7 @@ var cardData = [
 		"130", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6797,6 +7079,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6821,6 +7104,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ノエちゃんの勇姿……<br>DebutからBloomした時、自分のデッキから、#3期生を持つ[Debutホロメンか1stホロメンかSpotホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -6845,6 +7129,7 @@ var cardData = [
 		"260", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6869,6 +7154,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6893,6 +7179,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>友達をHALUにさせる方法<br>自分のアーカイブのエール1枚を自分のホロメンに送れる。", //KEYWORD
@@ -6917,6 +7204,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -6941,6 +7229,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>心を込めて歌って、踊ります。<br>自分のステージのエール1色につき、自分のホロメン1人のHP10回復。", //KEYWORD
@@ -6965,6 +7254,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>What AreYou Waiting For?<br>自分のデッキから、〈Tatang〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -6989,6 +7279,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>Kanjeng<br>自分のエールデッキから、エール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -7013,6 +7304,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7037,6 +7329,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7061,6 +7354,7 @@ var cardData = [
 		"100", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>アイドルとして成長した姿<br>自分のエールデッキから、自分のステージの#ゲーマーズを持つホロメン1人と同色のエール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -7085,6 +7379,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7109,6 +7404,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7133,6 +7429,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>マリンと宅飲み<br>相手のコラボホロメンに特殊ダメージ20を与える。", //KEYWORD
@@ -7157,6 +7454,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7181,6 +7479,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>キミたちの声が船長の支えです!<br>相手のコラボホロメンに特殊ダメージ20を与える。", //KEYWORD
@@ -7205,6 +7504,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>宝鐘の海賊団<br>自分のデッキから、〈宝鐘マリン〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。自分のブルームエフェクト「宝鐘の海賊団」はターンに1回しか使えない。", //KEYWORD
@@ -7229,6 +7529,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ゴシッククィーン<br>自分のアーカイブのホロメン1枚を手札に戻せる。その後、このホロメンに重なっているホロメンが3枚以上の時、相手のセンターホロメンかコラボホロメンに特殊ダメージ50を与える。", //KEYWORD
@@ -7253,6 +7554,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7277,6 +7579,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7301,6 +7604,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>掃除屋でインターン<br>自分のデッキの上から3枚を見る。その中から、#秘密結社holoxを持つ2ndホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
@@ -7325,6 +7629,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7349,6 +7654,7 @@ var cardData = [
 		"110", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>君の心をばっくばっくばく~んしちゃうぞ♡<br>自分のエールデッキの上から3枚を見る。その中から、エール1枚を公開し、自分のホロメンに送る。そして残ったエールを好きな順でエールデッキの下に戻す。", //KEYWORD
@@ -7373,6 +7679,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>ぷいぷいぷい~<br>[ターンに1回]このホロメンのアーツ「ホロックスロット」でカードを公開した時、公開したサポートカード1枚を、アーカイブするかわりに手札に加えられる。", //KEYWORD
@@ -7397,6 +7704,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>最高に激アツ~<br>[ターンに1回]このホロメンのアーツ「ホロックスロット」でカードを公開した時、公開したカード3枚が同じBloomレベルのホロメンなら、相手のライフ-1。", //KEYWORD
@@ -7421,6 +7729,7 @@ var cardData = [
 		"230", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>毒の愛<br>[センターポジション限定]自分のステージの〈猫又おかゆ〉全員が相手のセンターホロメンに与える特殊ダメージ+20。", //KEYWORD
@@ -7445,6 +7754,7 @@ var cardData = [
 		"130", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7469,6 +7779,7 @@ var cardData = [
 		"50", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>魔法見せてあげる<br>サイコロを1回振れる:4以上の時、自分のデッキから、#魔法を持つカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -7493,6 +7804,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7517,6 +7829,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>久しぶりの全体ライブーっ!!<br>自分のデッキの上から3枚を見る。その中から、[青ホロメンか紫ホロメン]1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
@@ -7541,6 +7854,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>入れ替えの魔法<br>自分の手札1枚をアーカイブできる:自分のアーカイブの#魔法を持つカード1枚を手札に戻す。", //KEYWORD
@@ -7565,6 +7879,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>いたずらの魔法<br>サイコロを1回振れる:4以上の時、相手のステージのエール1枚を、相手のホロメンに付け替える。", //KEYWORD
@@ -7589,6 +7904,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7613,6 +7929,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>オリーがいつも見てるよ<br>自分のデッキを1枚引いた後、手札1枚をアーカイブする。", //KEYWORD
@@ -7637,6 +7954,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7661,6 +7979,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>限界化!!<br>自分の#ID2期生を持つDebutホロメン1人を、自分のアーカイブのホロメンを使ってBloomできる。自分のブルームエフェクト「限界化!!」はターンに1回しか使えない。", //KEYWORD
@@ -7685,6 +8004,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>真実一路<br>自分のデッキを1枚引く。", //KEYWORD
@@ -7709,6 +8029,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>蘇りしゾンビ<br>自分の手札2枚をアーカイブできる:このターンの間、このホロメンのアーツ+40。", //KEYWORD
@@ -7733,6 +8054,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7757,6 +8079,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ショータイム<br>自分の手札のホロメン1枚をアーカイブできる:このターンの間、自分のステージの#Mythを持つホロメン1人のアーツ+20。", //KEYWORD
@@ -7781,6 +8104,7 @@ var cardData = [
 		"110", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7805,6 +8129,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>みんなで作る最高のfes<br>自分の手札の同じタグを持つホロメン2枚をアーカイブできる:自分のデッキを2枚引く。", //KEYWORD
@@ -7829,6 +8154,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>What's up?<br>自分のアーカイブの[〈森カリオペの鎌〉か〈Death-sensei〉]1枚を手札に戻せる。", //KEYWORD
@@ -7853,6 +8179,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>Soul Voice<br>自分のデッキから、カード1枚を公開し、アーカイブする。そしてデッキをシャッフルする。", //KEYWORD
@@ -7877,6 +8204,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>誘惑の視線<br>自分のバックホロメン1人のHP50回復できる:相手のセンターホロメンに、回復したダメージ10につき、特殊ダメージ10を与える。", //KEYWORD
@@ -7901,6 +8229,7 @@ var cardData = [
 		"140", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7925,6 +8254,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7949,6 +8279,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>みんな「WAH」の準備はいいかー!<br>自分の#Mythを持つホロメン1人のHP20回復。", //KEYWORD
@@ -7973,6 +8304,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -7997,6 +8329,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8021,6 +8354,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8045,6 +8379,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ネリッサとお茶会<br>自分のデッキの上から3枚を見る。その中から、#歌を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
@@ -8069,6 +8404,7 @@ var cardData = [
 		"210", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>音の魔人<br>このターンの間、自分の#歌を持つ[センターホロメンとコラボホロメン]のアーツ+30。", //KEYWORD
@@ -8093,6 +8429,7 @@ var cardData = [
 		"60", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>みんなの願いを咲かせる祈り!<br>サイコロを1回振れる:奇数の時、自分のエールデッキから、[赤エールか青エール]1枚を公開し、自分のバックホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -8117,6 +8454,7 @@ var cardData = [
 		"60", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>この手を差し伸べ、つかんで握る!<br>サイコロを1回振れる:奇数の時、自分のエールデッキから、[白エールか緑エール]1枚を公開し、自分のバックホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -8141,6 +8479,7 @@ var cardData = [
 		"60", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>甘~い幸せ、おすそわけ!<br>サイコロを1回振れる:奇数の時、自分のエールデッキから、[紫エールか黄エール]1枚を公開し、自分のバックホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -8165,6 +8504,7 @@ var cardData = [
 		"70", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>眠れる神秘を我が物に!<br>サイコロを1回振れる:偶数の時、自分のデッキから、イベント1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -8189,6 +8529,7 @@ var cardData = [
 		"70", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>きらめくお宝、ロックオン!<br>サイコロを1回振れる:偶数の時、自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -8213,6 +8554,7 @@ var cardData = [
 		"70", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>荒波をゆく奔放の牙!<br>サイコロを1回振れる:偶数の時、自分のデッキから、ツール1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -8237,6 +8579,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8261,6 +8604,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8285,6 +8629,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8309,6 +8654,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8333,6 +8679,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8357,6 +8704,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8381,6 +8729,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8405,6 +8754,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8429,6 +8779,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8453,6 +8804,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8477,6 +8829,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8501,6 +8854,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8525,6 +8879,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8549,6 +8904,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8573,6 +8929,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8597,6 +8954,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8621,6 +8979,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8645,6 +9004,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8669,6 +9029,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8693,6 +9054,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8717,6 +9079,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8741,6 +9104,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8765,6 +9129,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8789,6 +9154,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8813,6 +9179,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8837,6 +9204,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8861,6 +9229,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8885,6 +9254,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8909,6 +9279,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8933,6 +9304,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8957,6 +9329,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -8981,6 +9354,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9005,6 +9379,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9029,6 +9404,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ホワイトマイク<br>[ターンに1回]このターンの間、自分の白センターホロメンのアーツ+20。", //SKILL
 		"[ホロパワー:-1]<br>クイックガード<br>[ゲームに1回]相手のターンで、自分の白ホロメンが相手からダメージを受ける時に使える:そのホロメン1人が受けるダメージ-20。", //SPSKILL
 		"", //KEYWORD
@@ -9053,6 +9429,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9077,6 +9454,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>こんちくわ<br>このターンの間、自分の#ReGLOSSを持つセンターホロメンのアーツ+10。", //KEYWORD
@@ -9101,6 +9479,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9125,6 +9504,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9149,6 +9529,7 @@ var cardData = [
 		"100", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9173,6 +9554,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>宇宙一の番長を目指すなんでも屋<br>自分のデッキを1枚引く。", //KEYWORD
@@ -9197,6 +9579,7 @@ var cardData = [
 		"230", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9221,6 +9604,7 @@ var cardData = [
 		"180", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ダンスでこの世界に彩を!<br>自分のデッキから、#ReGLOSSを持つ[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -9245,6 +9629,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9269,6 +9654,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>任せておきなさい!<br>自分のセンターホロメンが#ReGLOSSを持つ時、自分の手札が5枚以下なら、自分のデッキを1枚引く。", //KEYWORD
@@ -9293,6 +9679,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ドーンッ!<br>相手のセンターホロメンかバックホロメン1人に特殊ダメージ10を与える。", //KEYWORD
@@ -9317,6 +9704,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>クレッシェンドな日々<br>自分のステージのエール1枚を、このホロメン以外の自分のホロメンに付け替えられる。", //KEYWORD
@@ -9341,6 +9729,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9365,6 +9754,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9389,6 +9779,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9413,6 +9804,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9437,6 +9829,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9461,6 +9854,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9485,6 +9879,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9509,6 +9904,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>グリーンマイク<br>[ターンに1回]このターンの間、自分の緑センターホロメンのアーツ+20。", //SKILL
 		"[ホロパワー:-1]<br>みんな頑張ろー!<br>[ゲームに1回]自分の緑ホロメン全員のHP20回復。", //SPSKILL
 		"", //KEYWORD
@@ -9533,6 +9929,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9557,6 +9954,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>用心棒<br>[コラボポジション限定]相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない(特殊ダメージは除く)。", //KEYWORD
@@ -9581,6 +9979,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>のっと!ﾆﾝﾆﾝ!!<br>自分のホロメン1人のHP10回復。", //KEYWORD
@@ -9605,6 +10004,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9629,6 +10029,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9653,6 +10054,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>かざまとおでかけ<br>自分のエールデッキの上から1枚を、自分の#秘密結社holoXを持つホロメンに送る。", //KEYWORD
@@ -9677,6 +10079,7 @@ var cardData = [
 		"220", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>サムライ少女<br>自分のデッキから、[〈ﾁｬｷ丸〉か〈ぽこべぇ〉]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -9701,6 +10104,7 @@ var cardData = [
 		"180", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>元気をお届け<br>自分の#秘密結社holoXを持つホロメン1人のHP30回復。", //KEYWORD
@@ -9725,6 +10129,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ずのー!<br>自分のセンターホロメンが#秘密結社holoXを持つ時、自分の手札が5枚以下なら、自分のデッキを1枚引く。", //KEYWORD
@@ -9749,6 +10154,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9773,6 +10179,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9797,6 +10204,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9821,6 +10229,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9845,6 +10254,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9869,6 +10279,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9893,6 +10304,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9917,6 +10329,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9941,6 +10354,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9965,6 +10379,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -9989,6 +10404,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>イエローマイク<br>[ターンに1回]このターンの間、自分の黄センターホロメンのアーツ+20。", //SKILL
 		"[ホロパワー:-1]<br>後は引き受けた!<br>[ゲームに1回]自分のセンターホロメンとお休みしていないバックホロメン1人を交代させる。さらに、バックポジションに移動したホロメンのHP30回復。", //SPSKILL
 		"", //KEYWORD
@@ -10013,6 +10429,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -10037,6 +10454,7 @@ var cardData = [
 		"50", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>大切な仲間たちと<br>自分のステージのホロメンが5人以下の時、自分のデッキから、Debutホロメンの[〈尾丸ポルカ〉か〈さくらみこ〉か〈星街すいせい〉か〈白銀ノエル〉]1枚を公開できる:公開したホロメンをステージに出す。そしてデッキをシャッフルする。", //KEYWORD
@@ -10061,6 +10479,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -10085,6 +10504,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -10109,6 +10529,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>エルフレンドのさえずり<br>自分のデッキから、〈エルフレンド〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -10133,6 +10554,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>また一つ成長した私を<br>[バックポジション限定]自分の残りHP70以下のコラボホロメンとこのホロメンを交代できる。", //KEYWORD
@@ -10157,6 +10579,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -10181,6 +10604,7 @@ var cardData = [
 		"180", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>疲れ知らず<br>[センターポジション限定]このホロメンが受けるダメージ-10。", //KEYWORD
@@ -10205,6 +10629,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>大物の確証<br>このターンの間、自分のセンターホロメンのアーツ+10。", //KEYWORD
@@ -10229,6 +10654,7 @@ var cardData = [
 		"60", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>バーニン♪ バーニン♪<br>相手のセンターホロメンに特殊ダメージ10を与える。", //KEYWORD
@@ -10253,6 +10679,7 @@ var cardData = [
 		"50", //HP
 		"Debut", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>僕らに水を<br>自分のセンターホロメンが〈不知火フレア〉の時、自分の手札の枚数が相手より少なければ、自分のデッキを1枚引く。", //KEYWORD
@@ -10277,6 +10704,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ご飯が底をつきそう……<br>自分のセンターホロメンが〈不知火フレア〉の時、自分のアーカイブのエール1枚を、このホロメン以外の自分のホロメンに送れる。", //KEYWORD
@@ -10301,6 +10729,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -10325,6 +10754,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -10349,6 +10779,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -10373,6 +10804,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -10397,6 +10829,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -10421,6 +10854,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -10445,6 +10879,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -10469,6 +10904,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>パソコンならわかるのら<br>[ターンに1回]自分のデッキから、カード名に「パソコン」を含むアイテム1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SKILL
 		"[ホロパワー:-2]<br>ルーナイト集合<br>[ゲームに1回]自分のセンターホロメンが〈姫森ルーナ〉の時に使える:自分のデッキから、〈ルーナイト〉1~4枚を公開し、自分のホロメンに割り振って付ける。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -10493,6 +10929,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>poi<br>[ターンに1回]自分のアーカイブのエール1枚を、自分のバックホロメンの〈獅白ぼたん〉に送る。", //SKILL
 		"[ホロパワー:-2]<br>狙撃<br>[ゲームに1回]自分のセンターホロメンの色が緑の時に使える:相手のDebut以外のセンターホロメンに特殊ダメージ100を与える。", //SPSKILL
 		"", //KEYWORD
@@ -10517,6 +10954,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>35P帰ってくるのかッ!?って!<br>[ターンに1回]サイコロを1回振れる:1か2か4か6の時、自分のアーカイブの〈35P〉1枚を手札に戻す。3か5の時、自分のアーカイブの〈35P〉2枚を手札に戻す。", //SKILL
 		"[ホロパワー:-2]<br>あきらめない心にぇ<br>[ゲームに1回]自分のセンターホロメンの色が赤の時に使える:自分の手札を好きな枚数選んで好きな順でデッキの下に戻す。そして手札が5枚になるまで、自分のデッキを引く。", //SPSKILL
 		"", //KEYWORD
@@ -10541,6 +10979,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-3]<br>モコちゃん!<br>[ターンに1回]自分のエールデッキの上から1枚を、自分の1stホロメンの〈モココ・アビスガード〉に送る。", //SKILL
 		"[ホロパワー:-2]<br>BAU BAU!<br>[ゲームに1回]自分の#Adventを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツは、相手のバックホロメンも対象にできる。", //SPSKILL
 		"", //KEYWORD
@@ -10565,6 +11004,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>デビルズヴォイス<br>[ターンに1回]このターンの間、自分の#歌を持つ[センターホロメンとコラボホロメン]のアーツ+20。", //SKILL
 		"[ホロパワー:-2]<br>悪魔的所業<br>[ゲームに1回]相手のターンで、自分の〈常闇トワ〉がダウンした時に使える:相手のセンターホロメンとコラボホロメンのエール2枚ずつを好きな順でエールデッキの下に戻す。", //SPSKILL
 		"", //KEYWORD
@@ -10589,6 +11029,7 @@ var cardData = [
 		"6", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>無限の体力<br>[ターンに1回]自分のお休みしている〈戌神ころね〉1人をアクティブにする。", //SKILL
 		"[ホロパワー:-3]<br>ウォウウォウウォウウォウ<br>[ゲームに1回]自分の黄ホロメンがダウンした時に使える:そのホロメンのエール1枚を自分の他のホロメンに付け替え、そのダウンしたホロメンを含め重なっているホロメンの中から1枚を手札に戻す。", //SPSKILL
 		"", //KEYWORD
@@ -10613,6 +11054,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>Member sheep いらっしゃい!<br>[ターンに1回]自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SKILL
 		"[ホロパワー:-2]<br>わためは悪くないよねぇ?<br>[ゲームに1回]自分のエールデッキの上から2枚を、自分の〈角巻わため〉1人に送る。", //SPSKILL
 		"", //KEYWORD
@@ -10637,6 +11079,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ホロライブID一家<br>[ターンに1回]自分の#ID1期生を持つホロメンがダウンした時に使える:自分のデッキを1枚引く。", //SKILL
 		"[ホロパワー:-2]<br>がんばり~リス!<br>[ゲームに1回]このターンの間、自分のステージの〈アユンダ・リス〉全員のアーツ+50。", //SPSKILL
 		"", //KEYWORD
@@ -10661,6 +11104,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -10685,6 +11129,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>お菓子の国のお姫様<br>自分のセンターホロメンが〈姫森ルーナ〉の時、自分のデッキを1枚引く。", //KEYWORD
@@ -10709,6 +11154,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -10733,6 +11179,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>一緒に最高のライブにしようね<br>このターンの間、自分のファンが付いているホロメン1人のアーツ+20。", //KEYWORD
@@ -10757,6 +11204,7 @@ var cardData = [
 		"110", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>んなたんと一緒に、宇宙に行くのら~!<br>[コラボポジション限定]自分のファンが付いているセンターホロメンの〈姫森ルーナ〉のアーツ+20。", //KEYWORD
@@ -10781,6 +11229,7 @@ var cardData = [
 		"180", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ルーナについてくるのら~<br>自分の推しホロメンが〈姫森ルーナ〉の時、自分のアーカイブの〈ルーナイト〉1枚を自分の〈姫森ルーナ〉に付けられる。", //KEYWORD
@@ -10805,6 +11254,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>メランコリャック<br>[センターポジション限定]自分の#ReGLOSSを持つコラボホロメンが受けるダメージ-20。", //KEYWORD
@@ -10829,6 +11279,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -10853,6 +11304,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>プリペア<br>自分の推しホロメンが〈獅白ぼたん〉の時、自分のエールデッキの上から1枚をアーカイブできる:自分のホロメン1人のHP10回復。", //KEYWORD
@@ -10877,6 +11329,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -10901,6 +11354,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>歌う事は楽しい事<br>自分のバックホロメンのエール1枚をアーカイブできる:相手のセンターホロメンかコラボホロメンに特殊ダメージ30を与える。自分のブルームエフェクト「歌う事は楽しい事」はターンに1回しか使えない。", //KEYWORD
@@ -10925,6 +11379,7 @@ var cardData = [
 		"110", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>SSSSR<br>自分のエールデッキの上から1枚を、自分のバックホロメンの〈獅白ぼたん〉に送る。", //KEYWORD
@@ -10949,6 +11404,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>なんとかしてくれる獅白ぼたん<br>自分のアーカイブの緑エール1枚ずつを、自分の#シューターを持つバックホロメン1~2人に送れる。", //KEYWORD
@@ -10973,6 +11429,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>異国の世界の姿<br>[センターポジション・コラボポジション限定]相手のパフォーマンスステップが開始する時に使える:このターンの間、自分のライフは相手の能力で減らない。", //KEYWORD
@@ -10997,6 +11454,7 @@ var cardData = [
 		"230", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>あんたたちぃ<br>サイコロを1回振れる:偶数の時、自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -11021,6 +11479,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>風真が護る<br>自分のアーカイブのエール1枚ずつを、自分の[〈風真いろは〉と〈星街すいせい〉]1人ずつに送れる。", //KEYWORD
@@ -11045,6 +11504,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11069,6 +11529,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>君と待ち合わせ<br>サイコロを1回振れる:2か4か6の時、相手のセンターホロメンに特殊ダメージ10を与える。3か5の時、自分のデッキを1枚引き、相手のセンターホロメンに特殊ダメージ10を与える。", //KEYWORD
@@ -11093,6 +11554,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11117,6 +11579,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11141,6 +11604,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>にぇ<br>自分のデッキから、〈35P〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -11165,6 +11629,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>エリートギャンブル<br>[センターポジション限定][ターンに1回]自分のメインステップで、このホロメンに〈35P〉が付いている時、サイコロを1回振れる:3か5の時、このターンの間、このホロメンのアーツ+50。", //KEYWORD
@@ -11189,6 +11654,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11213,6 +11679,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11237,6 +11704,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>全力でいくぞおおお!<br>相手のセンターホロメンに特殊ダメージ10を与える。その相手のセンターホロメンにツールが付いている時、かわりに、相手のセンターホロメンに特殊ダメージ30を与える。", //KEYWORD
@@ -11261,6 +11729,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>もう1人のはあと<br>自分のアーカイブの#1期生を持つBuzz以外の[1stホロメンか2ndホロメン]1枚を手札に戻せる。", //KEYWORD
@@ -11285,6 +11754,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11309,6 +11779,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ハッピータイム<br>自分のデッキから、〈小鳥遊キアラ〉1~4枚を公開し、アーカイブできる。そしてデッキをシャッフルする。", //KEYWORD
@@ -11333,6 +11804,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11357,6 +11829,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>遊びの時間だー!<br>DebutからBloomした時、自分のデッキから、1stホロメンの〈フワワ・アビスガード〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -11381,6 +11854,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>魔界乃番犬の暴れん坊<br>自分のリセットステップで、自分のセンターホロメンが〈フワワ・アビスガード〉の時、このホロメンはバックポジションに移動してもお休みしない。", //KEYWORD
@@ -11405,6 +11879,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11429,6 +11904,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11453,6 +11929,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>フワ花流水<br>自分のステージに〈モココ・アビスガード〉がいる時、相手のセンターホロメンかバックホロメン1人に特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。", //KEYWORD
@@ -11477,6 +11954,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11501,6 +11979,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>プラネットステージ<br>自分のデッキの上から4枚を見る。その中から、〈星街すいせい〉1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
@@ -11525,6 +12004,7 @@ var cardData = [
 		"230", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ブルーレイン<br>自分の#IDを持つホロメンのエール1枚をアーカイブできる:相手のバックホロメンに特殊ダメージ30を10ずつ割り振って与える。ただし、ダウンしても相手のライフは減らない。", //KEYWORD
@@ -11549,6 +12029,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11573,6 +12054,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11597,6 +12079,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11621,6 +12104,7 @@ var cardData = [
 		"230", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>困ったお姫様たちだね<br>自分のエールデッキから、自分の#ReGLOSSを持つセンターホロメンと同色のエール1枚を公開し、自分の#ReGLOSSを持つホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -11645,6 +12129,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11669,6 +12154,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11693,6 +12179,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11717,6 +12204,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11741,6 +12229,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>トワにしか出せない色<br>相手のセンターホロメンかコラボホロメンに特殊ダメージ20を与える。", //KEYWORD
@@ -11765,6 +12254,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11789,6 +12279,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11813,6 +12304,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11837,6 +12329,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11861,6 +12354,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>PONしたらその分<br>自分のデッキの上から3枚を見る。その中から、#0期生を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
@@ -11885,6 +12379,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11909,6 +12404,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11933,6 +12429,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ころねダイナー<br>このホロメンのエール1枚をアーカイブできる:自分のデッキから、#ゲーマーズを持つDebutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -11957,6 +12454,7 @@ var cardData = [
 		"200", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -11981,6 +12479,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12005,6 +12504,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>ボクシングスタイル<br>[コラボポジション限定]相手のメインステップの間、自分のセンターホロメンの〈戌神ころね〉のHPは相手の能力で減らず、変動しない。", //KEYWORD
@@ -12029,6 +12529,7 @@ var cardData = [
 		"210", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>わんだふぉ~♡<br>このホロメンがダウンした時、自分のエールデッキの上から1枚を自分の〈戌神ころね〉に送る。", //KEYWORD
@@ -12053,6 +12554,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12077,6 +12579,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12101,6 +12604,7 @@ var cardData = [
 		"190", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12125,6 +12629,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>めいっぱい歌って踊ります!<br>自分のステージのホロメンが5人以下の時、自分のデッキから、Debutホロメンの〈角巻わため〉1枚を公開し、ステージに出せる。そしてデッキをシャッフルする。", //KEYWORD
@@ -12149,6 +12654,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>Member sheep おかえり~<br>自分のアーカイブの〈わためいと〉1枚を手札に戻せる。", //KEYWORD
@@ -12173,6 +12679,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>まだまだいくよー!<br>このホロメンがダウンした時、このホロメンのエール1枚を、自分の他の〈角巻わため〉に付け替えられる。", //KEYWORD
@@ -12197,6 +12704,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12221,6 +12729,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12245,6 +12754,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12269,6 +12779,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>いやっほー! みんな元気?<br>自分のエールデッキから、[緑エールか黄エール]1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -12293,6 +12804,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>同期の絆<br>自分のステージのホロメンが5人以下の時、自分のデッキから、#ID1期生を持つDebutホロメン1枚を公開し、ステージに出せる。そしてデッキをシャッフルする。", //KEYWORD
@@ -12317,6 +12829,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>マジカルサポート<br>自分の#ID1期生を持つホロメンのエール1枚を、自分の他のホロメンに付け替えられる。", //KEYWORD
@@ -12341,6 +12854,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>今日はステキな日<br>自分のエールデッキから、黄エール1枚を公開し、このホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -12365,6 +12879,7 @@ var cardData = [
 		"130", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12389,6 +12904,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12413,6 +12929,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ここが私のステージだから!<br>自分のステージのエール1~2枚を、このホロメンに付け替えられる。", //KEYWORD
@@ -12437,6 +12954,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>なんちゅーこった<br>相手のパフォーマンスステップが終了する時、そのパフォーマンスステップに自分のライフが減っていたら、自分のアーカイブのエール1枚をこのホロメンに送れる。", //KEYWORD
@@ -12461,6 +12979,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12485,6 +13004,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12509,6 +13029,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12533,6 +13054,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12557,6 +13079,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12581,6 +13104,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12605,6 +13129,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12629,6 +13154,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12653,6 +13179,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12677,6 +13204,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12701,6 +13229,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12725,6 +13254,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12749,6 +13279,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12773,6 +13304,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12797,6 +13329,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12821,6 +13354,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12845,6 +13379,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12869,6 +13404,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12893,6 +13429,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12917,6 +13454,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12941,6 +13479,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12965,6 +13504,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -12989,6 +13529,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13013,6 +13554,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13037,6 +13579,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13061,6 +13604,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13085,6 +13629,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13109,6 +13654,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13133,6 +13679,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13157,6 +13704,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13181,6 +13729,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13205,6 +13754,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13229,6 +13779,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13253,6 +13804,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13277,6 +13829,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13301,6 +13854,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13325,6 +13879,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>こより実験中<br>[ターンに1回]このターンの間、自分の#こよラボを持つサポートカードが付いている〈博衣こより〉1人のアーツ+30。", //SKILL
 		"[ホロパワー:-2]<br>助手くん、んーまっ!<br>[ゲームに1回]相手のターンで、自分の〈こよりの助手くん〉が付いている〈博衣こより〉が相手からダメージを受ける時に使える:そのホロメン1人が受けるダメージ-100。", //SPSKILL
 		"", //KEYWORD
@@ -13349,6 +13904,7 @@ var cardData = [
 		"6", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ReGLOSSの風流人<br>[ターンに1回]自分のアーカイブのエール1枚を、自分の#ReGLOSSを持つホロメンに送る。", //SKILL
 		"[ホロパワー:-2]<br>余った時間でぐるぐる<br>[ゲームに1回]自分のアーカイブの#きのこを持つイベント1~4枚を手札に戻す。そして手札に戻したカード2枚につき、自分のデッキを1枚引く。", //SPSKILL
 		"", //KEYWORD
@@ -13373,6 +13929,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-3]<br>Reach the top!<br>[ターンに1回]自分のセンターホロメンが#ReGLOSSを持つ時、相手のコラボホロメンに特殊ダメージ50を与える。", //SKILL
 		"[ホロパワー:-1]<br>かわいい! ポジティブ! ジーニアス!<br>[ゲームに1回]相手のターンで、自分の〈一条莉々華〉がダウンした時に使える:自分のデッキから、[〈一条莉々華〉と〈限界飯〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -13397,6 +13954,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-1]<br>愛してる<br>[ターンに1回]相手のターンで、自分のホロメンがダウンした時に使える:そのホロメンに付いているファン1枚を手札に戻す。", //SKILL
 		"[ホロパワー:-3]<br>ぶーん、バリバリバリバリ<br>[ゲームに1回]自分の〈雪花ラミィ〉1人を選ぶ。このターンの間、選んだホロメンが、相手のホロメン1人に与える特殊ダメージ+100し、選んだホロメンが相手のホロメンをダウンさせた時、自分のデッキを2枚引く。", //SPSKILL
 		"", //KEYWORD
@@ -13421,6 +13979,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>総帥のお仕事<br>[ターンに1回]このターンの間、自分のホロメンの能力でサイコロを1度に3回振る時、そのサイコロの目の数すべてを5として扱う。", //SKILL
 		"[ホロパワー:-3]<br>我ら秘密結社holoX!<br>[ゲームに1回]自分の#秘密結社holoXを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツは、エールを必要とせずに使える。", //SPSKILL
 		"", //KEYWORD
@@ -13445,6 +14004,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>メンタル! フィジカル! パッション!<br>[ターンに1回]相手のターンで、自分の〈大空スバル〉が相手からダメージを受ける時に使える:自分の〈大空スバル〉全員が受けるダメージ-30。", //SKILL
 		"[ホロパワー:-2]<br>リアクション芸<br>[ゲームに1回]自分のライフが3以下の時に使える:このターンの間、自分のセンターホロメンの〈大空スバル〉のアーツ+100。", //SPSKILL
 		"", //KEYWORD
@@ -13469,6 +14029,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>神秘の儀式<br>[ターンに1回]自分のデッキから、〈古代武器〉1枚を公開し、自分のホロメンに付ける。そしてデッキをシャッフルする。", //SKILL
 		"[ホロパワー:-2]<br>人生のこと考えていた方が勝てる<br>[ゲームに1回]自分のアーカイブのエールを、自分の〈古代武器〉が付いているホロメン全員に1枚ずつ送る。", //SPSKILL
 		"", //KEYWORD
@@ -13493,6 +14054,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13517,6 +14079,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13541,6 +14104,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13565,6 +14129,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13589,6 +14154,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>はい! はい! はい! はい!<br>自分のデッキから、#こよラボを持つサポートカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -13613,6 +14179,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>絶対諦めない!<br>このホロメンが相手のホロメンをダウンさせた時、自分のデッキの上から1枚をホロパワーにする。その後、自分のホロパワーを見る。その中から1枚を公開し、手札に加える。そしてホロパワーをシャッフルする。", //KEYWORD
@@ -13637,6 +14204,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>戻っておいで<br>自分のアーカイブの#白上'sキャラクターを持つカード1~2枚を手札に戻せる。", //KEYWORD
@@ -13661,6 +14229,7 @@ var cardData = [
 		"230", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13685,6 +14254,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13709,6 +14279,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13733,6 +14304,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>神眼の描き手<br>このターンの間、自分のステージの#絵を持つホロメン1人のアーツ+20。", //KEYWORD
@@ -13757,6 +14329,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>只今、情報収集中<br>自分のデッキの上から3枚を見る。その中から、#絵を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
@@ -13781,6 +14354,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13805,6 +14379,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>あなたに学びと面白いをお届け<br>このターンに自分が#きのこを持つイベントを使っていた時、自分の#ReGLOSSを持つホロメン1人のHP20回復。", //KEYWORD
@@ -13829,6 +14404,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13853,6 +14429,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>ReGLOSSの賑やかし<br>相手のターンで、このホロメンがダウンした時、このホロメンのエール1枚を、自分の他の#ReGLOSSを持つホロメンに付け替えられる。", //KEYWORD
@@ -13877,6 +14454,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>冷静沈着<br>[センターポジション限定]相手のメインステップの間、このホロメンのHPは相手の能力で減らず、変動しない。", //KEYWORD
@@ -13901,6 +14479,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>伝統と革新<br>自分のデッキから、#きのこを持つイベント1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -13925,6 +14504,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>フブキは特別な存在<br>自分の推しホロメンが〈白上フブキ〉の時、自分のエールデッキから、白エール1枚を公開し、自分の〈白上フブキ〉に送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -13949,6 +14529,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>HOLORO<br>自分のエールデッキの上から1枚を、自分の〈クレイジー・オリー〉か〈アーニャ・メルフィッサ〉に送る。", //KEYWORD
@@ -13973,6 +14554,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -13997,6 +14579,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14021,6 +14604,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>こんな旋律思いついたの<br>自分のステージのエール1~2枚を選び、自分のホロメンに割り振って付け替えられる。", //KEYWORD
@@ -14045,6 +14629,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>海を越えたお茶会<br>相手のステージに[#JPか#ID]を持つホロメンがいる間、このホロメンのアーツ+30。", //KEYWORD
@@ -14069,6 +14654,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14093,6 +14679,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14117,6 +14704,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14141,6 +14729,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>限界飯料理人<br>自分のアーカイブの〈限界飯〉1枚を手札に戻せる。", //KEYWORD
@@ -14165,6 +14754,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>おいしいもの独り占め<br>相手のコラボホロメンに特殊ダメージ20を与える。", //KEYWORD
@@ -14189,6 +14779,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>KPG<br>サイコロを1回振れる:4以上の時、相手のコラボホロメンがいないなら、相手は、自身のバックホロメン1人をコラボポジションに移動させる(移動はコラボとしては扱わない)。", //KEYWORD
@@ -14213,6 +14804,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>どこ見ちゃってるのかな~!!♥♡<br>相手のセンターホロメンとコラボホロメンに特殊ダメージ10を与える。", //KEYWORD
@@ -14237,6 +14829,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14261,6 +14854,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14285,6 +14879,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>JDON my soul<br>自分のアーカイブのツール1枚を手札に戻せる。", //KEYWORD
@@ -14309,6 +14904,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14333,6 +14929,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14357,6 +14954,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>Snow flower<br>自分の〈雪民〉が付いている〈雪花ラミィ〉がいない時、自分のデッキから、〈雪民〉1枚を公開し、自分の〈雪花ラミィ〉に付ける。そしてデッキをシャッフルする。", //KEYWORD
@@ -14381,6 +14979,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14405,6 +15004,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14429,6 +15029,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>fleur<br>自分の〈雪民〉が付いている〈雪花ラミィ〉がいる時、相手のホロメン1人に特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。", //KEYWORD
@@ -14453,6 +15054,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ユニーリアの令嬢<br>自分のエールデッキの上から1枚を、自分の〈雪民〉が付いている〈雪花ラミィ〉に送る。", //KEYWORD
@@ -14477,6 +15079,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14501,6 +15104,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14525,6 +15129,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14549,6 +15154,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>脱獄計画<br>相手のバックホロメン1人に特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。", //KEYWORD
@@ -14573,6 +15179,7 @@ var cardData = [
 		"230", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>禁断の知識<br>自分のエールデッキの上から1枚を、自分の#ENを持つホロメンに送る。", //KEYWORD
@@ -14597,6 +15204,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14621,6 +15229,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>そこに跪け!<br>サイコロを1回振れる:3以上の時、相手のバックホロメン1人をお休みさせる。", //KEYWORD
@@ -14645,6 +15254,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14669,6 +15279,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>holoX集合<br>サイコロを1回振れる:奇数の時、自分のアーカイブの#秘密結社holoXを持つホロメン1枚を手札に戻す。偶数の時、自分のアーカイブの#秘密結社holoXを持つホロメン1枚をデッキの上に戻す。", //KEYWORD
@@ -14693,6 +15304,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>貴様の運命試してみるか?<br>サイコロを3回振れる:相手のセンターホロメンに、奇数が出た回数1回につき、特殊ダメージ10を与える。", //KEYWORD
@@ -14717,6 +15329,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>Yes My Dark!<br>自分の手札1枚をアーカイブすることで、サイコロを3回振れる:奇数が出た回数1回につき、自分のデッキを1枚引く。自分のブルームエフェクト「Yes My Dark!」はターンに1回しか使えない。", //KEYWORD
@@ -14741,6 +15354,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>エールリバース<br>相手のアーカイブのエール1枚を、相手のセンターホロメンに送れる。", //KEYWORD
@@ -14765,6 +15379,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>オリーを見てください!<br>自分のSP推しスキル「蘇るオリー」でBloomした時、自分の〈クレイジー・オリー〉1人のHPすべて回復。", //KEYWORD
@@ -14789,6 +15404,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>永遠の休息<br>[センターポジション・コラボポジション限定]このホロメンに〈森カリオペの鎌〉か〈Death-sensei〉が付いている間、自分の#Mythを持つセンターホロメンのアーツ+30。", //KEYWORD
@@ -14813,6 +15429,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>キラキラ コセキ!<br>相手のターンで、このホロメンがダウンした時、自分のデッキを1枚引く。", //KEYWORD
@@ -14837,6 +15454,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14861,6 +15479,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>絶世の輝き<br>自分のホロメンの赤エール1枚をアーカイブできる:自分のデッキを2枚引く。", //KEYWORD
@@ -14885,6 +15504,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>『感情結晶体』<br>自分の手札を数えて、自分の手札すべてをアーカイブできる:アーカイブしたカード1枚につき、自分のデッキを1枚引く。自分のブルームエフェクト「『感情結晶体』」はターンに1回しか使えない。", //KEYWORD
@@ -14909,6 +15529,7 @@ var cardData = [
 		"130", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14933,6 +15554,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>大空スバル盛り合わせセット<br>[センターポジション・コラボポジション限定]このホロメンが相手の1stホロメンから受けるダメージ-20。", //KEYWORD
@@ -14957,6 +15579,7 @@ var cardData = [
 		"190", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -14981,6 +15604,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>全力で頑張るから<br>自分のホロメン1人を選ぶ。このターンの間、選んだホロメンのエール1枚につき、選んだホロメンのアーツ+10。ただし、数える枚数は3枚まで。", //KEYWORD
@@ -15005,6 +15629,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15029,6 +15654,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>サンライトステージ<br>自分のアーカイブの黄エール1枚を自分のホロメンに送れる。", //KEYWORD
@@ -15053,6 +15679,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15077,6 +15704,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>A Day at the Café<br>[センターポジション限定]このホロメンと自分のコラボホロメンが受けるダメージ-10。", //KEYWORD
@@ -15101,6 +15729,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15125,6 +15754,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>私から皆さんへの歌<br>自分のアーカイブの〈古代武器〉1枚を自分の〈アーニャ・メルフィッサ〉に付けられる。", //KEYWORD
@@ -15149,6 +15779,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>ガラス越しの庭園<br>相手のターンで、このホロメンがダウンした時、このホロメンを含め重なっているホロメンの中から1枚を手札に戻す。", //KEYWORD
@@ -15173,6 +15804,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>宝物みつけた<br>[センターポジション・コラボポジション限定]自分の〈古代武器〉が付いているセンターホロメンの〈アーニャ・メルフィッサ〉のアーツに必要な黄-1。", //KEYWORD
@@ -15197,6 +15829,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>わっしょ~い!<br>相手のターンで、このホロメンがダウンした時、このホロメンのエール1枚を、自分の他のホロメンに付け替えられる。", //KEYWORD
@@ -15221,6 +15854,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15245,6 +15879,7 @@ var cardData = [
 		"120", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>大好きな君に届くように<br>自分のエールデッキから、黄エール1枚を公開し、このホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -15269,6 +15904,7 @@ var cardData = [
 		"180", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>レッツ ショッピング<br>自分のステージの異なるカード名の#1期生を持つホロメン1人につき、サイコロを1回振れる:4以上が出た回数1回につき、自分のエールデッキの上から1枚をこのホロメンに送る。", //KEYWORD
@@ -15293,6 +15929,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15317,6 +15954,7 @@ var cardData = [
 		"190", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15341,6 +15979,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>最高の気分!!!!!!!!!!!!!!<br>自分のエールデッキから、自分のステージの#5期生を持つホロメン1人と同色のエール1枚を公開し、自分の#5期生を持つホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -15365,6 +16004,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15389,6 +16029,7 @@ var cardData = [
 		"140", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>『緋色の女王』<br>[コラボポジション限定]自分のDebutホロメンがセンターポジションで受けるダメージ-20。", //KEYWORD
@@ -15413,6 +16054,7 @@ var cardData = [
 		"130", //HP
 		"Spot", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>え? でも面白かったじゃん!<br>相手のターンで、このホロメンがダウンした時、自分のエールデッキの上から1枚を自分のホロメンに送る。", //KEYWORD
@@ -15437,6 +16079,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15461,6 +16104,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15485,6 +16129,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15509,6 +16154,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15533,6 +16179,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15557,6 +16204,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15581,6 +16229,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15605,6 +16254,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15629,6 +16279,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15653,6 +16304,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15677,6 +16329,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15701,6 +16354,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15725,6 +16379,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15749,6 +16404,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15773,6 +16429,7 @@ var cardData = [
 		"S", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15797,6 +16454,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15821,6 +16479,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15845,6 +16504,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15869,6 +16529,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15893,6 +16554,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15917,6 +16579,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15941,6 +16604,7 @@ var cardData = [
 		"100", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>天使のお仕事<br>相手のセンターホロメンに特殊ダメージ30を与える(ダウンしても相手のライフは減らない)。", //KEYWORD
@@ -15965,6 +16629,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -15989,6 +16654,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16013,6 +16679,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16037,6 +16704,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16061,6 +16729,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ホワイトマイク<br>[ターンに1回]このターンの間、自分の白センターホロメンのアーツ+20。", //SKILL
 		"[ホロパワー:-1]<br>クイックガード<br>[ゲームに1回]相手のターンで、自分の白ホロメンが相手からダメージを受ける時に使える:そのホロメン1人が受けるダメージ-20。", //SPSKILL
 		"", //KEYWORD
@@ -16085,6 +16754,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ホロサマー<br>自分のデッキの上から5枚を見る。その中から、#サマーを持つDebutホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
@@ -16109,6 +16779,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>相談のるよ<br>自分のデッキから、#4期生を持つDebutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -16133,6 +16804,7 @@ var cardData = [
 		"180", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>エンジェルウィンド<br>[センターポジション限定]自分のコラボポジションの#4期生を持つDebutホロメンのアーツ+40。", //KEYWORD
@@ -16157,6 +16829,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>なんでも入る巾着<br>[コラボポジション限定]相手のターンで、自分のホロメンがダウンした時、自分のライフが相手以下なら、自分のアーカイブのカード名に「パソコン」を含むアイテム1枚を手札に戻せる。", //KEYWORD
@@ -16181,6 +16854,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>花火見ていく?<br>相手のセンターホロメンに特殊ダメージ10を与える。自分が後攻で最初のターンなら、かわりに、相手のセンターホロメンに特殊ダメージ20を与える。", //KEYWORD
@@ -16205,6 +16879,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>みんなと夏祭り<br>自分のアーカイブのエール1枚を自分の#4期生を持つ2ndホロメンに送れる。", //KEYWORD
@@ -16229,6 +16904,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16253,6 +16929,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16277,6 +16954,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16301,6 +16979,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16325,6 +17004,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16349,6 +17029,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16373,6 +17054,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>宝鐘の海賊団<br>自分のデッキから、〈宝鐘マリン〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。自分のブルームエフェクト「宝鐘の海賊団」はターンに1回しか使えない。", //KEYWORD
@@ -16397,6 +17079,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16421,6 +17104,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16445,6 +17129,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16469,6 +17154,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>レッドマイク<br>[ターンに1回]このターンの間、自分の赤センターホロメンのアーツ+20。", //SKILL
 		"[ホロパワー:-1]<br>さあ!もう一度!<br>[ゲームに1回]自分のアーカイブの赤ホロメン1枚を手札に戻す。", //SPSKILL
 		"", //KEYWORD
@@ -16493,6 +17179,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ホロサマー<br>自分のデッキの上から5枚を見る。その中から、#サマーを持つDebutホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
@@ -16517,6 +17204,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>みんな優勝するぞ<br>相手のセンターホロメンに、自分のステージの異なるカード名の#3期生を持つホロメン1人につき、特殊ダメージ10を与える。", //KEYWORD
@@ -16541,6 +17229,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16565,6 +17254,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>3期生の海の家<br>このターンの間、自分のステージの異なるカード名の#3期生を持つホロメン1人につき、自分のセンターポジションの2ndホロメンのアーツ+10。", //KEYWORD
@@ -16589,6 +17279,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>あんたたち働くぺこー!<br>自分が後攻で最初のターンなら、自分のエールデッキの上から1枚を、自分の#3期生を持つホロメンに送る。", //KEYWORD
@@ -16613,6 +17304,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>クールダウンしよ<br>[コラボポジション限定]相手のターンで、このホロメンがダウンした時、自分のライフが相手より少ないなら、自分の減るライフ-1。", //KEYWORD
@@ -16637,6 +17329,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16661,6 +17354,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16685,6 +17379,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16709,6 +17404,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16733,6 +17429,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16757,6 +17454,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16781,6 +17479,7 @@ var cardData = [
 		"70", //HP
 		"Debut", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16805,6 +17504,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16829,6 +17529,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16853,6 +17554,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16877,6 +17579,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16901,6 +17604,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16925,6 +17629,7 @@ var cardData = [
 		"130", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16949,6 +17654,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -16973,6 +17679,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>白銀の騎士達<br>[ターンに1回]自分のホロメンが相手のホロメンをダウンさせた時に使える:自分のデッキから、#3期生を持つホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SKILL
 		"[ホロパワー:-2]<br>スーパーまずった太郎<br>[ゲームに1回]相手のターンで、自分の#3期生を持つホロメンがダウンした時に使える:自分の減るライフ-1。その後、そのホロメンがBuzzホロメンか2ndホロメンなら、自分のデッキを2枚引く。", //SPSKILL
 		"", //KEYWORD
@@ -16997,6 +17704,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-1]<br>IOFORIA~!<br>[ターンに1回]相手のターンで、自分の#ID1期生を持つホロメンが相手からダメージを受ける時に使える:そのホロメンのエール1枚を自分の他の#ID1期生を持つホロメンに付け替える。", //SKILL
 		"[ホロパワー:-3]<br>Kekuatan Iofi<br>[ゲームに1回]自分のステージのエール2枚をアーカイブすることで、自分のデッキから、#ID1期生を持つホロメン2枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -17021,6 +17729,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>ポルカの伝説<br>[ターンに1回]自分の手札が自分のステージの〈座員〉の枚数と同じになるまで、自分のデッキを引く。ただし、引ける枚数は4枚まで。", //SKILL
 		"[ホロパワー:-2]<br>成功体験-!!!<br>[ゲームに1回]自分のデッキの上から7枚を見る。その中から、[〈尾丸ポルカ〉とスタッフ]1枚ずつを公開し、公開した[〈尾丸ポルカ〉とスタッフ]を手札に加える。そして残ったカードをアーカイブする。", //SPSKILL
 		"", //KEYWORD
@@ -17045,6 +17754,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-1]<br>いっくよー<br>[ターンに1回]自分のセンターホロメンが〈猫又おかゆ〉なら使える:相手のホロメン1人に特殊ダメージ10を与える。", //SKILL
 		"[ホロパワー:-3]<br>ウマウマ!<br>[ゲームに1回]相手のセンターホロメンとHPが減っているバックホロメン1人を交代できる。その後、自分のセンターホロメンが〈猫又おかゆ〉なら、自分のデッキを3枚引く。", //SPSKILL
 		"", //KEYWORD
@@ -17069,6 +17779,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-1]<br>ちょこまみれになっちゃえっ!<br>[ターンに1回]自分のデッキから、#食べ物を持つイベント1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SKILL
 		"[ホロパワー:-2]<br>ちょこっとクッキング<br>[ゲームに1回]自分のアーカイブの#食べ物を持つイベント1~4枚を手札に戻す。その後、このターンの間、自分のステージの#料理を持つホロメン全員のアーツ+40。", //SPSKILL
 		"", //KEYWORD
@@ -17093,6 +17804,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-1]<br>Liebesträume<br>[ターンに1回]このターンの間、自分の#歌を持つ[センターホロメンとコラボホロメン]のアーツ+10。", //SKILL
 		"[ホロパワー:-4]<br>Shoot for the Moon<br>[ゲームに1回]このゲームの間、自分の〈ネリッサ・レイヴンクロフト〉全員のアーツに必要な無色-1。", //SPSKILL
 		"", //KEYWORD
@@ -17117,6 +17829,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>キミの力になりたいから<br>[ターンに1回]自分のコラボポジションの[Debutホロメンか1stホロメンかSpotホロメン]と、バックホロメンの〈不知火フレア〉1人を交代させる。", //SKILL
 		"[ホロパワー:-2]<br>みんなで盛り上がろう!<br>[ゲームに1回]自分のステージのエール1~5枚を自分の〈不知火フレア〉1人に付け替えられる。その後、このターンの間、自分のセンターホロメンのエール1枚につき、自分のステージのホロメン全員のアーツ+10。", //SPSKILL
 		"", //KEYWORD
@@ -17141,6 +17854,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>まっするまっする<br>[コラボポジション限定]自分の#3期生を持つDebutホロメンがセンターポジションで受けるダメージ-20。", //KEYWORD
@@ -17165,6 +17879,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>夏深し<br>自分が後攻で最初のターンなら、自分のデッキから、1stホロメンの〈白銀ノエル〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -17189,6 +17904,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>闘う団長<br>[コラボポジション限定]自分の#3期生を持つセンターホロメンがいる間、相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない。ただし、特殊ダメージは除く。", //KEYWORD
@@ -17213,6 +17929,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>みんなが居てくれて<br>このターンの間、自分の#3期生を持つ[センターホロメンとコラボホロメン]のアーツ+10。", //KEYWORD
@@ -17237,6 +17954,7 @@ var cardData = [
 		"220", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -17261,6 +17979,7 @@ var cardData = [
 		"210", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>Ray of Jewelry<br>[センターポジション・コラボポジション限定]自分のステージの#0期生を持つホロメン全員のアーツ+30。", //KEYWORD
@@ -17285,6 +18004,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -17309,6 +18029,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -17333,6 +18054,7 @@ var cardData = [
 		"210", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>最強女神<br>このホロメンがアーツを使った時、そのアーツでサイコロを振って出た目の合計数が奇数なら、自分のデッキを1枚引く。偶数なら、自分のデッキを2枚引く。", //KEYWORD
@@ -17357,6 +18079,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -17381,6 +18104,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -17405,6 +18129,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>イオフィとおでかけ<br>このホロメンのエール1枚をアーカイブできる:自分の#ID1期生を持つホロメン1人のHP30回復。", //KEYWORD
@@ -17429,6 +18154,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>過去・今・未来の私と君へ<br>自分が後攻で最初のターンなら、自分のエールデッキの上から1枚を自分の#ID1期生を持つホロメンに送る。", //KEYWORD
@@ -17453,6 +18179,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>Hello beb!<br>自分のアーカイブのエール1枚をこのホロメンに送れる。", //KEYWORD
@@ -17477,6 +18204,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>落日に染まる<br>自分のステージにエールが4枚以上あるなら、このターンの間、自分のステージの#ID1期生を持つホロメン1人のアーツ+20。", //KEYWORD
@@ -17501,6 +18229,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>宇宙人のお姫様<br>このホロメンが相手のホロメンをダウンさせた時、自分のアーカイブのエール1枚を自分の#ID1期生を持つホロメンに送れる。", //KEYWORD
@@ -17525,6 +18254,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -17549,6 +18279,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -17573,6 +18304,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>トワイライトリゾート<br>自分のアーカイブの〈石の斧〉1枚を、自分の〈アキ・ローゼンタール〉に付けられる。", //KEYWORD
@@ -17597,6 +18329,7 @@ var cardData = [
 		"210", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ゲーム? スポーティー? キャンプ?!<br>このホロメンに付いているツール1枚をアーカイブできる:自分のデッキから、[ホロメンかツール]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -17621,6 +18354,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>ちょっと頑張りました<br>[センターポジション限定][ターンに1回]自分の推しホロメンの〈獅白ぼたん〉か自分のステージの〈獅白ぼたん〉が相手のホロメンに30以上の特殊ダメージを与えた時、自分のデッキを1枚引く。", //KEYWORD
@@ -17645,6 +18379,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -17669,6 +18404,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>まばゆい日常を君と<br>このターンの間、自分のファンが付いているセンターホロメンのアーツ+10。", //KEYWORD
@@ -17693,6 +18429,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -17717,6 +18454,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ポルカとのなんでもない休日<br>相手のコラボホロメンに特殊ダメージ20を与える。", //KEYWORD
@@ -17741,6 +18479,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -17765,6 +18504,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>おまたせ~!<br>[センターポジション限定]自分の手札を好きな枚数アーカイブできる:アーカイブしたカード1枚につき、自分のアーカイブの〈座員〉1枚を手札に戻す。", //KEYWORD
@@ -17789,6 +18529,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>今のはちょっとね、練習で…<br>[センターポジション・コラボポジション限定]相手のターンで、自分の〈さくらみこ〉がダウンした時に使える:自分のデッキから、〈み俺恥〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -17813,6 +18554,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -17837,6 +18579,7 @@ var cardData = [
 		"210", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -17861,6 +18604,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>モココェ<br>[コラボポジション限定]自分のSP推しスキル「BAU BAU!」を使った時、このターンの間、このホロメンのアーツ+70。自分のステージに2ndホロメンがいるなら、さらに、このターンの間、このホロメンのアーツ+50。", //KEYWORD
@@ -17885,6 +18629,7 @@ var cardData = [
 		"230", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -17909,6 +18654,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ビジネスフレンド<br>自分のライフが3以下なら、自分のこのターンにBloomしたセンターホロメンの[〈さくらみこ〉か〈星街すいせい〉]を、自分の手札のホロメンを使ってもう1回Bloomできる。", //KEYWORD
@@ -17933,6 +18679,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -17957,6 +18704,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>一緒に入ろ~!<br>自分が後攻で最初のターンなら、自分のデッキから、#ゲーマーズを持つ2ndホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -17981,6 +18729,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>僕でよくな~い?<br>[コラボポジション限定]自分の#ゲーマーズを持つセンターホロメンがいる間、相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない。ただし、特殊ダメージは除く。", //KEYWORD
@@ -18005,6 +18754,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>お弁当タイム…?<br>相手のセンターホロメンとバックホロメン1人に特殊ダメージ10を与える。自分のブルームエフェクト「お弁当タイム…?」はターンに1回しか使えない。", //KEYWORD
@@ -18029,6 +18779,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>自分らしく居られる場所<br>[センターポジション限定]自分の推しホロメンの〈猫又おかゆ〉と自分のステージの〈猫又おかゆ〉全員が相手のセンターホロメンに与える特殊ダメージ", //KEYWORD
@@ -18053,6 +18804,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ラミィちゃんしか~?<br>自分のデッキから、〈雪民〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -18077,6 +18829,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18101,6 +18854,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>幼馴染のドキドキ膝枕<br>相手のバックホロメン2人に特殊ダメージ10を与える。", //KEYWORD
@@ -18125,6 +18879,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18149,6 +18904,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>モゴジャ~~ン!!!<br>[センターポジション限定]自分の推しスキル「モコちゃん!」を使った時、自分のエールデッキの上から1枚を自分の#Adventを持つホロメンに送る。", //KEYWORD
@@ -18173,6 +18929,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>僕の目だけ見て<br>自分のデッキの上から3枚を見る。その中から、#お酒を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
@@ -18197,6 +18954,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>秘密の保健室<br>自分のアーカイブにイベントがあるなら、相手のセンターホロメンに特殊ダメージ10を与える。", //KEYWORD
@@ -18221,6 +18979,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>すうすう…<br>自分が後攻で最初のターンで、自分の推しホロメンが〈癒月ちょこ〉なら、自分のデッキを2枚引く。", //KEYWORD
@@ -18245,6 +19004,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18269,6 +19029,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>寝坊助悪魔<br>[センターポジション限定]相手のパフォーマンスステップが終了する時、このホロメンのHPが減っていないなら、自分のエールデッキの上から1枚を自分の〈癒月ちょこ〉に送れる。", //KEYWORD
@@ -18293,6 +19054,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18317,6 +19079,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>Going out!<br>このターンの間、自分のステージの#歌を持つホロメン1人のアーツ+10。", //KEYWORD
@@ -18341,6 +19104,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>SUGOIDEKAI<br>自分が後攻で最初のターンで、自分の推しホロメンが〈ネリッサ・レイヴンクロフト〉なら、自分のデッキの上から1枚をホロパワーにする。", //KEYWORD
@@ -18365,6 +19129,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18389,6 +19154,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>月の光<br>自分のデッキから、[〈ネリッサ・レイヴンクロフトの杖〉か〈Jailbird〉]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -18413,6 +19179,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>DEO<br>このホロメンが相手のホロメンをダウンさせた時、自分のデッキを2枚引く。", //KEYWORD
@@ -18437,6 +19204,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>友達がいっぱい増えたよ<br>自分のデッキから、#歌を持つBuzz以外の1stホロメン2枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -18461,6 +19229,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>おうちでまったり<br>このホロメンのエール1枚をアーカイブできる:自分のデッキから、自分のステージのホロメン全員と異なるカード名のDebutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -18485,6 +19254,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>Canvas<br>自分が後攻で最初のターンなら、自分のデッキから、異なるカード名のDebutホロメン2枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -18509,6 +19279,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>幸運の石<br>[コラボポジション限定][ターンに1回]このホロメン以外の自分のホロメンが相手からダメージを受ける時、サイコロを1回振れる:奇数なら、そのホロメン1人が受けるダメージ-40。偶数なら、そのホロメン1人が受けるダメージ-20。", //KEYWORD
@@ -18533,6 +19304,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>冬の旅<br>[コラボポジション限定]自分の#3期生を持つセンターホロメンがアーツを使った時、自分の手札1枚をアーカイブできる:自分のデッキを1枚引く。", //KEYWORD
@@ -18557,6 +19329,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>カラフルストリーム<br>このホロメンがアーツを使った時、このホロメンのエール2枚を自分のバックホロメン1人に送れる。その後、自分のアーカイブの、エールを送られたホロメンと同じカード名の1stホロメン1枚を手札に戻す。", //KEYWORD
@@ -18581,6 +19354,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ゆるゆる休養日<br>このホロメンにマスコットが付いているなら、自分のデッキの上から1枚を見る。そのカードをデッキの上か下に戻す。", //KEYWORD
@@ -18605,6 +19379,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>とびきりの笑顔<br>[バックポジション限定]このホロメンは相手からダメージを受けない。", //KEYWORD
@@ -18629,6 +19404,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18653,6 +19429,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>戌神族<br>自分のデッキから、#ゲーマーズを持つBuzz以外の1stホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -18677,6 +19454,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18701,6 +19479,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>BRRRR<br>自分のエールデッキの上から3枚を見る。その中から、エール1枚を公開し、自分の〈アユンダ・リス〉に送る。そして残ったエールを好きな順でエールデッキの下に戻す。その後、自分のデッキを1枚引く。", //KEYWORD
@@ -18725,6 +19504,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18749,6 +19529,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18773,6 +19554,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18797,6 +19579,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18821,6 +19604,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18845,6 +19629,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18869,6 +19654,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18893,6 +19679,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18917,6 +19704,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18941,6 +19729,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18965,6 +19754,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -18989,6 +19779,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19013,6 +19804,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19037,6 +19829,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19061,6 +19854,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19085,6 +19879,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19109,6 +19904,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19133,6 +19929,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>エンジン全開!レッツゴー!<br>[ターンに1回]このターンに自分のホロメンがBloomしていたなら、このターンの間、自分のステージの#FLOW GLOWを持つホロメン1人のアーツ+30。", //SKILL
 		"[ホロパワー:-2]<br>向こう側の景色を見に行かない?<br>[ゲームに1回]自分のエールデッキの上から1枚を自分のホロメンに送る。その後、自分の#FLOW GLOWを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのエール1枚につき、選んだホロメンのアーツ+20。", //SPSKILL
 		"", //KEYWORD
@@ -19157,6 +19954,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19181,6 +19979,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19205,6 +20004,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>300馬力だよ!<br>自分の推しホロメンが〈輪堂千速〉で、相手のステージに1stホロメンがいるなら、このターンにBloomしたこのホロメンは、自分の手札の2ndホロメンを使ってもう1回Bloomできる。", //KEYWORD
@@ -19229,6 +20029,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>FLOW GLOWのDJ兼運転手担当<br>自分のアーカイブの#FLOW GLOWを持つホロメン1~3枚を好きな順でデッキの下に戻せる。ホロメン3枚をデッキに戻したなら、自分のエールデッキの上から1枚を自分のホロメンに送れる。", //KEYWORD
@@ -19253,6 +20054,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19277,6 +20079,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19301,6 +20104,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>FLOW GLOWのメイク担当<br>相手の手札すべてを見る。その中にサポートカードがあるなら、自分のデッキを1枚引く。", //KEYWORD
@@ -19325,6 +20129,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>美の求道者<br>自分のデッキの上から、相手の手札と同じ枚数を見る。その中から、カード1枚を手札に加える。そして残ったカードをデッキに戻してシャッフルする。", //KEYWORD
@@ -19349,6 +20154,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19373,6 +20179,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19397,6 +20204,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19421,6 +20229,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19445,6 +20254,7 @@ var cardData = [
 		"170", //HP
 		"Spot", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>私の元においで~っ<br>自分の手札1枚をアーカイブできる:自分のデッキから、[コラボエフェクトと#FLOW GLOWを持つホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -19469,6 +20279,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19493,6 +20304,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19517,6 +20329,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19541,6 +20354,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19565,6 +20379,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19589,6 +20404,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>虎視眈々<br>[ターンに1回]自分のアーカイブのエール1~2枚を自分のエールが付いていない#FLOW GLOWを持つホロメン1人に送る。", //SKILL
 		"[ホロパワー:-2]<br>ニコたんの名を呼ぶがいいさ!<br>[ゲームに1回]自分の#FLOW GLOWを持つホロメンの能力でエールをアーカイブした時に使える:相手のセンターホロメンかコラボホロメンどちらかに、アーカイブしたエール1枚につき、特殊ダメージ30を与える。", //SPSKILL
 		"", //KEYWORD
@@ -19613,6 +20429,7 @@ var cardData = [
 		"130", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19637,6 +20454,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19661,6 +20479,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>人を笑顔にするためならば<br>自分のステージのエール2枚をアーカイブできる:自分のアーカイブの〈虎金妃笑虎〉1枚を手札に戻す。", //KEYWORD
@@ -19685,6 +20504,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>FLOW GLOWのお笑い担当<br>自分のアーカイブのエール1枚を自分の#FLOW GLOWを持つバックホロメンに送れる。", //KEYWORD
@@ -19709,6 +20529,7 @@ var cardData = [
 		"210", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>戯笑の使者<br>自分のパフォーマンスステップが開始する時、自分の手札の#FLOW GLOWを持つホロメン1枚をアーカイブできる:自分のアーカイブの黄エール1枚を自分の〈虎金妃笑虎〉に送る。", //KEYWORD
@@ -19733,6 +20554,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19757,6 +20579,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>FLOW GLOWのえらい宣伝担当<br>相手のセンターポジションのホロメン1人は、次の相手のターンが終了するまでバトンタッチに必要な無色エール+1。", //KEYWORD
@@ -19781,6 +20604,7 @@ var cardData = [
 		"210", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>感情の伝令者<br>相手のセンターポジションのホロメン1人は、次の相手のターンが終了するまでバトンタッチに必要な無色エール+3。", //KEYWORD
@@ -19805,6 +20629,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19829,6 +20654,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19853,6 +20679,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19877,6 +20704,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19901,6 +20729,7 @@ var cardData = [
 		"170", //HP
 		"Spot", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>私の元においで~っ<br>自分の手札1枚をアーカイブできる:自分のデッキから、[コラボエフェクトと#FLOW GLOWを持つホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -19925,6 +20754,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19949,6 +20779,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19973,6 +20804,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -19997,6 +20829,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20021,6 +20854,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20045,6 +20879,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20069,6 +20904,7 @@ var cardData = [
 		"80", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20093,6 +20929,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20117,6 +20954,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20141,6 +20979,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20165,6 +21004,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20189,6 +21029,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20213,6 +21054,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20237,6 +21079,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20261,6 +21104,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20285,6 +21129,7 @@ var cardData = [
 		"90", //HP
 		"Debut", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20309,6 +21154,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20333,6 +21179,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>BIG CAT means…<br>[ターンに1回]自分のセンターホロメンが〈ラオーラ・パンテーラ〉なら、自分のデッキから、自分のコラボホロメンと同じカード名のホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SKILL
 		"[ホロパワー:-1]<br>BIG TROUBLE!!<br>[ゲームに1回]このゲームの間、自分の〈ラオーラ・パンテーラ〉全員は、リセットステップでお休みしない。", //SPSKILL
 		"", //KEYWORD
@@ -20357,6 +21204,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>やりたいように、私は私らしく<br>[ターンに1回]自分のデッキの上から2枚をアーカイブする。その後、このターンの間、自分の#FLOW GLOWを持つ[センターホロメンとコラボホロメン]のアーツ+20。", //SKILL
 		"[ホロパワー:-1]<br>生き抜いていくんです!<br>[ゲームに1回]自分のデッキの枚数が5枚以下で、自分の#FLOW GLOWを持つホロメンが相手のセンターホロメンをダウンさせた時に使える:相手のライフ-1。", //SPSKILL
 		"", //KEYWORD
@@ -20381,6 +21229,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>迷ったらまず実行!<br>[ターンに1回]自分のエールデッキの上から1枚を自分の[BuzzホロメンかBuzzホロメンからBloomしている〈風真いろは〉]に送る。", //SKILL
 		"[ホロパワー:-2]<br>アルティメットつよつよござる<br>[ゲームに1回]このターンの間、自分のステージのエール1枚につき、自分のステージの〈風真いろは〉全員のアーツ+10。その後、自分のステージにBuzzホロメンがいるなら、自分のデッキを3枚引く。", //SPSKILL
 		"", //KEYWORD
@@ -20405,6 +21254,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>鬼閻魔<br>[ターンに1回]自分のエールデッキの上から1~2枚をアーカイブする:アーカイブしたエール1枚につき、自分のデッキを1枚引く。", //SKILL
 		"[ホロパワー:-2]<br>二刀一閃! 鬼神斬り<br>[ゲームに1回]相手のセンターホロメンかコラボホロメンどちらかに、自分のアーカイブの赤エール1枚につき、特殊ダメージ20を与える。", //SPSKILL
 		"", //KEYWORD
@@ -20429,6 +21279,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-1]<br>混沌の化身<br>[ターンに1回]このゲーム中に、自分のSP推しスキルを使っていたなら、サイコロを1回振る。自分の手札が出た目の数と同じになるまで、自分のデッキを引く。", //SKILL
 		"[ホロパワー:-2]<br>🎲ƎNOZ N∩Ⅎ ƎH⊥ O⊥ ƎWOϽ˥ƎM🎲<br>[ゲームに1回]サイコロを1回振る。出た目の数1につき、自分の手札1枚をアーカイブする。", //SPSKILL
 		"", //KEYWORD
@@ -20453,6 +21304,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-1]<br>満月の輝き<br>[ターンに1回]相手のホロメン1人に特殊ダメージを与えた時に使える:相手のセンターホロメンとコラボホロメンに特殊ダメージ20を与える。", //SKILL
 		"[ホロパワー:-2]<br>双月の斉唱<br>[ゲームに1回]お互いのステージのエールが合計6枚以上あるなら、自分のエールデッキから、エール1~3枚を公開し、自分の#ID1期生を持つホロメンに割り振って送る。そしてエールデッキをシャッフルする。", //SPSKILL
 		"", //KEYWORD
@@ -20477,6 +21329,7 @@ var cardData = [
 		"6", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>PONじゃないもん!!<br>[ターンに1回]相手のターンで、自分の〈ロボ子さん〉がダウンした時に使える:自分のデッキの上から2枚をアーカイブする。その後、自分のアーカイブの〈ロボ子さん〉1枚を手札に戻す。", //SKILL
 		"[ホロパワー:-1]<br>ボクの『高性能っぷり』を堪能してよね♡<br>[ゲームに1回]自分のデッキを2枚引いた後、手札2枚をアーカイブする。その後、自分のアーカイブの〈ろぼさー〉を好きな枚数選び、自分の〈ロボ子さん〉に割り振って付けられる。", //SPSKILL
 		"", //KEYWORD
@@ -20501,6 +21354,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>おまつりわっしょーい!!!<br>[ターンに1回]サイコロを1回振る。出た目の数が自分のライフ以上なら、自分のデッキから、カード1枚を手札に加える。そしてデッキをシャッフルする。出た目の数が自分のライフ以下なら、自分のデッキの上から1枚をホロパワーにする。", //SKILL
 		"[ホロパワー:-1]<br>絶対勝ちたい!!!!!!!<br>[ゲームに1回]自分のセンターホロメンが〈夏色まつり〉なら、このターンの間、自分が使えるLIMITEDのサポートカードの枚数は2枚になる。", //SPSKILL
 		"", //KEYWORD
@@ -20525,6 +21379,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>BIG PINK CAT<br>[センターポジション限定]自分のコラボホロメンが受けるダメージ-10。", //KEYWORD
@@ -20549,6 +21404,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>夢みたいな最高のチーム<br>自分が後攻で最初のターンなら、自分のデッキから、[DebutホロメンかSpotホロメン]1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //KEYWORD
@@ -20573,6 +21429,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>RAORAO<br>自分のデッキから、#Justiceを持つ[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -20597,6 +21454,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20621,6 +21479,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>CATCH ALL CHATTINI AROUND THE WORLD!!!<br>自分のデッキから、〈Chattino〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -20645,6 +21504,7 @@ var cardData = [
 		"210", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>夢紡ぎのアトリエ<br>このホロメンがアーツを使った時、自分のホロパワーを見る。その中から1枚を公開し、手札に加える。手札に加えたなら、自分の手札1枚をホロパワーにする。そしてホロパワーをシャッフルする。", //KEYWORD
@@ -20669,6 +21529,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20693,6 +21554,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>一緒に共闘しよ<br>自分が後攻で最初のターンなら、自分のデッキから、[コラボエフェクトと#FLOW GLOWを持つホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -20717,6 +21579,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20741,6 +21604,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>FLOW GLOWのリーダー<br>このターンの間、自分のステージの#FLOW GLOWを持つホロメン1人のアーツ+20。", //KEYWORD
@@ -20765,6 +21629,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ストイック負けず嫌い王<br>自分の推しホロメンが〈響咲リオナ〉なら、自分のデッキの上から1枚をアーカイブできる:自分のデッキを1枚引く。", //KEYWORD
@@ -20789,6 +21654,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>意志の指揮者<br>相手のターンで、このホロメンがダウンした時、自分のデッキの上から2枚をアーカイブできる。アーカイブしたなら、自分のステージの異なるカード名の#FLOW GLOWを持つホロメン1人につき、自分のデッキを1枚引く。", //KEYWORD
@@ -20813,6 +21679,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>君に届けっ<br>このターンの間、自分のステージの#秘密結社holoXを持つホロメン1人のアーツ+30。このホロメンに#こよラボを持つサポートカードが付いているなら、かわりに、そのホロメンのアーツ+50。", //KEYWORD
@@ -20837,6 +21704,7 @@ var cardData = [
 		"140", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20861,6 +21729,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ホップすてっぷジャンプ!<br>自分が後攻で最初のターンなら、自分のデッキから、Buzzホロメンの〈風真いろは〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -20885,6 +21754,7 @@ var cardData = [
 		"200", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -20909,6 +21779,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>のんびり過ごす記念日<br>[センターポジション・コラボポジション限定]自分のステージのこのホロメン以外の#秘密結社holoXを持つホロメン全員のアーツ+20。", //KEYWORD
@@ -20933,6 +21804,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>元気をお届け!<br>[センターポジション限定]自分のホロメンがコラボした時、自分の手札が5枚以上なら、自分のエールデッキの上から1枚を自分のコラボホロメンに送れる。", //KEYWORD
@@ -20957,6 +21829,7 @@ var cardData = [
 		"210", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>伝えたい想い<br>このホロメンが相手のセンターホロメンをダウンさせた時、自分のこのターンにBloomした〈風真いろは〉1人を、自分の手札のホロメンを使って、もう1回Bloomできる。", //KEYWORD
@@ -20981,6 +21854,7 @@ var cardData = [
 		"130", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -21005,6 +21879,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -21029,6 +21904,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>みんなへ感謝の気持ち<br>[コラボポジション限定]相手のターンで、自分のセンターホロメンに付いている〈ルーナイト〉をアーカイブする時、アーカイブするかわりに、自分のバックホロメンの〈姫森ルーナ〉に付け替えられる。", //KEYWORD
@@ -21053,6 +21929,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>んなっしょい!<br>自分の推しホロメンが〈姫森ルーナ〉なら、自分のステージの〈ルーナイト〉1~2枚をアーカイブできる:アーカイブしたカード1枚につき、自分のエールデッキの上から1枚を自分の〈姫森ルーナ〉1人に送る。", //KEYWORD
@@ -21077,6 +21954,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>FOR! JUSTICE!<br>自分のエールデッキの上から1枚をこのホロメン以外の自分の#Justiceを持つホロメンに送る。", //KEYWORD
@@ -21101,6 +21979,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>濡羽色のほころび<br>このターンに自分が#きのこを持つイベントを使っていたなら、自分のデッキを2枚引く。自分のブルームエフェクト「濡羽色のほころび」はターンに1回しか使えない。", //KEYWORD
@@ -21125,6 +22004,7 @@ var cardData = [
 		"130", //HP
 		"Debut", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -21149,6 +22029,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>かわ余<br>自分が後攻で最初のターンなら、自分のデッキから、[ツールかマスコットかファン]1枚を公開し、自分の〈百鬼あやめ〉に付ける。そしてデッキをシャッフルする。", //KEYWORD
@@ -21173,6 +22054,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>まったり夜桜温泉デート<br>自分のデッキから、[〈阿修羅&羅刹〉か〈鬼神刀「阿修羅」〉か〈ぽよ余〉]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -21197,6 +22079,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>お参りデート<br>自分のアーカイブの赤エール2枚を好きな順でエールデッキの下に戻せる。", //KEYWORD
@@ -21221,6 +22104,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>たまに増える余<br>自分のエールデッキの上から1枚をアーカイブできる:自分のアーカイブの〈百鬼あやめ〉1枚を手札に戻す。", //KEYWORD
@@ -21245,6 +22129,7 @@ var cardData = [
 		"160", //HP
 		"2nd", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>余、なんも聞いとらんかった。<br>[センターポジション限定]自分のコラボホロメンがいて、相手のコラボホロメンがいないなら、自分のホロメン全員は相手からアーツダメージを受けない。", //KEYWORD
@@ -21269,6 +22154,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -21293,6 +22179,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>GYM RAT<br>自分が後攻で最初のターンなら、自分のデッキを3枚引いた後、手札2枚をアーカイブする。", //KEYWORD
@@ -21317,6 +22204,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>Strawberry Princess<br>自分の手札1枚をアーカイブする。その後、自分のデッキを1枚引く。", //KEYWORD
@@ -21341,6 +22229,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>Once a Peasant,<br>自分の手札の#Promiseを持つホロメン1枚をアーカイブできる:相手のセンターホロメンかコラボホロメンに特殊ダメージ30を与える。", //KEYWORD
@@ -21365,6 +22254,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -21389,6 +22279,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -21413,6 +22304,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>間違っているぞ!<br>このゲーム中に、自分のSP推しスキル「ホークアイ」を使っていたなら、このホロメンのアーツ+20。", //KEYWORD
@@ -21437,6 +22329,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>家にあるもの限界飯<br>自分の推しホロメンが〈一条莉々華〉で、自分のアーカイブに〈限界飯〉が2枚以上あるなら、自分のデッキを2枚引く。", //KEYWORD
@@ -21461,6 +22354,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -21485,6 +22379,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>青い琥珀<br>自分が後攻で最初のターンなら、自分のエールデッキから、青エール1枚を公開し、自分の〈ムーナ・ホシノヴァ〉に送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -21509,6 +22404,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -21533,6 +22429,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -21557,6 +22454,7 @@ var cardData = [
 		"240", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>新月<br>このホロメンが相手のホロメンにアーツダメージを与えた時に使える:その相手のホロメンに、そのホロメンが受けているダメージと同じ数値の特殊ダメージを与える。", //KEYWORD
@@ -21581,6 +22479,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>星の運命<br>相手のセンターホロメンかコラボホロメンを選ぶ。選んだホロメンに、選んだホロメンが受けているダメージと同じ数値の特殊ダメージを与える。", //KEYWORD
@@ -21605,6 +22504,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>有言実行!!<br>このホロメンに〈雪民〉が付いているなら、相手のセンターホロメンに特殊ダメージ20を与える。その後、自分のデッキを1枚引く。このホロメンに〈雪民〉が3枚以上付いているなら、かわりに、自分のデッキを2枚引く。", //KEYWORD
@@ -21629,6 +22529,7 @@ var cardData = [
 		"190", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ワンワーーン!!!<br>自分の推しホロメンが〈紫咲シオン〉なら、相手のアーカイブのエール3枚を相手のセンターホロメンに送る。その後、自分のアーカイブのエール1枚を自分の〈紫咲シオン〉に送れる。", //KEYWORD
@@ -21653,6 +22554,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>ギャル叉と登校<br>このゲーム中に、自分のSP推しスキル「人生リセットボタン」を使っていたなら、このホロメンのアーツ「沙花叉と青春しよ?」に必要な無色-1。", //KEYWORD
@@ -21677,6 +22579,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -21701,6 +22604,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>Yes, Chef.<br>自分のデッキを3枚引いた後、手札2枚をアーカイブする。", //KEYWORD
@@ -21725,6 +22629,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>お泊りパーリナイ!<br>自分のステージに#ENを持つホロメンが3人以上いるなら、自分のエールデッキから、[青エールか紫エール]1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -21749,6 +22654,7 @@ var cardData = [
 		"210", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -21773,6 +22679,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -21797,6 +22704,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ロボ子と一緒にあそぼ<br>自分が後攻で最初のターンなら、自分のデッキから、〈ろぼさー〉2枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -21821,6 +22729,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>プリンとお子様オムライス<br>自分の〈ろぼさー〉が付いているホロメンがいるなら、相手のセンターホロメンに特殊ダメージ20を与える。", //KEYWORD
@@ -21845,6 +22754,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>いたずらしちゃうぞ~!<br>自分の推しホロメンが〈ロボ子さん〉なら、自分の手札1~2枚をアーカイブできる:アーカイブしたカード1枚につき、自分のアーカイブの〈ろぼさー〉1枚を手札に戻す。", //KEYWORD
@@ -21869,6 +22779,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>一言芳恩<br>1stホロメンからBloomしているこのホロメンがアーツを使った時、相手のセンターホロメンかコラボホロメンに特殊ダメージ50を与える。", //KEYWORD
@@ -21893,6 +22804,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>どり~む_コネクト.zero<br>[センターポジション限定]自分の#0期生を持つコラボホロメンがアーツを使った時、自分のデッキから、カード1枚を公開し、アーカイブする。そしてデッキをシャッフルする。", //KEYWORD
@@ -21917,6 +22829,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ホロライブの狂犬<br>自分の手札の#ゲーマーズを持つホロメン1枚をアーカイブできる:自分のデッキを1枚引く。", //KEYWORD
@@ -21941,6 +22854,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>まかしなー<br>自分のデッキから、〈ゆび〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。自分のブルームエフェクト「まかしなー」はターンに1回しか使えない。", //KEYWORD
@@ -21965,6 +22879,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>こぉねのことだけ見ててね?♡<br>自分の〈ゆび〉が付いているホロメンがいるなら、自分のデッキを1枚引く。", //KEYWORD
@@ -21989,6 +22904,7 @@ var cardData = [
 		"210", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>ワンダーヴァイキング<br>[センターポジション限定][ターンに1回]自分のステージの〈ゆび〉1枚をデッキの下に戻せる:このターンの間、このホロメンのアーツに必要な無色-2。", //KEYWORD
@@ -22013,6 +22929,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22037,6 +22954,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>勝てると思った?<br>このホロメンが相手の1stホロメンから受けるアーツダメージ-30。", //KEYWORD
@@ -22061,6 +22979,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>いっしょに居てくれる…?<br>自分が後攻で最初のターンで、自分の推しホロメンが〈夏色まつり〉なら、自分のデッキからLIMITEDのサポートカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -22085,6 +23004,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>天使界隈<br>このターンに自分が使っていたサポートカード1枚につき、このターンの間、自分のセンターホロメンのアーツ+10。ただし、数える枚数は3枚まで。", //KEYWORD
@@ -22109,6 +23029,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22133,6 +23054,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>レッツパフォーミング<br>自分のデッキから、[〈えびふらいおん〉か〈まつりす〉]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -22157,6 +23079,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>Re:START<br>自分のライフが相手以下なら、自分のエールデッキの上から1枚を自分の〈夏色まつり〉に送れる。", //KEYWORD
@@ -22181,6 +23104,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>地球&テラ<br>このホロメンのエール1枚をアーカイブできる:自分のデッキから、自分の推しホロメンと同じカード名のDebutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -22205,6 +23129,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>Subaru Duck Dance<br>自分のアーカイブのエール1枚をこのホロメンに送れる。", //KEYWORD
@@ -22229,6 +23154,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>手を繋ごう<br>自分のデッキから、[〈スバルドダック〉か〈スバ友〉]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -22253,6 +23179,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>出動! ドタバタ大空警察!!<br>自分の推しホロメンが〈大空スバル〉なら、自分のステージのエール1枚をアーカイブできる:自分のデッキから、〈大空スバル〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -22277,6 +23204,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>眠らない街<br>[コラボポジション限定]自分の推しホロメンが〈アーニャ・メルフィッサ〉なら、自分の〈古代武器〉が付いている[センターホロメンとコラボホロメン]が受けるアーツダメージ-30。", //KEYWORD
@@ -22301,6 +23229,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>おしまいのあじまり<br>自分の手札の〈大空スバル〉1枚を公開し、デッキの下に戻せる:自分のアーカイブの[〈角巻わため〉か〈大空スバル〉]1枚を手札に戻す。", //KEYWORD
@@ -22325,6 +23254,7 @@ var cardData = [
 		"150", //HP
 		"Spot", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>「こんこよ」、古くなっちゃったかな?<br>このホロメンがバトンタッチしてバックポジションに移動した時、このターンの間、自分のステージの〈博衣こより〉1人のアーツ+20。", //KEYWORD
@@ -22349,6 +23279,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22373,6 +23304,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22397,6 +23329,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22421,6 +23354,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22445,6 +23379,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22469,6 +23404,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22493,6 +23429,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22517,6 +23454,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22541,6 +23479,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22565,6 +23504,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22589,6 +23529,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22613,6 +23554,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22637,6 +23579,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22661,6 +23604,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22685,6 +23629,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22709,6 +23654,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22733,6 +23679,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22757,6 +23704,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22781,6 +23729,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-1]<br>収集家<br>[ターンに1回]自分のデッキの上から3枚を見る。その中から、サポートカード1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //SKILL
 		"[ホロパワー:-3]<br>リベリオン<br>[ゲームに1回]相手のDebut以外のバックホロメン1人に、自分のアーカイブのサポートカード1枚につき、特殊ダメージ10を与える。", //SPSKILL
 		"", //KEYWORD
@@ -22805,6 +23754,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-2]<br>Biboo Tax<br>[ターンに1回]お互いのエールデッキの上から1枚をアーカイブする。アーカイブしたエール1色につき、自分のデッキを1枚引く。", //SKILL
 		"[ホロパワー:-2]<br>古代魔石の輝き<br>[ゲームに1回]相手のセンターホロメンに、自分のアーカイブの[#Adventを持つホロメンとエール]1枚につき、特殊ダメージ10を与える。", //SPSKILL
 		"", //KEYWORD
@@ -22829,6 +23779,7 @@ var cardData = [
 		"130", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>パレ・モンローズのお話をお聞きになったことは?<br>相手のバックホロメン1人に特殊ダメージ10を与える。", //KEYWORD
@@ -22853,6 +23804,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -22877,6 +23829,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>『異世界への旅立ちと幸せ』<br>自分のアーカイブのエール1枚を自分の#Adventを持つホロメンに送る。", //KEYWORD
@@ -22901,6 +23854,7 @@ var cardData = [
 		"250", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>A Study in Advent<br>自分の手札のサポートカード1枚をアーカイブできる:自分のデッキから、#Adventを持つ[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
@@ -22925,6 +23879,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>どんな知識が得られるかしら<br>[ターンに1回]このホロメンが相手のホロメンをダウンさせた時、自分のアーカイブのLIMITED以外のサポートカード1枚を手札に戻す。", //KEYWORD
@@ -22949,6 +23904,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>花売りの少女<br>自分が後攻で最初のターンなら、お互いのステージのエール1枚につき、自分のデッキを1枚引く。", //KEYWORD
@@ -22973,6 +23929,7 @@ var cardData = [
 		"130", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>賑やかな家族<br>自分のデッキの上から3枚を見る。その中から、#Adventを持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
@@ -22997,6 +23954,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23021,6 +23979,7 @@ var cardData = [
 		"200", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>ビブーと遊んでいかない?<br>自分のデッキを1枚引く。その後、自分のステージのエール1枚をアーカイブできる。アーカイブしたなら、自分のステージのホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+40。", //KEYWORD
@@ -23045,6 +24004,7 @@ var cardData = [
 		"140", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23069,6 +24029,7 @@ var cardData = [
 		"130", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ハッピー☆パピー -MOCOCO-<br>自分のステージのホロメン全員が#Adventを持つホロメンなら、自分のバックポジションのDebutホロメン1人をデッキの下に戻せる:自分のデッキを2枚引く。", //KEYWORD
@@ -23093,6 +24054,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>ハッピー☆パピー -FUWAWA-<br>自分のステージのホロメン全員が#Adventを持つホロメンなら、自分のバックポジションのDebutホロメン1人をデッキの下に戻せる:自分のエールデッキの上から1枚を自分のホロメンに送る。", //KEYWORD
@@ -23117,6 +24079,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23141,6 +24104,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23165,6 +24129,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23189,6 +24154,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23213,6 +24179,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23237,6 +24204,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23261,6 +24229,7 @@ var cardData = [
 		"110", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>キラキラ コセキ!<br>相手のターンで、このホロメンがダウンした時、自分のデッキを1枚引く。", //KEYWORD
@@ -23285,6 +24254,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23309,6 +24279,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23333,6 +24304,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23357,6 +24329,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23381,6 +24354,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23405,6 +24379,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-3]<br>秩序の先駆者<br>[ターンに1回]自分のホロメン1人が相手からアーツダメージを受ける時、自分のステージの[Buzzか2nd]の赤ホロメン1人を選べる:そのダメージを、選んだホロメンがかわりに受ける。", //SKILL
 		"[ホロパワー:-3]<br>JUST LIKE THAT<br>[ゲームに1回]自分のアーカイブの#Justiceを持つホロメン1枚をステージに出す。その後、自分のアーカイブのエール1~5枚をそのホロメンに送る。", //SPSKILL
 		"", //KEYWORD
@@ -23429,6 +24404,7 @@ var cardData = [
 		"5", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"[ホロパワー:-1]<br>Boat Goes Binted<br>[ターンに1回]相手のセンターポジションとコラボポジションのホロメンを入れ替える。", //SKILL
 		"[ホロパワー:-3]<br>自由奔放な『追跡者』<br>[ゲームに1回]自分のデッキから、2ndホロメンの〈ジジ・ムリン〉2枚を公開し、ステージに出す。そしてデッキをシャッフルする。その後、自分のアーカイブのエールを自分のホロメン全員に1枚ずつ送る。", //SPSKILL
 		"", //KEYWORD
@@ -23453,6 +24429,7 @@ var cardData = [
 		"140", //HP
 		"Debut", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23477,6 +24454,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23501,6 +24479,7 @@ var cardData = [
 		"160", //HP
 		"1st", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>For Justice! -ERB-<br>相手のターンで、自分の#Justiceを持つホロメンがダウンした時、自分のエールデッキの上から1枚をこのホロメンに送る。自分のギフト「For Justice! -ERB-」はターンに1回しか使えない。", //KEYWORD
@@ -23525,6 +24504,7 @@ var cardData = [
 		"150", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>Bring It On!<br>自分のステージの#Justiceを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。", //KEYWORD
@@ -23549,6 +24529,7 @@ var cardData = [
 		"180", //HP
 		"2nd", //LEVEL
 		"◇◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>猛炎のウォークライ<br>このホロメンのエール1枚につき、このホロメンのHP+10。", //KEYWORD
@@ -23573,6 +24554,7 @@ var cardData = [
 		"100", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>For Justice! -GG-<br>自分のアーカイブのエール1枚を自分の#Justiceを持つホロメンに送る。", //KEYWORD
@@ -23597,6 +24579,7 @@ var cardData = [
 		"120", //HP
 		"Debut", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>イタズラ増殖!<br>自分が後攻で最初のターンなら、自分のデッキから、#Justiceを持つ1stホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //KEYWORD
@@ -23621,6 +24604,7 @@ var cardData = [
 		"180", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23645,6 +24629,7 @@ var cardData = [
 		"140", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ブルームエフェクト<br>I am Gonathan G.<br>このホロメンに重なっているDebutホロメン1枚をアーカイブできる:相手のコラボホロメンに特殊ダメージ20を与える。", //KEYWORD
@@ -23669,6 +24654,7 @@ var cardData = [
 		"170", //HP
 		"1st", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>ご苦労さん!<br>相手のターンで、自分のバックホロメンが相手から特殊ダメージを受ける時、このホロメンに重なっているホロメン1枚をアーカイブできる:このターンの間、自分のバックホロメン全員は特殊ダメージを受けない。", //KEYWORD
@@ -23693,6 +24679,7 @@ var cardData = [
 		"210", //HP
 		"2nd", //LEVEL
 		"◇◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>再起のストレングス<br>[ターンに1回]自分のメインステップで、自分の〈ジジ・ムリン〉に重なっているホロメン1枚をアーカイブできる:自分のエールデッキの上から1枚をこのホロメンに送る。", //KEYWORD
@@ -23717,6 +24704,7 @@ var cardData = [
 		"160", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"ギフト<br>正義の旋律<br>[センターポジション・コラボポジション限定][ターンに1回]自分の#Justiceを持つ[DebutホロメンかSpotホロメン]がステージに出た時、自分のデッキを1枚引く。", //KEYWORD
@@ -23741,6 +24729,7 @@ var cardData = [
 		"160", //HP
 		"Spot", //LEVEL
 		"◇", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"コラボエフェクト<br>正義の諧調<br>自分のステージのエール1枚をエールデッキの下に戻せる。戻したなら、自分のエールデッキから、エール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
@@ -23765,6 +24754,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23789,6 +24779,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23813,6 +24804,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23837,6 +24829,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23861,6 +24854,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23885,6 +24879,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23909,6 +24904,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23933,6 +24929,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23957,6 +24954,7 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
@@ -23981,10 +24979,3136 @@ var cardData = [
 		"", //HP
 		"", //LEVEL
 		"", //BATON
+		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
 		"", //KEYWORD
 		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-024", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP01-024_02_C.png", //SRC
+		"ベスティア・ゼータ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>ミッションスタート<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-044", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP01-044_02_C.png", //SRC
+		"AZKi", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>こんあずき~<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-092", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP01-092_02_C.png", //SRC
+		"オーロ・クロニー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"70", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"青<br>クロにちは~<br>10<br>このホロメンのエール1枚を、自分の他の#Promiseを持つホロメンに付け替えられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-124", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-124_C.png", //SRC
+		"開拓者", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"相手のターンで、このファンが付いているホロメンがダウンした時、このファンが付いているホロメンのエール1枚を、自分の他のホロメンに付け替える。<br><br>このファンは、自分の〈AZKi〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-024", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP02-024_02_C.png", //SRC
+		"大神ミオ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ #料理", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"90", //HP
+		"Debut", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>うちうち、うちだよ~大神ミオだよ~<br>10<br>自分のステージのエール1枚を、自分の#JPを持つホロメンに付け替えられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-101", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-101_C.png", //SRC
+		"ミオファ", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"相手のターンで、このファンが付いているホロメンがダウンした時、自分のデッキを1枚引く。<br><br>このファンは、自分の〈大神ミオ〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-031", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP03-031_02_C.png", //SRC
+		"赤井はあと", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #料理", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>おはるーじゅ!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-067", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP03-067_02_C.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>こんばんドドド~!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-112", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-112_U.png", //SRC
+		"わためいと", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"相手のターンで、このファンが付いているホロメンがダウンした時、このホロメンの黄エール1~2枚を、自分の他の〈角巻わため〉1人に付け替えられる。<br><br>このファンは、自分の〈角巻わため〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-050", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP04-050_03_C.png", //SRC
+		"シオリ・ノヴェラ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>しおり~ん!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-054", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP04-054_02_C.png", //SRC
+		"ラプラス・ダークネス", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #シューター", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"紫", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>貴様ら、刮目せよ!!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-083", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP04-083_02_C.png", //SRC
+		"桃鈴ねね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #歌 #絵", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"90", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>こんねね~<br>10<br>自分のステージのホロメンが5人以下の時、自分のデッキから、#5期生を持つDebutホロメン1枚を公開し、ステージに出せる。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD10-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-002_C.png", //SRC
+		"輪堂千速", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"1", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇はじまりんど~~~!30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD10-013", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD10/hSD10-013_C.png", //SRC
+		"ふぐ太郎", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いている#FLOW GLOWを持つホロメンのアーツ+10。<br><br>◆#FLOW GLOWを持つホロメンに付いていたら能力追加<br>自分のエンドステップが開始する時、このターンにこのホロメンがアーツを使っていたなら使える:自分のデッキから、#FLOW GLOWを持つ[DebutホロメンかSpotホロメン]1枚を公開し、ステージに出す。然後將牌組洗牌。之後，將該成員身上裝備的1張〈ふぐ太郎〉放回牌組最下方。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD11-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD11/hSD11-002_C.png", //SRC
+		"虎金妃笑虎", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"1", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇ニコたんが~来たァー! 20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-001_OSR.png", //SRC
+		"角巻わため", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"ドドドライブ<br>自分の〈角巻わため〉がアーツを使った時、自分のデッキの上から1枚をホロパワーにする。", //STAGESKILL
+		"[ホロパワー:-6]<br>角ドリルしたろか?<br>[ターンに1回]このターンの間、自分のステージの〈角巻わため〉全員のアーツ+100。", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-002_OSR.png", //SRC
+		"ベスティア・ゼータ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"[ホロパワー:-3]<br>Good Luck, holoh3ro!<br>[ターンに1回]自分のステージのホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+50。そのホロメンが#ID3期生を持つBuzzホロメンなら、かわりに、そのホロメンのアーツ+80。", //SKILL
+		"[ホロパワー:-2]<br>不可能なんてないんだから!<br>[ゲームに1回]自分のアーカイブの[マスコットとファン]を好きな枚数選び、自分の#ID3期生を持つホロメン1人に付ける。3枚以上付けたなら、このターンの間、そのホロメンのアーツ+100。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-003_OSR.png", //SRC
+		"大神ミオ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"[ホロパワー:-1]<br>神札の導き<br>[ターンに1回]自分のデッキの上から2枚を見る。その中から、カード1枚を手札に加える。そして残ったカードをデッキの上に戻す。", //SKILL
+		"[ホロパワー:-2]<br>みんなのママ<br>[ゲームに1回]自分のデッキの上から6枚を見る。その中から、カード3枚を手札に加える。そして残ったカードを好きな順でデッキの上に戻す。その後、自分のホロメン全員のHP50回復。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-004_OSR.png", //SRC
+		"赤井はあと", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"はあちゃまなう<br>[ターンに1回]自分のターンで、自分の〈赤井はあと〉が自分の能力でステージからデッキに戻った時、自分のデッキを2枚引く。", //STAGESKILL
+		"[ホロパワー:-2]<br>ワールドワイドな最強アイドル!<br>[ターンに1回]自分のバックポジションのDebutホロメンの〈赤井はあと〉1人をデッキの下に戻す。その後、自分のステージの〈赤井はあと〉1人を選ぶ。このターンの間、選んだホロメンのアーツ+50。", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-005_OSR.png", //SRC
+		"オーロ・クロニー", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"[ホロパワー:-2]<br>忘却の輪の上で<br>[ターンに1回]自分のデッキを下から2枚引いた後、手札1枚をアーカイブする。", //SKILL
+		"[ホロパワー:-4]<br>時間の典獄<br>[ゲームに1回]自分のセンターホロメンが2ndの〈オーロ・クロニー〉なら、このターンの後に、もう1回自分のターンを開始する。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-006_OSR.png", //SRC
+		"AZKi", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"紫", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"ETERNiTY FRONTiER<br>自分のホロパワー1枚につき、自分のセンターホロメンの〈AZKi〉のアーツ+20。", //STAGESKILL
+		"[ホロパワー:-1]<br>行くよ、開拓者。<br>[ターンに1回]直前の相手のターンに自分のホロメンがダウンしていたなら、自分のデッキから、イベント1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-007_OSR.png", //SRC
+		"桃鈴ねね", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"[ホロパワー:-2]<br>スーパーねぽらぼエナジー<br>[ターンに1回]自分のアーカイブのエールを自分の#5期生を持つ2ndホロメン全員に1枚ずつ送る。", //SKILL
+		"[ホロパワー:-1]<br>ねねちの大・暴・走!<br>[ゲームに1回]自分のデッキから、Debutホロメンの〈桃鈴ねね〉1~4枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-008_C.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>もういっぺぇ<br>自分が後攻で最初のターンなら、自分の〈角巻わため〉1人を選ぶ。このターンの間、選んだホロメンはアーツを使った後、同じアーツをもう1回使える。", //KEYWORD
+		"◇<br>スプリングシープ<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-009_U.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"白<br>ガブガブ!<br>20+<br>[センターポジション限定]このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-010_C.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>みんなー! 楽しむぞおおー!!!!! <br>自分のデッキの上から1枚をホロパワーにする。その後、自分のホロパワーを見る。その中から1枚を手札に加える。そしてホロパワーをシャッフルする。", //KEYWORD
+		"白<br>みんなの声聞けるかなー???????<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-011", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-011_C.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>グルグルシープ<br>自分のデッキから、1stホロメンの〈角巻わため〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。自分のブルームエフェクト「グルグルシープ」はターンに1回しか使えない。", //KEYWORD
+		"◇◇◇<br>これボタン弾けちゃうよぉ<br>70<br>このホロメンに白エールが2枚以上付いているなら、このアーツに必要な無色-1。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-012", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-012_R.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"190", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>わたビーーーーーーーム!!!!!!<br>相手のセンターホロメンかコラボホロメンに特殊ダメージ30を与える。その後、相手は、自身のデッキを1枚引く。", //KEYWORD
+		"◇<br>わたキャノンもだ!<br>20<br>自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-013", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-013_U.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>はばないすでーい!!!<br>このターンの間、自分のステージの〈角巻わため〉全員のアーツ+20。その後、自分のセンターホロメンにエールが6枚以上付いているなら、自分のデッキを2枚引く。", //KEYWORD
+		"◇◇<br>センキューオーバーシープ!<br>90+紫+50<br>このホロメンに付いている〈わためいと〉1枚につき、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-014", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-014_RR.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"RR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>キュートセクシー<br>このホロメンに重なっているホロメン1枚につき、このホロメンのHP+10。", //KEYWORD
+		"白白◇<br>脳天直撃わためハンマー!<br>160赤+50<br>[センターポジション限定]このアーツで相手のホロメンをダウンさせた時、与えたダメージが残りHPをオーバーしていたなら、相手の2ndホロメン1人に、オーバーしたダメージと同じ数値の特殊ダメージを与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-015", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-015_C.png", //SRC
+		"ベスティア・ゼータ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>Adopt Me?<br>自分が後攻で最初のターンなら、自分のデッキから、#ID3期生を持つBuzzホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>ノラネコ見つけた~<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-016", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-016_U.png", //SRC
+		"ベスティア・ゼータ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>Pat the BAZO<br>このホロメンにマスコットが付いているなら、このホロメンのHP+30。", //KEYWORD
+		"白<br>So, Tell Me Your Secrets?<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-017_C.png", //SRC
+		"ベスティア・ゼータ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>holoh3ro Shopping<br>[センターポジション限定]自分の#ID3期生を持つBuzzホロメンがコラボした時、自分のステージのホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+30。", //KEYWORD
+		"◇◇<br>みんなと一緒にいる時間が好き<br>50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-018", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-018_C.png", //SRC
+		"ベスティア・ゼータ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>Horse Doko?<br>自分のデッキの上から1枚を公開する。公開したカードがサポートカードなら、そのカードを手札に加える。サポートカード以外なら、そのカードをデッキの上に戻す。", //KEYWORD
+		"白<br>うまみ~うまみ~♪<br>30+<br>このターンに自分がイベントを使っていたなら、このアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-019", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-019_R.png", //SRC
+		"ベスティア・ゼータ", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"230", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>準備万端!<br>自分のデッキから、[〈BAZO〉か〈Zecretary〉]1枚を公開し、自分の〈ベスティア・ゼータ〉に付ける。そしてデッキをシャッフルする。", //KEYWORD
+		"白◇<br>ホロライブID初代ダンスクイーン<br>50<br>このホロメンにマスコットかファンが付いているなら、自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-020", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-020_U.png", //SRC
+		"ベスティア・ゼータ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>Ya ya ya ya ya~!<br>サイコロを1回振る。奇数なら、相手のセンターポジションの2ndホロメンの残りHPを100にする。", //KEYWORD
+		"白白<br>もっとパフォーマンスしたい!<br>100赤+50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-021", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-021_RR.png", //SRC
+		"ベスティア・ゼータ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"RR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>任務手伝ってくれる?<br>自分のアーカイブの[〈BAZO〉か〈Zecretary〉]1枚を自分のホロメンに付ける。", //KEYWORD
+		"白白◇◇<br>最高のシークレットエージェント<br>160+紫+50<br>自分のステージに#ID3期生を持つBuzzホロメンがいるなら、このアーツ+40。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-022", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-022_R.png", //SRC
+		"白銀ノエル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #お酒", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"白", //COLOR
+		"220", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>筋肉は裏切らない!<br>[コラボポジション限定]相手のターンで、自分の#3期生を持つセンターホロメンがダウンした時、そのホロメンを含め重なっているホロメンすべてを手札に戻す。", //KEYWORD
+		"白<br>元気もりもりさんでーまっする<br>50紫+50<br>自分の#3期生を持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツに必要な無色-1。そのホロメンが2ndホロメンの〈白銀ノエル〉なら、かわりに、そのアーツに必要な無色-2。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-023", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-023_C.png", //SRC
+		"大神ミオ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ #料理", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>占いパワー注入!<br>自分が後攻で最初のターンなら、自分のデッキの上から3枚を見る。その中から、カード1枚を手札に加える。そして残ったカードを好きな順でデッキの上に戻す。", //KEYWORD
+		"◇<br>MIOON!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-024", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-024_U.png", //SRC
+		"大神ミオ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ #料理", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>ウチの大切な家族<br>[ターンに1回]このホロメンに〈ミオファ〉が付いた時、自分のデッキを1枚引く。", //KEYWORD
+		"緑<br>今日もいっぱい笑っていこう<br>10+<br>自分のデッキの上から1枚をアーカイブできる。アーカイブしたカードがサポートカードなら、このアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-025", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-025_C.png", //SRC
+		"大神ミオ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ #料理", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>抹茶パフェ~!きゅんです<br>自分のサポートカードが付いている#ゲーマーズを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。", //KEYWORD
+		"◇<br>ゲーマーズカフェへようこそ<br>20<br>自分のアーカイブのエール1枚を自分の#ゲーマーズを持つホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-026", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-026_C.png", //SRC
+		"大神ミオ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ #料理", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>早く来ないかな…<br>自分のデッキから、[〈ハトタウロス〉か〈ミオファ〉]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>ちょっとお洒落な感じでしょ?<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-027", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-027_R.png", //SRC
+		"大神ミオ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ #料理", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ハートの女王の采配<br>このホロメン以外の自分のバックホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+30。", //KEYWORD
+		"緑緑<br>女王陛下と呼びなさい<br>70<br>[センターポジション限定]このアーツで相手のホロメンをダウンさせた時、自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-028", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-028_U.png", //SRC
+		"大神ミオ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ #料理", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>金瞳の綺羅星<br>自分のデッキの上から2枚を見る。その中から、カード1枚を手札に加える。そして残ったカードをデッキの上に戻す。", //KEYWORD
+		"緑◇<br>天まで届け、みんなの願い<br>90+青+50<br>自分のデッキの上から1枚をアーカイブできる。アーカイブしたカードがサポートカードなら、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-029", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-029_RR.png", //SRC
+		"大神ミオ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ #料理", //TAG
+		"RR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>緑の地母神<br>[ターンに1回]相手のターンで、このホロメンがダメージを受けた時、このホロメンにサポートカードが付いているなら、このホロメンのHP50回復。", //KEYWORD
+		"◇◇◇<br>Upright Leading<br>130+黄+50<br>自分のデッキの上から1枚をアーカイブできる。アーカイブしたカードがホロメンなら、自分のエールデッキの上から1枚を自分のホロメンに送る。サポートカードなら、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-030", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-030_R.png", //SRC
+		"風真いろは", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>holoRêve -いろは-<br>BuzzホロメンからBloomした時、自分のホロメン1人のHP100回復。", //KEYWORD
+		"緑緑<br>たくさんの宝物<br>100黄+50<br>このホロメンのエール2枚をアーカイブできる:自分のデッキを2枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-031", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-031_R.png", //SRC
+		"アイラニ・イオフィフティーン", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #絵", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"240", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>この輝きが私達!<br>自分のホロパワーの上から2枚をアーカイブできる:自分のデッキを2枚引く。", //KEYWORD
+		"緑◇<br>ひとつになる声<br>50<br>自分の推しホロメンの色が緑か青か黄なら、自分のデッキの上から1枚をホロパワーにする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-032", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-032_C.png", //SRC
+		"輪堂千速", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ドライブ行こうよ<br>自分が後攻で最初のターンなら、自分のデッキから、[1stホロメンの〈輪堂千速〉と〈ふぐ太郎〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>一陣の夜風<br>10", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-033", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-033_U.png", //SRC
+		"輪堂千速", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ティールマーメイド<br>自分のこのターンにBloomした#FLOW GLOWを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+30。", //KEYWORD
+		"緑◇<br>~Something blue~ 千速<br>50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-034", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-034_R.png", //SRC
+		"輪堂千速", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"190", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ぶいぶい走らせるぞ!!!<br>自分のステージのエール1枚をアーカイブできる:自分のデッキから、#FLOW GLOWを持つ[Debutホロメンか1stホロメンかSpotホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>どっちが速いｶﾅ?!?!?!<br>20+<br>このホロメンに〈ふぐ太郎〉が付いているなら、このアーツ+10。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-035", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-035_RR.png", //SRC
+		"輪堂千速", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"RR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"緑", //COLOR
+		"190", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>Give Me Hype!!<br>このターンに自分の#FLOW GLOWを持つホロメンがBloomした回数1回につき、自分のエールデッキの上から1枚をこのホロメンに送る。", //KEYWORD
+		"緑緑◇◇<br>サージングエキゾースト<br>160青+50<br>このホロメンのエールを数えて、そのすべてを好きな順でエールデッキの下に戻す。その後、自分の手札がこの能力で戻したエールの枚数と同じになるまで、自分のデッキを引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-036", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-036_C.png", //SRC
+		"赤井はあと", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #料理", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>AKAI HAATO VS HAACHAMA<br>自分が後攻で最初のターンなら、自分のデッキから、Debutホロメンの〈赤井はあと〉2枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>どちらがお好き?♡<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-037", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-037_U.png", //SRC
+		"赤井はあと", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #料理", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ちゃまと旅する!<br>自分のセンターホロメンが〈赤井はあと〉なら、自分のデッキを1枚引く。", //KEYWORD
+		"◇<br>旅はまだ、始まったばかり。<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-038", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-038_C.png", //SRC
+		"赤井はあと", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #料理", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>幻獣グルメハンター<br>サイコロを1回振る。奇数なら、相手のセンターホロメンに特殊ダメージ20を与える。偶数なら、自分のデッキを1枚引く。", //KEYWORD
+		"◇<br>hololiveEN0<br>30<br>このターンの間、自分のステージの#ENを持つホロメン全員のアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-039", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-039_C.png", //SRC
+		"赤井はあと", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #料理", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>血ゃ舞ってる奴いる!?<br>[ターンに1回]自分のターンで、自分の〈赤井はあと〉がステージからデッキに戻った時、自分のアーカイブのエール1枚をこのホロメンに送れる。", //KEYWORD
+		"赤◇<br>俺の名は〝ちゃまお〟漢の中の漢だ!<br>50<br>相手のセンターホロメンに特殊ダメージ20を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-040", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-040_R.png", //SRC
+		"赤井はあと", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #料理", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>Haachama ♥ Restaurant<br>自分のバックポジションのDebutホロメンの〈赤井はあと〉1人をデッキの下に戻せる:自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"赤<br>当店自慢のはあとんバーガー!<br>40", //ART1	
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-041", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-041_U.png", //SRC
+		"赤井はあと", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #料理", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>EVERYBODY SAY HENTAI<br>相手のコラボホロメンに特殊ダメージ50を与える。", //KEYWORD
+		"赤◇<br>万物に愛されちゃま計画<br>80+緑+50<br>自分のステージのエールすべてが赤エールなら、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-042", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-042_RR.png", //SRC
+		"赤井はあと", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #料理", //TAG
+		"RR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"赤赤<br>純心タランテラ<br>80紫+50<br>相手のセンターホロメンとコラボホロメンに特殊ダメージ40を与える。", //ART1
+		"赤◇◇<br>幸せへの旅路<br>140+紫+50<br>このターンに自分のホロメンがステージからデッキに戻っていたなら、このアーツ+50。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-043", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-043_R.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>holoRêve -みこ-<br>3か5を選ぶ。このターンの間、自分の推しホロメンの〈さくらみこ〉と自分のステージの〈さくらみこ〉の能力でサイコロを振る時、そのサイコロの目の数すべてを選んだ数として扱う。", //KEYWORD
+		"赤赤赤◇<br>桜は花に顕る<br>70+紫+50<br>このホロメンに付いている〈35P〉1枚につき、このアーツ+70し、自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-044", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-044_R.png", //SRC
+		"尾丸ポルカ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ケモミミ", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>The Show Must Go On<br>[センターポジション・コラボポジション限定]相手のターンで、自分のファンが付いているBuzzホロメンがダウンした時、自分の推しホロメンが〈尾丸ポルカ〉なら、自分の減るライフ-1。", //KEYWORD
+		"赤赤◇<br>スタッフファーストです!<br>120<br>自分のデッキの上から2枚をアーカイブする。その後、自分のアーカイブのスタッフ1枚を手札に戻せる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN,
+		],
+	[
+		"hBP07-045", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-045_R.png", //SRC
+		"ハコス・ベールズ", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise #ケモミミ", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"230", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>テンション上がってきた!<br>[センターポジション・コラボポジション限定]自分のSP推しスキルを使った時、自分のデッキの上から1枚をホロパワーにする。", //KEYWORD
+		"赤赤◇<br>キミがいないと楽しくないもん<br>20+<br>自分の手札1枚につき、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-046", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-046_C.png", //SRC
+		"エリザベス・ローズ・ブラッドフレイム", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice #歌", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>後の先を取る!<br>自分が後攻で最初のターンなら、自分のデッキから、[1stホロメンの〈エリザベス・ローズ・ブラッドフレイム〉と〈Thorn〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>Onwards and Upwards!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-047", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-047_U.png", //SRC
+		"エリザベス・ローズ・ブラッドフレイム", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice #歌", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"120", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>…Very well.<br>自分の推しホロメンが〈エリザベス・ローズ・ブラッドフレイム〉なら、自分のデッキの上から1枚をホロパワーにする。", //KEYWORD
+		"赤<br>さあ、かかってくるといい<br>50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-048", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-048_R.png", //SRC
+		"エリザベス・ローズ・ブラッドフレイム", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice #歌", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"260", //HP
+		"1st", //LEVEL
+		"◇◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>Queen of Impersonation<br>このホロメンは、自分のステージの#ENを持つホロメン全員のアーツを、すべて使える(アーツを使うためのエールは必要)。", //KEYWORD
+		"赤◇<br>Because I love people's voices<br>60<br>自分のアーカイブの#ENを持つホロメン1枚を手札に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-049", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-049_RR.png", //SRC
+		"エリザベス・ローズ・ブラッドフレイム", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice #歌", //TAG
+		"RR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"赤", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>絢爛のアインザッツ<br>[センターポジション・コラボポジション限定]自分のホロメンが相手のホロメンをダウンさせた時、自分のホロメン1人を選ぶ。このターンの間、選んだホロメン1人のアーツに必要な無色-2。", //KEYWORD
+		"赤◇◇<br>不撓のコンチェルタート<br>130+黄+50<br>自分のライフが4以下なら、このアーツ+30。自分のライフが2以下なら、かわりに、このアーツ+60。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-050", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-050_C.png", //SRC
+		"オーロ・クロニー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>この日が来た!<br>自分が後攻で最初のターンなら、自分のセンターホロメンの〈オーロ・クロニー〉を、自分の手札の1stホロメンを使ってBloomできる。この能力では最初のターンでもBloomできる。", //KEYWORD
+		"◇<br>金色のルアー<br>10", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-051", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-051_U.png", //SRC
+		"オーロ・クロニー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>TAKE YOUR TIME<br>自分のステージのエール1枚をこのホロメン以外の自分の#Promiseを持つホロメンに付け替えられる。", //KEYWORD
+		"◇<br>Check This Out Yo 🕶️<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-052", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-052_C.png", //SRC
+		"オーロ・クロニー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>お時間ですわ!<br>自分のアーカイブのマスコット1枚をこのホロメンに付けられる。", //KEYWORD
+		"◇<br>私の新キャッチフレーズ。どうだい?<br>30+<br>自分のステージに〈オーロ・クロニー〉以外の#Promiseを持つホロメンがいるなら、このアーツ+10。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-053", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-053_C.png", //SRC
+		"オーロ・クロニー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>時を超えた約束<br>自分のステージの#Promiseを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。", //KEYWORD
+		"青◇<br>Everlasting Flower<br>50<br>自分のエールデッキの上から1枚を自分の#Promiseを持つホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-054", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-054_R.png", //SRC
+		"オーロ・クロニー", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"250", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"青<br>I'm pretty shy…uwu<br>50<br>自分のエールデッキの上から1枚を自分の#Promiseを持つBuzzホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-055", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-055_U.png", //SRC
+		"オーロ・クロニー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"190", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>約束の未来へ<br>自分のステージの#Promiseを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+50。", //KEYWORD
+		"青◇<br>Life Goes On<br>90白+50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-056", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-056_RR.png", //SRC
+		"オーロ・クロニー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise", //TAG
+		"RR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>時界を統べし者<br>[センターポジション限定]自分のパフォーマンスステップが開始する時、このホロメン以外の自分の〈オーロ・クロニー〉1人を、このホロメンに重なっているホロメンを使ってBloomできる。", //KEYWORD
+		"青青◇◇<br>You're not ready for me.<br>80+赤+50<br>このホロメンのエール1枚を自分の他の#Promiseを持つホロメンに付け替えられる。その後、自分の推しホロメンが〈オーロ・クロニー〉なら、このアーツ+100。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-057", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-057_R.png", //SRC
+		"猫又おかゆ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>君と遊ぶとドキドキしちゃう…<br>相手のホロメン1人に特殊ダメージ30を与える。", //KEYWORD
+		"青青◇<br>おりゃー!!油断したでしょ~<br>100赤+50<br>自分の推しホロメンが〈猫又おかゆ〉で、相手のHPが100以上減っているバックホロメンがいるなら、相手のホロメン1人に特殊ダメージ50を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-058", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-058_R.png", //SRC
+		"こぼ・かなえる", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>Happy For You<br>自分のエールデッキから、自分のステージの#ID3期生を持つホロメン1人と同色のエール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
+		"青◇◇<br>MANTAP LEE!!<br>60<br>相手のHPが減っているバックホロメンが3人以上いるなら、自分のデッキを2枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-059", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-059_C.png", //SRC
+		"シオリ・ノヴェラ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>It's Time to Play Dress-up!<br>自分が後攻で最初のターンなら、自分のアーカイブのサポートカード1枚を手札に戻す。", //KEYWORD
+		"◇<br>A Cozy, Spooky Night Together<br>10<br>相手のホロメン1人に特殊ダメージ10を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-060", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-060_U.png", //SRC
+		"シオリ・ノヴェラ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"190", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>食料解剖<br>10", //ART1
+		"青<br>Don't Let Her Cook!<br>50<br>このアーツは、自分のアーカイブにサポートカードが4枚以上なければ使えない。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-061", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-061_R.png", //SRC
+		"シオリ・ノヴェラ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>A New Chapter Begins!<br>自分の推しホロメンが〈シオリ・ノヴェラ〉なら、自分のデッキの上から4枚を見る。その中から、サポートカード1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"青<br>逃がす訳がないでしょう?<br>20<br>相手のバックホロメン1人に特殊ダメージ20を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-062", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-062_RR.png", //SRC
+		"シオリ・ノヴェラ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent", //TAG
+		"RR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"青", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>A New Crime & A New Me<br>自分の手札のサポートカード2枚をアーカイブできる:自分のステージのホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+50。", //KEYWORD
+		"青<br>解き放たれた禁断の知識<br>60+赤+50<br>自分のアーカイブのエール1枚を自分の#Adventを持つホロメンに送る。その後、自己的推しホロメンが〈シオリ・ノヴェラ〉で、このホロメンにエールが4枚以上付いているなら、このアーツ+100。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-063", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-063_C.png", //SRC
+		"AZKi", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"紫", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ドキドキ夜キャンプ…<br>自分が後攻で最初のターンで、自分の推しホロメンが〈AZKi〉なら、相手のステージのエール1枚をエールデッキの下に戻す。", //KEYWORD
+		"◇<br>君とぴったり密着空間<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-064", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-064_U.png", //SRC
+		"AZKi", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"紫", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>ゆっくりしにおいで♡<br>20<br>自分のデッキから、〈開拓者〉1枚を公開し、自分の〈AZKi〉に付ける。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-065", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-065_C.png", //SRC
+		"AZKi", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"紫", //COLOR
+		"190", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>盛り上がっていこう!<br>30<br>自分のデッキを1枚引いた後、手札1枚をアーカイブする。", //ART1
+		"紫◇◇◇<br>みんなの声聞かせてええええええ!!!<br>120", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-066", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-066_C.png", //SRC
+		"AZKi", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"紫", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>仮想世界の伴走する歌姫<br>自分のホロメン1人のHP30回復。その後、自分のステージのホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+10。", //KEYWORD
+		"◇<br>音楽と歌うことが大好き!<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-067", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-067_R.png", //SRC
+		"AZKi", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"紫", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ROMANTiC NiGHT<br>自分のデッキの上から4枚を見る。その中から、〈AZKi〉1枚を公開し、手札に加える。運して残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"紫◇<br>君と二人きりの夜<br>40<br>自分の手札1枚をアーカイブできる:相手のセンターホロメンかコラボホロメンに特殊ダメージ20を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-068", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-068_U.png", //SRC
+		"AZKi", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"紫", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>共に歩んできた軌跡<br>このターンの間、自分のステージの異なるカード名の#0期生を持つホロメン1人につき、このホロメンのアーツ+20。", //KEYWORD
+		"◇◇<br>ホワイトデーのお返し、待ってるね<br>100黄+50", //ART1
+		"", //ART2
+		"", //ART3",
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-069", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-069_RR.png", //SRC
+		"AZKi", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"RR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"紫", //COLOR
+		"220", //HP
+		"2nd", //LEVEL
+		"2", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"紫◇◇<br>君と新たな開拓の地へ<br>140緑+50<br>自分のデッキを2枚引く。", //ART1
+		"紫紫紫◇<br>紡いだ軌跡 すべてに捧ぐ歌<br>200緑+50<br>自分の推しホロメンが〈AZKi〉なら、自分のホロパワーの上から4枚をアーカイブできる：自分のアーカイブに〈フロンティアスピリット〉が4枚あるなら、相手のライフ-1。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-070", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-070_R.png", //SRC
+		"癒月ちょこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #料理", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"紫", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>今日のご飯、何がいーい?<br>自分のデッキの上から3枚を見る。その中から、#料理を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"紫<br>がんばって美味しいの作るね♡<br>30<br>自分の#料理を持つホロメンを1人選ぶ。このターンに自分が使っていた#食べ物を持つイベント1枚につき、このターンの間、選んだホロメンのアーツに必要な無色-1。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-071", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-071_C.png", //SRC
+		"ラプラス・ダークネス", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #シューター", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>おい、お前<br>自分のデッキの上から5枚を見る。その中から、Debutの紫ホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"紫<br>手作りの朝ごはんを要求する<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-072", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-072_U.png", //SRC
+		"ラプラス・ダークネス", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #シューター", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"紫", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>Secret Love -La+-<br>自分のステージの#秘密結社holoXを持つホロメン1人を選び、サイコロを3回振る。このターンの間、この能力で奇數が出た回數1回につき、選んだホロメンのアーツ+10。", //KEYWORD
+		"紫◇<br>吾輩との秘密だぞ<br>60", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-073", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-073_R.png", //SRC
+		"ラプラス・ダークネス", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #シューター #歌", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"紫", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ライブだー!!!!!!!!!<br>このターンの間、このホロメンのアーツに必要な無色-2。", //KEYWORD
+		"◇◇<br>吾輩の歌聴いてくれる奴いるううう!?!?<br>30<br>自分のデッキから、〈ラプラス・ダークネス〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-074", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-074_RR.png", //SRC
+		"ラプラス・ダークネス", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #シューター #歌", //TAG
+		"RR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"紫", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ラッシュ行きます<br>自分のデッキの上から3枚を見る。その中から、ホロメンを好きな枚数公開し、公開したホロメンを手札に加える。運して残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"紫◇◇<br>吾輩の歌を聴けえええええええ!!!!<br>110+緑+50<br>自分のセンターホロメンの色が紫なら、このアーツ+40。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-075", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-075_R.png", //SRC
+		"古石ビジュー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ベイビー", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"紫", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>闇夜のハンター<br>このホロメンのアーツの対象が自分のアーカイブのエールと同色の相手のホロメンなら、このホロメンのアーツダメージは軽減されない。", //KEYWORD
+		"紫<br>CODE:81800<br>70+青+50<br>このホロメンにエールが3枚以上付いているなら、お互いのアーカイブのエール1枚につき、このアーツ+10。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-076", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-076_R.png", //SRC
+		"ネリッサ・レイヴンクロフト", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #歌 #トリ", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"紫", //COLOR
+		"260", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>SUGOISUGOIDEKAI<br>自分の推しホロメンが〈ネリッサ・レイヴンクロフト〉なら、自分のデッキを1枚引き、自分の手札1枚をホロパワーにする。", //KEYWORD
+		"紫◇<br>あら、捕まえられちゃった!<br>50+<br>自分のホロパワー1枚をアーカイブできる:このアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-077", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-077_C.png", //SRC
+		"桃鈴ねね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #歌 #絵", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>あぱぱ<br>自分が後攻で最初のターンなら、自分のデッキから、#5期生を持つ2ndホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>ねね、酔っちゃった~<br>10", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-078", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-078_U.png", //SRC
+		"桃鈴ねね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #歌 #絵", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>君もこっちにおいで~!<br>自分のデッキの上から5枚を見る。その中から、〈ねっ子〉1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"◇<br>ねねと一緒に楽しもう!!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-079", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-079_C.png", //SRC
+		"桃鈴ねね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #歌 #絵", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ねねちライブスタート!<br>自分のアーカイブのエール1枚をこのホロメンに送れる。", //KEYWORD
+		"◇<br>ご自由にお使いください!<br>30<br>自分のデッキから、〈やめなー〉1枚を公開し、自分のホロメンに付ける。連してデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-080", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-080_C.png", //SRC
+		"桃鈴ねね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #歌 #絵", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>オレンジアイドル!<br>[ターンに1回]自分の推しホロメンが〈桃鈴ねね〉なら、自分のメインステップに使える:自分のアーカイブの〈ねっ子〉1枚をこのホロメンに付ける。", //KEYWORD
+		"黄<br>さいくーにくぅわいい<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-081", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-081_R.png", //SRC
+		"桃鈴ねね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #歌 #絵", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"180", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>桃鈴ねねは昆虫博士になる!<br>自分のホロパワーが4枚以上で、相手のコラボホロメンがいないなら、相手は、自身のバックホロメン1人をコラボポジションに移動させる(移動はコラボとしては扱わない)。", //KEYWORD
+		"黄黄<br>君のハートをブルロック!<br>30<br>このホロメンに〈ギラファノコギリクワガタ〉が付いているなら、このアーツダメージは、アーツの対象のホロメンのかわりに、相手のセンターホロメンとコラボホロメンに与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-082", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-082_U.png", //SRC
+		"桃鈴ねね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #歌 #絵", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ねぽらぼが最強です!!!!!!!!!!!!!<br>自分のデッキから、#5期生を持つ2ndホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>アチョ~~~!<br>50青+50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-083", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-083_RR.png", //SRC
+		"桃鈴ねね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #歌 #絵", //TAG
+		"RR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>みんなのエナジードリンク<br>[センターポジション限定]次の相手のターン終了時まで、お互いのステージのホロメン全員のアーツ+40。さらに、自分のステージの2ndホロメンの〈桃鈴ねね〉全員のアーツ+60。", //KEYWORD
+		"黄◇◇<br>オーバーチアリーディング<br>100赤+50<br>相手の[センターホロメンかコラボホロメン]のエール1枚をエールデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-084", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-084_R.png", //SRC
+		"夏色まつり", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #シューター", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>一緒にゲームしよ<br>相手のターンで、このホロメンがダウンした時、自分のアーカイブのLIMITEDのサポートカード1枚をデッキの下に戻せる。戻したなら、このホロメンをアーカイブするかわりに手札に戻す。", //KEYWORD
+		"黄◇<br>やっぱり、FPSとか?<br>90青+50<br>自分のアーカイブのエール1枚を自分のホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-085", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-085_R.png", //SRC
+		"不知火フレア", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #ハーフエルフ", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>私のとっておき!<br>自分のターンで、このホロメンがコラボポジションに移動した時、自分のデッキの上から3枚を見る。その中から、〈不知火フレア〉1枚を公開し、手札に加える。そして残ったカードをアーカイブする。", //KEYWORD
+		"黄<br>元気いっぱいカラフルパフェ<br>20+<br>自分の推しホロメンが〈不知火フレア〉なら、自己的〈不知火フレア〉1人を選ぶ。このターンの間、選んだホロメンのエール1枚につき、選んだホロメンのアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-086", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-086_R.png", //SRC
+		"ジジ・ムリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Justice", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>執念のチェイサー<br>自分の〈ジジ・ムリン〉1人を選ぶ。このターンの間、選んだホロメンのアーツは、相手のHPが減っているバックホロメンも対象にできる。", //KEYWORD
+		"黄黄◇<br>追撃のライオット<br>160+青+50<br>このアーツの対象が、相手のHPが減っているホロメンなら、このアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-087", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-087_C.png", //SRC
+		"虎金妃笑虎", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ニコたん出動!<br>自分が後攻で最初のターンなら、自分のエールデッキの上から2枚をアーカイブできる:自分のステージの#FLOW GLOWを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。", //KEYWORD
+		"◇<br>現行犯逮捕だ<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-088", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-088_U.png", //SRC
+		"虎金妃笑虎", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>虎の威<br>自分のバックポジションの#FLOW GLOWを持つ1stホロメン全員は相手から特殊ダメージを受けない。", //KEYWORD
+		"黄◇<br>みんなが居るから幸せだ!<br>50+<br>このターンに自己的ステージのエールがアーカイブされていたなら、このアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-089", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-089_R.png", //SRC
+		"虎金妃笑虎", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"R", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"180", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>っしゃ反撃抜刀<br>直前の相手のターンに自分の#FLOW GLOWを持つホロメンがダウンしていたなら、自分のデッキを2枚引く。自分のブルームエフェクト「っしゃ反撃抜刀」はターンに1回しか使えない。", //KEYWORD
+		"黄<br>スッゲーワクワクするしょ!!<br>50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-090", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-090_RR.png", //SRC
+		"虎金妃笑虎", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"RR", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"黄", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ここで終わっちゃう虎じゃないんだ!<br>自分のアーカイブのエール2枚を#FLOW GLOWを持つ自分のホロメン1人に送れる。", //KEYWORD
+		"黄黄<br>ぶち上げる気合いだ!<br>80+白+50<br>このホロメンのエール1枚につき、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-091", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-091_C.png", //SRC
+		"ライブスタッフ", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のステージのエール1枚をアーカイブしなければ使えない。<br><br>自分のアーカイブのファン1枚を自分のホロメンに付ける。付けたなら、自分のアーカイブのホロメン1枚を手札に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-092", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-092_U.png", //SRC
+		"アーカイブパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のアーカイブのホロメン1~3枚をデッキに戻してシャッフルする。その後、自分のデッキを2枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-093", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-093_C.png", //SRC
+		"うまみー!", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のコラボポジションの〈ベスティア・ゼータ〉を選ぶ。このターンの間、選んだホロメンのアーツ+40。その後、サイコロを1回振る。6以外なら、このカードをデッキに戻してシャッフルする。<br>自分の〈うまみー!〉はターンに1回しか使えない。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-094", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-094_U.png", //SRC
+		"ギリわるロボ", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを4枚引く。自分のライフが3以下なら、かわりに、お互いの手札すべてをデッキに戻してシャッフルする。そしてそれぞれのデッキを4枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-095", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-095_C.png", //SRC
+		"クロスインパクト", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、お互いのセンターホロメンが2ndホロメンでなければ使えない。<br><br>お互いにサイコロを1回振る。自分の出た目の数が相手以上なら、このターンの間、自分のセンターホロメンのアーツ+100。自分の出た目の数が相手より小さいなら、自分のエールデッキの上から1枚を自己的ホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-096", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-096_U.png", //SRC
+		"ちゃま旅", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のバックポジションの〈赤井はあと〉1人を選ぶ。選んだホロメンを含め重なっているホロメンすべてを好きな順でデッキの下に戻す。このターンの間、自分の〈赤井はあと〉全員のアーツに必要な無色-1。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-097", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-097_U.png", //SRC
+		"時の支配者 -Promise-", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のステージのホロメン全員が#Promiseを持つホロメンでなければ使えない。<br><br>自分のデッキから、#Promiseを持つホロメン2枚を公開し、手札に加える。そしてデッキをシャッフルする。その後、自分のライフが相手より少ないなら、自分のステージのホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-098", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-098_U.png", //SRC
+		"ビッグゴッドミオーンの占い", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の推しホロメンが〈大神ミオ〉でなければ使えない。<br><br>自分のデッキの上から3枚を公開する。このターンの間、この能力で公開したサポートカード1枚につき、自分のステージのホロメン全員のアーツ+20。そして公開したカードを好きな順でデッキの上に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-099", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-099_C.png", //SRC
+		"ブヒー!", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを2枚引く。その後、直前の相手のターンに自分のホロメンがダウンしていたなら、自分のステージのホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。さらに、直前の相手のターンにダウンしていた自分のホロメンが〈ラプラス・ダークネス〉なら、自分のデッキを2枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-100", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-100_U.png", //SRC
+		"フロンティアスピリット", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のアーカイブの〈AZKi〉1枚を手札に戻す。その後、自分のアーカイブの〈フロンティアスピリット〉1枚につき、自分のアーカイブのエール1枚を自分の〈AZKi〉1人に送る。<br>自分の〈フロンティアスピリット〉はターンに1回しか使えない。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-101", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-101_C.png", //SRC
+		"ASMRマイク", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"#Buzzグッズ", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◆Buzzホロメンに付いていたら能力追加<br>このホロメンのアーツに必要な無色-1。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-102", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-102_U.png", //SRC
+		"角巻わためのハンマー", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いている〈角巻わため〉のアーツ+20。<br><br>◆2ndの〈角巻わため〉に付いていたら能力追加<br>■[センターポジション限定]このホロメンのアーツ+30。<br>■[センターポジション限定]このホロメンがアーツを使った時、サイコロを1回振る。3か5なら、このホロメン以外の自分のホロメン1人に特殊ダメージ50を与える。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-103", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-103_U.png", //SRC
+		"ギラファノコギリクワガタ", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いている〈桃鈴ねね〉のアーツ+20。<br><br>◆1st以上の〈桃鈴ねね〉に付いていたら能力追加<br>このホロメンのアーツダメージは軽減されない。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-104_U.png", //SRC
+		"Thorn", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いている〈エリザベス・ローズ・ブラッドフレイム〉のアーツ+20。<br><br>◆2ndの〈エリザベス・ローズ・ブラッドフレイム〉に付いていたら能力追加<br>このホロメンのHPが減っているなら、このホロメンのアーツ+20。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-105", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-105_C.png", //SRC
+		"BAZO", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのアーツ+10。<br><br>◆〈ベスティア・ゼータ〉に付いていたら能力追加<br>このホロメンがアーツを使った時、自分のアーカイブのファン1枚を手札に戻す。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-106", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-106_U.png", //SRC
+		"ハトタウロス", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"#白上'sキャラクター", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのHP+20。<br><br>◆〈大神ミオ〉に付いていたら能力追加<br>このホロメンがコラボした時、このホロメンに付いている〈ハトタウロス〉1枚をデッキの上に戻せる:自分のアーカイブのホロメン1枚を手札に戻す。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-107", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-107_U.png", //SRC
+		"Boros", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのHP+20。<br><br>◆〈オーロ・クロニー〉に付いていたら能力追加<br>このゲーム中に、自分の〈オーロ・クロニー〉のSP推しスキル「時間の典獄」を使っていたなら、このホロメンのアーツ+20。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-108", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-108_C.png", //SRC
+		"Zecretary", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■このファンが付いているホロメンがアーツを使う時、自分の推しホロメンが〈ベスティア・ゼータ〉なら、このファンを白エールとしても扱う。<br>■相手のターンで、このファンが付いているホロメンがダメージを受けた時、このファンをアーカイブする。<br><br>このファンは、自分の〈ベスティア・ゼータ〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-109", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-109_C.png", //SRC
+		"Kronies", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このファンが付いているホロメンのアーツ+10。<br><br>このファンは、自分の〈オーロ・クロニー〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP07-110", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP07/hBP07-110_C.png", //SRC
+		"ねっ子", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ディーヴァフィーバー」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"[ターンに1回]このファンが付いているホロメンのBloomレベルが上がった時、自分のデッキを1枚引く。<br><br>このファンは、自分の〈桃鈴ねね〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
 		"", //ART2
 		"", //ART3
 		"", //ART4

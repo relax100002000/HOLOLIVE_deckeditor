@@ -402,45 +402,70 @@ function showInfotable(data)
 		str += "	</td>";
 		str += "</tr>";
 
-		tmpArr = data[SKILL].split("<br>");
-
-		str += "<tr rowspan=\"2\">";
-		str += "	<td>";
-		str += "		<img class='icon_img' src='img/skill.png'></img><br>" + tmpArr[0];
-		str += "	</td>";
-		str += "	<td>";
-		str += tmpArr[1];
-		str += "	</td>";
-		str += "</tr>";
-		str += "<tr>";
-		str += "	<td colspan=\"2\">";
-		str += tmpArr[2];
-		str += "	</td>";
-		str += "</tr>";
-
-		tmpArr = data[SPSKILL].split("<br>");
-
-		str += "<tr rowspan=\"2\">";
-		str += "	<td>";
-		str += "		<img class='icon_img' src='img/SPskill.png'></img><br>" + tmpArr[0];
-		str += "	</td>";
-		str += "	<td>";
-		str += tmpArr[1];
-		str += "	</td>";
-		str += "</tr>";
-		str += "<tr>";
-		str += "	<td colspan=\"2\">";
-		for(i = 2; i < tmpArr.length; i++)
+		if(data[STAGESKILL] != "")
 		{
-			if(i != 2)
-			{
-				str += "<br>";
-			}
+			tmpArr = data[STAGESKILL].split("<br>");
 
-			str += effect_to_img(tmpArr[i]);
+			str += "<tr rowspan=\"2\">";
+			str += "	<td>";
+			str += "		<img style='margin-top: 6px;' class='icon_img' src='img/stageskill.png'></img><br>";
+			str += "	</td>";
+			str += "	<td>";
+			str += tmpArr[0];
+			str += "	</td>";
+			str += "</tr>";
+			str += "<tr>";
+			str += "	<td colspan=\"2\">";
+			str += tmpArr[1];
+			str += "	</td>";
+			str += "</tr>";
 		}
-		str += "	</td>";
-		str += "</tr>";
+
+		if(data[SKILL] != "")
+		{
+			tmpArr = data[SKILL].split("<br>");
+
+			str += "<tr rowspan=\"2\">";
+			str += "	<td>";
+			str += "		<img class='icon_img' src='img/skill.png'></img><br>" + tmpArr[0];
+			str += "	</td>";
+			str += "	<td>";
+			str += tmpArr[1];
+			str += "	</td>";
+			str += "</tr>";
+			str += "<tr>";
+			str += "	<td colspan=\"2\">";
+			str += tmpArr[2];
+			str += "	</td>";
+			str += "</tr>";
+		}
+
+		if(data[SPSKILL] != "")
+		{
+			tmpArr = data[SPSKILL].split("<br>");
+
+			str += "<tr rowspan=\"2\">";
+			str += "	<td>";
+			str += "		<img class='icon_img' src='img/SPskill.png'></img><br>" + tmpArr[0];
+			str += "	</td>";
+			str += "	<td>";
+			str += tmpArr[1];
+			str += "	</td>";
+			str += "</tr>";
+			str += "<tr>";
+			str += "	<td colspan=\"2\">";
+			for(i = 2; i < tmpArr.length; i++)
+			{
+				if(i != 2)
+				{
+					str += "<br>";
+				}
+
+				str += effect_to_img(tmpArr[i]);
+			}
+			str += "	</td>";
+			str += "</tr>";
+		}
 
 		str += "	</td>";
 		str += "</tr>";
@@ -3555,8 +3580,8 @@ function showVersion()
 	str += "Author: ZZZ\n";
 	str += "E-mail: relax100002000@hotmail.com\n";
 	str += "\n";
-	str += "20260317 v1.08\n";  
-	str += "1.更新hSD12、hSD13.\n";
+	str += "20260321 v1.09\n";  
+	str += "1.更新hBP07.\n";
 	str += "\n";
 	str += "預計更新:\n";
 	str += "-補充關於說明\n";
