@@ -27078,7 +27078,7 @@ var cardData = [
 		"紫", //COLOR
 		"220", //HP
 		"2nd", //LEVEL
-		"2", //BATON
+		"◇◇", //BATON
 		"", //STAGESKILL
 		"", //SKILL
 		"", //SPSKILL
