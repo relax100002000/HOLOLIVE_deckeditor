@@ -2,6 +2,10 @@
    
 Author: ZZZ  
 
+20260423 v1.10  
+1.新增黑暗模式.  
+2.Add hold 'alt' to lock card review function.
+
 20260321 v1.09  
 1.更新hBP07.  
 

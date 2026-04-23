@@ -2,8 +2,20 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<script src="js/function.js"></script>
-		<script src="js/card_info.js"></script>
+		<!-- ==== Force-reload local JS / CSS / HTML on every visit (no browser cache) ==== -->
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+		<script>
+			// Cache-buster: append a unique ?v=<timestamp> to every local script so the
+			// browser must re-fetch them. Using document.write() inside <head> keeps the
+			// original synchronous load order intact.
+			(function(){
+				var v = '?v=' + Date.now();
+				document.write('<script src="js/function.js' + v + '"><\/script>');
+				document.write('<script src="js/card_info.js' + v + '"><\/script>');
+			})();
+		</script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 		<title>hololive OCG Deck Builder</title>
@@ -149,8 +161,257 @@
     	margin-left: 0px;
     	visibility: hidden;
 	}
+
+	/* === Dark Mode Toggle Button === */
+	#darkModeToggle {
+		cursor: pointer;
+		background: transparent;
+		border: 1px solid #888;
+		border-radius: 6px;
+		padding: 2px 10px;
+		height: 24px;
+		line-height: 18px;
+		font-size: 14px;
+		margin-left: 8px;
+		user-select: none;
+		vertical-align: middle;
+		transition: background 0.2s, color 0.2s, border-color 0.2s;
+	}
+	#darkModeToggle:hover { background: rgba(0,0,0,0.08); }
+
+	/* === Dark Mode theme transitions === */
+	body, button, .custom-file-upload, select, input[type="text"], textarea,
+	#window-pop, #window-pop-list, #window-pop-code, #cardinformation,
+	#lbBackground {
+		transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+	}
+	@media (prefers-reduced-motion: reduce) {
+		body, button, .custom-file-upload, select, input[type="text"], textarea,
+		#window-pop, #window-pop-list, #window-pop-code, #cardinformation,
+		#lbBackground { transition: none; }
+	}
+
+	/* === Dark Mode Theme === */
+	body.dark-mode { background-color: #1a1a1a; color: #e6e6e6; }
+	body.dark-mode, body.dark-mode * { color: #e6e6e6; }
+	body.dark-mode a { color: #4da3ff; }
+	body.dark-mode a:visited { color: #b48bff; }
+
+	body.dark-mode button,
+	body.dark-mode .custom-file-upload {
+		background-color: #2f2f2f;
+		color: #e6e6e6;
+		border-color: #555;
+	}
+	body.dark-mode button:hover,
+	body.dark-mode .custom-file-upload:hover { background-color: #3d3d3d; }
+
+	body.dark-mode select,
+	body.dark-mode input[type="text"],
+	body.dark-mode textarea {
+		background-color: #2a2a2a;
+		color: #e6e6e6;
+		border: 1px solid #555;
+	}
+
+	body.dark-mode #window-container,
+	body.dark-mode #window-container-list,
+	body.dark-mode #window-container-code { background-color: rgba(0,0,0,0.75); }
+	body.dark-mode #window-pop,
+	body.dark-mode #window-pop-list,
+	body.dark-mode #window-pop-code { background: #242424; color: #e6e6e6; }
+
+	body.dark-mode #cardinformation {
+		background-color: #242424 !important;
+		border-color: #555 !important;
+	}
+	body.dark-mode #cardinformation table,
+	body.dark-mode #cardinformation td { border-color: #555 !important; }
+
+	body.dark-mode img { border-color: #555; }
+	body.dark-mode #lbBackground { background: rgba(70,70,70,1.0); }
+
+	body.dark-mode #darkModeToggle { border-color: #888; color: #e6e6e6; }
+	body.dark-mode #darkModeToggle:hover { background: rgba(255,255,255,0.1); }
+
+	/* 淺色內嵌背景(#E0E0E0 / #FFD9E6) 在 dark-mode 下強制黑字 */
+	body.dark-mode [style*="background:#E0E0E0" i],
+	body.dark-mode [style*="background: #E0E0E0" i],
+	body.dark-mode [style*="background-color:#E0E0E0" i],
+	body.dark-mode [style*="background-color: #E0E0E0" i],
+	body.dark-mode [style*="background:#FFD9E6" i],
+	body.dark-mode [style*="background: #FFD9E6" i],
+	body.dark-mode [style*="background-color:#FFD9E6" i],
+	body.dark-mode [style*="background-color: #FFD9E6" i],
+	body.dark-mode [style*="background:#E0E0E0" i] *,
+	body.dark-mode [style*="background: #E0E0E0" i] *,
+	body.dark-mode [style*="background-color:#E0E0E0" i] *,
+	body.dark-mode [style*="background-color: #E0E0E0" i] *,
+	body.dark-mode [style*="background:#FFD9E6" i] *,
+	body.dark-mode [style*="background: #FFD9E6" i] *,
+	body.dark-mode [style*="background-color:#FFD9E6" i] *,
+	body.dark-mode [style*="background-color: #FFD9E6" i] * { color: #000 !important; }
+
+	/* CSS-filter image darkening (沒有實體黑圖檔時的 fallback) */
+	/* empty.jpg 是淺色的空卡槽底圖 — 在 dark-mode 下降亮度 */
+	body.dark-mode img[src*="empty.jpg"]:not([src*="empty_black"]) {
+		filter: brightness(0.35) contrast(1.05);
+	}
+	/* cancel_icon / larrow / rarrow 預設為黑色圖形 on 白底 — invert 成白色圖形 on 暗底 */
+	body.dark-mode img[src*="cancel_icon.png"]:not([src*="cancel_icon_black"]),
+	body.dark-mode img[src*="larrow.png"]:not([src*="larrow_black"]),
+	body.dark-mode img[src*="rarrow.png"]:not([src*="rarrow_black"]) {
+		filter: invert(1) hue-rotate(180deg);
+	}
+
+	/* === big_pic lock indicator (when ALT is held) === */
+	body.bigpic-locked #cardinformation {
+		outline: 3px solid #ffb300;
+		outline-offset: 2px;
+		box-shadow: 0 0 16px rgba(255, 179, 0, 0.65);
+	}
+	body.bigpic-locked #cardinformation::before {
+		content: "🔒 LOCKED — release ALT to unlock";
+		position: absolute;
+		top: -28px; left: 0;
+		background: #ffb300;
+		color: #000;
+		font-weight: 700;
+		font-size: 12px;
+		padding: 3px 8px;
+		border-radius: 4px;
+		z-index: 1000;
+		pointer-events: none;
+		white-space: nowrap;
+	}
+
+	/* Persistent usage hint shown inside the preview popup */
+	#bigPicHint {
+		display: inline-block;
+		font-size: 11px;
+		color: #555;
+		background: #fff8e1;
+		border: 1px solid #ffd54f;
+		border-radius: 4px;
+		padding: 2px 6px;
+		margin: 4px 0 4px 8px;
+		vertical-align: middle;
+		user-select: none;
+	}
+
+	/* Inline ALT-lock tip near the language bar */
+	.alt-lock-tip {
+		display: inline-block;
+		font-size: 12px;
+		color: #b26a00;
+		background: #fff8e1;
+		border: 1px dashed #ffb300;
+		border-radius: 4px;
+		padding: 1px 6px;
+		margin: 0 6px;
+		vertical-align: middle;
+	}
+	body.dark-mode #bigPicHint,
+	body.dark-mode .alt-lock-tip {
+		color: #ffd54f;
+		background: #3a2e00;
+		border-color: #c79100;
+	}
 	</style>
 	<body>
+		<script>
+			// === Dark Mode: 早期套用,避免畫面閃爍 ===
+			// 優先順序: localStorage > 跟隨系統 prefers-color-scheme > 亮色預設
+			try {
+				var saved = localStorage.getItem('hololive_dark_mode');
+				var wantDark = false;
+				if (saved === '1') wantDark = true;
+				else if (saved === null && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) wantDark = true;
+				if (wantDark) document.body.classList.add('dark-mode');
+			} catch(e) {}
+
+			// 系統主題變化時,若使用者沒手動切過就自動跟隨
+			try {
+				var mql = window.matchMedia('(prefers-color-scheme: dark)');
+				if (mql && mql.addEventListener) {
+					mql.addEventListener('change', function(e){
+						if (localStorage.getItem('hololive_dark_mode') !== null) return;
+						document.body.classList.toggle('dark-mode', e.matches);
+						if (typeof updateDarkModeButton === 'function') updateDarkModeButton();
+						if (typeof updateChartsTheme === 'function') updateChartsTheme();
+					});
+				}
+			} catch(e) {}
+
+			function getLegendColor() {
+				return document.body.classList.contains('dark-mode') ? '#e6e6e6' : 'rgb(0, 0, 0)';
+			}
+
+			function updateChartsTheme() {
+				var color = getLegendColor();
+				[typeof yellobj     !== 'undefined' ? yellobj      : null,
+				 typeof levelobj    !== 'undefined' ? levelobj     : null,
+				 typeof colorobj    !== 'undefined' ? colorobj     : null,
+				 typeof show_levelobj!== 'undefined'? show_levelobj: null,
+				 typeof show_colorobj!== 'undefined'? show_colorobj: null,
+				 typeof show_lbobj  !== 'undefined' ? show_lbobj   : null
+				].forEach(function(obj){
+					if (obj && obj.options && obj.options.plugins && obj.options.plugins.legend && obj.options.plugins.legend.labels) {
+						obj.options.plugins.legend.labels.color = color;
+						obj.update();
+					}
+				});
+			}
+
+			function updateDarkModeButton() {
+				var btn = document.getElementById('darkModeToggle');
+				if (!btn) return;
+				btn.textContent = document.body.classList.contains('dark-mode') ? '☀ Light' : '🌙 Dark';
+			}
+
+			// 圖片效能: 批次套用 loading=lazy 與 decoding=async
+			function enhanceImage(img) {
+				if (!img || !img.setAttribute) return;
+				if (!img.hasAttribute('loading')) img.setAttribute('loading', 'lazy');
+				if (!img.hasAttribute('decoding')) img.setAttribute('decoding', 'async');
+			}
+			function applyImageLazyLoading() {
+				var imgs = document.getElementsByTagName('img');
+				for (var i = 0; i < imgs.length; i++) enhanceImage(imgs[i]);
+			}
+			// 監聽新增的 img 節點,自動套用 lazy-loading
+			(function(){
+				if (!window.MutationObserver) return;
+				var obs = new MutationObserver(function(muts){
+					muts.forEach(function(m){
+						if (m.type === 'childList') {
+							m.addedNodes.forEach(function(n){
+								if (n.nodeType !== 1) return;
+								if (n.tagName === 'IMG') enhanceImage(n);
+								else if (n.querySelectorAll) {
+									var sub = n.querySelectorAll('img');
+									for (var i = 0; i < sub.length; i++) enhanceImage(sub[i]);
+								}
+							});
+						}
+					});
+				});
+				function startObserving() {
+					obs.observe(document.body, { childList: true, subtree: true });
+					applyImageLazyLoading();
+				}
+				if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', startObserving);
+				else startObserving();
+			})();
+
+			function toggleDarkMode() {
+				document.body.classList.toggle('dark-mode');
+				var isDark = document.body.classList.contains('dark-mode');
+				try { localStorage.setItem('hololive_dark_mode', isDark ? '1' : '0'); } catch(e) {}
+				updateDarkModeButton();
+				updateChartsTheme();
+			}
+		</script>
 		<script>
 			var page = 0;
 			var deckNamelist = [];
@@ -187,6 +448,9 @@
 			$( document ).ready(function() {
 				onLoading();
 				showrdeck();
+				// Initialise dark-mode button label & chart theme after first render.
+				if (typeof updateDarkModeButton === 'function') updateDarkModeButton();
+				if (typeof updateChartsTheme === 'function') updateChartsTheme();
 			});
 
 			function customizeWindowEvent(x) {
@@ -272,7 +536,8 @@
 	        }
 		</script>
 		<div id='cardinformation' style='border: solid; border-width: 2px;position: absolute;z-index: 999; background-color:white; visibility: hidden;margin: 150px 0px 0px 40px;'>
-			<img id="cross" width="30px" height="30px" style='border-style: none;margin-left: 700px;' src="img/cancel_icon.png" onclick="$('#cardinformation').css('visibility', 'hidden');" onmouseover="$('#cardinformation').css('visibility', 'hidden');">
+			<span id="bigPicHint" title="Hold ALT to keep this preview open and frozen on the current card.">💡 Hold <b>ALT</b> to lock this preview · release to unlock</span>
+			<img id="cross" width="30px" height="30px" style='border-style: none;margin-left: 540px;' src="img/cancel_icon.png" onclick="if(!window.bigPicLocked) $('#cardinformation').css('visibility', 'hidden');" onmouseover="if(!window.bigPicLocked) $('#cardinformation').css('visibility', 'hidden');">
 			<table>
 				<tr>
 					<td>
@@ -290,7 +555,9 @@
 				<option value="JP">日本語</option>
 				<!-- <option value="TW">繁體中文</option> -->
 		    </select>
-		    ※Right-click in the deck can add existing card. 
+		    <button id="darkModeToggle" type="button" onclick="toggleDarkMode()" title="Toggle Dark Mode">🌙 Dark</button>
+		    <span class="alt-lock-tip" title="Hold ALT to lock the card preview window — it won't close or change card while ALT is held.">🔒 Hold <b>ALT</b> = lock card preview</span>
+		    ※Right-click in the deck can add existing card.
 		    <br>Deck List
 		    <select id="selectDeck" onchange="selectDeck();">
 		    	<option value="">--Select Deck--</option>
@@ -307,7 +574,7 @@
 					<table>
 						<tr>
 							<td>    
-								<span style="cursor: default; margin-left: 24px; ">推しホロメン</span>
+								<span style="cursor: default; margin-left: 24px; margin-top: 20px;">推しホロメン</span>
 							</td>
 							<td>
 								<span hidden style="cursor: default; margin-left: 80px;" id="yelltitle">エール</span>
