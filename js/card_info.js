@@ -28,7 +28,7 @@
 */
 
 /*
-全形改半形
+以下全形改半形
 0~9
 a~z
 A~Z
@@ -28114,6 +28114,2506 @@ var cardData = [
 		"", //ART4
 		"", //ART5
 		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hBP01-104_02_C.png", //SRC
+		"ふつうのパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-001_OC.png", //SRC
+		"白上フブキ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OC", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"白", //COLOR
+		"4", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"[ホロパワー:-2]<br>みんな一緒にいくぞぉおっ<br>[ターンに1回]自分のマスコットが付いている〈白上フブキ〉1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。", //SKILL
+		"[ホロパワー:-2]<br>マスコッツ、アッセンブル!!<br>[ゲームに1回]自分のデッキから、マスコット1~2枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-002_C.png", //SRC
+		"白上フブキ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #ゲーマーズ #ケモミミ #絵", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"白", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>はじまんぼう!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-003_C.png", //SRC
+		"白上フブキ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #ゲーマーズ #ケモミミ #絵", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"白", //COLOR
+		"70", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"白<br>今日もあなたのそばに -フブキ-<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-004_C.png", //SRC
+		"白上フブキ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #ゲーマーズ #ケモミミ #絵", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"白", //COLOR
+		"90", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>白上のとこにおいでー<br>自分が後攻で最初のターンなら、自分のデッキからマスコット1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>ハイ フレンズ!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-005_U.png", //SRC
+		"白上フブキ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #ゲーマーズ #ケモミミ #絵", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"白", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>いっちにー、さんしー<br>自分のセンターホロメンを選ぶ。このターンの間、選んだホロメンのアーツ+10。", //KEYWORD
+		"◇<br>いつでもいけるよ!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-006_C.png", //SRC
+		"白上フブキ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #ゲーマーズ #ケモミミ #絵", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"白", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>ようやくキミに会えた!!!<br>30", //ART1
+		"白◇<br>キラキラなきーつね!<br>50", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-007_U.png", //SRC
+		"白上フブキ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #ゲーマーズ #ケモミミ #絵", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"白", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>Message for You -フブキ-<br>自分のセンターホロメンを選ぶ。このターンの間、選んだホロメンのアーツ+10。", //KEYWORD
+		"◇<br>あーまいーこのきーもちー<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-008_R.png", //SRC
+		"白上フブキ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #ゲーマーズ #ケモミミ #絵", //TAG
+		"R", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"白", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>大丈夫ですよ!<br>自分のアーカイブのマスコット1枚をこのホロメンに付ける。", //KEYWORD
+		"◇<br>一緒に行こう(｡•`ㅂ•´)و✧<br>20+<br>[コラボポジション限定]このホロメンにマスコットが付いているなら、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-009_RR.png", //SRC
+		"白上フブキ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #ゲーマーズ #ケモミミ #絵", //TAG
+		"RR", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"白", //COLOR
+		"170", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>私は倒れちゃいけないな<br>相手のターンで、このホロメンがダウンした時、このホロメンにマスコットが付いているなら、自分のデッキを1枚引く。", //KEYWORD
+		"白◇<br>胸を張って歌い続けるよ<br>90+赤+30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-010_C.png", //SRC
+		"holoAN", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-011", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-011_C.png", //SRC
+		"ありよりのアリゲーター", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"#白上'sキャラクター", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのHP+10。<br><br>◆〈白上フブキ〉に付いていたら能力追加<br>このホロメンが相手のホロメンをダウンさせた時、自分のエールデッキの上から1枚を自分のホロメンに送る。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-077", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-077_C.png", //SRC
+		"レトロパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のライフが3以下でなければ使えない。<br><br>自分のアーカイブのホロメン1枚を手札に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-084", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-084_U.png", //SRC
+		"みっころね24", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを2枚引き、サイコロを1回振る:3か5か6の時、自分のデッキから、Debutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。2か4の時、自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-017_C.png", //SRC
+		"マネちゃん", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに1枚以上なければ使えない。<br><br>自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを5枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-019", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-019_C_02.png", //SRC
+		"スゴイパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のエール1枚をアーカイブしなければ使えない。<br><br>自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY01-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY01-001_C.png", //SRC
+		"白エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 白上フブキ", //PRODUCT
+		"白", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD15/hBP01-104_03_C.png", //SRC
+		"ふつうのパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD15-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD15/hSD15-001_OC.png", //SRC
+		"儒烏風亭らでん", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OC", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"緑", //COLOR
+		"4", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"[ホロパワー:-2]<br>ちょっとまつたけ~♪<br>[ターンに1回]自分のデッキから#きのこを持つイベント1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SKILL
+		"[ホロパワー:-2]<br>あなたの世界を広げに行こう<br>[ゲームに1回]自分のエールデッキの上から1枚を自分の〈儒烏風亭らでん〉に送る。その後、自分のアーカイブの#きのこを持つイベント1枚を手札に戻す。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD15-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD15/hSD15-002_C.png", //SRC
+		"儒烏風亭らでん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #お酒", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"緑", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>寄ってらっしゃい見てらっしゃい<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD15-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD15/hSD15-003_C.png", //SRC
+		"儒烏風亭らでん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #お酒", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"緑", //COLOR
+		"70", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"緑<br>今日もあなたのそばに -らでん-<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD15-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD15/hSD15-004_C.png", //SRC
+		"儒烏風亭らでん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #お酒", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"緑", //COLOR
+		"90", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>一服朝っぱらでん<br>自分が後攻で最初のターンなら、自分のエールデッキの上から1枚を自分のバックホロメンに送る。", //KEYWORD
+		"◇<br>散歩でもいかがですかな?<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD15-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD15/hSD15-005_U.png", //SRC
+		"儒烏風亭らでん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #お酒", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"緑", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>体力作り頑張るぞー!!!!!<br>相手のターンで、このホロメンがダウンした時、このホロメンのエール1枚を自分の他のホロメンに付け替えられる。", //KEYWORD
+		"◇<br>そろそろ始めちゃいますか<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD15-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD15/hSD15-006_C.png", //SRC
+		"儒烏風亭らでん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #お酒", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"緑", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"緑◇<br>世界を彩る -らでん-<br>40", //ART1
+		"緑◇◇<br>ちょいと一席付き合ってみませんか?<br>60", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD15-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD15/hSD15-007_U.png", //SRC
+		"儒烏風亭らでん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #お酒", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"緑", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>旅の前日<br>自分のデッキの上から1枚をアーカイブする。その後、自分のアーカイブのDebutホロメン1枚をステージに出せる。", //KEYWORD
+		"◇<br>この博物館おもしろそう!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD15-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD15/hSD15-008_R.png", //SRC
+		"儒烏風亭らでん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #お酒", //TAG
+		"R", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"緑", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>薄明<br>このホロメンが相手のホロメンをダウンさせた時、このホロメンのHPを20回復する。", //KEYWORD
+		"緑◇<br>きのこ狩り<br>40+<br>このターンに自分が#きのこを持つイベントを使っていたなら、このアーツ+10。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD15-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD15/hSD15-009_RR.png", //SRC
+		"儒烏風亭らでん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #お酒", //TAG
+		"RR", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"緑", //COLOR
+		"170", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ザ・破天荒<br>[センターポジション限定]このターンの間、このホロメンのアーツ+20。", //KEYWORD
+		"緑◇◇<br>伝統と革新をあなたに<br>90+青+30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD15-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD15/hSD15-010_C.png", //SRC
+		"まつたけダンス", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"#きのこ", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のステージの〈儒烏風亭らでん〉1人を選ぶ。このターンの間、選んだホロメンのアーツ+10。そのホロメンに、エールが3枚以上付いているなら、かわりに、そのホロメンのアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-077", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-077_C.png", //SRC
+		"レトロパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のライフが3以下でなければ使えない。<br><br>自分のアーカイブのホロメン1枚を手札に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-084", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-084_U.png", //SRC
+		"みっころね24", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを2枚引き、サイコロを1回振る:3か5か6の時、自分のデッキから、Debutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。2か4の時、自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-017_C.png", //SRC
+		"マネちゃん", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに1枚以上なければ使えない。<br><br>自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを5枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-019", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-019_C_02.png", //SRC
+		"スゴイパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のエール1枚をアーカイブしなければ使えない。<br><br>自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-010_C.png", //SRC
+		"holoAN", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY02-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY02-001_C.png", //SRC
+		"緑エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 儒烏風亭らでん", //PRODUCT
+		"緑", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD16/hBP01-104_04_C.png", //SRC
+		"ふつうのパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD16-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD16/hSD16-001_OC.png", //SRC
+		"さくらみこ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OC", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"赤", //COLOR
+		"4", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"[ホロパワー:-2]<br>35Pこっちこっちー<br>[ターンに1回]自分の〈35P〉が付いているホロメンがいるなら、自分のデッキを1枚引く。", //SKILL
+		"[ホロパワー:-2]<br>35Pいくぞー!<br>[ゲームに1回]自分のファンが付いている〈さくらみこ〉1人を選ぶ。このターンの間、選んだホロメンのアーツ+50。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD16-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD16/hSD16-002_C.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"C", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"赤", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>さくらみこだよ~<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD16-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD16/hSD16-003_C.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"C", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"赤", //COLOR
+		"70", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"赤<br>エリート巫女アイドル! さくらみこだよ~<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD16-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD16/hSD16-004_C.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"C", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"赤", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>後攻なんですｹｰﾄﾞ<br>自分が後攻で最初のターンなら、自分のデッキから〈35P〉1枚を公開し、このホロメンに付ける。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>でゃまれ!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD16-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD16/hSD16-005_U.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"U", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"赤", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>桜風ランニング<br>20<br>サイコロを1回振る。3か5なら、自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD16-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD16/hSD16-006_C.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"C", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"赤", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>みんなみててにぇ<br>20", //ART1
+		"赤◇<br>いっくぞぉおおおお<br>50", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD16-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD16/hSD16-007_U.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"U", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"赤", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>みこの膝にごろーんってして<br>相手のターンで、このホロメンがダウンした時、自分のデッキを1枚引く。", //KEYWORD
+		"◇<br>みこの耳かきスキルに蕩けちゃえ<br>30+<br>[センターポジション限定]サイコロを1回振る。3か5なら、このアーツ+10。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD16-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD16/hSD16-008_R.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"R", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"赤", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>待ってたにぇ<br>サイコロを1回振る。3か5なら、自分のアーカイブの〈35P〉1枚を手札に戻す。", //KEYWORD
+		"◇<br>いっぱい遊ぼっ<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD16-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD16/hSD16-009_RR.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"RR", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"赤", //COLOR
+		"170", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>35P、ありがとうだよー!<br>このターンの間、自分のステージの〈35P〉1枚につき、このホロメンのアーツ+10。", //KEYWORD
+		"赤◇◇<br>この瞬間を見せてあげたいなって<br>100+黄+30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-077", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-077_C.png", //SRC
+		"レトロパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のライフが3以下でなければ使えない。<br><br>自分のアーカイブのホロメン1枚を手札に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-084", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-084_U.png", //SRC
+		"みっころね24", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを2枚引き、サイコロを1回振る:3か5か6の時、自分のデッキから、Debutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。2か4の時、自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-107", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-107_U.png", //SRC
+		"35P", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■このファンが付いているホロメンがアーツを使う時、このファンを赤エールとしても扱う。<br>■このファンが付いているホロメンがダウンした時、相手は、自身のデッキを1枚引ける。<br><br>このファンは、自分の〈さくらみこ〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-017_C.png", //SRC
+		"マネちゃん", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに1枚以上なければ使えない。<br><br>自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを5枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-019", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-019_C_02.png", //SRC
+		"スゴイパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のエール1枚をアーカイブしなければ使えない。<br><br>自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-010_C.png", //SRC
+		"holoAN", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY03-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY03-001_C.png", //SRC
+		"赤エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ さくらみこ", //PRODUCT
+		"赤", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD17/hBP01-104_05_C.png", //SRC
+		"ふつうのパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD17-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD17/hSD17-001_OC.png", //SRC
+		"星街すいせい", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OC", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"青", //COLOR
+		"4", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"[ホロパワー:-3]<br>張り切ってがんばろーー!!!<br>[ターンに1回]自分のエールデッキの上から1枚を自分のホロメンに送る。", //SKILL
+		"[ホロパワー:-2]<br>流れ星<br>[ゲームに1回]自分のセンターホロメンが〈星街すいせい〉なら、相手のバックホロメン1人に特殊ダメージ50を与える。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD17-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD17/hSD17-002_C.png", //SRC
+		"星街すいせい", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"青", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>バーチャルアイドル・星街すいせい<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD17-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD17/hSD17-003_C.png", //SRC
+		"星街すいせい", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"青", //COLOR
+		"70", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"青<br>今日もあなたのそばに -すいせい-<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD17-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD17/hSD17-004_C.png", //SRC
+		"星街すいせい", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"青", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ファーストスター<br>自分が後攻で最初のターンなら、相手のバックホロメン1人に特殊ダメージ20を与える。", //KEYWORD
+		"◇<br>私だけの輝き<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD17-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD17/hSD17-005_U.png", //SRC
+		"星街すいせい", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"青", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>よーし、レッスン開始だー!<br>20<br>相手のバックホロメン1人に特殊ダメージ10を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD17-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD17/hSD17-006_C.png", //SRC
+		"星街すいせい", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"青", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>そろそろ始まるよ!<br>30", //ART1
+		"青◇<br>みんな準備はできてる?<br>50", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD17-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD17/hSD17-007_U.png", //SRC
+		"星街すいせい", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"青", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>Message for You -すいせい-<br>[バックポジション限定]相手のバックホロメン1人に特殊ダメージ10を与える。", //KEYWORD
+		"◇<br>バレンタイン……か……<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD17-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD17/hSD17-008_R.png", //SRC
+		"星街すいせい", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"R", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"青", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>明日への歌<br>相手のターンで、このホロメンがダウンした時、自分のデッキを1枚引く。", //KEYWORD
+		"青◇<br>あなたの一番星<br>40<br>相手のバックホロメン1人に特殊ダメージ10を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD17-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD17/hSD17-009_RR.png", //SRC
+		"星街すいせい", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"RR", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"青", //COLOR
+		"170", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>踊ったもん勝ち!<br>このターンの間、このホロメンのアーツ+20。", //KEYWORD
+		"青青◇<br>キラキラの向こう側へ<br>110+紫+30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD17-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD17/hSD17-010_C.png", //SRC
+		"ステラ", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"相手のDebut以外のバックホロメン1人に特殊ダメージ20を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"自分の〈ステラ〉はターンに1回しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-077", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-077_C.png", //SRC
+		"レトロパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のライフが3以下でなければ使えない。<br><br>自分のアーカイブのホロメン1枚を手札に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-084", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-084_U.png", //SRC
+		"みっころね24", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを2枚引き、サイコロを1回振る:3か5か6の時、自分のデッキから、Debutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。2か4の時、自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-017_C.png", //SRC
+		"マネちゃん", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに1枚以上なければ使えない。<br><br>自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを5枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-019", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-019_C_02.png", //SRC
+		"スゴイパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のエール1枚をアーカイブしなければ使えない。<br><br>自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-010_C.png", //SRC
+		"holoAN", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY04-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY04-001_C.png", //SRC
+		"青エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 星街すいせい", //PRODUCT
+		"青", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD18/hBP01-104_06_C.png", //SRC
+		"ふつうのパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD18-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD18/hSD18-001_OC.png", //SRC
+		"森カリオペ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OC", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"紫", //COLOR
+		"4", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"[ホロパワー:-2]<br>ライミング<br>[ターンに1回]自分のデッキの上から2枚をアーカイブする。その後、自分のデッキを1枚引く。", //SKILL
+		"[ホロパワー:-2]<br>世界を繋げるラップ<br>[ゲームに1回]自分のアーカイブにホロメンが6枚以上あるなら、このターンの間、自分のステージの〈森カリオペ〉全員のアーツ+30。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD18-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD18/hSD18-002_C.png", //SRC
+		"森カリオペ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Myth #歌", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"紫", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>Nice to reap you<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD18-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD18/hSD18-003_C.png", //SRC
+		"森カリオペ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Myth #歌", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"紫", //COLOR
+		"70", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"紫<br>今日もあなたのそばに -カリオペ-<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD18-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD18/hSD18-004_C.png", //SRC
+		"森カリオペ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Myth #歌", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"紫", //COLOR
+		"90", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>みーなさんっ<br>自分が後攻で最初のターンなら、自分のデッキの上から1枚をアーカイブする。その後、自分のデッキを1枚引く。", //KEYWORD
+		"◇<br>あたためて貰えますか…?<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD18-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD18/hSD18-005_U.png", //SRC
+		"森カリオペ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Myth #歌", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"紫", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>死神式ストレッチ<br>自分のツールが付いているホロメンがいるなら、相手のセンターホロメンに特殊ダメージ10を与える。", //KEYWORD
+		"◇<br>一緒に、どう?<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD18-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD18/hSD18-006_C.png", //SRC
+		"森カリオペ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Myth #歌", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"紫", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>これから、頑張る。<br>30", //ART1
+		"紫◇<br>負けない。諦めない。<br>50", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD18-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD18/hSD18-007_U.png", //SRC
+		"森カリオペ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Myth #歌", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"紫", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>ちょっとした特別なプレゼント<br>相手のターンで、このホロメンがダウンした時、自分のデッキの上から1枚をアーカイブする。", //KEYWORD
+		"◇<br>手伝ってもらって助かるよ<br>30+<br>このホロメンにツールが付いているなら、このアーツ+10。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD18-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD18/hSD18-008_R.png", //SRC
+		"森カリオペ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Myth #歌", //TAG
+		"R", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"紫", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ロックンロールリッパー<br>自分のデッキの上から1枚をアーカイブする。", //KEYWORD
+		"紫◇<br>OK、もう一曲行こう!<br>40<br>[センターポジション限定]自分のアーカイブのツール1枚を手札に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD18-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD18/hSD18-009_RR.png", //SRC
+		"森カリオペ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Myth #歌", //TAG
+		"RR", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"紫", //COLOR
+		"160", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ペイルライダー<br>自分のアーカイブにホロメンが6枚以上あるなら、相手のセンターホロメンに特殊ダメージ20を与える。", //KEYWORD
+		"紫紫<br>刻むぞ冥界のビート<br>90+緑+30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-077", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-077_C.png", //SRC
+		"レトロパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のライフが3以下でなければ使えない。<br><br>自分のアーカイブのホロメン1枚を手札に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-084", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-084_U.png", //SRC
+		"みっころね24", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを2枚引き、サイコロを1回振る:3か5か6の時、自分のデッキから、Debutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。2か4の時、自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-088", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-088_U.png", //SRC
+		"森カリオペの鎌", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いているホロメンのアーツ+10。<br><br>◆1st以上の〈森カリオペ〉に付いていたら能力追加<br>このツールをホロメンに手札から付けた時、自分のデッキの上から1枚をアーカイブする。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-017_C.png", //SRC
+		"マネちゃん", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに1枚以上なければ使えない。<br><br>自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを5枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-010_C.png", //SRC
+		"holoAN", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"LIMITED:ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY05-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY05-001_C.png", //SRC
+		"紫エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 森カリオペ", //PRODUCT
+		"紫", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD19/hBP01-104_07_C.png", //SRC
+		"ふつうのパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD19-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD19/hSD19-001_OC.png", //SRC
+		"大空スバル", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OC", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"黄", //COLOR
+		"4", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"[ホロパワー:-3]<br>ごめんｹﾄﾞ<br>[ターンに1回]自分のアーカイブのホロメン1枚を手札に戻す。", //SKILL
+		"[ホロパワー:-2]<br>おさんぽスバル<br>[ゲームに1回]自分のアーカイブのエールを自分の〈大空スバル〉1~2人に1枚ずつ送る。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD19-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD19/hSD19-002_C.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"黄", //COLOR
+		"90", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>あじまるあじまる~<br>10", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD19-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD19/hSD19-003_C.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"黄", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"黄<br>今日もあなたのそばに -スバル-<br>20+<br>自分のライフが2以下なら、このアーツ+10。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD19-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD19/hSD19-004_C.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"黄", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>大空スマイル<br>自分が後攻で最初のターンなら、自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>しゅばぁ<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD19-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD19/hSD19-005_U.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"黄", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>ダンスレッスンなんですｹｰﾄﾞ<br>このホロメンが相手のセンターホロメンから受けるダメージ-10。", //KEYWORD
+		"◇<br>いっちにー、ホワッ、ホワッ!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD19-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD19/hSD19-006_C.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"黄", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>いっぱい頑張る!<br>20", //ART1
+		"黄◇<br>いっぱい楽しむ!<br>40", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD19-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD19/hSD19-007_U.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"黄", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>青春エール<br>自分のアーカイブのエール1枚をこのホロメンに送る。", //KEYWORD
+		"◇<br>忘れてなんかやるもんか<br>30+<br>このホロメンにエールが2枚以上付いているなら、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD19-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD19/hSD19-008_R.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"R", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"黄", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>萌え萌えギュン<br>20+<br>[コラボポジション限定]相手のステージに2ndホロメンがいるなら、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD19-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD19/hSD19-009_RR.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"RR", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"黄", //COLOR
+		"180", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"黄黄<br>ダンシング・プレアデス<br>80+白+30<br>自分のライフが2以下なら、このアーツ+10。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD19-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD19/hSD19-010_C.png", //SRC
+		"ごきげんカレー", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"#食べ物", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のホロメンのHP30回復。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-077", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-077_C.png", //SRC
+		"レトロパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のライフが3以下でなければ使えない。<br><br>自分のアーカイブのホロメン1枚を手札に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-084", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-084_U.png", //SRC
+		"みっころね24", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを2枚引き、サイコロを1回振る:3か5か6の時、自分のデッキから、Debutホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。2か4の時、自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-017_C.png", //SRC
+		"マネちゃん", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに1枚以上なければ使えない。<br><br>自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを5枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-019", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-019_C_02.png", //SRC
+		"スゴイパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のエール1枚をアーカイブしなければ使えない。<br><br>自分のデッキから、Buzz以外の[1stホロメンか2ndホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD14/hSD14-010_C.png", //SRC
+		"holoAN", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ライブスタートデッキ 大空スバル", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"LIMITED:ターンに1枚しか使えない。", //EXTRA
 		"" //BAN
 		]
 	]

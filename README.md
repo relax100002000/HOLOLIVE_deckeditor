@@ -1,7 +1,10 @@
-# WIXOSS_deckeditor  
+# HOLOLIVE_deckeditor  
    
 Author: ZZZ  
 
+20260424 v1.11  
+1.新增hSD14~hSD19  
+  
 20260423 v1.10  
 1.新增黑暗模式.  
 2.Add hold 'alt' to lock card review function.

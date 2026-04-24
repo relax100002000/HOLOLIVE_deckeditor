@@ -191,24 +191,6 @@ function onmouseShow(x, source)
 	// Locked (ALT held): keep current big_pic content and visibility frozen.
 	if(bigPicLocked) { return; }
 
-	if($('#cardinformation').css('visibility') == 'visible')
-	{
-		if(source == 'search')
-		{
-			if($('#cardinformation').css('margin') == '150px 0px 0px 960px')
-			{
-				return;
-			}
-		}
-		else if(source == 'deck')
-		{
-			if($('#cardinformation').css('margin') == '150px 0px 0px 40px')
-			{
-				return;
-			}
-		}
-	}
-
 	if(source == 'search')
 	{
 		$('#cardinformation').css('margin', '150px 0px 0px 40px');
@@ -314,11 +296,17 @@ function color_to_img(x)
 
 function power_to_img(x)
 {
+	x = x.replace(/青\+30/g, "<img class='icon_img' src='img/tokkou_30_blue.png'></img>");
 	x = x.replace(/青\+50/g, "<img class='icon_img' src='img/tokkou_50_blue.png'></img>");
+	x = x.replace(/赤\+30/g, "<img class='icon_img' src='img/tokkou_30_red.png'></img>");
 	x = x.replace(/赤\+50/g, "<img class='icon_img' src='img/tokkou_50_red.png'></img>");
+	x = x.replace(/紫\+30/g, "<img class='icon_img' src='img/tokkou_30_purple.png'></img>");
 	x = x.replace(/紫\+50/g, "<img class='icon_img' src='img/tokkou_50_purple.png'></img>");
+	x = x.replace(/白\+30/g, "<img class='icon_img' src='img/tokkou_30_white.png'></img>");
 	x = x.replace(/白\+50/g, "<img class='icon_img' src='img/tokkou_50_white.png'></img>");
+	x = x.replace(/黄\+30/g, "<img class='icon_img' src='img/tokkou_30_yellow.png'></img>");
 	x = x.replace(/黄\+50/g, "<img class='icon_img' src='img/tokkou_50_yellow.png'></img>");
+	x = x.replace(/緑\+30/g, "<img class='icon_img' src='img/tokkou_30_green.png'></img>");
 	x = x.replace(/緑\+50/g, "<img class='icon_img' src='img/tokkou_50_green.png'></img>");
 
 	return x;
@@ -908,7 +896,7 @@ function showInfotable(data)
 	else
 		str += "	<td colspan=\"3\">";
 
-	str += "		<textarea id=\"comment\" style=\"vertical-align: middle; overflow:hidden; resize:none; width:285px\">" + commetStr + "</textarea>";
+	str += "		<textarea id=\"comment\" style=\"vertical-align: middle; overflow:hidden; resize:none; width:340px\">" + commetStr + "</textarea>";
 	str += "		<button style=\"vertical-align: middle;border-radius: 0px;height: 30px\" onclick=\"setComment('" + data[ID] + "');\">更新</button>";
 	str += "	</td>";
 	str += "</tr>";
@@ -3617,9 +3605,8 @@ function showVersion()
 	str += "Author: ZZZ\n";
 	str += "E-mail: relax100002000@hotmail.com\n";
 	str += "\n";
-	str += "20260423 v1.10\n";  
-	str += "1.新增黑暗模式.\n";
-	str += "2.Add hold 'alt' to lock card review function.\n";
+	str += "20260424 v1.11\n";  
+	str += "1.1.新增hSD14~hSD19\n";
 	str += "\n";
 	str += "預計更新:\n";
 	str += "-補充關於說明\n";
