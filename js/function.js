@@ -896,7 +896,7 @@ function showInfotable(data)
 	else
 		str += "	<td colspan=\"3\">";
 
-	str += "		<textarea id=\"comment\" style=\"vertical-align: middle; overflow:hidden; resize:none; width:340px\">" + commetStr + "</textarea>";
+	str += "		<textarea id=\"comment\" style=\"vertical-align: middle; overflow:hidden; resize:none; width:285px\">" + commetStr + "</textarea>";
 	str += "		<button style=\"vertical-align: middle;border-radius: 0px;height: 30px\" onclick=\"setComment('" + data[ID] + "');\">更新</button>";
 	str += "	</td>";
 	str += "</tr>";
@@ -3606,7 +3606,7 @@ function showVersion()
 	str += "E-mail: relax100002000@hotmail.com\n";
 	str += "\n";
 	str += "20260424 v1.11\n";  
-	str += "1.1.新增hSD14~hSD19\n";
+	str += "1.新增hSD14~hSD19\n";
 	str += "\n";
 	str += "預計更新:\n";
 	str += "-補充關於說明\n";
