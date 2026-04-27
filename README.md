@@ -2,6 +2,10 @@
    
 Author: ZZZ  
 
+20260427 v1.12  
+1.新增comment管理功能   
+2.修復需要uncheck support，顏色filter才能正常運作的bug  
+
 20260424 v1.11  
 1.新增hSD14~hSD19  
   

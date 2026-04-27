@@ -70,6 +70,10 @@ function onLoading()
 	}
 
 	document.getElementById('fileinput').addEventListener('change', readSingleFile, false);
+	if(document.getElementById('commentFileinput'))
+	{
+		document.getElementById('commentFileinput').addEventListener('change', readSingleCommentFile, false);
+	}
 	showInfotable("init");
 
 	$("#textsearch").keydown(function(event) {
@@ -1927,7 +1931,7 @@ function loadcounter()
 function search()
 {
 	var i = 0, j = 0;
-	var dataStr = "", searchStr = "", tmpStr = "";
+	var dataStr = "", searchStr = "", tmpStr = "", commetStr = "";
 	var color_flag = 0;
 
 	rdeckArr = [];
@@ -2157,7 +2161,13 @@ function search()
 			}
 		}
 
-		if(!$('#support').is(":checked"))
+		// Apply colour filter to all non-support cards regardless of whether
+		// the サポート checkbox is ticked. Previously this block was wrapped
+		// in `if(!$('#support').is(":checked"))`, which silently disabled
+		// every colour checkbox the moment the user kept サポート ticked
+		// (i.e. the default state) — unchecking a single colour then had
+		// no effect on the result list.
+		if(cardData[i][TYPE] != "サポート")
 		{
 			if(!$('#multicolor').is(":checked"))
 			{
@@ -2306,6 +2316,19 @@ function search()
 				dataStr = cardData[i][j].toUpperCase();
 				searchStr = $('#textsearch').val().toUpperCase();
 				if(dataStr.indexOf(searchStr) != -1)
+				{
+					rdeckArr.push(cardData[i]);
+					break;
+				}
+
+				commetStr = localStorage.getItem(cardData[i][ID] + "_HOLOcomment");
+
+				if(commetStr == null)
+				{
+					commetStr = "";
+				}
+
+				if(commetStr.indexOf(searchStr) != -1)
 				{
 					rdeckArr.push(cardData[i]);
 					break;
@@ -3593,9 +3616,249 @@ function resetDefault()
 		}
 
 		localStorage.removeItem("HOLODeckNameList");
-		
+
 		location.reload();
 	}
+}
+
+function resetComment()
+{
+	var ret = 0;
+	var i = 0;
+
+	ret = confirm("It will delete all custom comment. Are you sure?");
+	if(!ret)
+	{
+		return;
+	}
+	else
+	{
+		for(i = 0; i < cardData.length; i++)
+		{
+			localStorage.removeItem(cardData[i][ID] + "_HOLOcomment");
+		}
+	}
+}
+
+/* =========================================================================
+ * Comment profile — single-profile management
+ * Re-uses the same popup style as the deck Add flow, but trimmed down:
+ * the user gets one in-memory profile (the live "<id>_HOLOcomment" entries
+ * in localStorage) plus three actions on it — Download, Upload, Copy.
+ *
+ *   openCommentManager()  — collect current comments, fill the textarea,
+ *                           open the popup. Bound to the "Comment" button.
+ *   downloadCommentBlob() — save textarea contents as a .json file.
+ *   readSingleCommentFile() — read a .json file, replace current comments,
+ *                             update the textarea.
+ *   copyCommentClipboard() — copy textarea to the clipboard.
+ *
+ * Format (JSON, pretty-printed):
+ *   [["hSD01-001","comment text"], ["hSD01-002","another"]]
+ * ========================================================================= */
+
+function collectCurrentComments()
+{
+	// Iterate cardData so we capture comments for every known card
+	// (mirrors how resetComment iterates cardData).
+	var i = 0;
+	var pairs = [];
+	var v = "";
+
+	for(i = 0; i < cardData.length; i++)
+	{
+		v = localStorage.getItem(cardData[i][ID] + "_HOLOcomment");
+		if(v != null && v !== "")
+		{
+			pairs.push([cardData[i][ID], v]);
+		}
+	}
+	return pairs;
+}
+
+function applyCommentPairs(pairs)
+{
+	// Replace current comments with the supplied set. Wipe first so the
+	// uploaded profile is the new source of truth (matches the user's
+	// mental model: "this file is now my comments").
+	var i = 0;
+	for(i = 0; i < cardData.length; i++)
+	{
+		localStorage.removeItem(cardData[i][ID] + "_HOLOcomment");
+	}
+
+	for(i = 0; i < pairs.length; i++)
+	{
+		if(!Array.isArray(pairs[i]) || pairs[i].length < 2) continue;
+		var id = pairs[i][0];
+		var txt = pairs[i][1];
+		if(id && txt !== undefined && txt !== null && txt !== "")
+		{
+			localStorage.setItem(id + "_HOLOcomment", txt);
+		}
+	}
+}
+
+function openCommentManager()
+{
+	// Snapshot the current comments into the textarea every time the popup
+	// opens, so the displayed text is always up to date.
+	var pairs = collectCurrentComments();
+	$("#textCommentCode").val(JSON.stringify(pairs, null, 2));
+	$("#commentStr").html("　　");
+
+	customizeWindowEvent('comment');
+}
+
+function downloadCommentBlob(contentType)
+{
+	var content = $("#textCommentCode").val();
+	var filename = "comments.json";
+
+	var blob = new Blob([content], { type: contentType });
+	var url = URL.createObjectURL(blob);
+
+	var pom = document.createElement('a');
+	pom.href = url;
+	pom.setAttribute('download', filename);
+	pom.click();
+
+	$("#commentStr").html("Comment file downloaded.");
+}
+
+function copyCommentClipboard()
+{
+	const inputText = document.querySelector('#textCommentCode');
+	inputText.select();
+	document.execCommand('copy');
+	$("#commentStr").html("Comment code copied!");
+}
+
+function addSingleComment()
+{
+	// Read the two input fields, validate the ID against cardData (so we
+	// don't pollute localStorage with typos), write the comment, then
+	// refresh the textarea so the user sees their entry land in the JSON.
+	var id = $.trim($("#addCommentId").val());
+	var txt = $("#addCommentText").val();
+
+	if(id === "")
+	{
+		alert("Please enter a card ID.");
+		return;
+	}
+
+	var found = false;
+	var i = 0;
+	for(i = 0; i < cardData.length; i++)
+	{
+		if(cardData[i][ID] == id)
+		{
+			found = true;
+			break;
+		}
+	}
+	if(!found)
+	{
+		alert('Card ID "' + id + '" was not found.');
+		return;
+	}
+
+	if(txt === null || txt === undefined || txt === "")
+	{
+		// Empty text -> remove, mirroring setComment()'s behaviour for the
+		// in-card editor.
+		localStorage.removeItem(id + "_HOLOcomment");
+		$("#commentStr").html('Comment for ' + id + ' cleared.');
+	}
+	else
+	{
+		localStorage.setItem(id + "_HOLOcomment", txt);
+		$("#commentStr").html('Comment for ' + id + ' saved.');
+	}
+
+	// Refresh the JSON textarea so the change is visible immediately.
+	var pairs = collectCurrentComments();
+	$("#textCommentCode").val(JSON.stringify(pairs, null, 2));
+
+	// Clear the comment field but keep the ID, so a user adding several
+	// comments to the same card doesn't have to retype it.
+	$("#addCommentText").val("");
+}
+
+function deleteSingleComment()
+{
+	// Remove a single card's comment by ID. We don't validate against
+	// cardData here (unlike addSingleComment) because the comment may
+	// belong to a card that's no longer in cardData (e.g. an old set);
+	// the user should still be able to clean it out.
+	var id = $.trim($("#deleteCommentId").val());
+
+	if(id === "")
+	{
+		alert("Please enter a card ID.");
+		return;
+	}
+
+	var existing = localStorage.getItem(id + "_HOLOcomment");
+	if(existing === null)
+	{
+		alert('No comment found for "' + id + '".');
+		return;
+	}
+
+	localStorage.removeItem(id + "_HOLOcomment");
+
+	// Refresh the JSON textarea so the deletion is visible immediately.
+	var pairs = collectCurrentComments();
+	$("#textCommentCode").val(JSON.stringify(pairs, null, 2));
+
+	$("#commentStr").html('Comment for ' + id + ' deleted.');
+	$("#deleteCommentId").val("");
+}
+
+function readSingleCommentFile(evt)
+{
+	// Upload directly applies the file's contents to localStorage so the
+	// popup only has the three actions the user asked for (download /
+	// upload / copy) — no separate "Apply" step needed.
+	var f = evt.target.files[0];
+
+	if(!f)
+	{
+		return;
+	}
+
+	var r = new FileReader();
+	r.onload = function(e) {
+		var contents = e.target.result;
+		var parsed = null;
+
+		try
+		{
+			parsed = JSON.parse(contents);
+		}
+		catch(err)
+		{
+			alert("Uploaded file is not valid JSON.");
+			return;
+		}
+
+		if(!Array.isArray(parsed))
+		{
+			alert("Uploaded JSON must be an array of [id, text] pairs.");
+			return;
+		}
+
+		applyCommentPairs(parsed);
+		$("#textCommentCode").val(JSON.stringify(parsed, null, 2));
+		$("#commentStr").html("Comments loaded and applied.");
+	};
+	r.readAsText(f);
+
+	// Allow re-uploading the same file (browsers skip the change event
+	// otherwise).
+	evt.target.value = "";
 }
 
 function showVersion()
@@ -3605,8 +3868,9 @@ function showVersion()
 	str += "Author: ZZZ\n";
 	str += "E-mail: relax100002000@hotmail.com\n";
 	str += "\n";
-	str += "20260424 v1.11\n";  
-	str += "1.新增hSD14~hSD19\n";
+	str += "20260427 v1.12\n";  
+	str += "1.新增comment管理功能\n";
+	str += "2.修復需要uncheck support，顏色filter才能正常運作的bug\n";
 	str += "\n";
 	str += "預計更新:\n";
 	str += "-補充關於說明\n";

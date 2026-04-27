@@ -102,7 +102,7 @@
        		background: rgba(120, 120, 120, 1.0);
 		}
 
-		#window-container, #window-container-list, #window-container-code{
+		#window-container, #window-container-list, #window-container-code, #window-container-comment{
 	    display: none;
 	    position: fixed;
 	    left: 0;
@@ -130,7 +130,7 @@
 	    border-radius: 20px;
 	}
 
-	#window-pop-code{
+	#window-pop-code, #window-pop-comment{
 	    background: white;
 	    z-index: 1;
         margin: 50px 30%;
@@ -181,13 +181,13 @@
 
 	/* === Dark Mode theme transitions === */
 	body, button, .custom-file-upload, select, input[type="text"], textarea,
-	#window-pop, #window-pop-list, #window-pop-code, #cardinformation,
+	#window-pop, #window-pop-list, #window-pop-code, #window-pop-comment, #cardinformation,
 	#lbBackground {
 		transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
 	}
 	@media (prefers-reduced-motion: reduce) {
 		body, button, .custom-file-upload, select, input[type="text"], textarea,
-		#window-pop, #window-pop-list, #window-pop-code, #cardinformation,
+		#window-pop, #window-pop-list, #window-pop-code, #window-pop-comment, #cardinformation,
 		#lbBackground { transition: none; }
 	}
 
@@ -216,10 +216,12 @@
 
 	body.dark-mode #window-container,
 	body.dark-mode #window-container-list,
-	body.dark-mode #window-container-code { background-color: rgba(0,0,0,0.75); }
+	body.dark-mode #window-container-code,
+	body.dark-mode #window-container-comment { background-color: rgba(0,0,0,0.75); }
 	body.dark-mode #window-pop,
 	body.dark-mode #window-pop-list,
-	body.dark-mode #window-pop-code { background: #242424; color: #e6e6e6; }
+	body.dark-mode #window-pop-code,
+	body.dark-mode #window-pop-comment { background: #242424; color: #e6e6e6; }
 
 	body.dark-mode #cardinformation {
 		background-color: #242424 !important;
@@ -519,6 +521,18 @@
 		                }
 		            }
 	            }
+	            else if(x == "comment")
+				{
+	            	var popup_window_comment = document.getElementById("window-container-comment");
+
+	            	popup_window_comment.style.display = "block";
+
+		            window.onmousedown = function close(e) {
+		                if (e.target == popup_window_comment) {
+		                    popup_window_comment.style.display = "none";
+		                }
+		            }
+	            }
 	            else//list
 	            {
 	            	var popup_window_list = document.getElementById("window-container-list");
@@ -766,7 +780,8 @@
 					<!-- <button style="float: right;" onclick="checkDeck();">Exam</button> -->
 					<!-- <button onclick="$('#cardinformation').css('visibility', 'hidden');customizeWindowEvent('view');">Deck View</button> -->
 					<button onclick="$('#cardinformation').css('visibility', 'hidden');customizeWindowEvent('list');">Card List</button>
-					<button style="margin-left: 500px" onclick="showVersion();">About</button>
+					<button onclick="$('#cardinformation').css('visibility', 'hidden');openCommentManager();">Comment</button>
+					<button style="margin-left: 400px" onclick="showVersion();">About</button>
 					<br><br><br>
 					<input type="checkbox" id="oshiholomem" checked><span  onclick="clickSpan(this)">推しホロメン </span>&emsp;&emsp;<input type="checkbox" id="holomem" checked><span onclick="clickSpan(this)">ホロメン </span>&emsp;&emsp;<input type="checkbox" id="buzzholomem" checked><span onclick="clickSpan(this)">Buzzホロメン </span>&emsp;&emsp;<input type="checkbox" id="support" checked><span onclick="clickSpan(this)">サポート </span>&emsp;&emsp;<input type="checkbox" id="yell" checked><span onclick="clickSpan(this)">エール </span>
 					<br><br>
@@ -1092,6 +1107,36 @@
 					<div style="margin-top: 20px;">
 						<button style="width: 200px;" onclick="copyClipboard();">Copy to clipboard</button>
 						<button style="width: 200px; margin-left: 60px;" onclick="addDecklist();">Add to deck list</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="window-container-comment">
+			<div id="window-pop-comment">
+				<div id="commentcode" style="height: 800px; text-align: center;" class="window-content">
+					Comment Profile (JSON)
+					<br><br>
+					<textarea style="height: 400px;" id="textCommentCode" rows="4" cols="50"></textarea>
+					<div id="commentStr">&emsp;</div>
+					<br>
+					<button style="width: 200px; margin-right: -45px;" onclick="downloadCommentBlob('text/plain;charset=utf-8;')">Download Comment</button>
+					<label for="commentFileinput" class="custom-file-upload" style="padding: 15px 5px; height: 18px; width: 191px; margin-left: 105px">
+					    Upload Comment
+					</label>
+					<input style="display: none;" id="commentFileinput" type="file"/>
+					<div style="margin-top: 10px;">
+						<button style="width: 200px;" onclick="copyCommentClipboard();">Copy to clipboard</button>
+					</div>
+					<div style="margin-top: 18px; padding-top: 12px; border-top: 1px dashed #aaa;">
+						<div style="margin-bottom: 6px;">Add / Update a single comment</div>
+						<input type="text" id="addCommentId" placeholder="Card ID (e.g. hSD01-001)" style="width: 38%;" maxlength="64">
+						<input type="text" id="addCommentText" placeholder="Comment" style="width: 38%;" maxlength="500">
+						<button style="width: 130px; margin-left: 6px;" onclick="addSingleComment();">Add Comment</button>
+					</div>
+					<div style="margin-top: 10px;">
+						<div style="margin-bottom: 6px;">Delete a single comment</div>
+						<input type="text" id="deleteCommentId" placeholder="Card ID to delete" style="width: 78%;" maxlength="64">
+						<button style="width: 130px; margin-left: 6px;" onclick="deleteSingleComment();">Delete Comment</button>
 					</div>
 				</div>
 			</div>
