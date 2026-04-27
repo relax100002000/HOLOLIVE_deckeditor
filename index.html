@@ -578,8 +578,6 @@
 		    </select>
 		    <button style="height: 20px;" onclick="$('#cardinformation').css('visibility', 'hidden');downloadBlob('output', '')">Add</button>
 		    <button style="height: 20px;" onclick="$('#cardinformation').css('visibility', 'hidden');deletydecklist();">Delete</button>
-		    <button style="height: 20px;" onclick="$('#cardinformation').css('visibility', 'hidden');resetDefault();">Reset</button>
-		    <button style="height: 20px;" onclick="$('#cardinformation').css('visibility', 'hidden');resetComment();">Clear Comment</button>
 		</span>
 		<div id="lbBackground" hidden>
 		</div>
@@ -1089,7 +1087,7 @@
 		</div>
 		<div id="window-container-code">
 			<div id="window-pop-code">
-				<div id="deckcode" style="height: 750px; text-align: center;" class="window-content">
+				<div id="deckcode" style="height: 800px; text-align: center;" class="window-content">
 					Deck Title
 					<br><br>
 					<input align="left" style="width: 80%;" type="text" id="deckTitle" value="Simple Deck" maxlength="64">
@@ -1099,14 +1097,17 @@
 					<textarea id="textCode" rows="4" cols="50"></textarea>
 					<div id="deckStr">&emsp;</div>
 					<br>
-					<button style="width: 200px; margin-right: -45px;" onclick="downloadBlob('', 'text/csv;charset=utf-8;')">Download Deck</button>
-					<label for="fileinput" class="custom-file-upload" style="padding: 15px 5px; height: 18px; width: 191px; margin-left: 105px">
-					    Upload Deck
-					</label>
-					<input style="display: none;" id="fileinput" type="file"/>
-					<div style="margin-top: 20px;">
-						<button style="width: 200px;" onclick="copyClipboard();">Copy to clipboard</button>
-						<button style="width: 200px; margin-left: 60px;" onclick="addDecklist();">Add to deck list</button>
+					<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 430px; margin: 0 auto;">
+						<button style="width: 200px; height: 50px; box-sizing: border-box; margin: 0;" onclick="downloadBlob('', 'text/csv;charset=utf-8;')">Download Deck</button>
+						<label for="fileinput" class="custom-file-upload" style="width: 200px; height: 50px; box-sizing: border-box; padding: 0; margin: 0; display: inline-flex; align-items: center; justify-content: center;">
+						    Upload Deck
+						</label>
+						<input style="display: none;" id="fileinput" type="file"/>
+						<button style="width: 200px; height: 50px; box-sizing: border-box; margin: 0;" onclick="copyClipboard();">Copy to clipboard</button>
+						<button style="width: 200px; height: 50px; box-sizing: border-box; margin: 0;" onclick="addDecklist();">Add to deck list</button>
+					</div>
+					<div style="margin-top: 14px; display: flex; justify-content: center;">
+						<button id="resetAllDecksBtn" style="width: 410px; height: 50px; box-sizing: border-box; margin: 0; background-color: #c0392b; color: #fff; border: 2px solid #962d22; border-radius: 6px; font-weight: bold; box-shadow: 0 2px 6px rgba(192,57,43,0.4); cursor: pointer;" onclick="resetDefault();" title="Delete every custom deck (cannot be undone)">⚠ Reset All Decks</button>
 					</div>
 				</div>
 			</div>
@@ -1119,13 +1120,14 @@
 					<textarea style="height: 400px;" id="textCommentCode" rows="4" cols="50"></textarea>
 					<div id="commentStr">&emsp;</div>
 					<br>
-					<button style="width: 200px; margin-right: -45px;" onclick="downloadCommentBlob('text/plain;charset=utf-8;')">Download Comment</button>
-					<label for="commentFileinput" class="custom-file-upload" style="padding: 15px 5px; height: 18px; width: 191px; margin-left: 105px">
-					    Upload Comment
-					</label>
-					<input style="display: none;" id="commentFileinput" type="file"/>
-					<div style="margin-top: 10px;">
-						<button style="width: 200px;" onclick="copyCommentClipboard();">Copy to clipboard</button>
+					<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; max-width: 430px; margin: 0 auto;">
+						<button style="width: 200px; height: 50px; box-sizing: border-box; margin: 0;" onclick="downloadCommentBlob('text/plain;charset=utf-8;')">Download Comment</button>
+						<label for="commentFileinput" class="custom-file-upload" style="width: 200px; height: 50px; box-sizing: border-box; padding: 0; margin: 0; display: inline-flex; align-items: center; justify-content: center;">
+						    Upload Comment
+						</label>
+						<input style="display: none;" id="commentFileinput" type="file"/>
+						<button style="width: 200px; height: 50px; box-sizing: border-box; margin: 0;" onclick="copyCommentClipboard();">Copy to clipboard</button>
+						<button id="resetAllCommentsBtn" style="width: 200px; height: 50px; box-sizing: border-box; margin: 0; background-color: #c0392b; color: #fff; border: none;" onclick="resetAllCommentsFromManager();" title="Delete every saved comment (cannot be undone)">Reset All Comments</button>
 					</div>
 					<div style="margin-top: 18px; padding-top: 12px; border-top: 1px dashed #aaa;">
 						<div style="margin-bottom: 6px;">Add / Update a single comment</div>
