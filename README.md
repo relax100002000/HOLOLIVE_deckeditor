@@ -1,6 +1,10 @@
 # HOLOLIVE_deckeditor  
    
 Author: ZZZ  
+  
+20260618 v1.13  
+1.更新hBP08.   
+2.更新6/19禁卡表  
 
 20260427 v1.12  
 1.新增comment管理功能   

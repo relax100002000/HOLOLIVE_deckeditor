@@ -248,6 +248,7 @@ function effect_to_img(x)
 	x = x.replace(/紫エール/g, "<img class='icon_img' src='img/arts_purple.png'></img>エール");
 	x = x.replace(/黄エール/g, "<img class='icon_img' src='img/arts_yellow.png'></img>エール");
 	x = x.replace(/無色エール/g, "<img class='icon_img' src='img/arts_null.png'></img>");
+	x = x.replace(/無色/g, "<img class='icon_img' src='img/arts_null.png'></img>");
 	x = x.replace(/◇/g, "<img class='icon_img' src='img/arts_null.png'></img>");
 
 	x = x.replace(/SP推しスキル/g, "<img class='icon_img' src='img/SPskill.png'></img>");
@@ -445,7 +446,7 @@ function showInfotable(data)
 			str += "</tr>";
 			str += "<tr>";
 			str += "	<td colspan=\"2\">";
-			str += tmpArr[1];
+			str += effect_to_img(tmpArr[1]);
 			str += "	</td>";
 			str += "</tr>";
 		}
@@ -464,7 +465,7 @@ function showInfotable(data)
 			str += "</tr>";
 			str += "<tr>";
 			str += "	<td colspan=\"2\">";
-			str += tmpArr[2];
+			str += effect_to_img(tmpArr[2]);
 			str += "	</td>";
 			str += "</tr>";
 		}
@@ -3922,9 +3923,9 @@ function showVersion()
 	str += "Author: ZZZ\n";
 	str += "E-mail: relax100002000@hotmail.com\n";
 	str += "\n";
-	str += "20260427 v1.12\n";  
-	str += "1.新增comment管理功能\n";
-	str += "2.修復需要uncheck support，顏色filter才能正常運作的bug\n";
+	str += "20260618 v1.13\n";  
+	str += "1.更新hBP08.\n";
+	str += "2.更新6/19禁卡表\n";
 	str += "\n";
 	str += "預計更新:\n";
 	str += "-補充關於說明\n";
