@@ -33640,5 +33640,2555 @@ var cardData = [
 		"", //ART5
 		"", //EXTRA
 		"" //BAN
+		],
+	[
+		"hEB01-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-001_OSR.png", //SRC
+		"ときのそら", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"浜辺のヴィーナス<br>自分のターンが終了する時、自分のセンターホロメンとコラボホロメンが〈ときのそら〉なら、自分のデッキの上から1枚をホロパワーにする。さらに、自分のステージに2ndホロメンがいるなら、自分のデッキを1枚引く。", //STAGESKILL
+		"[ホロパワー:-4]<br>ロマンスは突然に<br>[ターンに1回]自分のステージの〈ときのそら〉1人を選ぶ。選んだホロメンを、自分のデッキの〈ときのそら〉を使ってBloomさせる。そしてデッキをシャッフルする。このターンの間、選んだホロメンのアーツに必要な無色-1。", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-002_OSR.png", //SRC
+		"宝鐘マリン", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"魔性の再演<br>自分のパフォーマンスステップが開始する時、自分のコラボホロメンがいるなら、自分のこのターンにBloomしたセンターの〈宝鐘マリン〉を、自分の手札の青ホロメンを使ってもう1回Bloomできる。", //STAGESKILL
+		"[ホロパワー:-2]<br>Uh~ 刺激的すぎたかナ~?<br>[ターンに1回]相手のDebut以外のバックホロメン1人に特殊ダメージ50を与える。その後、自分のセンターホロメンに重なっているホロメンが3枚以上あるなら、相手のDebut以外のバックホロメン1人に特殊ダメージ50を与える。", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-003_OSR.png", //SRC
+		"博衣こより", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"黄", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"助手くん限定の『こよ色観測』<br>自分のステージの〈こよりの助手くん〉1枚につき、自分の推しスキルと自分の黄の〈博衣こより〉の能力で、デッキの上から公開する枚数+1。", //STAGESKILL
+		"[ホロパワー:-2]<br>解析完了! 二人だけの独占海域<br>[ターンに1回]自分のデッキの上から、自分のステージのエールと同じ枚数を公開する。その中にホロメンが3枚以上あるなら、このターンの間、自分のステージの〈博衣こより〉全員のアーツ+30。そして公開したDebut以外のホロメンすべてを手札に加え、残ったカードをアーカイブする。", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-004_C.png", //SRC
+		"ときのそら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌 #サマー", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"赤<br>心地よい距離感<br>20<br>自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-005_U.png", //SRC
+		"ときのそら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌 #サマー", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>うんうん、今度海に行かないって?<br>自分が後攻で最初のターンなら、自分のデッキから、エクストラを持つDebut〈ときのそら〉1~3枚をステージに出す。そしてデッキをシャッフルする。3枚出したなら、自分の手札1枚をデッキの下に戻す。", //KEYWORD
+		"◇<br>いいよー! 誘ってくれてうれしい!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-006_C.png", //SRC
+		"ときのそら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌 #サマー", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>私、浴衣……どうかな?<br>相手のターンで、このホロメンがダウンした時、このホロメンに付いているサポートカード1枚を手札に戻せる。", //KEYWORD
+		"赤◇<br>はぐれないように、ね?<br>50+<br>このアーツの対象が1st以上のホロメンなら、このアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-007_U.png", //SRC
+		"ときのそら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌 #サマー", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ふたりだけの特別ツアー!<br>自分のデッキを1枚引き、手札1枚をデッキの下に戻す。", //KEYWORD
+		"◇<br>よそ見しちゃダメだよ?<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-008_R.png", //SRC
+		"ときのそら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌 #サマー", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>私の自信作、食べてみる?<br>自分のデッキから、〈STAR STAR☆T〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"赤赤<br>夏の熱気のせいにさせて<br>70", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-009_R.png", //SRC
+		"ときのそら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌 #サマー", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>この歌は、あなたのために。<br>自分のデッキから、2nd〈ときのそら〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"赤◇<br>誰より、特別だって気づいてる?<br>50紫+50<br>自分のアーカイブのホロメン1~3枚をデッキに戻してシャッフルする。その後、自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-010_RR.png", //SRC
+		"ときのそら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌 #サマー", //TAG
+		"RR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>今日は、いつもの道も特別だね<br>[センターポジション限定]サイコロを1回振れる。奇数なら、相手のバックホロメン1人を選ぶ。相手のセンターホロメンと選んだホロメンを交代させる。", //KEYWORD
+		"赤◇◇<br>振り返れば、いつもあなたが。<br>100緑+50<br>自分のバックのアクティブな2nd〈ときのそら〉1人をお休みさせることができる:このホロメンはアーツを使った後、同じアーツをもう1回使う。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-011", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-011_C.png", //SRC
+		"宝鐘マリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #絵 #海 #サマー", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"青<br>夏祭りってテンションあがるよナぁ~<br>20<br>このホロメンのエール1枚をアーカイブできる:自分のデッキから、#サマーを持つ〈宝鐘マリン〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-012", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-012_U.png", //SRC
+		"宝鐘マリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #絵 #海 #サマー", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>船長と海に行きたいって~?<br>自分が後攻で最初のターンなら、自分のデッキから、ブルームエフェクトを持つ〈宝鐘マリン〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>船長の水着見せつけちゃうゾ♡<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-013", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-013_C.png", //SRC
+		"宝鐘マリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #絵 #海 #サマー", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>わざと隙、見せてるんだゾ?<br>このホロメンに重なっているホロメン1枚をアーカイブできる:自分のエールデッキの上から1枚を自分のホロメンに送る。", //KEYWORD
+		"◇◇<br>人混み抜けて……二人きりになっちゃう?<br>50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-014", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-014_U.png", //SRC
+		"宝鐘マリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #絵 #海 #サマー", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>眩しいのは太陽? それとも……マリン?<br>相手のバックホロメン1人に特殊ダメージ10を与える。", //KEYWORD
+		"青<br>遠慮しないで、マリンにぜーんぶ委ねちゃいな?<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-015", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-015_R.png", //SRC
+		"宝鐘マリン", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #絵 #海 #サマー", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青", //COLOR
+		"250", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"青◇<br>隣、空けて待ってるんだけど...<br>60<br>このホロメンに重なっているホロメンが2枚以上あるなら、自分のステージのエール1枚をアーカイブできる:自分のエールデッキの上から1枚を自分のホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-016", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-016_R.png", //SRC
+		"宝鐘マリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #絵 #海 #サマー", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>一生、マリンのトリコでしょ?<br>40+白+50<br>このホロメンに重なっているホロメンが3枚以上あるなら、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-017_RR.png", //SRC
+		"宝鐘マリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #絵 #海 #サマー", //TAG
+		"RR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>キミにも一口、あげるゾ♡<br>自分のアーカイブのエール1枚をこのホロメンに送る。", //KEYWORD
+		"青青◇◇<br>ねぇ、口元のチョコ……とって?♡<br>100+赤+50<br>自分の推しホロメンが〈宝鐘マリン〉なら、このホロメンに重なっているホロメンすべてをアーカイブできる:1枚以上アーカイブしたなら、このアーツ+100。5枚以上アーカイブしたなら、さらに、相手のDebut以外のバックホロメン1人に特殊ダメージ100を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-018", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-018_C.png", //SRC
+		"博衣こより", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #ケモミミ #サマー", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"黄", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>こよを夏祭りに連れて行って?<br>相手のターンで、このホロメンがダウンした時、このホロメンに付いている#こよラボを持つサポートカード1枚を手札に戻せる。", //KEYWORD
+		"◇<br>ドキドキしちゃうね♡<br>20+<br>このホロメンに#こよラボを持つサポートカードが付いているなら、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-019", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-019_U.png", //SRC
+		"博衣こより", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #ケモミミ #サマー", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"黄", //COLOR
+		"140", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>え、今度のお休みの日に海に行こうって?<br>自分が後攻で最初のターンなら、自分のデッキから、[Debutホロメンと#こよラボを持つサポートカード]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>こよの水着、期待しててねっ♡<br>10", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-020", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-020_C.png", //SRC
+		"博衣こより", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #ケモミミ #サマー", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"黄", //COLOR
+		"190", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>助手くんの好みを研究して、選んだ浴衣だよっ♡<br>30", //ART1
+		"黄◇<br>ドキッとさせる実験開始~!<br>50+<br>自分のデッキの上から、自分のステージのエールと同じ枚数を公開する。公開したホロメン1枚につき、このアーツ+10。そして公開したカードをデッキに戻してシャッフルする。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-021", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-021_U.png", //SRC
+		"博衣こより", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #ケモミミ #サマー", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"黄", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>助手くんの夏は、こよが独り占め♡<br>自分のステージの〈こよりの助手くん〉1枚につき、自分のホロメン1人のHP20回復。", //KEYWORD
+		"◇<br>捕まえちゃった!わおーん!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-022", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-022_R.png", //SRC
+		"博衣こより", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #ケモミミ #サマー", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"黄", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>こよが掃除しに来たよ~!<br>自分のアーカイブの〈こよりの助手くん〉1~2枚を手札に戻せる。", //KEYWORD
+		"黄<br>助手くん、これ、なぁに?<br>30+<br>自分のステージに2ndホロメンがいるなら、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-023", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-023_R.png", //SRC
+		"博衣こより", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #ケモミミ #サマー", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"黄", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>助手くんお待ちかね、こよの水着姿だよ!<br>自分のアーカイブの〈博衣こより〉1~4枚を好きな順でデッキの下に戻せる。4枚戻したなら、自分のアーカイブの#こよラボを持つサポートカード1枚を自分の〈博衣こより〉に付けられる。", //KEYWORD
+		"◇◇<br>こよ以外見えなくしちゃった!♡<br>50白+50<br>自分の手札が自分のステージの〈こよりの助手くん〉の枚数と同じになるまで、自分のデッキを引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-024", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-024_RR.png", //SRC
+		"博衣こより", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #ケモミミ #サマー", //TAG
+		"RR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"黄", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>こよに溺れちゃえ~っ!<br>このホロメンに付いている〈こよりの助手くん〉1枚につき、このホロメンのHP+10し、このホロメンのアーツに必要な無色-1。", //KEYWORD
+		"黄◇◇<br>皆にはナイショの、特別な時間…♡<br>120+白+50<br>自分のデッキの上から、自分のステージのエールと同じ枚数を公開する。公開したホロメン1枚につき、このアーツ+20し、自分のホロメン1人のHP20回復。そして公開したカードをデッキに戻してシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-025", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-025_C.png", //SRC
+		"サマーパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のライフが2以上なら、自分のデッキから、#サマーを持つDebutホロメン1枚をステージに出す。そしてデッキをシャッフルする。自分のライフが1なら、自分のデッキから、#サマーを持つホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-026", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-026_U.png", //SRC
+		"クマリン", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の推しホロメンが〈宝鐘マリン〉でなければ使えない。<br><br>自分のデッキを2枚引く。その後、自分の手札の〈宝鐘マリン〉1枚を公開し、デッキの下に戻せる。戻したなら、自分のデッキを2枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-027", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-027_C.png", //SRC
+		"サマーライブ", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このターンの間、自分のステージの#サマーを持つホロメン全員のアーツ+30。その後、自分のアーカイブのエール1枚を自分のホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-028", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-028_C.png", //SRC
+		"スイカ割り", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のステージの2ndホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+30し、そのホロメンがアーツダメージでホロメンをダウンさせた時、自分のデッキを2枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-029", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-029_C.png", //SRC
+		"スプラッシュシュート", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のセンターホロメンとコラボホロメンが#サマーを持つホロメンでなければ使えない。<br><br>相手のセンターホロメンかコラボホロメンに特殊ダメージ30を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"自分の〈スプラッシュシュート〉はターンに1回しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-030", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-030_U.png", //SRC
+		"ホロライブ・サマー", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを2枚引く。その後、自分のステージに#サマーを持つホロメンが3人以上いるなら、自分のデッキの上から2枚を見る。その中から1枚を手札に加える。そして残ったカードをアーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-031", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-031_C.png", //SRC
+		"水遊び", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のアーカイブのエール1枚を自分の#サマーを持つホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-032", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-032_U.png", //SRC
+		"STAR STAR☆T", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の推しホロメンが〈ときのそら〉なら、自分が先攻で最初のターンでも使える。<br><br>自分のデッキを3枚引き、手札1枚をデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-033", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-033_C.png", //SRC
+		"ビーチボール", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いている#サマーを持つホロメンのアーツ+10。<br><br>このツールが付いているホロメンがアーツを使った時、このツールを自分の#サマーを持つ[センターホロメンかコラボホロメン]に付け替えられる。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hEB01-034", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hEB01-034_U.png", //SRC
+		"なんでも爆解!", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"#こよラボ", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いているホロメンのアーツ+10。<br><br>◆2nd〈博衣こより〉に付いていたら能力追加<br>[センターポジション・コラボポジション限定]自分のパフォーマンスステップが終了する時、このホロメンに付いている〈なんでも爆解!〉1枚をアーカイブできる:相手のセンターホロメンに特殊ダメージ30を与える。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-021", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-021_C_02.png", //SRC
+		"ときのそら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"白", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"白<br>みんな~こんそめ~<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-026", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-026_U_02.png", //SRC
+		"ベスティア・ゼータ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"白", //COLOR
+		"110", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>新たな運命<br>DebutからBloomした時、自分のデッキから、#ID3期生を持つBuzz以外の[Debutホロメンか1stホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>ステージみんな「私のもの」<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-031", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-031_R_02.png", //SRC
+		"IRyS", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise #歌", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"白", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>希望の庭園<br>自分のホロパワーを見る。その中から1枚を公開し、手札に加える。そして自分のデッキの上から1枚をホロパワーにする。", //KEYWORD
+		"白◇◇<br>約束の力<br>50+赤+50<br>自分の#Promiseを持つホロメン1人につき、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-039", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-039_U_02.png", //SRC
+		"兎田ぺこら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #ケモミミ", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"緑", //COLOR
+		"60", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ギャラクシーアイドル<br>自分の推しホロメンが〈兎田ぺこら〉の時、サイコロを1回振れる:偶数の時、自分のエールデッキの上から1枚を、自分のホロメンに送る。", //KEYWORD
+		"◇<br>無重力ジャンプ!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-041", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-041_U_02.png", //SRC
+		"兎田ぺこら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #ケモミミ", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"緑", //COLOR
+		"90", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>成長した兎田ぺこらを<br>自分のエールデッキの上から1枚を、自分のセンターホロメンかコラボホロメンに送る。", //KEYWORD
+		"◇<br>見逃しちゃだめぺこだよ!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-050", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-050_U_02.png", //SRC
+		"風真いろは", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"緑", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>用心棒<br>[コラボポジション限定]相手のホロメンのアーツは、自分のコラボホロメンしか対象にできない(特殊ダメージは除く)。", //KEYWORD
+		"緑◇<br>元気を全力でお届けします!<br>20<br>自分のエールデッキの上から1枚を、自分の〈風真いろは〉以外の#秘密結社holoXを持つホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-051", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-051_RR_02.png", //SRC
+		"風真いろは", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX", //TAG
+		"RR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"緑", //COLOR
+		"250", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"緑◇<br>エールを束ねて<br>50+<br>[コラボポジション限定]このホロメンのエール1枚につき、このアーツ+20(エールは最大5枚まで)。", //ART1
+		"緑◇◇<br>風華の輝き<br>70", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-054", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-054_U_02.png", //SRC
+		"アイラニ・イオフィフティーン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #絵", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"緑", //COLOR
+		"120", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>緑の光が広がる海<br>自分のエールデッキの上から1枚を、自分の〈アイラニ・イオフィフティーン〉以外の#IDを持つホロメンに送る。", //KEYWORD
+		"◇<br>楽しみにしてるよ!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-055", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-055_R_02.png", //SRC
+		"アイラニ・イオフィフティーン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #絵", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"緑", //COLOR
+		"180", //HP
+		"2nd", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>AREA 15<br>自分のアーカイブのエール1枚ずつを、自分の#IDを持つホロメン1~3人に送れる。", //KEYWORD
+		"緑◇◇<br>リレーションスカイ<br>100+青+50<br>自分のステージに〈アイラニ・イオフィフティーン〉以外の#IDを持つホロメンがいる時、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-060", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-060_U_02.png", //SRC
+		"鷹嶺ルイ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #トリ #お酒", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"100", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>本当にみんなのおかげ!!<br>DebutからBloomした時、自分の手札1枚をアーカイブできる:自分のデッキを2枚引く。", //KEYWORD
+		"◇<br>しっかりついてきてよね!<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-061", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-061_R_02.png", //SRC
+		"鷹嶺ルイ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #トリ #お酒", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"190", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>組織の司令塔<br>自分のアーカイブの#秘密結社holoXを持つホロメン1~2枚を手札に戻せる。", //KEYWORD
+		"赤赤◇<br>ホークレイヴ<br>60黄+50<br>自分の手札1~5枚をアーカイブできる:相手のセンターホロメンかコラボホロメンどちらかに、アーカイブしたカード1枚につき特殊ダメージ20を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-065", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-065_U_02.png", //SRC
+		"小鳥遊キアラ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Myth #トリ", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"110", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>Let's do this!!!!<br>自分のデッキの上から3枚を見る。その中から、ホロメン1枚を公開し、手札に加える。そして残ったカードをアーカイブする。", //KEYWORD
+		"◇<br>盛り上げたいとおもいます!<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-067", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-067_RR_02.png", //SRC
+		"小鳥遊キアラ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Myth #トリ", //TAG
+		"RR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"赤赤<br>焔色の導き<br>70緑+50", //ART1
+		"赤赤赤<br>マジェスティック・フェニックス<br>80+緑+50<br>自分のアーカイブのホロメン1枚につき、このアーツ+10。そして自分のアーカイブのホロメン6枚をデッキに戻してシャッフルする。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-070", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-070_U_02.png", //SRC
+		"尾丸ポルカ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ケモミミ", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"110", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>宴の始まりだ!<br>自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"赤◇<br>共依存<br>70<br>このアーツは、このホロメンに〈座員〉が付いていないと使えない。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-074", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-074_U_02.png", //SRC
+		"ハコス・ベールズ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise #ケモミミ", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"90", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ネズミアイドルがいよいよ登場!<br>DebutからBloomした時、自分のアーカイブの[Debutホロメンか1stホロメン]1枚を手札に戻せる:戻したカードが#ENを持つ時、相手のコラボホロメンに特殊ダメージ20を与える。", //KEYWORD
+		"◇<br>楽しい時間の始まりだ!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-081", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-081_RR_02.png", //SRC
+		"星街すいせい", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"RR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>空を駆ける光<br>自分のエールデッキの上から1枚を、自分の青ホロメンに送る。", //KEYWORD
+		"青青青◇<br>輝く彗星<br>60+赤+50<br>このホロメンの青エール2枚をアーカイブできる:このホロメンに重なっているホロメン1枚につき、このアーツ+60(このアーツは相手のバックホロメンも対象にできる)。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-090", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-090_U_02.png", //SRC
+		"ムーナ・ホシノヴァ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #歌", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青", //COLOR
+		"110", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ラピスラズリ<br>自分のエールデッキから、[緑エールか青エール]1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
+		"◇<br>楽しみにしてて!!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-094", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP01-094_U_02.png", //SRC
+		"オーロ・クロニー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青", //COLOR
+		"120", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>クロにちは!<br>自分のエールデッキから、自分の#Promiseを持つホロメン1人と同色のエール1枚を公開し、自分の#Promiseを持つホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
+		"◇<br>忘れられないfesにしよう!<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-011", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP02-011_U_02.png", //SRC
+		"白上フブキ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #ゲーマーズ #ケモミミ #絵", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"白", //COLOR
+		"120", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>白上から目をそらしちゃ<br>自分のデッキから、#白上'sキャラクターを持つカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>ダメですよっ!<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-016", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP02-016_U_02.png", //SRC
+		"白銀ノエル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #お酒", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"白", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ノエちゃんの勇姿……<br>DebutからBloomした時、自分のデッキから、#3期生を持つ[Debutホロメンか1stホロメンかSpotホロメン]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇◇<br>目に焼き付けるんだゾ♡<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP02-017_RR_02.png", //SRC
+		"白銀ノエル", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #お酒", //TAG
+		"RR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"白", //COLOR
+		"260", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇◇<br>ゆるふわ脳筋女騎士<br>50", //ART1
+		"白◇◇<br>3期生ぱわー<br>60+<br>[コラボポジション限定]自分のステージのこのホロメン以外の#3期生を持つホロメン1人につき、このアーツ+20。ただし、数える人数は4人まで。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-022", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP02-022_R_02.png", //SRC
+		"パヴォリア・レイネ", //NAME
+		"ホロメン", //TYPE
+		"ホロメン", //TYPE2
+		"#ID #ID2期生 #トリ #絵", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"緑", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>What AreYou Waiting For?<br>自分のデッキから、〈Tatang〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"緑◇<br>Spicy Night<br>40+<br>自分のステージにエールが2色以上ある時、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-023", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP02-023_RR_02.png", //SRC
+		"パヴォリア・レイネ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID2期生 #トリ #絵", //TAG
+		"RR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"緑", //COLOR
+		"190", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>Kanjeng<br>自分のエールデッキから、エール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
+		"緑◇◇◇<br>孔雀の舞<br>100+白+50<br>自分のステージのエール1色につき、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-026", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP02-026_U_02.png", //SRC
+		"大神ミオ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ #料理", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"緑", //COLOR
+		"100", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>アイドルとして成長した姿<br>自分のエールデッキから、自分のステージの#ゲーマーズを持つホロメン1人と同色のエール1枚を公開し、自分のホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
+		"◇<br>今年も見守っててね!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-027", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP02-027_RR_02.png", //SRC
+		"大神ミオ", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ #料理", //TAG
+		"RR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"緑", //COLOR
+		"240", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"緑◇<br>タロットの導き<br>60+<br>自分のデッキの上から1枚をアーカイブできる:アーカイブしたカードが、ホロメンの時、このアーツ+20。サポートカードの時、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-028", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP02-028_C_02.png", //SRC
+		"宝鐘マリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #絵 #海", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>宝鐘海賊団船長の宝鐘マリンですぅー!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-033", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP02-033_RR_02.png", //SRC
+		"宝鐘マリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #絵 #海", //TAG
+		"RR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ゴシッククィーン<br>自分のアーカイブのホロメン1枚を手札に戻せる。その後、このホロメンに重なっているホロメンが3枚以上の時、相手のセンターホロメンかコラボホロメンに特殊ダメージ50を与える。", //KEYWORD
+		"赤◇◇<br>キミたち~? 船長、かわいい?<br>80+紫+50<br>このホロメンに重なっているホロメン1枚につき、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-058", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP02-058_R_02.png", //SRC
+		"森カリオペ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Myth #歌", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"紫", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>What's up?<br>自分のアーカイブの[〈森カリオペの鎌〉か〈Death-sensei〉]1枚を手札に戻せる。", //KEYWORD
+		"紫◇<br>Dead Beat<br>30+<br>このホロメンにツールかマスコットが付いている時、このアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-059", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP02-059_RR_02.png", //SRC
+		"森カリオペ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Myth #歌", //TAG
+		"RR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"紫", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>Soul Voice<br>自分のデッキから、カード1枚を公開し、アーカイブする。そしてデッキをシャッフルする。", //KEYWORD
+		"紫紫◇<br>Featuring Myth<br>80+青+50<br>自分のアーカイブに#Mythを持つホロメンが、4枚以上ある時、このアーツ+40。8枚以上ある時、さらに、このアーツ+40。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-067", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP02-067_U_02.png", //SRC
+		"ネリッサ・レイヴンクロフト", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #歌 #トリ", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"紫", //COLOR
+		"120", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ネリッサとお茶会<br>自分のデッキの上から3枚を見る。その中から、#歌を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"◇<br>コーヒーよりも紅茶です<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-023", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP03-023_R_02.png", //SRC
+		"兎田ぺこら", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #ケモミミ", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"緑", //COLOR
+		"230", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>あんたたちぃ<br>サイコロを1回振れる:偶数の時、自分のデッキから、ファン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"緑◇◇<br>カードするぺこ<br>80+<br>このターンに自分の〈兎田ぺこら〉の能力でサイコロを1回以上振っていた時、このアーツ+40。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-029", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP03-029_R_02.png", //SRC
+		"さくらみこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #ベイビー", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>にぇ<br>自分のデッキから、〈35P〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"赤◇<br>35Pと記念写真<br>30+<br>このホロメンに〈35P〉が付いている時、このアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-034", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP03-034_RR_02.png", //SRC
+		"赤井はあと", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #料理", //TAG
+		"RR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"240", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>もう1人のはあと<br>自分のアーカイブの#1期生を持つBuzz以外の[1stホロメンか2ndホロメン]1枚を手札に戻せる。", //KEYWORD
+		"赤◇<br>レッド オア ルージュ<br>40+<br>サイコロを1回振れる:奇数の時、相手のセンターホロメンとコラボホロメンに特殊ダメージ20を与える。偶数の時、このアーツ+40。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-036", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP03-036_R_02.png", //SRC
+		"小鳥遊キアラ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Myth #トリ", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ハッピータイム<br>自分のデッキから、〈小鳥遊キアラ〉1~4枚を公開し、アーカイブできる。そしてデッキをシャッフルする。", //KEYWORD
+		"赤◇<br>鋼の翼<br>50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-044", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP03-044_R_02.png", //SRC
+		"星街すいせい", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>プラネットステージ<br>自分のデッキの上から4枚を見る。その中から、〈星街すいせい〉1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"青◇<br>バーチャルゴースト<br>40<br>自分の推しホロメンが〈星街すいせい〉の時、このホロメンの青エール1枚を、自分のバックホロメンの〈星街すいせい〉に付け替えられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-050", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP03-050_R_02.png", //SRC
+		"FUWAMOCO", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #ケモミミ", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青赤", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇◇<br>魔界乃番犬シスターズ<br>40<br>自分のエールデッキから、[赤エールか青エール]1枚を公開し、自分の#Adventを持つホロメンに送る。そしてエールデッキをシャッフルする。", //ART1
+		"青赤<br>2人揃ってFUWAMOCOです!<br>60", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンは〈フワワ・アビスガード〉〈モココ・アビスガード〉としても扱う", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-059", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP03-059_U_02.png", //SRC
+		"ロボ子さん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #シューター", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"紫", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>PONしたらその分<br>自分のデッキの上から3枚を見る。その中から、#0期生を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"◇<br>笑顔になーーれっ<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-060", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP03-060_R_02.png", //SRC
+		"ロボ子さん", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #シューター", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"紫", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>自称【高性能】<br>70+緑+50<br>相手のステージにエールが7枚以上ある時、このアーツ+70。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-065", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP03-065_R_02.png", //SRC
+		"戌神ころね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"黄", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>ボクシングスタイル<br>[コラボポジション限定]相手のメインステップの間、自分のセンターホロメンの〈戌神ころね〉のHPは相手の能力で減らず、変動しない。", //KEYWORD
+		"◇◇<br>ほらよ~<br>30<br>自分のエールデッキの上から1枚を、自分の#ゲーマーズを持つホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-070", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP03-070_U_02.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"黄", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>めいっぱい歌って踊ります!<br>自分のステージのホロメンが5人以下の時、自分のデッキから、Debutホロメンの〈角巻わため〉1枚を公開し、ステージに出せる。そしてデッキをシャッフルする。", //KEYWORD
+		"◇◇<br>最後まで見ててね、わためいと!<br>30<br>自分のエールデッキの上から1枚を、自分のバックホロメンの〈角巻わため〉に送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP04-008_C_02.png", //SRC
+		"博衣こより", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #ケモミミ", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"白", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>こんこよ~<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-012", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP04-012_R_02.png", //SRC
+		"博衣こより", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX #ケモミミ", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"白", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>はい! はい! はい! はい!<br>自分のデッキから、#こよラボを持つサポートカード1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"白<br>助手くんとこよはずっと一緒だよ!<br>30<br>このホロメンに〈こよりの助手くん〉が付いている時、自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-047", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP04-047_R_02.png", //SRC
+		"雪花ラミィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ハーフエルフ #お酒", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青", //COLOR
+		"120", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>fleur<br>自分の〈雪民〉が付いている〈雪花ラミィ〉がいる時、相手のホロメン1人に特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。", //KEYWORD
+		"青◇<br>雪が煌く花束<br>50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-071", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP04-071_R_02.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"黄", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"黄<br>しゅばっ!<br>20<br>自分のエールデッキの上から1枚を、このホロメンに送る。", //ART1
+		"黄◇◇<br>最強で楽しい毎日<br>90", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-072", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP04-072_RR_02.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #歌 #トリ", //TAG
+		"RR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"黄", //COLOR
+		"190", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>サンライトステージ<br>自分のアーカイブの黄エール1枚を自分のホロメンに送れる。", //KEYWORD
+		"黄黄◇<br>太陽少女<br>100+白+50<br>お互いのステージのエール1枚につき、このアーツ+10。ただし、数える枚数は8枚まで。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-085", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP04-085_U_02.png", //SRC
+		"桃鈴ねね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #歌 #絵", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"黄", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>最高の気分!!!!!!!!!!!!!!<br>自分のエールデッキから、自分のステージの#5期生を持つホロメン1人と同色のエール1枚を公開し、自分の#5期生を持つホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
+		"◇<br>いっぱいがんばるぞい!!!!!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP05-016", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP05-016_RR_02.png", //SRC
+		"兎田ぺこら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #ケモミミ", //TAG
+		"RR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"白", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>最強女神<br>このホロメンがアーツを使った時、そのアーツでサイコロを振って出た目の合計数が奇数なら、自分のデッキを1枚引く。偶数なら、自分のデッキを2枚引く。", //KEYWORD
+		"◇◇◇◇<br>ウーサペコラを崇めるぺこ<br>120+赤+50<br>このホロメンに重なっているホロメン1枚につき、サイコロを1回振れる:出た目の合計数1につき、このアーツ+10。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP05-045", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP05-045_RR_02.png", //SRC
+		"猫又おかゆ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ", //TAG
+		"RR", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>自分らしく居られる場所<br>[センターポジション限定]自分の推しホロメンの〈猫又おかゆ〉と自分のステージの〈猫又おかゆ〉全員が相手のセンターホロメンに与える特殊ダメージ", //KEYWORD
+		"青青◇<br>僕のコト、大好きになってみない?<br>120白+50<br>相手のホロメン1人に特殊ダメージ20を与える。その後、自分のアーカイブのエール1枚を自分の#ゲーマーズを持つバックホロメンに送れる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP05-060", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP05-060_R_02.png", //SRC
+		"ネリッサ・レイヴンクロフト", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #歌 #トリ", //TAG
+		"R", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"紫", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>月の光<br>自分のデッキから、[〈ネリッサ・レイヴンクロフトの杖〉か〈Jailbird〉]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"紫◇<br>艶なる宴<br>40<br>自分の手札1枚をアーカイブできる:相手のセンターホロメンかコラボホロメンに特殊ダメージ20を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP05-074", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP05-074_C_04.png", //SRC
+		"フレンドリーパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、エクストラ「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン1~2枚を公開し、ステージに出す。そしてデッキをシャッフルする。Debutホロメンを2枚出したなら、さらに、自分の手札1枚をデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP05-080", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hBP05-080_U_t02.png", //SRC
+		"SorAZセレブレーション", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを2枚引く。その後、自分のデッキの上から5枚を見る。その中から、1stホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD02-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hSD02-006_C_02.png", //SRC
+		"百鬼あやめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #シューター", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>お誕生日会<br>自分の手札1枚をアーカイブできる:相手のセンターホロメンかコラボホロメンに特殊ダメージ20を与える。", //KEYWORD
+		"赤<br>一緒にお祝い<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD02-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hSD02-007_U_02.png", //SRC
+		"百鬼あやめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #シューター", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"120", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>どーっちどっち♪<br>DebutからBloomした時、自分のデッキの上から2枚を見る。その中から、1枚を公開し、手札に加える。そして残ったカードをアーカイブする。", //KEYWORD
+		"◇<br>輝いた余を見逃さないでね~~!!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD03-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hSD03-007_U_02.png", //SRC
+		"猫又おかゆ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"青", //COLOR
+		"110", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>また、たくさん笑ってよね!<br>自分のアーカイブのエール1枚を自分の#ゲーマーズを持つホロメンに送れる。", //KEYWORD
+		"◇<br>全力で僕なりの歌、お届けします!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD04-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hSD04-007_U_02.png", //SRC
+		"癒月ちょこ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #料理", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"紫", //COLOR
+		"110", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ちょっこーん!<br>自分のアーカイブのLIMITED以外のイベント1枚を手札に戻せる。", //KEYWORD
+		"◇◇<br>大好き!ちゅっ♡<br>30<br>自分のバックホロメン1人のHP20回復。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hSD05-007_U_02.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"白", //COLOR
+		"120", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>宇宙一の番長を目指すなんでも屋<br>自分のデッキを1枚引く。", //KEYWORD
+		"◇<br>度胸、愛嬌、最強<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD06-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hSD06-005_C_02.png", //SRC
+		"風真いろは", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"緑", //COLOR
+		"120", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>かざまとおでかけ<br>自分のエールデッキの上から1枚を、自分の#秘密結社holoXを持つホロメンに送る。", //KEYWORD
+		"緑<br>かざまといっしょ!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD08-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hSD08-007_C_02.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌 #サマー", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"黄", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>みんなと夏祭り<br>自分のアーカイブのエール1枚を自分の#4期生を持つ2ndホロメンに送れる。", //KEYWORD
+		"◇<br>わたあめおいしいねぇ<br>10", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD09-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hEB01/hSD09-002_U_02.png", //SRC
+		"宝鐘マリン", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #絵 #海 #サマー", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"赤", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ホロサマー<br>自分のデッキの上から5枚を見る。その中から、#サマーを持つDebutホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"◇<br>船長も一緒にい・か・が?<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-104_C.png", //SRC
+		"ふつうのパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-107", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-107_C.png", //SRC
+		"アンコール", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のアーカイブのエール1~3枚をエールデッキに戻す。そしてエールデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-118", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-118_C.png", //SRC
+		"あん肝", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのHP+10。<br><br>◆〈ときのそら〉に付いていたら能力追加<br>このマスコットが付いているホロメンがアーツを使う時、このマスコットを白エールとしても扱う。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-079", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-079_U.png", //SRC
+		"爆発の魔法", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"#魔法", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"相手のセンターホロメンかコラボホロメンに特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。自分の#魔法を持つイベントはターンに1回しか使えない。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-095", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP02/hBP02-095_C.png", //SRC
+		"ドクロくん", //NAME
+		"サポート", //TYPE
+		"マスコット", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このマスコットが付いているホロメンのアーツ+10。<br><br>◆〈宝鐘マリン〉に付いていたら能力追加<br>[センターポジション限定]このマスコットが付いているホロメンがBloomした時、自分のデッキを1枚引く。<br><br>マスコットは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-088", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP03/hBP03-088_U.png", //SRC
+		"凸待ち", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のライフが相手より少ない時にしか使えない。<br><br>相手のコラボホロメンがいない時、相手は、自身のバックホロメン1人をコラボポジションに移動させる(移動はコラボとしては扱わない)。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-105", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP04/hBP04-105_U.png", //SRC
+		"こよりの助手くん", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"#こよラボ", //TAG
+		"U", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このファンをホロメンに手札かアーカイブから付けた時、自分のステージのエール1枚を、このファンが付いているホロメンに付け替えられる。<br><br>このファンは、自分の〈博衣こより〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-018", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-018_C.png", //SRC
+		"サブパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキの上から5枚を見る。その中から、LIMITEDのサポートカード1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD06-011", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD06/hSD06-011_C.png", //SRC
+		"ﾁｬｷ丸", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"エクストラブースター サマー・ホログラム", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いているホロメンのアーツ+10。<br><br>◆1st以上の〈風真いろは〉に付いていたら能力追加<br>[ターンに1回]相手のターンで、このツールが付いているホロメンがダメージを受けた時、相手のセンターホロメンに特殊ダメージ20を与える。ただし、ダウンしても相手のライフは減らない。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
 		]
 	]
