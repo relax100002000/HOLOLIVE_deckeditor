@@ -836,14 +836,28 @@ function showInfotable(data)
 
 		if(data[EXTRA] != "")
 		{
-			str += "<tr>";
-			str += "	<td>";
-			str += "		LIMITED";
-			str += "	</td>";
-			str += "	<td>";
-			str += data[EXTRA];
-			str += "	</td>";
-			str += "</tr>";
+			if(data[EXTRA] == "ターンに1枚しか使えない。")
+			{
+				str += "<tr>";
+				str += "	<td>";
+				str += "		LIMITED";
+				str += "	</td>";
+				str += "	<td>";
+				str += data[EXTRA];
+				str += "	</td>";
+				str += "</tr>";
+			}
+			else
+			{
+				str += "<tr>";
+				str += "	<td>";
+				str += "		<img class='icon_img' src='img/extra.png'></img>";
+				str += "	</td>";
+				str += "	<td>";
+				str += data[EXTRA];
+				str += "	</td>";
+				str += "</tr>";
+			}
 		}
 
 		str += "<tr>";
@@ -3923,9 +3937,8 @@ function showVersion()
 	str += "Author: ZZZ\n";
 	str += "E-mail: relax100002000@hotmail.com\n";
 	str += "\n";
-	str += "20260618 v1.13\n";  
-	str += "1.更新hBP08.\n";
-	str += "2.更新6/19禁卡表\n";
+	str += "20260919 v1.16\n";  
+	str += "1.更新hBP09.\n";
 	str += "\n";
 	str += "預計更新:\n";
 	str += "-補充關於說明\n";

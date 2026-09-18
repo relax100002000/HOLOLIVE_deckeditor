@@ -36190,5 +36190,3130 @@ var cardData = [
 		"", //ART5
 		"", //EXTRA
 		"" //BAN
+		],
+	[
+		"hBP01-072", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP01-072_C_02.png", //SRC
+		"ハコス・ベールズ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise #ケモミミ", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"80", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>WAZZUP!!<br>20<br>このホロメンに赤エールが付いている時、サイコロを1回振れる:奇数の時、相手のコラボホロメンに特殊ダメージ20を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-088", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP01-088_C_02.png", //SRC
+		"ムーナ・ホシノヴァ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #歌", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"90", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"青<br>ムーン ムーン ムーナだよ!<br>10<br>サイコロを1回振れる:偶数の時、相手のバックホロメン1人に特殊ダメージ20を与える(ダウンしても相手のライフは減らない)。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-014", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP02-014_C_02.png", //SRC
+		"白銀ノエル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #お酒", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>こんまっする~!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-024", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP02-024_C_02.png", //SRC
+		"大神ミオ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ #料理", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"緑", //COLOR
+		"90", //HP
+		"Debut", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>うちうち、うちだよ~大神ミオだよ~<br>10<br>自分のステージのエール1枚を、自分の#JPを持つホロメンに付け替えられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP02-065", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP02-065_C_02.png", //SRC
+		"ネリッサ・レイヴンクロフト", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #歌 #トリ", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"90", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>Hiya darlings!<br>30+<br>このホロメンに赤エールが付いている時、このアーツ+10。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP03-051", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP03-051_C_02.png", //SRC
+		"常闇トワ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #歌 #シューター", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>こんやっぴー<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-039", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP04-039_C_02.png", //SRC
+		"カエラ・コヴァルスキア", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>おはエラ<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-043", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP04-043_C_02.png", //SRC
+		"雪花ラミィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ハーフエルフ #お酒", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"90", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>こんらみ~<br>20<br>相手のホロメン1人に特殊ダメージ10を与える。ただし、ダウンしても相手のライフは減らない。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-067", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP04-067_C_02.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"黄<br>あじまる! あじまる!<br>20", //ART1
+		"黄◇◇<br>ちわーす! ホロライブ2期生 大空スバルっス!!<br>60", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-079", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP04-079_C_02.png", //SRC
+		"夏色まつり", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #シューター", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>わっしょ~い!<br>相手のターンで、このホロメンがダウンした時、このホロメンのエール1枚を、自分の他のホロメンに付け替えられる。", //KEYWORD
+		"◇<br>ホロライブの清楚担当<br>10", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP04-106", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP04/hBP04-106_U.png", //SRC
+		"雪民", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このファンが付いているホロメンが、相手のセンターホロメンに与える特殊ダメージ+10。<br><br>このファンは、自分の〈雪花ラミィ〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP05-075", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP05/hBP05-075_C.png", //SRC
+		"牛丼", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"#食べ物", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のホロメン1人を選ぶ。このターンの間、選んだホロメンのバトンタッチに必要な無色-2。その後、選んだホロメンのHP20回復。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-001_OSR.png", //SRC
+		"大空スバル", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"秩序を守る署長<br>自分の〈大空スバル〉全員のアーツに必要な白-1。", //STAGESKILL
+		"[ホロパワー:-2]<br>大空警察出動!<br>[ターンに1回]相手のステージのホロメン1人を選ぶ。自分のデッキから、選んだホロメンと同じBloomレベルの〈大空スバル〉1枚をステージに出す。そしてデッキをシャッフルする。", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-002_OSR.png", //SRC
+		"轟はじめ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"目指せ、宇宙一の番長!<br>[ターンに1回]自分の〈轟はじめ〉がバトンタッチした時、自分のデッキの上から1枚をホロパワーにする。", //STAGESKILL
+		"[ホロパワー:-X]<br>ウケたらなお好し、スベるも好し<br>[ターンに1回]自分のセンターの〈轟はじめ〉を選ぶ。このターンの間、この能力でアーカイブしたホロパワー1枚につき、選んだホロメンのアーツ+10。さらに、7枚以上なら、このターンの間、自分のステージの〈轟はじめ〉全員のアーツ+100。", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-003_OSR.png", //SRC
+		"白銀ノエル", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"緑", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"鉄の胃袋大魔神<br>[ターンに1回]自分が〈牛丼〉を使った時、自分のエールデッキの上から1枚を自分の〈白銀ノエル〉に送る。さらに、自分のステージに2ndホロメンがいるなら、自分のデッキを1枚引く。", //STAGESKILL
+		"[ホロパワー:-2]<br>あふれる牛丼愛<br>[ターンに1回]自分のアーカイブのエール1枚を自分の〈白銀ノエル〉に送る。自分のアーカイブに〈牛丼〉が3枚以上あるなら、かわりに、自分のアーカイブのエール1~2枚を自分の〈白銀ノエル〉に割り振って送る。", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-004_OSR.png", //SRC
+		"カエラ・コヴァルスキア", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"TO THE FORGE NOW<br>[ターンに1回]自分の#カエラ'sアームズを持つツールを、〈カエラ・コヴァルスキア〉に付けた時、自分のデッキを2枚引く。", //STAGESKILL
+		"[ホロパワー:-2]<br>レアアイテムを発見せよ!<br>[ターンに1回]自分のステージの#カエラ'sアームズを持つツール2枚をアーカイブする。この能力で2枚アーカイブしたなら、相手のDebut以外の[センターホロメンかコラボホロメン]に、特殊ダメージ100を与える。", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-005_OSR.png", //SRC
+		"常闇トワ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"魔弾の射手<br>[ターンに1回]自分のセンターの〈常闇トワ〉は、アーツを使った後、そのホロメンが持つ異なるアーツ名のアーツをもう1回使える。", //STAGESKILL
+		"[ホロパワー:-2]<br>とびっきりオーバーなショット<br>[ターンに1回]自分のパフォーマンスステップが終了する時に使える:このターンに自分の#歌を持つホロメンがアーツを使った回数1回につき、自分のデッキを1枚引く。", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-006_OSR.png", //SRC
+		"綺々羅々ヴィヴィ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"[ホロパワー:-2]<br>伝説の美(ヴィ)<br>[ターンに1回]自分のデッキを3枚引き、相手は、自身のデッキを2枚引く。", //SKILL
+		"[ホロパワー:-3]<br>ナイヴィヴィ!イケヴィヴィ!カッコヴィヴィ!<br>[ゲームに1回]自分のセンターが2nd〈綺々羅々ヴィヴィ〉なら、お互いの[手札すべてとアーカイブのホロメンとサポートすべて]をデッキに戻してシャッフルする。そしてそれぞれのデッキを7枚引く。", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-007_OSR.png", //SRC
+		"雪花ラミィ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"至福のひととき<br>自分のステージの〈雪花ラミィ〉全員のアーツ+20。自分のアーカイブに#ラミィのお酒を持つサポートが5枚以上あるなら、かわりに、自分のステージの〈雪花ラミィ〉全員のアーツ+50。", //STAGESKILL
+		"[ホロパワー:-2]<br>愛するものに囲まれて<br>[ターンに1回]自分のデッキから、#ラミィのお酒を持つサポート1~2枚を公開し、手札に加える。そしてデッキをシャッフルする。", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-008_C.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>カジュアルスバル<br>[ターンに1回]相手のターンで、このホロメンが1回に40以上のアーツダメージを受けた時、相手のセンターホロメンに特殊ダメージ30を与える。", //KEYWORD
+		"白<br>ロング、似合うっスか?<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-009_U.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ガーリースバル<br>自分が後攻で最初のターンなら、次の相手のターンの間、自分の〈大空スバル〉全員が1stホロメンから受けるアーツダメージ-100。", //KEYWORD
+		"◇<br>柔らかな日差し<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-010_C.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>高まるテンション<br>自分のデッキを2枚引き、手札2枚を好きな順でデッキの下に戻す。", //KEYWORD
+		"白◇<br>ここから盛り上がるっスよ!<br>30<br>相手のステージのツール1枚をアーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-011", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-011_C.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"180", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>雨中のお日様<br>[ターンに1回]相手のターンで、このホロメンが1回に100以上のアーツダメージを受けた時、自分のデッキを2枚引く。", //KEYWORD
+		"白◇<br>雨にも負けず風にも負けず<br>40<br>自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-012", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-012_R.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>BIG3懇親会 side S<br>自分の推しホロメンが〈大空スバル〉で、相手のホロパワーが2枚以上あるなら、自分のデッキの上から1枚をホロパワーにする。自分のブルームエフェクト「BIG3懇親会 side S」はターンに1回しか使えない。", //KEYWORD
+		"白白◇<br>もつのおかわりください<br>80+<br>前の相手のターンに自分のホロメンがダウンしていたなら、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-013", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-013_U.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"190", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ひよこお部屋着<br>自分のデッキから、[〈大空警察〉か〈スピード違反〉]1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"白◇<br>リラックスホリデー<br>100赤+50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-014", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-014_RR.png", //SRC
+		"大空スバル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #トリ", //TAG
+		"RR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>それ、没収っスよ!<br>[ターンに1回]相手のターンで、このホロメンが1回に200以上のアーツダメージを受けた時、相手は、自身のセンターホロメンのエールすべてを好きな順でエールデッキの下に戻す。", //KEYWORD
+		"白白白<br>沈まない太陽<br>160+紫+50<br>前の相手のターンに、ダウンしていた自分のホロメン1人につき、このアーツ+40。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-015", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-015_C.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>たゆまぬダンストレーニング<br>自分のステージにホロメンが3人以上いるなら、このホロメンのバトンタッチに必要な無色-1。", //KEYWORD
+		"白<br>軽やかなステップ<br>20+<br>このターンに自分のホロメンがバトンタッチしていたなら、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-016", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-016_U.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>はじめの負けん気<br>自分が後攻で最初のターンなら、自分のデッキから、バトンタッチに必要な無色が1つの〈轟はじめ〉2枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>先陣を切る!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-017_C.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>喧騒の中の密事<br>このホロメンが受けるアーツダメージ-30。", //KEYWORD
+		"◇<br>待ち合わせの角で<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-018", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-018_C.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>はじめのジャケット<br>[センターポジション限定]自分のデッキを2枚引く。", //KEYWORD
+		"◇<br>おちょなびたふくそー<br>30+<br>[コラボポジション限定]このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-019", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-019_R.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>はじめの愛チャ<br>[バックポジション限定]自分のステージのホロメン1人を選ぶ。このターンの間、選んだホロメンのバトンタッチに必要な無色-2。", //KEYWORD
+		"白<br>ぶんぶんばんちょー<br>40+<br>[センターポジション限定]このターンに自分のホロメンがバトンタッチしていたなら、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-020", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-020_U.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"190", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>奇想天外な盤面<br>このホロメンはリセットステップでお休みしない。", //KEYWORD
+		"白<br>悟ればいいんだ!<br>60紫+50<br>[コラボポジション限定]このターンの間、自分のセンターホロメンのアーツに必要な白-1。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-021", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-021_RR.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"RR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>ストイックダンサー<br>このホロメンが相手のホロメンをダウンさせた時、自分のデッキの上から1枚をホロパワーにする。", //KEYWORD
+		"白白<br>尽きることなき情熱<br>80+赤+50<br>このターンに自分のホロメンがバトンタッチしていたなら、このアーツ+80。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-022", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-022_R.png", //SRC
+		"角巻わため", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #ケモミミ #歌", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>わためいとの楽園<br>相手のステージのホロメン1人を選ぶ。自分のホロパワーが10枚以上あるなら、このターンの間、選んだホロメンは2ndホロメンとしても扱う。", //KEYWORD
+		"白白<br>花がきれいだねぇ<br>100+紫+50<br>自分のホロパワーが4枚以上あるなら、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-023", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-023_R.png", //SRC
+		"ベスティア・ゼータ", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"220", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>ゴシックゼータ<br>このホロメンが相手のホロメンをダウンさせた時、自分の推しホロメンが〈ベスティア・ゼータ〉なら、サイコロを2回振る。出た目の合計数がお互いのライフの合計数と同じなら、相手のライフ-1。", //KEYWORD
+		"白白◇<br>漆黒の諜報<br>120+<br>[センターポジション限定]このターンに自分の推しスキル「Good Luck, holoh3ro!」を使っていたなら、このアーツ+80。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-024", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-024_R.png", //SRC
+		"響咲リオナ", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"240", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>照れ隠しの微笑<br>[センターポジション限定]自分の#FLOW GLOWを持つコラボホロメンのアーツに必要なエールの色すべてを無色にする。", //KEYWORD
+		"白白<br>リーダーへのお返し<br>70+<br>[センターポジション限定]自分のステージに〈虎金妃笑虎〉と〈水宮枢〉と〈輪堂千速〉と〈綺々羅々ヴィヴィ〉がいるなら、このアーツ+100。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-025", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-025_C.png", //SRC
+		"白銀ノエル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #お酒", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"緑", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>カジュアルノエル<br>自分の推しホロメンが推しステージスキルを持つなら、このホロメンのHP+20。", //KEYWORD
+		"◇<br>今日はプライベート!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-026", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-026_U.png", //SRC
+		"白銀ノエル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #お酒", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"緑", //COLOR
+		"140", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>マッスル・グレイス<br>自分が後攻で最初のターンなら、自分のデッキから、[Debut〈白銀ノエル〉と〈牛丼〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"緑<br>慈愛の鉄槌<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-027", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-027_C.png", //SRC
+		"白銀ノエル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #お酒", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"緑", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>団長出陣!<br>このホロメンのHPが減っていないなら、このホロメンが1stホロメンから受けるアーツダメージ-50。", //KEYWORD
+		"緑◇<br>優しくて力持ち!<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-028", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-028_C.png", //SRC
+		"白銀ノエル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #お酒", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"緑", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ノエルの冒険<br>自分のデッキから、〈牛丼〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>白銀聖騎士団集合!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-029", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-029_R.png", //SRC
+		"白銀ノエル", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #お酒", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"緑", //COLOR
+		"260", //HP
+		"1st", //LEVEL
+		"◇◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"緑緑◇<br>BIG3懇親会 side N<br>100<br>自分のデッキから、2nd〈白銀ノエル〉1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-030", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-030_U.png", //SRC
+		"白銀ノエル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #お酒", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"緑", //COLOR
+		"220", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>白銀聖騎士団を背負う者<br>自分のアーカイブの〈牛丼〉1枚につき、自分のホロメン1人のHP10回復。", //KEYWORD
+		"緑◇<br>頼もしき筋力<br>100+黄+50<br>自分のアーカイブの〈牛丼〉1枚につき、このアーツ+10。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-031", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-031_RR.png", //SRC
+		"白銀ノエル", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #3期生 #お酒", //TAG
+		"RR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"緑", //COLOR
+		"220", //HP
+		"2nd", //LEVEL
+		"◇◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>究極の牛丼道<br>[ターンに1回]このホロメンが〈牛丼〉の能力で回復するHP+100。", //KEYWORD
+		"緑緑緑◇<br>牛丼は~飲み物!<br>10+青+50<br>自分の推しホロメンが〈白銀ノエル〉で、このホロメンの残りHPが200以上なら、このアーツ+200。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-032", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-032_C.png", //SRC
+		"大神ミオ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ #料理", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"緑", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>黒髪のケモミミ少女<br>自分の手札の[マスコットかファン]1枚を公開し、デッキの上に戻せる:自分のエールデッキの上から1枚を自分の#ゲーマーズを持つホロメンに送る。", //KEYWORD
+		"緑<br>いってみぉーん<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-033", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-033_U.png", //SRC
+		"大神ミオ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ #料理", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"緑", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>濡れ髪ミオしゃ<br>自分のデッキの上から1枚をアーカイブできる:アーカイブしたカードがサポートなら、自分のエールデッキの上から1枚を自分のホロメンに送る。", //KEYWORD
+		"緑◇<br>火照る湯あみ<br>50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-034", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-034_R.png", //SRC
+		"大神ミオ", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ #料理", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"緑", //COLOR
+		"240", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ミオしゃの行く道<br>自分のアーカイブの[マスコットとファン]合計2枚を好きな順でデッキの上に戻せる:自分のホロメン1人のHP100回復。", //KEYWORD
+		"緑緑◇<br>うちと一緒にいこう!<br>110", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-035", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-035_RR.png", //SRC
+		"大神ミオ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ #料理", //TAG
+		"RR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"緑", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>癒しの空間<br>自分の推しホロメンが〈大神ミオ〉なら、自分のデッキを3枚引き、手札2枚を好きな順でデッキの上に戻す。", //KEYWORD
+		"緑◇◇◇<br>料理は愛情<br>180+青+50<br>自分のデッキの上から2枚をアーカイブできる:自分のステージのホロメン1人を選ぶ。この能力でアーカイブしたサポート1枚につき、このターンの間、選んだホロメンのアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-036", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-036_R.png", //SRC
+		"風真いろは", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #秘密結社holoX", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"緑", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>百万一心<br>自分のステージの〈AZKi〉1人を選ぶ。自分のエールデッキから、選んだホロメンと同色のエール1枚を選んだホロメンに送る。そしてエールデッキをシャッフルする。", //KEYWORD
+		"◇<br>助太刀、感謝でござる!<br>20+<br>自分のセンターの〈AZKi〉のエール1枚につき、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-037", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-037_R.png", //SRC
+		"輪堂千速", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"緑", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>Fantastic Driver<br>このホロメンが相手のホロメンをダウンさせた時、自分の#FLOW GLOWを持つバックホロメン1人を選ぶ。選んだホロメンを含め重なっているホロメンすべてを手札に戻せる。", //KEYWORD
+		"緑緑◇<br>Victory Feast<br>80+黄+50<br>自分の推しホロメンが〈輪堂千速〉なら、自分のステージのDebut以外のホロメン1人につき、このアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-038", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-038_C.png", //SRC
+		"カエラ・コヴァルスキア", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>Blacksmith<br>このホロメンにツールが付いているなら、自分のデッキを1枚引く。", //KEYWORD
+		"赤<br>鍛冶にかける想い<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-039", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-039_U.png", //SRC
+		"カエラ・コヴァルスキア", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>Workaholic!<br>自分が後攻で最初のターンなら、自分のデッキから、ツール2枚を公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>資材集めはお任せ!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-040", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-040_C.png", //SRC
+		"カエラ・コヴァルスキア", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"180", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>クレーバーな仕事人<br>自分のアーカイブの#カエラ'sアームズを持つツール1枚を手札に戻せる。", //KEYWORD
+		"赤<br>終わらぬ探求<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-041", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-041_C.png", //SRC
+		"カエラ・コヴァルスキア", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>美しき装いの職人<br>このホロメンに#カエラ'sアームズを持つツールが付いているなら、このホロメンのアーツに必要な赤-1。", //KEYWORD
+		"赤<br>兼ね備えた冷静と熱意<br>30+<br>自分のBuzzホロメンか2ndホロメンに#カエラ'sアームズを持つツールが付いているなら、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-042", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-042_R.png", //SRC
+		"カエラ・コヴァルスキア", //NAME
+		"Buzzホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"240", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>森の賢者<br>このホロメンが相手のホロメンをダウンさせた時、自分のアーカイブのホロメン1枚を手札に戻す。", //KEYWORD
+		"赤赤<br>木立にひそむ神秘<br>70<br>自分のアーカイブの#カエラ'sアームズを持つツール1枚をこのホロメンに付ける。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンがダウンした時、自分のライフ-2", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-043", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-043_U.png", //SRC
+		"カエラ・コヴァルスキア", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>Happy Summer Days<br>自分のステージに#カエラ'sアームズを持つツールが2枚以上あるなら、自分のアーカイブのエール1枚を自分のホロメンに送る。", //KEYWORD
+		"赤<br>Vacation on Islands<br>60黄+50<br>相手のコラボホロメンに特殊ダメージ30を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-044", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-044_RR.png", //SRC
+		"カエラ・コヴァルスキア", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID3期生", //TAG
+		"RR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>師から受け継ぎしもの<br>このホロメンにツールが付いているなら、このホロメンは、#カエラ'sアームズを持つツールをもう1枚まで付けられる。", //KEYWORD
+		"赤赤<br>鍛冶屋の本懐<br>100+緑+50<br>このホロメンに#カエラ'sアームズを持つツールが付いているなら、このアーツ+60。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-045", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-045_R.png", //SRC
+		"赤井はあと", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #料理", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>スイートはあちゃま<br>サイコロを1回振る。奇数なら、相手のセンターホロメンに特殊ダメージ30を与える。偶数なら、自分のデッキを2枚引く。", //KEYWORD
+		"赤赤◇<br>おいしいお菓子を作る!<br>170黄+50<br>自分のアーカイブのDebut〈赤井はあと〉1枚をステージに出す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-046", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-046_U.png", //SRC
+		"百鬼あやめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #2期生 #シューター", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>鬼の戯れ<br>自分のエールデッキの上から1枚をアーカイブできる:自分のデッキから、Debut〈百鬼あやめ〉1枚をステージに出す。そしてデッキをシャッフルする。", //KEYWORD
+		"赤<br>鬼の宴<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-047", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-047_C.png", //SRC
+		"ハコス・ベールズ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise #ケモミミ", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>FUNNY RAT<br>自分のセンターが〈大空スバル〉なら、自分のデッキを1枚引く。", //KEYWORD
+		"◇<br>風船はいかが?<br>20+<br>自分のステージに〈大空スバル〉がいるなら、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-048", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-048_U.png", //SRC
+		"ハコス・ベールズ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise #ケモミミ", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>CHAOTIC INVITATION<br>自分の推しホロメンが〈大空スバル〉なら、自分のデッキから、1st[〈大空スバル〉と〈ハコス・ベールズ〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>ボクと楽しもうよ!<br>30<br>サイコロを1回振る。奇数なら、相手のコラボホロメンに特殊ダメージ20を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-049", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-049_R.png", //SRC
+		"ハコス・ベールズ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise #ケモミミ", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"190", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>熱き取り調べ<br>自分の推しホロメンが〈大空スバル〉なら、このホロメンのアーツに必要な無色-3。", //KEYWORD
+		"◇◇◇<br>しらばっくれるな!<br>80緑+50<br>自分の推しホロメンが〈大空スバル〉なら、自分のアーカイブの[〈大空スバル〉か〈ハコス・ベールズ〉]1枚を手札に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-050", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-050_RR.png", //SRC
+		"ハコス・ベールズ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise #ケモミミ", //TAG
+		"RR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"赤", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>大空警察国際部代表<br>自分の推しホロメンが〈大空スバル〉なら、相手のバックホロメン1人を選ぶ。選んだホロメンと相手のコラボホロメンを交代させる。相手のコラボホロメンがいないなら、かわりに、選んだホロメンをコラボポジションに移動させる。", //KEYWORD
+		"◇◇◇<br>ネズミの大捕り物<br>100+紫+50<br>自分のステージの〈大空スバル〉1人につき、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-051", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-051_C.png", //SRC
+		"常闇トワ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #歌 #シューター", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>愛され系小悪魔<br>20", //ART1
+		"青◇<br>こういうのもいいでしょ?<br>30<br>このホロメンのエール1枚を自分の#歌を持つバックホロメンに付け替えられる。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-052", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-052_U.png", //SRC
+		"常闇トワ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #歌 #シューター", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>配信終わりのひととき<br>自分が後攻で最初のターンなら、自分のエールデッキの上から1枚を自分の〈常闇トワ〉に送る。", //KEYWORD
+		"◇<br>この後なにしよっか?<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-053", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-053_C.png", //SRC
+		"常闇トワ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #歌 #シューター", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"180", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"青<br>ストリートトワ<br>30", //ART1
+		"青◇◇<br>常闇眷属と過ごすひととき<br>80", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-054", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-054_C.png", //SRC
+		"常闇トワ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #歌 #シューター", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>華麗なバイオレット<br>自分のエールデッキの上から1枚を自分の〈常闇トワ〉に送る。", //KEYWORD
+		"◇<br>情熱のパレット<br>30<br>自分のステージに#歌を持つ2ndホロメンがいるなら、相手のホロメン1人に特殊ダメージ20を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-055", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-055_R.png", //SRC
+		"常闇トワ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #歌 #シューター", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"青<br>小悪魔のほほ笑み<br>20", //ART1
+		"青◇<br>今、寝てたでしょ~?<br>50<br>このアーツがこのターンに使う2回目のアーツなら、このホロメンのエール1枚を自分の他の#歌を持つホロメンに付け替えられる。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-056", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-056_U.png", //SRC
+		"常闇トワ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #歌 #シューター", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>闘志あふれるファイター<br>40赤+50<br>自分のアーカイブのエール1枚を自分の#歌を持つホロメンに送る。", //ART1
+		"青◇<br>研鑽の果ての一撃<br>50赤+50<br>このアーツがこのターンに使う2回目のアーツなら、自分のデッキの上から1枚をホロパワーにする。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-057", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-057_RR.png", //SRC
+		"常闇トワ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #4期生 #歌 #シューター", //TAG
+		"RR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"青◇<br>魔界学校の優等生<br>70白+50<br>このアーツがこのターンに使う2回目のアーツなら、自分のデッキの上から4枚を見る。その中から、サポート1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"青◇◇<br>一人前の悪魔になるために<br>100白+50<br>このアーツがこのターンに使う3回目のアーツなら、相手のホロメン1人に特殊ダメージ50を与える。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-058", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-058_R.png", //SRC
+		"猫又おかゆ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #ゲーマーズ #ケモミミ", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ほろ酔いおかゆん<br>自分の推しホロメンが〈猫又おかゆ〉なら、自分のエールデッキの上から1枚を自分の〈猫又おかゆ〉に送る。", //KEYWORD
+		"青<br>猫とまどろむ夜<br>30<br>相手のホロメン1人に特殊ダメージ10を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-059", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-059_C.png", //SRC
+		"ムーナ・ホシノヴァ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #歌", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>月の歌い手<br>相手のターンで、自分の〈ムーナ・ホシノヴァ〉がダウンした時、自分のエールデッキの上から1枚をこのホロメン以外の自分の#ID1期生を持つバックホロメンに送る。自分のギフト「月の歌い手」はターンに1回しか使えない。", //KEYWORD
+		"青<br>魂揺らすシャウト<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-060", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-060_U.png", //SRC
+		"ムーナ・ホシノヴァ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #歌", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>大人びた大学生<br>自分のデッキの上から3枚を見る。その中から、#ID1期生を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"青青<br>今日はお姉さんモード<br>50<br>相手のセンターホロメンとコラボホロメンに特殊ダメージ10を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-061", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-061_R.png", //SRC
+		"ムーナ・ホシノヴァ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #歌", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"180", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>月の女神<br>自分の推しホロメンが〈ムーナ・ホシノヴァ〉なら、自分のエールデッキの上から1枚をこのホロメンに送る。", //KEYWORD
+		"青青青<br>月影照らす道標<br>80<br>このホロメンのエール2枚を自分の#ID1期生を持つバックホロメン1人に付け替える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-062", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-062_RR.png", //SRC
+		"ムーナ・ホシノヴァ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #歌", //TAG
+		"RR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>夜を照らす光<br>このホロメンが相手のホロメンをダウンさせた時、自分のステージに#ID1期生を持つホロメンが5人以上いるなら、相手のホロメン1人に特殊ダメージ50を与える。", //KEYWORD
+		"青青青青青<br>魅惑の佇まい<br>120+赤+50<br>自分の推しホロメンが〈ムーナ・ホシノヴァ〉なら、このホロメンの青エール5枚をアーカイブできる:自分のステージの#ID1期生を持つホロメン1人につき、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-063", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-063_R.png", //SRC
+		"オーロ・クロニー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Promise", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"青", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>Student of Time<br>自分のデッキを下から1枚引く。自分のブルームエフェクト「Student of Time」はターンに1回しか使えない。", //KEYWORD
+		"青<br>Let's Study Together!<br>30<br>自分のデッキから、[〈Boros〉か〈Kronies〉]1枚を自分の〈オーロ・クロニー〉に付ける。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-064", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-064_C.png", //SRC
+		"綺々羅々ヴィヴィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"紫<br>もう離せへんで~<br>20+<br>相手の手札が4枚以上あるなら、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-065", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-065_U.png", //SRC
+		"綺々羅々ヴィヴィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>キラキラなプレゼント<br>自分が後攻で最初のターンなら、自分のデッキから、〈綺々羅々ヴィヴィ〉2枚を公開し、手札に加える。そして自分のデッキをシャッフルする。相手は、自身のデッキを1枚引く。", //KEYWORD
+		"◇<br>喜んでくれたらヴィヴィもうれしい!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-066", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-066_C.png", //SRC
+		"綺々羅々ヴィヴィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ラッキッキーな呼び出し<br>このターンの間、このホロメンのアーツ+20。相手の手札が7枚以上あるなら、かわりに、このターンの間、自分のステージの〈綺々羅々ヴィヴィ〉全員のアーツ+20。", //KEYWORD
+		"紫<br>買い物つきあってー!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-067", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-067_C.png", //SRC
+		"綺々羅々ヴィヴィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>あまあまヴィヴィ<br>自分の推しホロメンが〈綺々羅々ヴィヴィ〉なら、自分のデッキを2枚引き、相手は、自身のデッキを1枚引く。自分のブルームエフェクト「あまあまヴィヴィ」はターンに1回しか使えない。", //KEYWORD
+		"紫◇<br>早くこっちに来て~<br>50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-068", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-068_R.png", //SRC
+		"綺々羅々ヴィヴィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"紫<br>コスメへのこだわり<br>40", //ART1
+		"紫紫<br>これ、試してみようかな<br>60<br>このホロメンに〈メイクアップ〉が付いているなら、自分のデッキから#FLOW GLOWを持つホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-069", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-069_U.png", //SRC
+		"綺々羅々ヴィヴィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>12人目の選手<br>相手の手札が7枚以上あるなら、このホロメンが受けるアーツダメージ-50。", //KEYWORD
+		"紫◇<br>ヴィヴィはディフェンス推しやで!<br>100緑+50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-070", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-070_RR.png", //SRC
+		"綺々羅々ヴィヴィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"RR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>ストロングコミュニケーター<br>[センターポジション限定]相手の手札が7枚以上あるなら、このホロメンのアーツに必要な無色-2。", //KEYWORD
+		"紫◇◇<br>ヴィヴェイシャスヴィジョン<br>120+黄+50<br>相手の手札が7枚以上あるなら、このアーツ+70。相手の手札が10枚以上あるなら、かわりに、このアーツ+100。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-071", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-071_R.png", //SRC
+		"AZKi", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #0期生 #歌", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>開拓の旅路を歩む少女<br>自分のステージの〈風真いろは〉1人を選ぶ。このターンの間、自分のホロパワー1枚につき、選んだホロメンのアーツ+10。", //KEYWORD
+		"◇<br>輝く出会い<br>40<br>自分のステージに〈風真いろは〉がいるなら、自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-072", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-072_R.png", //SRC
+		"クレイジー・オリー", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID2期生 #語学", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ダンス・マカブル<br>このターンに自分のホロメンがアーカイブからBloomしていたなら、自分のデッキを2枚引く。自分のブルームエフェクト「ダンス・マカブル」はターンに1回しか使えない。", //KEYWORD
+		"紫<br>青き花吹雪の祝福<br>30+<br>このターンに自分のホロメンがアーカイブからBloomしていたなら、このアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-073", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-073_C.png", //SRC
+		"ネリッサ・レイヴンクロフト", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #歌 #トリ", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>歌に乗せる願い<br>[センターポジション限定]自分のホロパワーが2枚以上あるなら、自分の〈ネリッサ・レイヴンクロフト〉全員が受けるアーツダメージ-30。", //KEYWORD
+		"◇<br>魔力の調べ<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-074", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-074_U.png", //SRC
+		"ネリッサ・レイヴンクロフト", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #歌 #トリ", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>魔人の秘儀<br>自分のアーカイブの#Adventを持つ[Debutホロメンか1stホロメン]1枚を手札に戻せる。", //KEYWORD
+		"◇◇<br>秘儀の加護<br>50+<br>このアーツの対象が1st以上のホロメンなら、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-075", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-075_R.png", //SRC
+		"ネリッサ・レイヴンクロフト", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #歌 #トリ", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>魔人のオフモード<br>[センターポジション限定]自分の推しスキルを使った時、このターンの間、自分のコラボの〈ネリッサ・レイヴンクロフト〉のアーツに必要な紫-1。", //KEYWORD
+		"紫<br>安らぎの歌<br>40<br>自分の推しホロメンが〈ネリッサ・レイヴンクロフト〉なら、自分のデッキを1枚引き、自分の手札1枚をホロパワーにする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-076", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-076_RR.png", //SRC
+		"ネリッサ・レイヴンクロフト", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#EN #Advent #歌 #トリ", //TAG
+		"RR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>魔人の臥所<br>自分のホロパワー1~3枚をアーカイブできる:アーカイブしたホロパワー1枚につき、このターンの間、自分のステージの#歌を持つホロメン全員のアーツ+30。", //KEYWORD
+		"紫紫◇<br>妖艶なる音色<br>140緑+50<br>このアーツで相手のホロメンをダウンさせた時、自分のアーカイブの〈ネリッサ・レイヴンクロフト〉1枚を手札に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-077", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-077_C.png", //SRC
+		"雪花ラミィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ハーフエルフ #お酒", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>カジュアルラミィ<br>サイコロを1回振る。6なら、このターンの間、このホロメンのアーツ+20。1なら、このホロメンをお休みさせる。", //KEYWORD
+		"黄<br>待った?<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-078", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-078_U.png", //SRC
+		"雪花ラミィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ハーフエルフ #お酒", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>熱を帯びた瞳<br>自分が後攻で最初のターンなら、自分のデッキを3枚引き、手札1枚をアーカイブする。アーカイブしたカードが#ラミィのお酒を持たないなら、さらに自分の手札1枚をアーカイブする。", //KEYWORD
+		"◇<br>晩酌のお誘い<br>10", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-079", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-079_C.png", //SRC
+		"雪花ラミィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ハーフエルフ #お酒", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>ねぽらぼのら担当<br>自分のデッキの上から5枚を見る。その中から、#ラミィのお酒を持つサポート1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"◇<br>令嬢のウィンク<br>30<br>自分のサポートが付いているホロメンがいるなら、自分のデッキを1枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-080", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-080_C.png", //SRC
+		"雪花ラミィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ハーフエルフ #お酒", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"190", //HP
+		"1st", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>やきもちユニーリア<br>自分のアーカイブのエール1枚を自分の#お酒を持つホロメンに送る。", //KEYWORD
+		"◇<br>ラミィしか愛せないんじゃないの?<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-081", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-081_R.png", //SRC
+		"雪花ラミィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ハーフエルフ #お酒", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>BIG3懇親会 side L<br>自分のアーカイブの#ラミィのお酒を持つサポートが1枚以下なら、このホロメンのアーツに必要な無色+1。", //KEYWORD
+		"黄黄<br>んー! うますぎるー!<br>60<br>このホロメンのエール2枚をアーカイブできる:相手のDebut以外のホロメン1人に特殊ダメージ40を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-082", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-082_U.png", //SRC
+		"雪花ラミィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ハーフエルフ #お酒", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>トレーニング完了<br>自分のアーカイブに#ラミィのお酒を持つサポートがあるなら、自分のエールデッキの上から1枚を自分の〈雪花ラミィ〉に送る。", //KEYWORD
+		"黄◇◇<br>この後は至福の一杯で<br>130青+50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-083", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-083_RR.png", //SRC
+		"雪花ラミィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #ハーフエルフ #お酒", //TAG
+		"RR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>顔が肝臓<br>自分のアーカイブの#ラミィのお酒を持つサポートが4枚以下なら、このホロメンのアーツに必要な無色+2。", //KEYWORD
+		"黄<br>酒、酒、つまみ、酒、酒、酒!<br>160±白+50<br>サイコロを1回振る。6なら、このアーツ+100。1なら、このアーツ-100。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-084", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-084_C.png", //SRC
+		"夏色まつり", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #シューター", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"110", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>サプライズなプレゼント<br>自分の手札のLIMITEDのサポート1枚をアーカイブできる:自分のデッキから、Debut〈夏色まつり〉1~2枚をステージに出す。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>リボン、うれしいな<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-085", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-085_U.png", //SRC
+		"夏色まつり", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #シューター", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"140", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>授業中にこっそり……<br>自分の推しホロメンが〈夏色まつり〉なら、自分のアーカイブのLIMITEDのサポート1枚をデッキの下に戻せる:自分のステージの〈夏色まつり〉1人を選ぶ。このターンの間、選んだホロメンのアーツ+30。", //KEYWORD
+		"黄◇<br>かわいく描けたから見てよ~<br>50", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-086", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-086_R.png", //SRC
+		"夏色まつり", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #シューター", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>おまつり騒ぎ<br>自分の推しホロメンが〈夏色まつり〉なら、自分のデッキの上から5枚を見る。その中から、LIMITEDのサポート1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"黄<br>太鼓でわっしょーい!<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-087", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-087_RR.png", //SRC
+		"夏色まつり", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #1期生 #シューター", //TAG
+		"RR", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>あざとい清楚担当<br>自分の推しホロメンが黄の〈夏色まつり〉で、自分のステージのホロメン全員が〈夏色まつり〉なら、自分のホロパワーの上から1枚をアーカイブできる:このターンの間、自分が使えるLIMITEDのサポートの枚数は2枚になる。", //KEYWORD
+		"黄<br>夏色まつりは清楚だよなぁ!?<br>60+白+50<br>自分のアーカイブにLIMITEDのサポートが5枚以上あるなら、このアーツ+60。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-088", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-088_R.png", //SRC
+		"桃鈴ねね", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#JP #5期生 #歌 #絵", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"180", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>キミと二度寝<br>自分の推しホロメンが〈桃鈴ねね〉なら、このホロメンは1回に200以上のアーツダメージを受けない。", //KEYWORD
+		"黄黄<br>布団にもぐりこんじゃうぞ<br>100青+50<br>自分のアーカイブのエールを自分の#5期生を持つホロメン1~2人に1枚ずつ送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-089", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-089_R.png", //SRC
+		"アユンダ・リス", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#ID #ID1期生 #ケモミミ #歌", //TAG
+		"R", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"黄", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>この情熱が私達!<br>自分のステージに[緑と青と黄]エールがあるなら、自分の#ID1期生を持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+30。", //KEYWORD
+		"黄◇<br>世界に響く美声<br>50<br>自分の推しホロメンの色が緑か青か黄なら、自分のエールデッキの上から1枚を自分の#ID1期生を持つホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-090", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-090_C.png", //SRC
+		"コラボパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のホロパワー1枚をアーカイブしなければ使えない。<br><br>自分のデッキから、コラボエフェクトを持つ、自分の推しホロメンと同じカード名のホロメン1枚を公開し、手札に加える。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-091", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-091_U.png", //SRC
+		"あずいろ BESTIE DAYS", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の推しホロメンが〈AZKi〉か〈風真いろは〉で、前の相手のターンに自分のホロメンがダウンしていなければ使えない。<br><br>自分のデッキから、1st[〈AZKi〉と〈風真いろは〉]1枚ずつをステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-092", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-092_C.png", //SRC
+		"雨の日ヴィヴィ", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の推しホロメンが〈綺々羅々ヴィヴィ〉でなければ使えない。<br><br>お互いそれぞれのデッキを2枚引く。その後、相手の手札が7枚以上あるなら、このターンの間、自分のステージの〈綺々羅々ヴィヴィ〉全員のアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-093", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-093_C.png", //SRC
+		"応援するホロリス", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のステージのエール1~2枚を選び、自分のホロメンに割り振って付け替える。その後、自分のエールが付いているホロメンが4人以上いるなら、自分のアーカイブのエール1枚を自分のホロメンに送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-094", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-094_U.png", //SRC
+		"大空警察", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の推しホロメンが〈大空スバル〉で、前の相手のターンに自分のホロメンがダウンしていなければ使えない。<br><br>相手のバックホロメン1人を選ぶ。選んだホロメンをお休みさせる。そのホロメンは、次の相手のリセットステップでアクティブにならない。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-095", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-095_C.png", //SRC
+		"君に乾杯", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"#ラミィのお酒", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の推しホロメンが〈雪花ラミィ〉でなければ使えない。<br><br>相手のセンターホロメンかコラボホロメンを選ぶ。選んだホロメンに特殊ダメージ10を与える。自分のアーカイブに〈君に乾杯〉が2枚以上あるなら、かわりに、選んだホロメンに特殊ダメージ40を与える。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"自分の〈君に乾杯〉はターンに1回しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-096", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-096_U.png", //SRC
+		"コンコ コンコンコ コンコンコン", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のステージの#ReGLOSSを持つホロメン1人を選ぶ。このターンの間、選んだホロメンのバトンタッチに必要な無色-1。その後、自分のアーカイブのエール1枚を自分のバックの〈轟はじめ〉に送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-097", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-097_U.png", //SRC
+		"コンビプレイ", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを2枚引く。その後、自分のステージのエール1枚をエールデッキの下に戻し、自分のエールデッキから、エール1枚を自分のホロメンに送る。そしてエールデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-098", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-098_C.png", //SRC
+		"スイカバブル", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを4枚引く。その後、自分のアーカイブにLIMITEDのサポートがあるなら、自分の手札4枚を好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-099", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-099_C.png", //SRC
+		"スピード違反", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の推しホロメンが〈大空スバル〉で、自分のステージのエールの枚数が相手より少ない時にしか使えない。<br><br>自分のアーカイブのエール2枚を、自分のホロメン1人に送る。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-100", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-100_U.png", //SRC
+		"ノエルの特盛牛丼", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"#食べ物", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のステージの〈白銀ノエル〉1人を選ぶ。このターンの間、選んだホロメンのアーツ+10。さらに、選んだホロメンがBuzzホロメンか2ndホロメンなら、そのホロメンのHP50回復。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このイベントは〈牛丼〉としても扱う", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-101", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-101_U.png", //SRC
+		"バカ!変態!うるさーい!もう知らなーい!", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の推しホロメンが〈常闇トワ〉でなければ使えない。<br><br>相手のセンターホロメンに特殊ダメージ20を与える。その後、このターンの間、自分の〈常闇トワ〉の3回目のアーツは、相手のDebut以外のバックホロメンも対象にできる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-102", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-102_C.png", //SRC
+		"ばんちょーダンス", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の推しホロメンが〈轟はじめ〉でなければ使えない。<br><br>自分のデッキの上から2枚をホロパワーにする。その後、自分のホロパワーを見る。その中から1~2枚を手札に加える。そしてホロパワーをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-103", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-103_C.png", //SRC
+		"変な動き", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の推しホロメンが〈白銀ノエル〉でなければ使えない。<br><br>自分のアーカイブの[〈白銀ノエル〉と〈牛丼〉]1枚ずつを手札に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-104_C.png", //SRC
+		"ホロライブ体力王決定戦", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このターンの間、自分のステージの残りHPが最も高いホロメン全員のアーツ+30。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-105", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-105_U.png", //SRC
+		"BIG3", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の推しホロメンが〈大空スバル〉か〈白銀ノエル〉か〈雪花ラミィ〉でなければ使えない。<br><br>自分のデッキを2枚引く。その後、自分のデッキの上から3枚を見る。その中から、自分の推しホロメンと同じカード名のホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-106", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-106_C.png", //SRC
+		"カエラが作ったホロシールド", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"#カエラ'sアームズ", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いている[Buzzか2nd]の〈カエラ・コヴァルスキア〉のHP+40。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-107", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-107_U.png", //SRC
+		"カエラが作ったホロソード", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"#カエラ'sアームズ", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いている[Buzzか2nd]の〈カエラ・コヴァルスキア〉のアーツ+40。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-108", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-108_C.png", //SRC
+		"常闇トワのブレイクマイク", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いている〈常闇トワ〉のアーツ+20。<br><br>◆2nd〈常闇トワ〉に付いていたら能力追加<br>このホロメンに付いている青エールすべては、紫エールとしても扱う。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-109", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-109_U.png", //SRC
+		"メイクアップ", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いている〈綺々羅々ヴィヴィ〉のアーツ+20。<br><br>◆1st以上の〈綺々羅々ヴィヴィ〉に付いていたら能力追加<br>[センターポジション限定]自分のパフォーマンスステップが終了する時、このターンにBloomした#FLOW GLOWを持つホロメン1人を、自分の手札のホロメンを使ってもう1回Bloomできる。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-110", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-110_U.png", //SRC
+		"雪夜月", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"#ラミィのお酒", //TAG
+		"U", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◆〈雪花ラミィ〉に付いていたら能力追加<br>自分のパフォーマンスステップが終了する時、このターンにこのホロメンがアーツを使っていたなら、このホロメンに付いている〈雪夜月〉1枚をアーカイブし、自分のデッキを1枚引く。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP09-111", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hBP09-111_C.png", //SRC
+		"Pemaloe", //NAME
+		"サポート", //TYPE
+		"ファン", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"相手のターンで、このファンが付いているホロメンがダウンした時、このファンが付いているホロメンのエール1枚を自分の他のホロメンに付け替える。<br><br>このファンは、自分の〈カエラ・コヴァルスキア〉だけに付けられ、1人につき何枚でも付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD05-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hSD05-002_C_02.png", //SRC
+		"轟はじめ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #ReGLOSS #ベイビー", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"白", //COLOR
+		"100", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>ぶんぶんぶーん!<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD10-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP09/hSD10-007_C_02.png", //SRC
+		"綺々羅々ヴィヴィ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#DEV_IS #FLOW GLOW", //TAG
+		"C", //RARE
+		"ブースターパック「ボリュームヴォルテックス」", //PRODUCT
+		"紫", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"◇<br>ん〜〜〜〜〜ッヴィヴィ〜!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
 		]
 	]
