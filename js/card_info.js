@@ -39315,5 +39315,1005 @@ var cardData = [
 		"", //ART5
 		"このホロメンはデッキに何枚でも入れられる", //EXTRA
 		"" //BAN
+		],
+	[
+		"hSD14-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD14-010_C_03.png", //SRC
+		"holoAN", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-001_OSR.png", //SRC
+		"百灯キョーコ", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"赤", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"広がる情熱<br>自分のホロメンがコラボした時、自分のセンターが〈百灯キョーコ〉なら、自分のエールデッキの上から1枚を自分のコラボホロメンに送る。", //STAGESKILL
+		"[ホロパワー:-3]<br>ヒーローポリス疾走!<br>[ターンに1回]相手のDebut以外の[センターホロメンとコラボホロメン]に、自分のステージのエール1枚につき、特殊ダメージ10を与える。", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-002_C.png", //SRC
+		"百灯キョーコ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"C", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"赤", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"赤<br>笑顔にさせちゃっていいですか!??<br>20+<br>[センターポジション限定]自分のステージにエールが2枚以上あるなら、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-003_U.png", //SRC
+		"百灯キョーコ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"U", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"赤", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>即集合!<br>自分が後攻で最初のターンなら、自分のデッキから、[#アソビ★まわり隊!を持つDebutホロメンと1st〈百灯キョーコ〉]1枚ずつを公開し、手札に加える。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>ドンチャン大騒ぎの始まり<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-004_C.png", //SRC
+		"百灯キョーコ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"C", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"赤", //COLOR
+		"180", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"赤◇<br>出勤準備完了!<br>60", //ART1
+		"赤◇◇◇<br>拡声器いらずのビッグボイス<br>140", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-005_U.png", //SRC
+		"百灯キョーコ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"U", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"赤", //COLOR
+		"150", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>差し伸べる手<br>自分のステージの#アソビ★まわり隊!を持つホロメン1人を選ぶ。このターンの間、選んだホロメンのアーツ+20。", //KEYWORD
+		"◇<br>考えるより先に動く<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-006_R.png", //SRC
+		"百灯キョーコ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"R", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"赤", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>誰にだって手を伸ばす!<br>自分のステージのエール1枚をアーカイブできる:自分のアーカイブの#アソビ★まわり隊!を持つホロメン1枚を手札に戻す。", //KEYWORD
+		"赤◇<br>渦巻くハイテンション<br>50+<br>自分のステージにエールが6枚以上あるなら、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-007_RR.png", //SRC
+		"百灯キョーコ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"RR", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"赤", //COLOR
+		"190", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>情熱系ヒーローポリス<br>[センターポジション限定]自分のコラボホロメンのアーツ+20。", //KEYWORD
+		"赤赤◇<br>「最強」担当<br>150+緑+50<br>自分のステージにエールが6枚以上あるなら、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-008_C.png", //SRC
+		"宙科そぴあ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"C", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"青", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>夢は弾けるビッグバン!<br>相手のターンで、このホロメンがダウンした時、自分のデッキを1枚引く。", //KEYWORD
+		"◇<br>全部この目で確かめにいくよ!<br>10", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-009_U.png", //SRC
+		"宙科そぴあ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"U", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"青", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>面白さの探求<br>自分のステージに#アソビ★まわり隊!を持つホロメンが3人以上いるなら、このホロメンのエール1枚をアーカイブできる:自分のデッキを2枚引く。", //KEYWORD
+		"◇<br>抑えきれない知的好奇心<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-010_R.png", //SRC
+		"宙科そぴあ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"R", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"青", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>仲間を探すぞ~!<br>自分のデッキの上から3枚を見る。その中から、#アソビ★まわり隊!を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"青◇<br>面白いもの見つけたよ!<br>50<br>このホロメンのエール1枚を自分の他の#アソビ★まわり隊!を持つホロメンに付け替えられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-011", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-011_RR.png", //SRC
+		"宙科そぴあ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"RR", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"青", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>(自称)天才宇宙飛行士<br>自分のアーカイブのエール2枚を自分の#アソビ★まわり隊!を持つホロメン1人に送れる。", //KEYWORD
+		"青◇<br>「ひらめき」担当<br>80+白+50<br>このホロメンのエール1~3枚をアーカイブできる:アーカイブしたエール1枚につき、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-012", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-012_U.png", //SRC
+		"アソビ★まわり隊!", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。<br><br>自分のデッキの上から4枚を見る。その中から、#アソビ★まわり隊!を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-013", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-013_U.png", //SRC
+		"ぐるぐるTIME!", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のステージのホロメン全員が#アソビ★まわり隊!を持つホロメンでなければ使えない。<br><br>相手のバックホロメン1人を選ぶ。選んだホロメンと相手のセンターホロメンを交代させる。その後、相手と勝敗が決まるまでじゃんけんする。自分が勝ったなら、自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-014", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-014_U.png", //SRC
+		"百灯キョーコの拡声器", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いている〈百灯キョーコ〉のアーツ+20。<br><br>◆1st以上の〈百灯キョーコ〉に付いていたら能力追加<br>このホロメンが相手のホロメンをダウンさせた時、自分のアーカイブのエール1枚を自分の#アソビ★まわり隊!を持つバックホロメンに送れる。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD21-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD21/hSD21-001_OSR.png", //SRC
+		"熱千めら", //NAME
+		"推しホロメン", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"OSR", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"紫", //COLOR
+		"5", //HP
+		"", //LEVEL
+		"", //BATON
+		"サラマンダーの恩返し<br>自分のホロメンがコラボした時、自分のセンターが〈熱千めら〉なら、自分のデッキを1枚引き、手札1枚をアーカイブする。", //STAGESKILL
+		"[ホロパワー:-2]<br>ご利益じゃ!<br>[ターンに1回]自分のステージのホロメン1人を選ぶ。自分のアーカイブのギフトを持つホロメン1枚につき、このターンの間、選んだホロメンのアーツ+10。さらに、選んだホロメンが〈熱千めら〉なら、そのホロメンのアーツに必要な無色-1。", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD21-002", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD21/hSD21-002_C.png", //SRC
+		"熱千めら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"C", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"紫", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>防火対策 基礎!<br>このホロメンが受けるアーツダメージ-10。", //KEYWORD
+		"◇<br>火の用心じゃ~!<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD21-003", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD21/hSD21-003_U.png", //SRC
+		"熱千めら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"U", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"紫", //COLOR
+		"130", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>炎を鎮める不思議な力<br>自分が後攻で最初のターンなら、自分のデッキから、ギフトを持つ〈熱千めら〉2枚を公開する。その中から1枚を手札に加え、残ったカードをアーカイブする。そしてデッキをシャッフルする。", //KEYWORD
+		"◇<br>響く拍子木<br>20", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD21-004", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD21/hSD21-004_C.png", //SRC
+		"熱千めら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"C", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"紫", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>防火対策 応用!<br>このホロメンが受けるアーツダメージ-20。", //KEYWORD
+		"紫<br>元気な頑張り屋<br>30<br>自分のデッキを1枚引き、手札1枚をアーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD21-005", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD21/hSD21-005_U.png", //SRC
+		"熱千めら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"U", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"紫", //COLOR
+		"170", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>ハジけるアソビの渦<br>自分のアーカイブにギフトを持つホロメンが3枚以上あるなら、相手のセンターホロメンかコラボホロメンに特殊ダメージ20を与える。", //KEYWORD
+		"紫<br>最高の非日常へ<br>40", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD21-006", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD21/hSD21-006_R.png", //SRC
+		"熱千めら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"R", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"紫", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>ご利益パワー<br>このホロメンがダウンした時、このホロメンのエール1~2枚を選び、自分の他のホロメンに割り振って付け替えられる。", //KEYWORD
+		"紫◇<br>火消しの本領発揮じゃ!<br>60", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD21-007", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD21/hSD21-007_RR.png", //SRC
+		"熱千めら", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"RR", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"紫", //COLOR
+		"210", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>火消しのサラマンダー<br>このホロメンがダウンした時、自分のデッキを2枚引く。", //KEYWORD
+		"紫◇<br>「ご利益」担当<br>100+黄+50<br>自分のアーカイブにギフトを持つホロメンが3枚以上あるなら、このアーツ+50。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD21-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD21/hSD21-008_U.png", //SRC
+		"熱千めらの拍子木", //NAME
+		"サポート", //TYPE
+		"ツール", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このツールが付いている〈熱千めら〉のアーツ+20。<br><br>◆1st以上の〈熱千めら〉に付いていたら能力追加<br>このホロメンが相手のホロメンをダウンさせた時、自分のデッキを1枚引き、手札1枚をアーカイブする。<br><br>ツールは、自分のホロメン1人につき1枚だけ付けられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-104_C.png", //SRC
+		"ふつうのパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP05-074", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP05/hBP05-074_C.png", //SRC
+		"フレンドリーパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、エクストラ「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン1~2枚を公開し、ステージに出す。そしてデッキをシャッフルする。Debutホロメンを2枚出したなら、さらに、自分の手札1枚をデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-017_C.png", //SRC
+		"マネちゃん", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに1枚以上なければ使えない。<br><br>自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを5枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY03-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY03-001_C.png", //SRC
+		"赤エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"赤", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY04-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY04-001_C.png", //SRC
+		"青エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 百灯キョーコ", //PRODUCT
+		"青", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-008", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-008_C.png", //SRC
+		"宙科そぴあ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"C", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"青", //COLOR
+		"120", //HP
+		"Debut", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ギフト<br>夢は弾けるビッグバン!<br>相手のターンで、このホロメンがダウンした時、自分のデッキを1枚引く。", //KEYWORD
+		"◇<br>全部この目で確かめにいくよ!<br>10", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"このホロメンはデッキに何枚でも入れられる", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-009", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-009_U.png", //SRC
+		"宙科そぴあ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"U", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"青", //COLOR
+		"160", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>面白さの探求<br>自分のステージに#アソビ★まわり隊!を持つホロメンが3人以上いるなら、このホロメンのエール1枚をアーカイブできる:自分のデッキを2枚引く。", //KEYWORD
+		"◇<br>抑えきれない知的好奇心<br>30", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-010_R.png", //SRC
+		"宙科そぴあ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"R", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"青", //COLOR
+		"130", //HP
+		"1st", //LEVEL
+		"◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"ブルームエフェクト<br>仲間を探すぞ~!<br>自分のデッキの上から3枚を見る。その中から、#アソビ★まわり隊!を持つホロメン1枚を公開し、手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //KEYWORD
+		"青◇<br>面白いもの見つけたよ!<br>50<br>このホロメンのエール1枚を自分の他の#アソビ★まわり隊!を持つホロメンに付け替えられる。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-011", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-011_RR.png", //SRC
+		"宙科そぴあ", //NAME
+		"ホロメン", //TYPE
+		"", //TYPE2
+		"#アソビ★まわり隊！", //TAG
+		"RR", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"青", //COLOR
+		"200", //HP
+		"2nd", //LEVEL
+		"◇◇", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"コラボエフェクト<br>(自称)天才宇宙飛行士<br>自分のアーカイブのエール2枚を自分の#アソビ★まわり隊!を持つホロメン1人に送れる。", //KEYWORD
+		"青◇<br>「ひらめき」担当<br>80+白+50<br>このホロメンのエール1~3枚をアーカイブできる:アーカイブしたエール1枚につき、このアーツ+20。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-012", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-012_U.png", //SRC
+		"アソビ★まわり隊!", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに6枚以下でなければ使えない。<br><br>自分のデッキの上から4枚を見る。その中から、#アソビ★まわり隊!を持つホロメンを好きな枚数公開し、公開したホロメンを手札に加える。そして残ったカードを好きな順でデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD20-013", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD20-013_U.png", //SRC
+		"ぐるぐるTIME!", //NAME
+		"サポート", //TYPE
+		"イベント", //TYPE2
+		"", //TAG
+		"U", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分のステージのホロメン全員が#アソビ★まわり隊!を持つホロメンでなければ使えない。<br><br>相手のバックホロメン1人を選ぶ。選んだホロメンと相手のセンターホロメンを交代させる。その後、相手と勝敗が決まるまでじゃんけんする。自分が勝ったなら、自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD14-010", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD20/hSD14-010_C_03.png", //SRC
+		"holoAN", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキを3枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP01-104", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP01/hBP01-104_C.png", //SRC
+		"ふつうのパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、Debutホロメン1枚を公開し、ステージに出す。そしてデッキをシャッフルする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hBP05-074", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hBP05/hBP05-074_C.png", //SRC
+		"フレンドリーパソコン", //NAME
+		"サポート", //TYPE
+		"アイテム", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"自分のデッキから、エクストラ「このホロメンはデッキに何枚でも入れられる」を持つDebutホロメン1~2枚を公開し、ステージに出す。そしてデッキをシャッフルする。Debutホロメンを2枚出したなら、さらに、自分の手札1枚をデッキの下に戻す。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hSD01-017", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/hSD01/hSD01-017_C.png", //SRC
+		"マネちゃん", //NAME
+		"サポート", //TYPE
+		"スタッフ", //TYPE2
+		"", //TAG
+		"C", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"このカードは、自分の手札がこのカードを含まずに1枚以上なければ使えない。<br><br>自分の手札すべてをデッキに戻してシャッフルする。そして自分のデッキを5枚引く。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"ターンに1枚しか使えない。", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY04-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY04-001_C.png", //SRC
+		"青エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"青", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
+		],
+	[
+		"hY05-001", //ID
+		"https://hololive-official-cardgame.com/wp-content/images/cardlist/COMMON/hY05-001_C.png", //SRC
+		"紫エール", //NAME
+		"エール", //TYPE
+		"", //TYPE2
+		"", //TAG
+		"", //RARE
+		"スタートデッキ アソビ★まわり隊！推し 熱千めら", //PRODUCT
+		"紫", //COLOR
+		"", //HP
+		"", //LEVEL
+		"", //BATON
+		"", //STAGESKILL
+		"", //SKILL
+		"", //SPSKILL
+		"", //KEYWORD
+		"■ホロメンがステージから離れる時、そのホロメンのエールすべてをアーカイブする。<br>■ホロメンがバトンタッチする時、そのホロメンのエールを指定された枚数アーカイブする。", //ART1
+		"", //ART2
+		"", //ART3
+		"", //ART4
+		"", //ART5
+		"", //EXTRA
+		"" //BAN
 		]
 	]
